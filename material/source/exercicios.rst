@@ -14,7 +14,7 @@ Exercícios
 
    .. math::
 
-      \frac{100 - () + 25}{5}
+      \frac{100 - 413 \cdot (20 - 5 \times 4)}{5}
 
 #. Você e os outros integrantes da sua república (Joca, Moacir, Demival e
    Jackson) foram no supermercado e compraram alguns itens:
@@ -32,3 +32,10 @@ Exercícios
    - 450g de pães franceses: R\$ 25/kg
 
    Calcule quanto ficou para cada um.
+
+   .. _ex_variaveis-basico:
+
+#. Supondo que a cotação do dólar está :math:`R$ 3,25`, faça uma
+   atribuição com a variável ``dólar`` para este valor e, usando esta
+   atribuição, monta uma equação para calcular o valor equivalente que
+   teria com :math:`R$ 65,00`.
