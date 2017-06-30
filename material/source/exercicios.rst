@@ -41,3 +41,23 @@ Exercícios
    atribuição com a variável ``dólar`` para este valor e, usando esta
    atribuição, monta uma equação para calcular o valor equivalente que
    teria com :math:`R$ 65,00`.
+
+   .. _ex_strings:
+
+#. Dada a frase ``Python é muito legal.`` use fatiamento para dar nome a
+   variáveis contendo cada palavra. O resultado final deve ser:
+
+   .. code:: python
+
+      >>> frase = "Python é muito legal."
+      # resolução do problema aqui
+      >>> palavra1
+      "Python"
+      >>> palavra2
+      "é"
+      >>> palavra3
+      "muito"
+      >>> palavra4
+      "legal"
+
+#. Qual o tamanho dessa frase? E qual o tamanho de cada palavra?
