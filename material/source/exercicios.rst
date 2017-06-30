@@ -10,6 +10,8 @@ Exercícios
 
    .. _ex_expressoes-numericas:
 
+#. Calcule o resto da divisão de 10 por 3.
+
 #. Resolva essa expressão numérica usando Python:
 
    .. math::

@@ -79,15 +79,36 @@ Como não existe um resultado para a divisão pelo número zero, o Python
 interrompe a execução do programa (no caso a divisão) e mostra o erro que
 aconteceu, no caso o "ZeroDivisionError: divison by zero".
 
-Agora que aprendemos os operadores aritméticos básicos podemos seguir
-adiante. Como podemos calcular ￼? O jeito mais óbvio é multiplicar o
-número dois dez vezes:
+**Divisão inteira** (:math:`//`):
 
+.. code:: python
+
+   >>> 10 // 3
+   3
+   >>> 666 // 137
+   4
+   >>> 666 / 137
+   4.861313868613139
+
+**Resto da divisão** (:math:`\%`):
+
+.. code:: python
+
+   >>> 10 % 2
+   0
+   >>> 10 % 3
+   1
+   >>> 666 % 137
+   118
+
+
+Agora que aprendemos os operadores aritméticos básicos podemos seguir
+adiante. Como podemos calcular :math:`2^{10}`? O jeito mais óbvio é
+multiplicar o número dois dez vezes:
 
 .. code:: python
 
    >>> 2 * 2 * 2 * 2 * 2 * 2 * 2 * 2 * 2 * 2
-
    1024
 
 Ou, mais fácil, usando a **potenciação/exponenciação**: :math:`**`
@@ -127,7 +148,6 @@ Mas também é possível usar a funcão ``sqrt`` da biblioteca ``math``:
    >>> import math
 
    >>> math.sqrt(16)
-
    4.0
 
 E o número :math:`\pi`?
@@ -135,7 +155,6 @@ E o número :math:`\pi`?
 .. code:: python
 
    >>> math.pi
-
    3.141592653589793
 
 E tenha certeza que fez o ``import math`` anteriormente.
@@ -151,7 +170,7 @@ problemas mais complexos:
 
 .. code:: python
 
->>> 3 + 4 * 2
+   >>> 3 + 4 * 2
    11
 
 .. code:: python
@@ -183,7 +202,8 @@ que a matemática. O acrônimo **PEMDAS** ajuda a lembrar essa ordem:
 
 #. **A** dição e **S** subtração (mesma precedência)
 
-Faça os :ref:`exercícios <ex_expressoes-numericas>` 3 e 4.
+Faça os :ref:`exercícios <ex_expressoes-numericas>` 3 a 5.
+
 
 Comentários
 -----------
@@ -199,3 +219,39 @@ certos caracteres, utilize o #. Exemplo:
 .. code:: python
 
    >>> # Aqui vai um código só com comentários! Posso falar o que quiser que não será interpretado, lalala, la-le-li-lo-lu. A job we hate to buy thing we don't need.
+
+
+Comparacões
+-----------
+
+Os operadores de comparação em Python são:
+
+========  ===============
+Operação  Significado
+========  ===============
+<         menor que
+<=        menor igual que
+>         maior que
+<=        maior igual que
+==        igual
+!=        diferente
+========  ===============
+
+.. code:: python
+
+   >>> 2 < 10
+   True
+   >>> 2 > 11
+   False
+   >>> 10 > 10
+   False
+   >>> 10 >= 10
+   True
+   >>> 42 == 24
+   False
+   >>> 666 != 137
+   True
+   >>> 8**2 == 60 + 4
+   True
+   >>> 100 != 99 + 3
+   True

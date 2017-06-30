@@ -32,6 +32,7 @@ No exemplo anterior realizamos três atribuições. No primeiro atribuimos um
 número inteiro à variável de nome ``numero``; no segundo uma frase à
 variável ``frase``; no último um número de ponto flutuante à ``pi``.
 
+
 Nomes de Variáveis
 ------------------
 
@@ -42,6 +43,12 @@ Nomes de variáveis podem ter o tamanho que você achar necessário e podem
 conter tanto letras como números, porém não podem começar com números. É
 possível usar letras maiúsculas, porém a convenção é utilizar somente
 letras minúsculas para nomes de variáveis.
+
+.. code:: python
+
+   >>> crieiumavariavelcomnomegiganteeestoucompreguiçadeescrevertudodenovo = 10
+   >>> crieiumavariavelcomnomegiganteeestoucompreguiçadeescrevertudodenovo # use TAB para autocompletar =D
+   10
 
 Tentar dar um nome ilegal a uma variável ocasionará em um erro de sintaxe:
 
@@ -147,4 +154,4 @@ Também funciona com multiplicação:
    >>> x
    6
 
-Faça agora o :ref:`exercício 5 <ex_variaveis-basico>`
+Faça agora o :ref:`exercício 6 <ex_variaveis-basico>`

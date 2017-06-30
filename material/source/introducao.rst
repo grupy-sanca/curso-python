@@ -59,3 +59,40 @@ shell do python aberto e clique enter:
 queremos indicar que o programa irá imprimir (mostrar) o resultado na tela.
 
 .. todo:: como abrir o shell, idle
+
+Alguns erros comuns ao utilizar o ``print``:
+
+.. code:: python
+
+  >>> # Erro 1. Letra P maiúscula
+  >>> Print("Hello, World!")
+
+.. code:: python
+
+  >>> # Erro 2. Sem aspas
+  >>> print(Hello, World!)
+
+.. code:: python
+
+  >>> # Erro 3. Abrir e não fechar as aspas
+  >>> print("Hello, World!)
+
+.. code:: python
+
+  >>> # Erro 4. Usar um tipo de aspa no começo, outro no fim:
+  >>> print('Hello, World!")
+
+.. code:: python
+
+  >>> # Erro 5. Usar espaço ou tab antes do print.
+  >>>  print('Hello, World!')
+  >>>     print('Hello, World!')
+
+E se quiser escrever com as aspas dentro?
+
+
+.. code:: python
+
+  >>> # Se quiser usar com aspas simples dentro, use a dupla no print. E vice-versa
+  >>> print('Python é legal! Mas não o "legal" como dizem pra outras coisas')
+  >>> print("Python é legal! Mas não o 'legal' como dizem pra outras coisas")
