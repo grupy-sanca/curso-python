@@ -1,9 +1,42 @@
 Instalando Python
 =================
 
-.. todo:: como instalar o python, em Linux, MacOS e windows
+Linux - Ubuntu
+--------------
 
-**Windows**
+Provavelmente você já tem o Python instalado e configurado. Para ter certeza
+que ele está instalado e descobrir qual versão, abra um terminal e execute o
+comando:
+
+.. code::
+
+   $ python --version
+   Python 3.6.1
+
+Caso apareça a mensagem ``bash: python: command not found``, você pode
+instalá-lo da seguinte maneira:
+
+.. code::
+
+   $ sudo apt-get install python3.6
+
+
+OSX
+---
+
+Obtenha o instalador no site do Python: . Clique duas vezes no Python.mpkg para abrir o instalador.
+
+Para ter certeza que ele está instalado e descobrir qual versão, abra um
+terminal e execute o comando:
+
+.. code::
+
+   $ python --version
+   Python 3.6.1
+
+
+Windows
+-------
 
 Primeiramente, deve-se obter o arquivo de instalaçao compatível com a arquitetura, x86 deve funcionar em todos, os links estão a seguir:
 
