@@ -58,7 +58,45 @@ shell do python aberto e clique enter:
 É muito comum utilizar a palavra "imprimir" (ou print em inglês) quando
 queremos indicar que o programa irá imprimir (mostrar) o resultado na tela.
 
-.. todo:: como abrir o shell, idle
+.. todo:: como abrir o shell
+
+**Windows**
+
+Para usuários Windows, como a interface de linha de comando é ruim, é recomendado utilizar o Idle, que possui também um editor de texto, depois de seguir o guia de intalação de Python para Windows, o menu inicial deve estar da seguinte forma:
+
+.. figure:: images/idle1.png
+   :align: center
+   :scale: 80%
+
+Deve-se abrir o 'IDLE (Python 3.X)', então vai aparecer uma janela como na imagem abaixo:
+
+.. figure:: images/idle2.png
+   :align: center
+   :scale: 80%
+
+Nela é possível digitar comandos para o interpretador do Python, porém também é possível digitar em um arquivo, para isso, clicar em 'File' -> 'New File' (Ou Ctrl+N)
+
+.. figure:: images/idle3.png
+   :align: center
+   :scale: 80%
+
+Para rodar um script, clicar em 'Run' -> 'Run Module' (Ou F5)
+
+.. figure:: images/idle4.png
+   :align: center
+   :scale: 80%
+
+Caso o arquivo ainda não tenha sido salvo, é necessário salvar antes da execução, com a extenção '.py':
+
+.. figure:: images/idle5.png
+   :align: center
+   :scale: 80%
+
+Após isso, a saída do código deve aparecer na janela anterior do Idle:
+
+.. figure:: images/idle6.png
+   :align: center
+   :scale: 80%
 
 Alguns erros comuns ao utilizar o ``print``:
 
