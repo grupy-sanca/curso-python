@@ -20,6 +20,13 @@ a linguagem Python.
    calculadora
    variaveis
    exercicios
+   listas
+   range
+   input
+   condicionais
+   controle
+   repeticao
+   funcoes
 
 
 .. Indices and tables
