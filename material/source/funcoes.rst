@@ -249,6 +249,10 @@ Exercícios
 #. Crie uma função que receba 3 valores e calcula as raízes da fórmula de
    Bháskara.
 
+   .. math::
+
+        x = \frac{-b \pm \sqrt{b^2 - 4 \cdot a \cdot c}}{2 \cdot a}
+
    **Dica:** raiz quadrada é ``sqrt()``, importando ``math``: ``math.sqrt()``
 
    Faça um teste com ``bhaskara(1, -4, -5)`` e o programa deve obter as raízes:
