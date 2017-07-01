@@ -10,19 +10,19 @@ Atribuição
 Atribuição é o processo de criar uma nova variável e dar um novo valor a
 ela. A seguir damos exemplos de como fazer atribuições:
 
-.. code:: python
+.. doctest::
 
    >>> numero = 11
    >>> numero
    11
 
-.. code:: python
+.. doctest::
 
    >>> frase = "Me dá um copo d'água"
    >>> frase
    "Me dá um copo d'água"
 
-.. code:: python
+.. doctest::
 
    >>> pi = 3.141592
    >>> pi
@@ -44,7 +44,7 @@ conter tanto letras como números, porém não podem começar com números. É
 possível usar letras maiúsculas, porém a convenção é utilizar somente
 letras minúsculas para nomes de variáveis.
 
-.. code:: python
+.. doctest::
 
    >>> crieiumavariavelcomnomegiganteeestoucompreguiçadeescrevertudodenovo = 10
    >>> crieiumavariavelcomnomegiganteeestoucompreguiçadeescrevertudodenovo # use TAB para autocompletar =D
@@ -99,7 +99,7 @@ de nome".
 
 Também podemos atribuir expressões a uma variável:
 
-.. code:: python
+.. doctest::
 
    >>> x = 3 * 5 - 2
    >>> x
@@ -111,7 +111,7 @@ Também podemos atribuir expressões a uma variável:
    >>> z
    62
 
-.. code:: python
+.. doctest::
 
    >>> n = 10
    >>> n + 2 # 10 + 2
@@ -126,7 +126,7 @@ expressões à n, portanto seu valor continuou o mesmo.
 
 Vamos alterar o valor de ``n``:
 
-.. code:: python
+.. doctest::
 
    >>> n
    10
@@ -138,7 +138,7 @@ Vamos alterar o valor de ``n``:
 
 Outra forma de somar na variável:
 
-.. code:: python
+.. doctest::
 
    >>> num = 4
    >>> num += 3
@@ -147,7 +147,7 @@ Outra forma de somar na variável:
 
 Também funciona com multiplicação:
 
-.. code:: python
+.. doctest::
 
    >>> x = 2
    >>> x *= 3
@@ -160,7 +160,7 @@ Faça agora o :ref:`exercício 6 <ex_variaveis-basico>`
 Strings (sequência de caracteres)
 ---------------------------------
 
-.. code:: python
+.. doctest::
 
    >>> "Texto bonito"
    'Texto bonito'
@@ -169,7 +169,7 @@ Strings (sequência de caracteres)
 
 As *strings* aceitam áspas simples também:
 
-.. code:: python
+.. doctest::
 
    >>> nome = 'Silvio Santos'
    >>> nome
@@ -177,7 +177,7 @@ As *strings* aceitam áspas simples também:
 
 Também é possível fazer algumas operações com as strings:
 
-.. code:: python
+.. doctest::
 
    >>> nome * 3
    'Silvio SantosSilvio SantosSilvio Santos'
@@ -186,27 +186,24 @@ Também é possível fazer algumas operações com as strings:
      File "<stdin>", line 1, in <module>
    TypeError: can't multiply sequence by non-int of type 'float'
 
-.. code:: python
+.. doctest::
 
    >>> canto1 = 'vem aí, '
    >>> canto2 = 'lá '
    >>> nome + ' ' + canto1 + canto2 * 6 + '!!'
    'Silvio Santos vem aí, lá lá lá lá lá lá !!'
 
-.. ' gambiarra aqui pro vim colorir bonitinho, tem alguma aspas abertas que buga. Essa linha é um comentário em rst.
-
 Para strings em várias linhas, utilize 3 aspas:
 
-.. code:: python
+.. doctest::
 
    >>> string_grange = '''Aqui consigo inserir um textão com várias linhas, posso iniciar em uma...
    ... e posso continuar em outra
    ... e em outra
    ... e mais uma
-   ... e acabou.
-   ... '''
+   ... e acabou.'''
    >>> string_grange
-   'Aqui consigo inserir um textão com várias linhas, posso iniciar em uma...\ne posso continuar em outra\ne em outra\ne mais uma\ne acabou.\n'
+   'Aqui consigo inserir um textão com várias linhas, posso iniciar em uma...\ne posso continuar em outra\ne em outra\ne mais uma\ne acabou.'
    >>> print(string_grange)
    Aqui consigo inserir um textão com várias linhas, posso iniciar em uma...
    e posso continuar em outra
@@ -214,12 +211,14 @@ Para strings em várias linhas, utilize 3 aspas:
    e mais uma
    e acabou.
 
+
+
 Tipos de objetos
 ----------------
 
 Para saber o tipo de um objeto, usamos a função ``type``:
 
-.. code:: python
+.. doctest::
 
    >>> x = 1
    >>> type(x)
@@ -232,13 +231,14 @@ Para saber o tipo de um objeto, usamos a função ``type``:
    >>> type(True)
    <class 'bool'>
 
+
 Notação Científica
 ------------------
 
 Notação científica em Python usa a letra ``e`` como sendo a
 potência de 10:
 
-.. code:: python
+.. doctest::
 
    >>> 10e6
    10000000.0
@@ -249,8 +249,7 @@ potência de 10:
 
 Também pode ser usada a letra ``E`` maiúscula:
 
-
-.. code:: python
+.. doctest::
 
    >>> 1e6
    1000000.0
@@ -262,7 +261,7 @@ Tamanho
 A função embutida ``len()``, nos permite, entre outras coisas, saber o
 tamanho de uma string:
 
-.. code:: python
+.. doctest::
 
    >>> len('Abracadabra')
    11
@@ -288,7 +287,7 @@ Nota: Os índices começam em zero.
    :align: center
    :scale: 80%
 
-.. code:: python
+.. doctest::
 
    >>> palavra = 'Python'
    >>> palavra[0] # primeira
@@ -299,7 +298,7 @@ Nota: Os índices começam em zero.
 Índices negativos correspondem à percorrer a estrutura (string, lista,
 ...) na ordem reversa:
 
-.. code:: python
+.. doctest::
 
    >>> palavra[-1] # última também
    'n'
@@ -316,7 +315,7 @@ Se invés de obter apenas um elemento de uma estrutura (string, lista,
 deve-se colocar o índice do primeiro elemento, dois pontos (:) e o
 proximo índice do último elemento desejado, tudo entre chaves.
 
-.. code:: python
+.. doctest::
 
    >>> frase = "Aprender Python é muito divertido!"
    >>> frase[0:5] # do zero até o 5
@@ -327,7 +326,8 @@ proximo índice do último elemento desejado, tudo entre chaves.
    'Aprender Python é muito divertido!'
    >>> frase[6:] # Se omitido o segundo índice significa 'obter até o final'
    'er Python é muito divertido!'
-   >>> frase[:6] # se omitido o primeiro indice, significa 'obter desde o começo''Aprend'
+   >>> frase[:6] # se omitido o primeiro indice, significa 'obter desde o começo'
+   'Aprend'
    >>> frase[2:-3] # funciona com números negativos também
    'render Python é muito diverti'
    >>> frase[0:-5]
@@ -372,17 +372,18 @@ Está com dúvida em alguma coisa? Use a função help()!
 
 E para buscar ajuda em uma coisa específica?
 
-.. code:: python
+.. doctest::
 
    >>> help(len)
    Help on built-in function len in module builtins:
-
+   <BLANKLINE>
    len(obj, /)
        Return the number of items in a container.
+   <BLANKLINE>
 
 .. code:: python
 
-           >>> help(str)
+   >>> help(str)
    Help on class str in module builtins:
 
    class str(object)
@@ -780,8 +781,8 @@ valores de quaisquer variáveis desejada. Por exemplo:
 
 .. code:: python
 
-   >>> nome = input('Digite seu nome')
-   Digite seu nomeSilvio Santos
+   >>> nome = input('Digite seu nome ')
+   Digite seu nome Silvio Santos
    >>> nome
    'Silvio Santos'
    >>> frase = 'Olá, {}'.format(nome)
@@ -792,7 +793,7 @@ valores de quaisquer variáveis desejada. Por exemplo:
 Vale lembrar que as chaves ({}) só são trocadas pelo valor após a chamada do
 método ``str.format()``:
 
-.. code:: python
+.. doctest::
 
    >>> string_a_ser_formatada = '{} me formate!'
    >>> string_a_ser_formatada
@@ -804,19 +805,19 @@ método ``str.format()``:
 A string a ser formatada não é alterada nesse processo, já que não foi
 feita nenhuma atribuição:
 
-.. code:: python
+.. doctest::
 
    >>> string_a_ser_formatada
    '{} me formate!'
 
 É possível formatar uma quantidade arbitrária de valores:
 
-.. code:: python
+.. doctest::
 
    >>> '{} x {} = {}'.format(7, 6, 7 * 6)
    '7 x 6 = 42'
 
-.. code:: python
+.. doctest::
 
    >>> palavra = 'Python'
    >>> numero = 10
@@ -831,7 +832,7 @@ Atribuição múltipla
 Uma funcionalidae interessante do Python é que ele permite atribuição
 múltipla. Isso é muito útil para trocar o valor de duas variáveis:
 
-.. code:: python
+.. doctest::
 
    >>> a = 1
    >>> b = 200
@@ -840,13 +841,13 @@ Para fazer essa troca em outras linguagens é necessário utilizar uma
 variável auxiliar para não perdemos um dos valores que queremos trocar.
 Vamos começar da maneira mais simples:
 
-.. code:: python
+.. doctest::
 
    >>> a = b  # perdemos o valor de a
    >>> a
    200
 
-.. code:: python
+.. doctest::
 
    >>> b = a  # como perdemos o valor de a, b vai continuar com seu valor original de 200
    >>> b
@@ -854,7 +855,7 @@ Vamos começar da maneira mais simples:
 
 A troca é bem sucedida se usamos uma variável auxiliar:
 
-.. code:: python
+.. doctest::
 
    >>> a = 1
    >>> b = 200
@@ -870,14 +871,14 @@ A troca é bem sucedida se usamos uma variável auxiliar:
 Porém, como o Python permite atribuição múltipla podemos resolver esse
 problema de forma muito mais simples:
 
-.. code:: python
+.. doctest::
 
    >>> a = 1
    >>> b = 200
    >>> print(a, b)
    1 200
 
-.. code:: python
+.. doctest::
 
    >>> a, b = b, a
    >>> print(a, b)
@@ -886,19 +887,19 @@ problema de forma muito mais simples:
 A atribuição múltipla também pode ser utilizada para simplificar a
 atribuição de variáveis, como por exemplo:
 
-.. code:: python
+.. doctest::
 
    >>> a, b = 1, 200
    >>> print(a, b)
    1 200
 
-.. code:: python
+.. doctest::
 
    >>> a, b, c, d = 1, 2, 3, 4
    >>> print(a, b, c, d)
    1 2 3 4
 
-.. code:: python
+.. doctest::
 
    >>> a, b, c, d = d, c, b, a
    >>> print(a, b, c, d)

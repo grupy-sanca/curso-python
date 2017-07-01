@@ -46,12 +46,9 @@ ver como outras linguangens de programação o implementam:
 Vamos ver como é o Hello World em Python, escreva este texto abaixo com o
 shell do python aberto e clique enter:
 
-.. code:: python
+.. doctest::
 
-   print("Hello, World!")
-
-.. code::
-
+   >>> print("Hello, World!")
    Hello, World!
 
 
@@ -128,9 +125,7 @@ Alguns erros comuns ao utilizar o ``print``:
 
 E se quiser escrever com as aspas dentro?
 
-
 .. code:: python
 
   >>> # Se quiser usar com aspas simples dentro, use a dupla no print. E vice-versa
   >>> print('Python é legal! Mas não o "legal" como dizem pra outras coisas')
-  >>> print("Python é legal! Mas não o 'legal' como dizem pra outras coisas")
