@@ -52,28 +52,31 @@ letras minúsculas para nomes de variáveis.
 
 Tentar dar um nome ilegal a uma variável ocasionará em um erro de sintaxe:
 
-.. code:: python
+.. doctest::
 
-    >>> 123voa = 10
-      File "<stdin>", line 1
-        123voa = 10
-             ^
-    SyntaxError: invalid syntax
-
-.. code:: python
-
-   >>> ol@ = "oi"
-     File "<stdin>", line 1
-       ol@ = "oi"
-           ^
+   >>> 123voa = 10
+   Traceback (most recent call last):
+       ...
+           123voa = 10
+                ^
    SyntaxError: invalid syntax
 
-.. code:: python
+.. doctest::
+
+   >>> ol@ = "oi"
+   Traceback (most recent call last):
+       ...
+           ol@ = "oi"
+               ^
+   SyntaxError: invalid syntax
+
+.. doctest::
 
    >>> def = 2.7
-     File "<stdin>", line 1
-       def = 2.7
-           ^
+   Traceback (most recent call last):
+       ...
+           def = 2.7
+               ^
    SyntaxError: invalid syntax
 
 
@@ -87,11 +90,11 @@ utilizadas como nomes de variável.
 Outro ponto importante de notar é que não é possível acessar variáveis que
 ainda não foram definidas:
 
-.. code:: python
+.. doctest::
 
    >>> nao_definida
    Traceback (most recent call last):
-     File "<stdin>", line 1, in <module>
+       ...
    NameError: name 'nao_definida' is not defined
 
 Tentar acessar uma variável sem definí-la anteriormente ocasiona em um "erro
@@ -183,7 +186,7 @@ Também é possível fazer algumas operações com as strings:
    'Silvio SantosSilvio SantosSilvio Santos'
    >>> nome * 3.14
    Traceback (most recent call last):
-     File "<stdin>", line 1, in <module>
+       ...
    TypeError: can't multiply sequence by non-int of type 'float'
 
 .. doctest::
@@ -345,7 +348,7 @@ Buscando ajuda rapidamente
 
 Está com dúvida em alguma coisa? Use a função help()!
 
-.. code:: python
+.. code::
 
    >>> help()
 
@@ -364,7 +367,6 @@ Está com dúvida em alguma coisa? Use a função help()!
    or summary contain a given string such as "spam", type "modules spam".
 
    help>
-
    You are now leaving help and returning to the Python interpreter.
    If you want to ask for help on a particular object directly from the
    interpreter, you can type "help(object)".  Executing "help('string')"
@@ -381,7 +383,7 @@ E para buscar ajuda em uma coisa específica?
        Return the number of items in a container.
    <BLANKLINE>
 
-.. code:: python
+.. code::
 
    >>> help(str)
    Help on class str in module builtins:
@@ -772,14 +774,20 @@ E para buscar ajuda em uma coisa específica?
     |      character at the same position in y. If there is a third argument, it
     |      must be a string, whose characters will be mapped to None in the result.
 
-
 Formatação de strings
 ---------------------
 
 A formatação de string nos permite criar frases dinâmicas, utilizando
 valores de quaisquer variáveis desejada. Por exemplo:
 
-.. code:: python
+.. testsetup:: string_format
+
+   def input(text):
+       value = "Silvio Santos"
+       print(text + value)
+       return value
+
+.. doctest:: string_format
 
    >>> nome = input('Digite seu nome ')
    Digite seu nome Silvio Santos

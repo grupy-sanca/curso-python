@@ -97,35 +97,56 @@ Após isso, a saída do código deve aparecer na janela anterior do Idle:
 
 Alguns erros comuns ao utilizar o ``print``:
 
-.. code:: python
+.. doctest::
 
   >>> # Erro 1. Letra P maiúscula
   >>> Print("Hello, World!")
+  Traceback (most recent call last):
+      ...
+  NameError: name 'Print' is not defined
 
-.. code:: python
+.. doctest::
 
   >>> # Erro 2. Sem aspas
   >>> print(Hello, World!)
+  Traceback (most recent call last):
+      ...
+  SyntaxError: invalid syntax
 
-.. code:: python
+.. doctest::
 
   >>> # Erro 3. Abrir e não fechar as aspas
   >>> print("Hello, World!)
+  Traceback (most recent call last):
+      ...
+  SyntaxError: EOL while scanning string literal
 
-.. code:: python
+.. doctest::
 
   >>> # Erro 4. Usar um tipo de aspa no começo, outro no fim:
   >>> print('Hello, World!")
+  Traceback (most recent call last):
+      ...
+  SyntaxError: EOL while scanning string literal
 
-.. code:: python
+.. doctest::
 
   >>> # Erro 5. Usar espaço ou tab antes do print.
   >>>  print('Hello, World!')
+  Traceback (most recent call last):
+      ...
+  IndentationError: unexpected indent
   >>>     print('Hello, World!')
+  Traceback (most recent call last):
+      ...
+  IndentationError: unexpected indent
 
 E se quiser escrever com as aspas dentro?
 
-.. code:: python
+.. doctest::
 
   >>> # Se quiser usar com aspas simples dentro, use a dupla no print. E vice-versa
   >>> print('Python é legal! Mas não o "legal" como dizem pra outras coisas')
+  Python é legal! Mas não o "legal" como dizem pra outras coisas
+  >>> print("Python é legal! Mas não o 'legal' como dizem pra outras coisas")
+  Python é legal! Mas não o 'legal' como dizem pra outras coisas
