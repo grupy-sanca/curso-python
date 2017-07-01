@@ -826,6 +826,34 @@ feita nenhuma atribuição:
    'Python é 10. E as outras linguagens? False'
 
 
+Separar Strings
+---------------
+
+Se tivermos a frase ``Sílvio Santos vem aí, oleoleolá!`` e quisermos separar
+cada palavra, como fa<er? Um modo é com o fatiamento:
+
+.. doctest::
+
+   >>> frase = "Sílvio Santos vem aí, oleoleolá!"
+   >>> frase[:6]
+   'Sílvio'
+   >>> frase[7:13]
+   'Santos'
+   >>> frase[14:17]
+   'vem'
+   >>> frase[18:21]
+   'aí,'
+   >>> frase[22:]
+   'oleoleolá!'
+
+Mas também podemos usar a função ``split()``:
+
+.. doctest::
+
+   >>> frase.split()
+   ['Sílvio', 'Santos', 'vem', 'aí,', 'oleoleolá!']
+
+
 Atribuição múltipla
 -------------------
 
