@@ -65,7 +65,7 @@ Exercícios
    .. _ex_strings_formatacao:
 
 #. Agora que conhecemos atribuição múltipla e o método ``str.split()``
-   refaça os dois exercícios anterior usando essas técnicas.
+   refaça os dois exercícios anteriores usando essas técnicas.
 
 #. Use slicing (mais especificamente o passo do fatiamento) para inverter a
    string "Python".
