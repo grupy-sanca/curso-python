@@ -184,6 +184,7 @@ O operador :math:`*` repete a lista dado um número de vezes:
         >>> [1, 2, 3] * 2
         [1, 2, 3, 1, 2, 3]
 
+
 -----------------
 Métodos de listas
 -----------------
@@ -244,6 +245,41 @@ O método ``sort`` ordena os elementos da lista em ordem ascendente:
         >>> lista_desordenada.sort()
         >>> lista_desordenada  # Agora está ordenada!
         ['a', 'b', 'h', 'k', 'z']
+
+Para fazer uma cópia de uma lista, devemos usar o método ``copy``:
+
+.. doctest::
+
+        >>> l1 = ['a', 'b', 'c']
+        >>> l2 = l1.copy()
+        >>> l1
+        ['a', 'b', 'c']
+        >>> l2
+        ['a', 'b', 'c']
+        >>> l2.append('d')
+        >>> l1
+        ['a', 'b', 'c']
+        >>> l2
+        ['a', 'b', 'c', 'd']
+
+Se não usarmos o ``copy``, acontece algo bem estranho:
+
+.. doctest::
+
+        >>> l1 = ['a', 'b', 'c']
+        >>> l2 = l1
+        >>> l1
+        ['a', 'b', 'c']
+        >>> l2
+        ['a', 'b', 'c']
+        >>> l2.append('d')
+        >>> l1
+        ['a', 'b', 'c', 'd']
+        >>> l2
+        ['a', 'b', 'c', 'd']
+
+Tudo o que for feito com ``l2`` nesse exemplo também altera ``l1`` e vice-versa.
+
 
 Exercícios
 ==========
