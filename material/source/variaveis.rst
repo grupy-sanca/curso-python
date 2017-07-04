@@ -774,6 +774,10 @@ E para buscar ajuda em uma coisa específica?
     |      character at the same position in y. If there is a third argument, it
     |      must be a string, whose characters will be mapped to None in the result.
 
+A `documentação oficial <https://docs.python.org/3/>`_ do Python contém toda a
+referência sobre a linguagem, detalhes sobre cada função e alguns exemplos (em inglês).
+
+
 Formatação de strings
 ---------------------
 
