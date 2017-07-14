@@ -157,7 +157,10 @@ Também funciona com multiplicação:
    >>> x
    6
 
-Faça agora o :ref:`exercício 6 <ex_variaveis-basico>`
+Exercicios
+~~~~~~~~~~
+
+.. include:: exercicios_variaveis.rst
 
 
 Strings (sequência de caracteres)
@@ -339,8 +342,6 @@ proximo índice do último elemento desejado, tudo entre chaves.
    'render Python é muito divertid'
    >>> frase[2:-2:2] # pode-se ecolher o passo com que o slice é feito
    'rne yhnémiodvri'
-
-Faça agora os :ref:`exercício 7 e 8 <ex_variaveis-basico>`
 
 
 Buscando ajuda rapidamente
@@ -945,4 +946,7 @@ atribuição de variáveis, como por exemplo:
    >>> print(a, b, c, d)
    4 3 2 1
 
-Faça agora os :ref:`exercícios <ex_strings_formatacao>` até o 10.
+Exercicios
+~~~~~~~~~~
+
+.. include:: exercicios_string.rst

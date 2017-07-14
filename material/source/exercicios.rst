@@ -1,71 +1,76 @@
+==========
 Exercícios
 ==========
 
-.. _ex_calculadora:
+Operadores Matemáticos
+----------------------
 
-#. Quantos segundos há em 3 horas, 23 minutos e 17 segundos?
+.. include:: exercicios_calculadora_operadores.rst
 
-#. Se você correr 65 quilômetros em 3 horas, 23 minutos e 17 segundos, qual
-   é a sua velocidade média em m/s?
 
-   .. _ex_expressoes-numericas:
+Expressões Numéricas
+--------------------
 
-#. Calcule o resto da divisão de 10 por 3.
+.. include:: exercicios_calculadora_expressoes.rst
 
-#. Resolva essa expressão numérica usando Python:
 
-   .. math::
+Variaveis
+---------
 
-      \frac{100 - 413 \cdot (20 - 5 \times 4)}{5}
+.. include:: exercicios_variaveis.rst
 
-#. Você e os outros integrantes da sua república (Joca, Moacir, Demival e
-   Jackson) foram no supermercado e compraram alguns itens:
 
-   - 75 latas de cerveja: R\$ 2,20 cada (da ruim ainda, aka Itaipava, pra fazer o dinheiro render)
+Strings
+-------
 
-   - 2 pacotes de macarrão: R\$ 8,73 cada
+.. include:: exercicios_string.rst
 
-   - 1 pacote de Molho de tomate: R\$ 3,45
 
-   - 420g Cebola: R\$ 5,40/kg
+Listas
+------
 
-   - 250g de Alho: R\$ 30/kg
+Declaração
+~~~~~~~~~~
 
-   - 450g de pães franceses: R\$ 25/kg
+.. include:: exercicios_listas_declaracao.rst
 
-   Calcule quanto ficou para cada um.
 
-   .. _ex_variaveis-basico:
+Remoção
+~~~~~~~
 
-#. Supondo que a cotação do dólar está :math:`R$ 3,25`, faça uma
-   atribuição com a variável ``dólar`` para este valor e, usando esta
-   atribuição, monta uma equação para calcular o valor equivalente que
-   teria com :math:`R$ 65,00`.
+.. include:: exercicios_listas_del.rst
 
-   .. _ex_strings:
 
-#. Dada a frase ``Python é muito legal.`` use fatiamento para dar nome a
-   variáveis contendo cada palavra. O resultado final deve ser:
+M´etodos
+~~~~~~~~
 
-   .. code::
+.. include:: exercicios_listas_metodos.rst
 
-      >>> frase = "Python é muito legal."
-      # resolução do problema aqui
-      >>> palavra1
-      "Python"
-      >>> palavra2
-      "é"
-      >>> palavra3
-      "muito"
-      >>> palavra4
-      "legal"
 
-#. Qual o tamanho dessa frase? E qual o tamanho de cada palavra?
+Teclado
+-------
 
-   .. _ex_strings_formatacao:
+.. include:: exercicios_input.rst
 
-#. Agora que conhecemos atribuição múltipla e o método ``str.split()``
-   refaça os dois exercícios anteriores usando essas técnicas.
 
-#. Use slicing (mais especificamente o passo do fatiamento) para inverter a
-   string "Python".
+Estruturas de Controle
+----------------------
+
+.. include:: exercicios_controle.rst
+
+Desafios
+~~~~~~~~
+
+.. include:: desafios_controle.rst
+
+
+Estruturas de repetiçao
+-----------------------
+
+.. include:: exercicios_repeticao.rst
+
+
+Funçoes
+-------
+
+.. include:: exercicios_funcoes.rst

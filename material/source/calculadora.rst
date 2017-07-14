@@ -1,6 +1,9 @@
 Python como calculadora
 =======================
 
+Operadores matemáticos
+----------------------
+
 Python tem operadores que utilizam símbolos especiais que representam
 operações de cálculos:
 
@@ -148,7 +151,10 @@ E o número :math:`\pi`?
 
 E tenha certeza que fez o ``import math`` anteriormente.
 
-Faça agora os :ref:`exercícios <ex_calculadora>` até o 2.
+Exercícios
+~~~~~~~~~~
+
+.. include:: exercicios_calculadora_operadores.rst
 
 
 Expressões Numéricas
@@ -191,7 +197,10 @@ que a matemática. O acrônimo **PEMDAS** ajuda a lembrar essa ordem:
 
 #. **A** dição e **S** subtração (mesma precedência)
 
-Faça os :ref:`exercícios <ex_expressoes-numericas>` 3 a 5.
+Exercícios
+~~~~~~~~~~
+
+.. include:: exercicios_calculadora_expressoes.rst
 
 
 Comentários

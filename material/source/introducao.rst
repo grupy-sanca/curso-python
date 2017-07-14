@@ -55,8 +55,6 @@ shell do python aberto e clique enter:
 É muito comum utilizar a palavra "imprimir" (ou print em inglês) quando
 queremos indicar que o programa irá imprimir (mostrar) o resultado na tela.
 
-.. todo:: como abrir o shell
-
 **Windows**
 
 Para usuários Windows, como a interface de linha de comando é ruim, é recomendado utilizar o Idle, que possui também um editor de texto, depois de seguir o guia de intalação de Python para Windows, o menu inicial deve estar da seguinte forma:

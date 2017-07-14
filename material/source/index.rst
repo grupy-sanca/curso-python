@@ -19,7 +19,6 @@ a linguagem Python.
    introducao
    calculadora
    variaveis
-   exercicios
    listas
    range
    input
@@ -27,6 +26,7 @@ a linguagem Python.
    controle
    repeticao
    funcoes
+   exercicios
 
 
 .. Indices and tables

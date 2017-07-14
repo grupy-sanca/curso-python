@@ -35,7 +35,8 @@ A lista pode conter elementos de tipos diferentes, conforme o exemplo a seguir:
 Exercícios
 ==========
 
-1. Crie uma lista com o nome das 3 pessoas mais próximas.
+.. include:: exercicios_listas_declaracao.rst
+
 
 -------
 Índices
@@ -157,8 +158,8 @@ lista utilizando o comando ``del``:
 Exercícios
 ==========
 
-1. Utilizando o ``del`` remova todos os elementos da lista criada anteriormente,
-   até ter a lista vazia.
+.. include:: exercicios_listas_del.rst
+
 
 -------------------
 Operação com listas
@@ -284,8 +285,7 @@ Tudo o que for feito com ``l2`` nesse exemplo também altera ``l1`` e vice-versa
 Exercícios
 ==========
 
-1. Dado uma lista de números, faça com que os números sejam ordenados e depois
-   inverta a ordem da lista usando *slicing*.
+.. include:: exercicios_listas_metodos.rst
 
 .. note::
 
