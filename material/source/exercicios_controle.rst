@@ -4,13 +4,14 @@
 #. Para doar sangue é necessário ter entre 18 e 67 anos. Faça um programa que
    pergunte a idade de uma pessoa e diga se ela pode doar sangue ou não.
 
-#. Considere uma equação do segundo grau :math:`f(x) = a * x^2 + b * x + c`. A
-   partir dos coeficientes, determine se a equação possui duas raízes reais,
+#. Considere uma equação do segundo grau
+   :math:`f(x) = a \cdot x^2 + b \cdot x + c`.
+   A partir dos coeficientes, determine se a equação possui duas raízes reais,
    uma, ou se não possui.
 
-   **Dica:** :math:`delta = b^2 - 4 * a * c`, se delta é maior que 0, possui
-   duas raízes reais, se delta é 0, possui uma raiz, e caso delta seja menor que
-   0 não possui raiz real
+   **Dica:** :math:`\Delta = b^2 - 4 \cdot a \cdot c` : se delta é maior que 0,
+   possui duas raízes reais; se delta é 0, possui uma raiz; caso delta seja
+   menor que 0, não possui raiz real
 
 #. Leia dois números e efetue a adição. Caso o valor somado seja maior que 20,
    este deverá ser apresentado somando-se a ele mais 8; caso o valor somado seja

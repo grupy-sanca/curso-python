@@ -2,7 +2,12 @@ Introdução
 ==========
 
 .. todo:: dar uma introduzida no assunto, talvez só copiar o texto do doc
-          do SESC. Ou não
+          do SESC. Ou não. Colocar tbm coisas sobre python: empresas que usam,
+          áreas afins etc.
+
+
+*Hello World*
+-------------
 
 É muito comum apresentar uma nova linguagem com um exemplo simples que mostra
 na tela as palavras Hello World. Antes de adentrar o mundo do Python, vamos
@@ -55,9 +60,10 @@ shell do python aberto e clique enter:
 É muito comum utilizar a palavra "imprimir" (ou print em inglês) quando
 queremos indicar que o programa irá imprimir (mostrar) o resultado na tela.
 
-**Windows**
+*Idle*
+------
 
-Para usuários Windows, como a interface de linha de comando é ruim, é recomendado utilizar o Idle, que possui também um editor de texto, depois de seguir o guia de intalação de Python para Windows, o menu inicial deve estar da seguinte forma:
+Para usuários Windows, como a interface de linha de comando é ruim, é recomendado utilizar o Idle, que possui também um editor de texto. Depois de seguir o guia de intalação de Python para Windows, o menu inicial deve estar da seguinte forma:
 
 .. figure:: images/idle1.png
    :align: center
@@ -93,7 +99,11 @@ Após isso, a saída do código deve aparecer na janela anterior do Idle:
    :align: center
    :scale: 80%
 
-Alguns erros comuns ao utilizar o ``print``:
+
+``print()``
+-----------
+
+Alguns erros comuns ao utilizar o ``print()``:
 
 .. doctest::
 
