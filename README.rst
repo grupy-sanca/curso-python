@@ -24,3 +24,10 @@ How to use locally
 
 3. To see the material locally open the page ``build/html/index.html``
    in your favorite browser.
+
+
+-------
+LICENSE
+-------
+
+This material is licensed under `Creative Commons CC-BY-NC-SA 4.0 License <https://creativecommons.org/licenses/by-nc-sa/4.0/>`_
