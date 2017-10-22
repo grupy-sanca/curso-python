@@ -1,10 +1,6 @@
 Introdução
 ==========
 
-.. todo:: dar uma introduzida no assunto, talvez só copiar o texto do doc
-          do SESC. Ou não. Colocar tbm coisas sobre python: empresas que usam,
-          áreas afins etc.
-
 
 *Hello World*
 -------------
