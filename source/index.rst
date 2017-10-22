@@ -37,10 +37,3 @@ Curso Introdutório de Python!
    * :ref:`genindex`
    * :ref:`modindex`
    * :ref:`search`
-
-.. only:: html
-
-   TODO list
-   =========
-
-   .. todolist::
