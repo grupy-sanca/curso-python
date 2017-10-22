@@ -34,7 +34,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'Curso Introdutório de Python'
+project = 'Curso de Python'
 copyright = '2017, Grupy-Sanca'
 author = 'Grupy-Sanca'
 
@@ -43,7 +43,7 @@ author = 'Grupy-Sanca'
 # built documents.
 #
 # The short X.Y version.
-version = '2.0'
+version = '2.1.0'
 # The full version, including alpha/beta/rc tags.
 release = version
 
