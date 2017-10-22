@@ -1,11 +1,13 @@
-Sobre Grupy-Sanca
-=================
+Sobre o grupy-sanca
+===================
 
-O Grupy-Sanca (Grupo de Python de São Carlos) reúne pessoas interessadas em
-desenvolvimento de software e na linguagem Python. Realizamos periodicamente
+O grupy-sanca (Grupo Usuários Python de São Carlos) reúne pessoas interessadas
+em desenvolvimento de software e na linguagem Python. Realizamos periodicamente
 diversos eventos como palestras, cursos, oficinas, coding dojos (treinos de
 programação) e encontros informais. 
 
-Os eventos são divulgados pela página no `Facebook
-<https://www.facebook.com/grupysanca/>`_ e os agendamentos são
-realizados pela plataforma `Meetup <https://www.meetup.com/grupy-sanca>`_.
+Para saber mais sobre os eventos organizados pelo grupy-sanca acesse:
+- `Site oficial <http://grupysanca.com.br>_`
+- `Facebook <https://www.facebook.com/grupysanca/>`_
+- `Meetup <https://www.meetup.com/grupy-sanca>`_.
+- `Telegram <https://t.me/grupysanca>`_.

@@ -1,6 +1,9 @@
 Curso de Python
 ===============
 
+Aqui constam os materiais dos cursos de python criados e mininstrados pelos
+membros do grupy-sanca.
+
 .. toctree::
    :maxdepth: 1
    :caption: Conteúdo:
