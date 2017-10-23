@@ -3,9 +3,9 @@ Curso Introdutório de Python
 
 .. only:: html
 
-   O objetivo do curso é introduzir os conceitos básicos de programação para
-   pessoas sem experiência em desenvolvimento ou iniciantes que não conheçam
-   a linguagem Python.
+   O objetivo deste curso é introduzir os conceitos básicos de programação para
+   pessoas sem experiência em desenvolvimento ou iniciantes que não conheçam a
+   linguagem Python.
 
 .. toctree::
    :maxdepth: 2
