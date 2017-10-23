@@ -3,8 +3,8 @@ Contribuidores
 
 Lista de pessoas que contribuiram com a criação deste material:
 
-- Luiz Menezes
+- Heitor de Bittencourt
 - Lucas Carvalho
+- Luiz Menezes
 - Marcelo Miky Mine
 - Tiago Martins
-- Heitor Bittencourt

@@ -1,10 +1,13 @@
-========================
-Python Introdutory Class
-========================
+=============
+Python Course
+=============
+
+This repo contains the material for the Python courses created by grupy-sanca.
 
 All the material is in pt-br.
 
-Check the class material `online here <http://curso.grupysanca.com.br/>`_.
+Check the material `online here <http://curso.grupysanca.com.br/>`_.
+
 
 ------------------
 How to use locally
@@ -30,4 +33,5 @@ How to use locally
 LICENSE
 -------
 
-This material is licensed under `Creative Commons CC-BY-NC-SA 4.0 License <https://creativecommons.org/licenses/by-nc-sa/4.0/>`_
+This material is licensed under `Creative Commons CC-BY-NC-SA 4.0 License
+<https://creativecommons.org/licenses/by-nc-sa/4.0/>`_
