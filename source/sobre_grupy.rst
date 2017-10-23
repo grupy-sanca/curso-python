@@ -7,7 +7,11 @@ diversos eventos como palestras, cursos, oficinas, coding dojos (treinos de
 programação) e encontros informais.
 
 Para saber mais sobre os eventos organizados pelo grupy-sanca acesse:
-- `Site oficial <http://grupysanca.com.br>_`
-- `Facebook <https://www.facebook.com/grupysanca/>`_
-- `Meetup <https://www.meetup.com/grupy-sanca>`_
-- `Telegram <https://t.me/grupysanca>`_
+
+  - `Site oficial <http://www.grupysanca.com.br>_`
+
+  - `Facebook <https://www.facebook.com/grupysanca/>`_
+
+  - `Meetup <https://www.meetup.com/grupy-sanca>`_
+
+  - `Telegram <https://t.me/grupysanca>`_
