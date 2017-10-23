@@ -8,7 +8,7 @@ programação) e encontros informais.
 
 Para saber mais sobre os eventos organizados pelo grupy-sanca acesse:
 
-  - `Site oficial <http://www.grupysanca.com.br>_`
+  - `Site oficial <http://www.grupysanca.com.br>`_
 
   - `Facebook <https://www.facebook.com/grupysanca/>`_
 
