@@ -1,5 +1,7 @@
-Instalando Python
-=================
+.. _intro-instalacao:
+
+Guia de Instalação do Python
+============================
 
 Linux - Ubuntu
 --------------

@@ -2,14 +2,16 @@ Introdução
 ==========
 
 
-*Hello World*
--------------
+Hello World
+-----------
 
 É muito comum apresentar uma nova linguagem com um exemplo simples que mostra
-na tela as palavras Hello World. Antes de adentrar o mundo do Python, vamos
-ver como outras linguangens de programação o implementam:
+na tela as palavras `Hello World`. Para não perder o costume, antes de adentrar
+o mundo do Python, vamos ver como outras linguangens de programação implementam
+o exemplo citado:
 
-**C**
+C
+~
 
 .. code:: C
 
@@ -20,19 +22,23 @@ ver como outras linguangens de programação o implementam:
        return 0;
    }
 
-**Java**
+
+Java
+~~~~
 
 .. code:: java
 
    public class Hello {
-         public static void main(String []args) {
+         public static void main(String[] args) {
             System.out.println("Hello World");
          }
    }
 
-* É obrigatório colocar o programa em um arquivo chamado Hello.java
+É obrigatório que o código acima esteja em um arquivo chamado Hello.java
 
-**Pascal**
+
+Pascal
+~~~~~~
 
 .. code:: pascal
 
@@ -42,10 +48,12 @@ ver como outras linguangens de programação o implementam:
        writeln('Hello World');
    end.
 
-**Python**
 
-Vamos ver como é o Hello World em Python, escreva este texto abaixo com o
-shell do python aberto e clique enter:
+Python
+~~~~~~
+
+Vamos ver como é o Hello World em Python, aproveite para abrir o shell do
+python e digitar o texto abaixo (digitando enter ao final):
 
 .. doctest::
 
@@ -53,104 +61,127 @@ shell do python aberto e clique enter:
    Hello, World!
 
 
-É muito comum utilizar a palavra "imprimir" (ou print em inglês) quando
-queremos indicar que o programa irá imprimir (mostrar) o resultado na tela.
+Em programação é muito comum utilizar a palavra `imprimir` (ou `print` em
+inglês) como sinônimo de mostrar algo na tela.
 
-*Idle*
-------
 
-Para usuários Windows, como a interface de linha de comando é ruim, é recomendado utilizar o Idle, que possui também um editor de texto. Depois de seguir o guia de intalação de Python para Windows, o menu inicial deve estar da seguinte forma:
+IDLE
+----
+
+Para usuários Windows é recomendado utilizar o Idle que acompanha o
+interpretador do Python e uma interface para criar programas (editor de texto).
+Após seguir o :ref:`intro-instalacao`, o menu inicial deve estar da seguinte
+forma:
 
 .. figure:: images/idle1.png
    :align: center
    :scale: 80%
 
-Deve-se abrir o 'IDLE (Python 3.X)', então vai aparecer uma janela como na imagem abaixo:
+Deve-se abrir o `IDLE (Python 3.X)`, então vai aparecer uma janela como na
+imagem abaixo:
 
 .. figure:: images/idle2.png
    :align: center
    :scale: 80%
 
-Nela é possível digitar comandos para o interpretador do Python, porém também é possível digitar em um arquivo, para isso, clicar em 'File' -> 'New File' (Ou Ctrl+N)
+No `IDLE` é possível digitar comandos para o interpretador do Python e, também,
+é possível criar e digitar em um arquivo. Para fazer isso, no menu clique em
+`File` -> `New File` (Ou pressione as teclas `Ctrl` + `N` juntas)
 
 .. figure:: images/idle3.png
    :align: center
    :scale: 80%
 
-Para rodar um script, clicar em 'Run' -> 'Run Module' (Ou F5)
+Para rodar um programa, clique em `Run` -> `Run Module` (Ou aperte a tecla `F5`)
 
 .. figure:: images/idle4.png
    :align: center
    :scale: 80%
 
-Caso o arquivo ainda não tenha sido salvo, é necessário salvar antes da execução, com a extenção '.py':
+Caso o arquivo ainda não tenha sido salvo é necessário salvá-lo antes de
+executá-lo. Não esqueça de prefixar o nome do arquivo com `.py`
+(extensão do Python):
 
 .. figure:: images/idle5.png
    :align: center
    :scale: 80%
 
-Após isso, a saída do código deve aparecer na janela anterior do Idle:
+Após isso, o resultado da execução do código deve aparecer na janela anterior
+do IDLE:
 
 .. figure:: images/idle6.png
    :align: center
    :scale: 80%
 
 
-``print()``
------------
+Função print
+------------
 
-Alguns erros comuns ao utilizar o ``print()``:
+Erros comuns
+~~~~~~~~~~~~
+
+Usar a letra `P` maiúscula ao invés de minúscula: 
 
 .. doctest::
 
-  >>> # Erro 1. Letra P maiúscula
   >>> Print("Hello, World!")
   Traceback (most recent call last):
       ...
   NameError: name 'Print' is not defined
 
+Esquecer de abrir e fechar aspas no texto que é passado para a função
+``print()``:
+
 .. doctest::
 
-  >>> # Erro 2. Sem aspas
   >>> print(Hello, World!)
   Traceback (most recent call last):
       ...
   SyntaxError: invalid syntax
 
+Esquecer de abrir ou fechar as aspas:
+
 .. doctest::
 
-  >>> # Erro 3. Abrir e não fechar as aspas
   >>> print("Hello, World!)
   Traceback (most recent call last):
       ...
   SyntaxError: EOL while scanning string literal
 
+Começar com aspas simples e terminar com aspas duplas ou vice-versa:
+
 .. doctest::
 
-  >>> # Erro 4. Usar um tipo de aspa no começo, outro no fim:
   >>> print('Hello, World!")
   Traceback (most recent call last):
       ...
   SyntaxError: EOL while scanning string literal
 
+Usar espaço ou tab antes do ``print()``:
+
 .. doctest::
 
-  >>> # Erro 5. Usar espaço ou tab antes do print.
   >>>  print('Hello, World!')
   Traceback (most recent call last):
       ...
   IndentationError: unexpected indent
+
   >>>     print('Hello, World!')
   Traceback (most recent call last):
       ...
   IndentationError: unexpected indent
 
-E se quiser escrever com as aspas dentro?
+Mas e para mostrar na tela um texto com aspas? Bem, para printar um texto
+contendo aspas simples, envolva o texto com aspas duplas:
 
 .. doctest::
 
-  >>> # Se quiser usar com aspas simples dentro, use a dupla no print. E vice-versa
   >>> print('Python é legal! Mas não o "legal" como dizem pra outras coisas')
   Python é legal! Mas não o "legal" como dizem pra outras coisas
+
+Caso contrário faça o inverso:
+
+.. doctest::
+
   >>> print("Python é legal! Mas não o 'legal' como dizem pra outras coisas")
   Python é legal! Mas não o 'legal' como dizem pra outras coisas
