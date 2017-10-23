@@ -49,43 +49,48 @@ terminal e execute o comando:
 Windows
 -------
 
-Primeiramente, deve-se obter o arquivo de instalaçao compatível com a arquitetura, x86 deve funcionar em todos, os links estão a seguir:
+Primeiramente, deve-se obter o arquivo de instalação compatível com a
+arquitetura. O arquivo x86 provavelmente funcionará para todos computadores,
+os links estão a seguir:
 
     - x86_64_
     - x86_
 
-A seguir, o aquivo deve ser executado e a seguinte imagem aparecera:
+A seguir, o aquivo deve ser executado e a seguinte imagem aparecerá:
 
 .. figure:: images/install1.png
    :align: center
    :scale: 80%
 
-Deve ser selectionado a opção 'Add Python 3.X to PATH', e deve ser clicado na opção 'Customize installation'
+Deve ser selecionado a opção `Add Python 3.6 to PATH`, e deve ser clicado na
+opção 'Customize installation'
 
 
 .. figure:: images/install2.png
    :align: center
    :scale: 80%
 
-Clicar en 'Next'
+Clique em 'Next'
 
 .. figure:: images/install3.png
    :align: center
    :scale: 80%
 
-Selectionar a opção: 'Install for all users' e clicar em 'Install', uma janela pedindo permissão de administrador deve aparecer, é necessário aceitar
+Selecionar a opção `Install for all users` e clicar em `Install`. Então, uma
+janela pedindo permissão de administrador deve aparecer, é necessário aceitar
 
 .. figure:: images/install4.png
    :align: center
    :scale: 80%
 
-Clicar em 'Disable path lenght limit', novamente, uma janela de permissão de administrador vai aparecer, é necessário aceitar
+Selecione `Disable path lenght limit` e, novamente, uma janela de permissão de
+administrador irá aparecer, é necessário aceitar
 
 .. figure:: images/install5.png
    :align: center
    :scale: 80%
 
-Clicar em 'Close'
+Clique em `Close`
 
 Parabéns, agora o Python está intalado em sua máquina!
 
