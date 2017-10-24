@@ -8,3 +8,4 @@ Lista de pessoas que contribuiram com a criação deste material:
 - Luiz Menezes
 - Marcelo Miky Mine
 - Tiago Martins
+- Juliana Karoline
