@@ -4,7 +4,7 @@ Python como calculadora
 Operadores matemáticos
 ----------------------
 
-Python possui operadores que utilizam símbolos especiais que representam
+A linguagem Python possui operadores que utilizam símbolos especiais para representar
 operações de cálculos, assim como na matemática:
 
 
@@ -76,7 +76,7 @@ E se fizermos uma divisão por zero?
 
 Como não existe um resultado para a divisão pelo número zero, o Python
 interrompe a execução do programa (no caso a divisão) e mostra o erro que
-aconteceu, no caso o "ZeroDivisionError: divison by zero".
+aconteceu, ou seja, `"ZeroDivisionError: divison by zero"`.
 
 
 Divisão inteira (:math:`//`)
@@ -106,7 +106,7 @@ Resto da divisão (:math:`\%`)
 
 
 Agora que aprendemos os operadores aritméticos básicos podemos seguir
-adiante. Como podemos calcular :math:`2^{10}`? O jeito mais óbvio é
+adiante. Como podemos calcular :math:`2^{10}`? O jeito mais óbvio seria
 multiplicar o número dois dez vezes:
 
 .. doctest::
@@ -114,8 +114,7 @@ multiplicar o número dois dez vezes:
    >>> 2 * 2 * 2 * 2 * 2 * 2 * 2 * 2 * 2 * 2
    1024
 
-Porém não é muito prático, para fazer isso podemos usar o operador de
-**potenciação/exponenciação**: :math:`**`
+Porém, isso não é muito prático, pois há um operador específico para isso, chamado de **potenciação/exponenciação**: :math:`**`
 
 .. doctest::
 
@@ -153,7 +152,7 @@ biblioteca ``math``:
    >>> math.sqrt(16)
    4.0
 
-Na primeira linha do exemplo importamos, da biblioteca padrão do python, o
+Na primeira linha do exemplo importamos, da biblioteca padrão do Python, o
 módulo ``math`` e então usamos a sua função ``sqrt`` para calcular
 :math:`\sqrt{16}`
 
@@ -202,8 +201,8 @@ problemas mais complexos:
 Quando mais de um operador aparece em uma expressão, a ordem de avaliação
 depende das regras de precedência.
 
-Python segue as mesmas regras de precedência para seus operadores matemáticos
-que a matemática. O acrônimo **PEMDAS** ajuda a lembrar essa ordem:
+O Python segue as mesmas regras de precedência da matemática. 
+O acrônimo **PEMDAS** ajuda a lembrar essa ordem:
 
 #. **P** arênteses
 
@@ -222,9 +221,10 @@ Exercícios
 Comentários
 -----------
 
-Para fazer comentários no código, ou seja, caso queira escrever um texto para
-explicar algum código que não sejam executado pelo interpretador do python,
-utilize o ``#``. Exemplo:
+Caso precise explicar alguma coisa feita no código, é possível escrever um texto 
+(que não será executado), que ajuda a entender ou lembrar o que foi feito.
+Esse texto é chamado de comentário, e para escrever um basta utilizar o 
+caracter ``#``. Exemplo:
 
 .. doctest::
 
