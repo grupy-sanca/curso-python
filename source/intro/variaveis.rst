@@ -871,7 +871,7 @@ Mas também podemos usar a função ``split()``:
 Atribuição múltipla
 -------------------
 
-Uma funcionalidae interessante do Python é que ele permite atribuição
+Uma funcionalidade interessante do Python é que ele permite atribuição
 múltipla. Isso é muito útil para trocar o valor de duas variáveis:
 
 .. doctest::
