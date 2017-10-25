@@ -17,8 +17,6 @@
 
 #. Qual o tamanho dessa frase? E qual o tamanho de cada palavra?
 
-   .. _ex_strings_formatacao:
-
 #. Agora que conhecemos atribuição múltipla e o método ``str.split()``
    refaça os dois exercícios anteriores usando essas técnicas.
 
