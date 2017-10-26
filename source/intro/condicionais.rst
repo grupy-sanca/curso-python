@@ -76,7 +76,7 @@ Para realizar operações com expressões lógicas, existem:
         >>> not not not 1 == 1
         False
 
-Porém, assim como os operadores aritméticos, os operadores booleanos também
+Assim como os operadores aritméticos, os operadores booleanos também
 possuem uma ordem de prioridade:
 
         * ``not`` tem maior prioridade que ``and`` que tem maior que ``or``
