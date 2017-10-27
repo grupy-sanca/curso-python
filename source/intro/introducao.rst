@@ -5,10 +5,10 @@ Introdução
 Hello World
 -----------
 
-É muito comum apresentar uma nova linguagem com um exemplo simples que mostra
+É muito comum, ao apresentar uma nova linguagem, começar com um exemplo simples que mostra
 na tela as palavras `Hello World`. Para não perder o costume, antes de adentrar
 o mundo do Python, vamos ver como outras linguangens de programação implementam
-o exemplo citado:
+esse exemplo:
 
 C
 ~
@@ -18,7 +18,7 @@ C
    #include <stdio.h>
 
    int main(int argc, char *argv[]){
-       printf("Hello, world\n");
+       printf("Hello, World!\n");
        return 0;
    }
 
@@ -30,11 +30,11 @@ Java
 
    public class Hello {
          public static void main(String[] args) {
-            System.out.println("Hello World");
+            System.out.println("Hello, World!");
          }
    }
 
-É obrigatório que o código acima esteja em um arquivo chamado Hello.java
+É obrigatório que o código acima esteja em um arquivo chamado `Hello.java`
 
 
 Pascal
@@ -45,15 +45,15 @@ Pascal
    program HelloWorld;
 
    begin
-       writeln('Hello World');
+       writeln('Hello, World!');
    end.
 
 
 Python
 ~~~~~~
 
-Vamos ver como é o Hello World em Python, aproveite para abrir o shell do
-python e digitar o texto abaixo (digitando enter ao final):
+Vamos ver como é o Hello World em Python. Para isso, abra o `shell` do
+Python e digite o texto abaixo (não esqueça de apertar `enter` no final):
 
 .. doctest::
 
@@ -61,15 +61,14 @@ python e digitar o texto abaixo (digitando enter ao final):
    Hello, World!
 
 
-Em programação é muito comum utilizar a palavra `imprimir` (ou `print` em
+Em programação, é muito comum utilizar a palavra `imprimir` (ou `print`, em
 inglês) como sinônimo de mostrar algo na tela.
 
 
 IDLE
 ----
 
-Para usuários Windows é recomendado utilizar o Idle que acompanha o
-interpretador do Python e uma interface para criar programas (editor de texto).
+Para usuários Windows é recomendado utilizar o `IDLE`. Ele é composto pelo interpretador do Python e um editor de texto para criar programas.
 Após seguir o :ref:`intro-instalacao`, o menu inicial deve estar da seguinte
 forma:
 
@@ -77,7 +76,7 @@ forma:
    :align: center
    :scale: 80%
 
-Deve-se abrir o `IDLE (Python 3.X)`, então vai aparecer uma janela como na
+Ao abrir o `IDLE (Python 3.X)`, aparecerá uma janela como na
 imagem abaixo:
 
 .. figure:: images/idle2.png
@@ -98,7 +97,7 @@ Para rodar um programa, clique em `Run` -> `Run Module` (Ou aperte a tecla `F5`)
    :align: center
    :scale: 80%
 
-Caso o arquivo ainda não tenha sido salvo é necessário salvá-lo antes de
+Caso o arquivo ainda não tenha sido salvo, é necessário salvá-lo antes de
 executá-lo. Não esqueça de prefixar o nome do arquivo com `.py`
 (extensão do Python):
 
@@ -106,8 +105,7 @@ executá-lo. Não esqueça de prefixar o nome do arquivo com `.py`
    :align: center
    :scale: 80%
 
-Após isso, o resultado da execução do código deve aparecer na janela anterior
-do IDLE:
+Após isso, o resultado da execução do código deve aparecer na janela anterior do `IDLE`:
 
 .. figure:: images/idle6.png
    :align: center
@@ -171,15 +169,15 @@ Usar espaço ou tab antes do ``print()``:
       ...
   IndentationError: unexpected indent
 
-Mas e para mostrar na tela um texto com aspas? Bem, para printar um texto
-contendo aspas simples, envolva o texto com aspas duplas:
+Mas, e se eu precisar usar aspas dentro do texto a ser mostrado na tela? Bem, Caso queira imprimir
+aspas duplas, envolva tudo com aspas simples e use aspas duplas na parte desejada:
 
 .. doctest::
 
   >>> print('Python é legal! Mas não o "legal" como dizem pra outras coisas')
   Python é legal! Mas não o "legal" como dizem pra outras coisas
 
-Caso contrário faça o inverso:
+Caso deseje imprimir aspas simples, faça o contrário (envolva com aspas duplas e use aspas simples onde necessário):
 
 .. doctest::
 

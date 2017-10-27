@@ -41,7 +41,7 @@ Remoção
 .. include:: exercicios_listas_del.rst
 
 
-M´etodos
+Métodos
 ~~~~~~~~
 
 .. include:: exercicios_listas_metodos.rst

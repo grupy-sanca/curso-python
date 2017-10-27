@@ -19,13 +19,16 @@ usuário, e isso é feito por meio da função embutida ``input`` da seguinte fo
         >>> type(valor_lido)  # deve-se notar que o valor lido é SEMPRE do tipo string
         <class 'str'>
 
-        >>> valor_lido + 10  # ou seja, antes de trabalhar com esse valor, é preciso converter para o tipo correto
+Mas, como realizar operações com os valores lidos?
+
+.. doctest:: input_single
+
+        >>> valor_lido + 10  # para trabalhar com esse valor, é preciso converter para o tipo correto
         Traceback (most recent call last):
             ...
         TypeError: must be str, not int
 
-Isso pode ser feito usando os operadores ``int()`` e ``float(),`` dependendo do
-valor esperado:
+Para poder fazer isso pode-se usar os operadores ``int()`` e ``float(),`` que converte o valor lido para o tipo de dado esperado:
 
 .. testsetup:: input_convert
 

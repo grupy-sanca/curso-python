@@ -8,8 +8,7 @@ Listas são estruturas de dados capazes de armazenar múltiplos elementos.
 Declaração
 ----------
 
-Para a criação de uma lista basta colocar os elementos entre virgulas dentro de
-colchetes ``[]``. Como no exemplo abaixo:
+Para a criação de uma lista, basta colocar os elementos separados por vírgulas dentro de colchetes ``[]``, como no exemplo abaixo:
 
 .. doctest::
 
@@ -21,7 +20,7 @@ colchetes ``[]``. Como no exemplo abaixo:
         >>> numeros
         [2, 13, 17, 47]
 
-A lista pode conter elementos de tipos diferentes, conforme o exemplo a seguir:
+A lista pode conter elementos de tipos diferentes:
 
 .. doctest::
 
@@ -43,7 +42,7 @@ Exercícios
 -------
 
 Assim como nas *strings*, é possível acessar separadamente cada item de uma
-lista a partir de seus índices:
+lista a partir de seu índice:
 
 .. doctest::
 
@@ -60,8 +59,7 @@ lista a partir de seus índices:
         >>> lista[-1]  # outra maneira de acessar o último elemento
         500
 
-Como visto no exemplo anterior, ao utilizar um índice negativo os elementos são
-acessados de trás pra frente, a partir do final da lista:
+Conforme visto anteriormente, ao utilizar um índice negativo os elementos são acessados de trás pra frente, a partir do final da lista:
 
 .. doctest::
 
@@ -104,8 +102,7 @@ Tentar acessar uma posição inválida de uma lista causa um erro:
             ,,,
         IndexError: list index out of range
 
-Podemos avaliar se os elementos estão na lista com a palavra in, como no exemplo
-abaixo:
+Podemos avaliar se os elementos estão na lista com a palavra `in`:
 
 .. doctest::
 
@@ -139,8 +136,7 @@ abaixo:
 Removendo itens da lista
 ------------------------
 
-Devido à lista ser uma estrutura mutável, é possível remover elementos de uma
-lista utilizando o comando ``del``:
+Devido à lista ser uma estrutura mutável, é possível remover seus elementos utilizando o comando ``del``:
 
 .. doctest::
 
@@ -165,7 +161,7 @@ Exercícios
 Operação com listas
 -------------------
 
-O operador :math:`+` concatena as listas:
+O operador :math:`+` concatena listas:
 
 .. doctest::
 
@@ -190,8 +186,7 @@ O operador :math:`*` repete a lista dado um número de vezes:
 Métodos de listas
 -----------------
 
-Existem métodos que permitem alterar a lista como, por exemplo, o método
-``append`` que adiciona um elemento ao final da lista:
+Existem métodos que permitem alterar listas, como o ``append``, que adiciona um elemento ao final da lista:
 
 .. doctest::
 
@@ -289,8 +284,7 @@ Exercícios
 
 .. note::
 
-        É possível transformatar uma string em número, dado que seja um número,
-        por exemplo:
+        É possível transformatar uma string em número, dado que seja um número:
 
         .. doctest::
 
@@ -300,7 +294,7 @@ Exercícios
 
 .. note::
 
-        Assim como também é possível a volta:
+        A volta também é possível:
 
         .. doctest::
 

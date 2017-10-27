@@ -91,7 +91,7 @@ if not on_rtd:
 # -- Options for HTMLHelp output ------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'CursoIntrodutriodePythondoc'
+htmlhelp_basename = 'CursoIntrodutoriodePythondoc'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -118,7 +118,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'CursoIntrodutriodePython.tex', 'Curso Introdutório de Python',
+    (master_doc, 'CursoIntrodutoriodePython.tex', 'Curso Introdutorio de Python',
      'Grupy-Sanca', 'manual'),
 ]
 
@@ -128,7 +128,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'cursointrodutriodepython', 'Curso Introdutório de Python Documentation',
+    (master_doc, 'cursointrodutoriodepython', 'Curso Introdutório de Python Documentation',
      [author], 1)
 ]
 
@@ -139,8 +139,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'CursoIntrodutriodePython', 'Curso Introdutório de Python Documentation',
-     author, 'CursoIntrodutriodePython', 'One line description of project.',
+    (master_doc, 'CursoIntrodutoriodePython', 'Curso Introdutório de Python Documentation',
+     author, 'CursoIntrodutoriodePython', 'One line description of project.',
      'Miscellaneous'),
 ]
 

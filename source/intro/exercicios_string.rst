@@ -1,5 +1,5 @@
 
-#. Dada a frase ``Python é muito legal.`` use fatiamento para dar nome a
+#. Dada a frase ``Python é muito legal.``, use fatiamento para dar nome às
    variáveis contendo cada palavra. O resultado final deve ser:
 
    .. code::
@@ -16,8 +16,6 @@
       "legal"
 
 #. Qual o tamanho dessa frase? E qual o tamanho de cada palavra?
-
-   .. _ex_strings_formatacao:
 
 #. Agora que conhecemos atribuição múltipla e o método ``str.split()``
    refaça os dois exercícios anteriores usando essas técnicas.

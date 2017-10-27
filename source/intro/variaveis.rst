@@ -8,7 +8,8 @@ Atribuição
 ----------
 
 Atribuição é o processo de criar uma nova variável e dar um novo valor a
-ela. A seguir damos exemplos de como fazer atribuições:
+ela.
+Alguns exemplos de atribuições:
 
 .. doctest::
 
@@ -50,7 +51,7 @@ letras minúsculas para nomes de variáveis.
    >>> crieiumavariavelcomnomegiganteeestoucompreguiçadeescrevertudodenovo # use TAB para autocompletar =D
    10
 
-Tentar dar um nome ilegal a uma variável ocasionará em um erro de sintaxe:
+Tentar dar um nome ilegal a uma variável ocasionará erro de sintaxe:
 
 .. doctest::
 
@@ -80,14 +81,14 @@ Tentar dar um nome ilegal a uma variável ocasionará em um erro de sintaxe:
    SyntaxError: invalid syntax
 
 
-``123voa`` é ilegal pois começa com um número. ``ol@`` é ilegal, pois
+``123voa`` é ilegal pois começa com um número. ``ol@`` é ilegal pois
 contém um caracter inválido (@), mas o que há de errado com ``def``?
 
-A questão é que ``def`` é uma palavra-chave do Python e o interpretador
-usa essas palavras para reconhecer a estrutura do programa e não podem ser
-utilizadas como nomes de variável.
+A questão é que ``def`` é uma palavra-chave da linguagem. O Python possui
+diversas palavras que são utilizadas na estrutura dos programas, por isso
+não podem ser utilizadas como nomes de variáveis.
 
-Outro ponto importante de notar é que não é possível acessar variáveis que
+Outro ponto importante: não é possível acessar variáveis que
 ainda não foram definidas:
 
 .. doctest::
@@ -173,7 +174,7 @@ Strings (sequência de caracteres)
    >>> "Texto coma centos de cedilhas: hoje é dia de caça!"
    'Texto coma centos de cedilhas: hoje é dia de caça!'
 
-As *strings* aceitam áspas simples também:
+As *strings* aceitam aspas simples também:
 
 .. doctest::
 
@@ -181,7 +182,7 @@ As *strings* aceitam áspas simples também:
    >>> nome
    'Silvio Santos'
 
-Também é possível fazer algumas operações com as strings:
+Também é possível fazer algumas operações com strings:
 
 .. doctest::
 
@@ -203,14 +204,14 @@ Para strings em várias linhas, utilize 3 aspas:
 
 .. doctest::
 
-   >>> string_grange = '''Aqui consigo inserir um textão com várias linhas, posso iniciar em uma...
+   >>> string_grande = '''Aqui consigo inserir um textão com várias linhas, posso iniciar em uma...
    ... e posso continuar em outra
    ... e em outra
    ... e mais uma
    ... e acabou.'''
-   >>> string_grange
+   >>> string_grande
    'Aqui consigo inserir um textão com várias linhas, posso iniciar em uma...\ne posso continuar em outra\ne em outra\ne mais uma\ne acabou.'
-   >>> print(string_grange)
+   >>> print(string_grande)
    Aqui consigo inserir um textão com várias linhas, posso iniciar em uma...
    e posso continuar em outra
    e em outra
@@ -257,14 +258,14 @@ Também pode ser usada a letra ``E`` maiúscula:
 
 .. doctest::
 
-   >>> 1e6
+   >>> 1E6
    1000000.0
 
 
 Tamanho
 -------
 
-A função embutida ``len()``, nos permite, entre outras coisas, saber o
+A função embutida ``len()`` nos permite, entre outras coisas, saber o
 tamanho de uma string:
 
 .. doctest::
@@ -280,7 +281,7 @@ tamanho de uma string:
 -------
 
 Como visto anteriormente, o método len() pode ser utilizado para obter o
-tamanho de estruturas, sejam elas strings, listas e etc. Esse tamanho
+tamanho de estruturas, sejam elas strings, listas, etc. Esse tamanho
 representa a quantidade de elementos na estrutura.
 
 Para obter somente um caracter de dentro dessas estruturas, deve-se utilzar
@@ -315,7 +316,7 @@ Nota: Os índices começam em zero.
 Fatias
 ------
 
-Se invés de obter apenas um elemento de uma estrutura (string, lista,
+Se ao invés de obter apenas um elemento de uma estrutura (string, lista,
 ...) deseja-se obter multiplos elementos, deve-se utilizar *slicing*
 (fatiamento). No lugar de colocar o índice do elemento entre chaves,
 deve-se colocar o índice do primeiro elemento, dois pontos (:) e o
@@ -783,7 +784,7 @@ Formatação de strings
 ---------------------
 
 A formatação de string nos permite criar frases dinâmicas, utilizando
-valores de quaisquer variáveis desejada. Por exemplo:
+valores de quaisquer variáveis desejadas. Por exemplo:
 
 .. testsetup:: string_format
 
@@ -843,7 +844,7 @@ Separar Strings
 ---------------
 
 Se tivermos a frase ``Sílvio Santos vem aí, oleoleolá!`` e quisermos separar
-cada palavra, como fa<er? Um modo é com o fatiamento:
+cada palavra, como fazer? Pode-se usar o fatiamento:
 
 .. doctest::
 
@@ -870,7 +871,7 @@ Mas também podemos usar a função ``split()``:
 Atribuição múltipla
 -------------------
 
-Uma funcionalidae interessante do Python é que ele permite atribuição
+Uma funcionalidade interessante do Python é que ele permite atribuição
 múltipla. Isso é muito útil para trocar o valor de duas variáveis:
 
 .. doctest::
@@ -909,8 +910,8 @@ A troca é bem sucedida se usamos uma variável auxiliar:
    >>> print(a, b)
    200 1
 
-Porém, como o Python permite atribuição múltipla podemos resolver esse
-problema de forma muito mais simples:
+Porém, como o Python permite atribuição múltipla, podemos resolver esse
+problema de uma forma muito mais simples:
 
 .. doctest::
 
@@ -926,7 +927,7 @@ problema de forma muito mais simples:
    200 1
 
 A atribuição múltipla também pode ser utilizada para simplificar a
-atribuição de variáveis, como por exemplo:
+atribuição de variáveis, por exemplo:
 
 .. doctest::
 
