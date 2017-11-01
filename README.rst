@@ -8,6 +8,8 @@ All the material is in pt-br.
 
 Check the material `online here <http://curso.grupysanca.com.br/>`_.
 
+Find us in `Facebook <https://www.facebook.com/grupysanca/>`_ and `Telegram <https://t.me/grupysanca>`_
+
 
 ------------------
 How to use locally
