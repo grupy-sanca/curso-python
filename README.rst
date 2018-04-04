@@ -5,15 +5,14 @@ Python Course
 .. image::  https://readthedocs.org/projects/curso-python/badge/?version=latest
    :alt: Read the Docs
 
-![Documentation Status]()](http://curso.grupysanca.com.br/pt/latest/?badge=latest)
-
 This repo contains the material for the Introductory Python course created by grupy-sanca.
 
 All the material is in pt-br.
 
 Check the material `online here <http://curso.grupysanca.com.br/>`_.
 
-Find us in `Facebook <https://www.facebook.com/grupysanca/>`_ and `Telegram <https://t.me/grupysanca>`_
+Find us in `Facebook <https://www.facebook.com/grupysanca/>`_ and
+`Telegram <https://t.me/grupysanca>`_
 
 
 ------------------
@@ -32,8 +31,18 @@ How to use locally
 
         $ make html
 
+  Another option is to produce a pdf using latex:
+
+   .. code:: sh
+
+        $ make latexpdf
+
+  You might need to rerun this command.
+
 3. To see the material locally open the page ``build/html/index.html``
-   in your favorite browser.
+   in your favorite browser or the file ``build/latex/CursoIntrodutoriodePython.pdf``
+   in your favorite pdf viewer.
+
 
 
 -------
