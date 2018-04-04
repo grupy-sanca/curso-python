@@ -2,7 +2,10 @@
 Python Course
 =============
 
-[![Documentation Status](https://readthedocs.org/projects/curso-python/badge/?version=latest)](http://curso.grupysanca.com.br/pt/latest/?badge=latest)
+.. image::  https://readthedocs.org/projects/curso-python/badge/?version=latest
+   :alt: Read the Docs
+
+![Documentation Status]()](http://curso.grupysanca.com.br/pt/latest/?badge=latest)
 
 This repo contains the material for the Introductory Python course created by grupy-sanca.
 
