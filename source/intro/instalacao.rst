@@ -14,7 +14,7 @@ comando:
 
    $ python --version
 
-Se o resultado do comando for `Python 3.6.1` (ou alguma versão igual ou
+Se o resultado do comando for `Python 3.6.5` (ou alguma versão igual ou
 superior a `3.5`) o Python já está instalado corretamente.
 
 Caso o resultado do comando anterior tenha sido `Python 2.7.13` (ou qualquer
@@ -45,7 +45,7 @@ terminal e execute o comando:
 .. code::
 
    $ python --version
-   Python 3.6.1
+   Python 3.6.5
 
 
 Windows
@@ -66,7 +66,6 @@ A seguir, o aquivo deve ser executado e a seguinte imagem aparecerá:
 
 Deve ser selecionado a opção `Add Python 3.6 to PATH`, e deve ser clicado na
 opção 'Customize installation'
-
 
 .. figure:: images/install2.png
    :align: center
@@ -98,5 +97,5 @@ Parabéns, agora o Python está intalado em sua máquina!
 
 
 .. _Mac OS X do Python: https://www.python.org/downloads/mac-osx/
-.. _x86_64: https://www.python.org/ftp/python/3.6.1/python-3.6.1-amd64.exe
-.. _x86: https://www.python.org/ftp/python/3.6.1/python-3.6.1.exe
+.. _x86_64: https://www.python.org/ftp/python/3.6.5/python-3.6.5-amd64.exe
+.. _x86: https://www.python.org/ftp/python/3.6.5/python-3.6.5.exe
