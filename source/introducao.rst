@@ -127,7 +127,7 @@ Usar a letra `P` maiúscula ao invés de minúscula:
       ...
   NameError: name 'Print' is not defined
 
-Esquecer de abrir e fechar aspas no texto que é passado para a função
+Esquecer de abrir e fechar áspas no texto que é passado para a função
 ``print()``:
 
 .. doctest::

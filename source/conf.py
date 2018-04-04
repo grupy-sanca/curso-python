@@ -43,7 +43,7 @@ author = 'Grupy-Sanca'
 # built documents.
 #
 # The short X.Y version.
-version = '2.1.1'
+version = '2.2.0'
 # The full version, including alpha/beta/rc tags.
 release = version
 
@@ -87,6 +87,7 @@ if not on_rtd:
 # so a file named "default.css" will overwrite the builtin "default.css".
 # html_static_path = ['_static']
 
+html_logo = 'images/logo_small.png'
 
 # -- Options for HTMLHelp output ------------------------------------------
 
