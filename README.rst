@@ -2,7 +2,7 @@
 Python Course
 =============
 
-This repo contains the material for the Python courses created by grupy-sanca.
+This repo contains the material for the Introductory Python course created by grupy-sanca.
 
 All the material is in pt-br.
 
