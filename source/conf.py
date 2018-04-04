@@ -34,8 +34,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'Curso de Python'
-copyright = '2017, Grupy-Sanca'
+project = 'Curso Introdutório de Python'
+copyright = '2017-2018, Grupy-Sanca'
 author = 'Grupy-Sanca'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -43,7 +43,7 @@ author = 'Grupy-Sanca'
 # built documents.
 #
 # The short X.Y version.
-version = '2.1.0'
+version = '2.1.1'
 # The full version, including alpha/beta/rc tags.
 release = version
 
@@ -91,7 +91,7 @@ if not on_rtd:
 # -- Options for HTMLHelp output ------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'CursoIntrodutoriodePythondoc'
+htmlhelp_basename = 'CursoIntrodutoriodePythonDoc'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -118,7 +118,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'CursoIntrodutoriodePython.tex', 'Curso Introdutorio de Python',
+    (master_doc, 'CursoIntrodutoriodePython.tex', 'Curso Introdutório de Python',
      'Grupy-Sanca', 'manual'),
 ]
 
@@ -165,5 +165,3 @@ epub_copyright = copyright
 
 # A list of files that should not be packed into the epub file.
 epub_exclude_files = ['search.html']
-
-
