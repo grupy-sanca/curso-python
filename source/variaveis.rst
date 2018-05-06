@@ -62,7 +62,7 @@ Tentar dar um nome ilegal a uma variável ocasionará erro de sintaxe:
                 ^
    SyntaxError: invalid syntax
 
-.. doctest::
+.. code:: python
 
    >>> ol@ = "oi"
    Traceback (most recent call last):

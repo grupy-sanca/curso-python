@@ -130,7 +130,7 @@ Usar a letra `P` maiúscula ao invés de minúscula:
 Esquecer de abrir e fechar áspas no texto que é passado para a função
 ``print()``:
 
-.. doctest::
+.. code:: python
 
   >>> print(Hello, World!)
   Traceback (most recent call last):
