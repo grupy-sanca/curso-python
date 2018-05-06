@@ -31,13 +31,13 @@ How to use locally
 
         $ make html
 
-  Another option is to produce a pdf using latex:
+   Another option is to produce a pdf using latex:
 
    .. code:: sh
 
         $ make latexpdf
 
-  You might need to rerun this command.
+   You might need to rerun this command.
 
 3. To see the material locally open the page ``build/html/index.html``
    in your favorite browser or the file ``build/latex/CursoIntrodutoriodePython.pdf``
