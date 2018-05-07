@@ -1,1 +1,3 @@
 #. Supondo que a cotação do dólar esteja em :math:`\mathrm{R}\$\, 3{,}25`, salve esse valor em uma variável e utilize-o para calcular quanto você teria ao cambiar :math:`\mathrm{R}\$\, 65{,}00` para dólares.
+
+#. Josefson deseja fazer compras na China. Ela quer comprar um celular de :math:`\mathrm{USD}\, 299{,}99`, uma chaleira de :math:`\mathrm{USD}\, 23{,}87`, um gnomo de jardim de :math:`\mathrm{USD}\, 66{,}66` e 6 adesivos de unicórnio de :math:`\mathrm{USD}\, 1{,}42` cada um. O frete de tudo isso para a cidade de Rolândia, no Paraná, ficou em :math:`\mathrm{USD}\, 12{,}34`. Usando o mesmo valor do dólar do exercício anterior, calcule o preço final em Reais. Lembre-se que o valor do *IOF* é de :math:`6{,}38 \, \%`.

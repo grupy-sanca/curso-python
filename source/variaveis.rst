@@ -167,6 +167,8 @@ Exercicios
 Strings (sequência de caracteres)
 ---------------------------------
 
+*Strings* são tipos de variáveis que armazenam uma sequência de caracteres:
+
 .. doctest::
 
    >>> "Texto bonito"
