@@ -122,7 +122,7 @@ Mai tá legal isso! Quero a tabuada do 1 ao 10 agora! Bora!
         >>> def tabuadas():
         ...     for i in range(1, 11):
         ...         for j in range(1, 11):
-        ...             print("%d * %d = %d" % (i, j, i * j))
+        ...             print("{} * {} = {}".format(i, j, i * j))
         ...
         >>> tabuadas()
         1 * 1 = 1
