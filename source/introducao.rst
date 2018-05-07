@@ -183,3 +183,15 @@ Caso deseje imprimir aspas simples, faça o contrário (envolva com aspas duplas
 
   >>> print("Python é legal! Mas não o 'legal' como dizem pra outras coisas")
   Python é legal! Mas não o 'legal' como dizem pra outras coisas
+
+E como faz para imprimir um texto em várias linhas? Bom, para isso precisamos
+lembrar de um carácter especial, a *quebra de linha*: `\n`. Esse `\n` é um
+caracter especial que significa *aqui acaba a linha, o que vier depois deve
+ficar na linha de baixo*. Por exemplo:
+
+.. doctest::
+
+  >>> print('Olha esse textão sobre áspas simples e dúplas.\nIsso aqui é áspas duplas: "\nIsso aqui é áspas simples: \''
+  Olha esse textão sobre áspas simples e dúplas.
+  Isso aqui é áspas duplas: "
+  Isso aqui é áspas simples: '
