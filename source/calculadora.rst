@@ -236,7 +236,7 @@ caracter ``#``. Exemplo:
    >>> # Aqui vai um código só com comentários! Posso falar o que quiser que não será interpretado, lalala, la-le-li-lo-lu. A job we hate to buy things we don't need.
 
 
-Comparacões
+Comparações
 -----------
 
 Os operadores de comparação em Python são:
