@@ -55,3 +55,47 @@
    .. math::
 
         \sum_{n=0}^{\infty} \frac{(-1)^n}{(2n+1)!} \cdot x^{2n+1}
+
+#. Calcule :math:`\pi` usando um método de Monte Carlo.
+
+   Monte Carlo é uma classe de métodos para resolver problemas usando
+   estatística. Aqui você vai implementar uma função usando um desses algoritmos
+   para calcular o número :math:`\pi`.
+
+   Dado um círculo de raio :math:`R` dentro de um quadrado de lados :math:`2R`,
+   a razão entre a área do círculo para a área do quadrado é:
+
+   .. math::
+
+      \frac{A_\bigcirc}{A_\square} = \frac{\pi R^2}{4 R^2} = \frac{\pi}{4}
+
+   Ou seja, se você escolher aleatoriamente um ponto dentro do quadrado, a
+   probabilidade dele cair dentro do círculo é de :math:`\pi / 4`. Se você
+   escolher :math:`N` pontos aleatórios dentro do quadrado, cerca de
+   :math:`N \pi / 4` estarão dentro do círculo.
+
+   Então, basta escolher pontos aleatórios dentro do quadrado e ver se estão
+   dentro do círculo 🙃.
+
+   Um ponto :math:`(x, y)` está dentro do círculo se
+   :math:`x^2 + y^2 \leq R^2`.
+
+   Faça uma função que receba como argumento um número :math:`N` de pontos
+   :math:`(x, y)` (aleatórios) a serem sorteados. Dentro dessa função, você
+   deve fazer um laço que sorteie esses :math:`N` pontos e veja quantos estão
+   dentro do círculo. Se :math:`M` pontos caírem dentro do círculo, então a
+   probabilidade de um ponto aleatório estar dentro do círculo é
+   aproximadamente :math:`M / N`. Então, podemos estimar :math:`\pi` como:
+
+   .. math::
+
+      \pi \approx \frac{4 M}{N}
+
+   Para sortear um número aleatório entre :math:`a` e :math:`b` utilize a
+   função `uniform(a, b)` do módulo `random`. Exemplo:
+
+   .. doctest::
+
+      >>> import random
+      >>> random.uniform(1, 2) # número aleatório entre 1 e 2
+      1.8740445361226983

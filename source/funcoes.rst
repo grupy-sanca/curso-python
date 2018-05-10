@@ -226,7 +226,9 @@ Mai tá legal isso! Quero a tabuada do 1 ao 10 agora! Bora!
         10 * 9 = 90
         10 * 10 = 100
 
+
+----------
 Exercícios
-==========
+----------
 
 .. include:: exercicios_funcoes.rst
