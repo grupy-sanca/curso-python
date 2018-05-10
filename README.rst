@@ -47,7 +47,7 @@ How to generate instructor's guide
 
 .. code:: sh
 
-    $ SPHINXOPTS="-t instructors-guide" make html
+    $ SPHINXOPTS="-t instructors" make html
 
 
 LICENSE

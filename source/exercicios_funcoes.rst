@@ -102,13 +102,15 @@
    Para sortear um número aleatório entre :math:`a` e :math:`b` utilize a
    função `uniform(a, b)` do módulo `random`. Exemplo:
 
+
    .. doctest::
 
       >>> import random
       >>> random.uniform(1, 2) # número aleatório entre 1 e 2
       1.8740445361226983
 
-   .. only:: instructors-guide
+
+   .. only:: instructors
 
       .. code:: python
 
