@@ -99,3 +99,26 @@
       >>> import random
       >>> random.uniform(1, 2) # número aleatório entre 1 e 2
       1.8740445361226983
+
+   .. only:: latexpdf
+
+      .. code:: python
+
+         import random
+
+         def pi(N):
+             M = 0
+             for i in range(N):
+                 x, y = random.uniform(0, 1), random.uniform(0, 1) # cosideramos R = 1
+
+                 if (x**2 + y**2 < 1):
+                     M += 1
+
+             return 4 * M / N
+
+         print(pi(100))
+         print(pi(1000))
+         print(pi(10000))
+         print(pi(100000))
+         print(pi(1000000))
+         print(pi(10000000)) # demora um pouquinho :P
