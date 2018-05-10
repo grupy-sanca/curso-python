@@ -100,7 +100,7 @@
       >>> random.uniform(1, 2) # número aleatório entre 1 e 2
       1.8740445361226983
 
-   .. only:: latexpdf
+   .. only:: instructors-guide
 
       .. code:: python
 

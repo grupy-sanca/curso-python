@@ -1,4 +1,3 @@
-=============
 Python Course
 =============
 
@@ -15,7 +14,6 @@ Find us in `Facebook <https://www.facebook.com/grupysanca/>`_ and
 `Telegram <https://t.me/grupysanca>`_
 
 
-------------------
 How to use locally
 ------------------
 
@@ -44,8 +42,14 @@ How to use locally
    in your favorite pdf viewer.
 
 
+How to generate instructor's guide
+----------------------------------
 
--------
+.. code:: sh
+
+    $ SPHINXOPTS="-t instructors-guide" make html
+
+
 LICENSE
 -------
 
