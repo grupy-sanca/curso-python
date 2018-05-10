@@ -1,7 +1,14 @@
+#. Faça uma função que determina se um número é par ou ímpar. Use o ``%`` para
+   determinar o resto de uma divisão. Por exemplo: ``3 % 2 = 1`` e ``4 % 2 = 0``
+
 #. Faça uma função que calcule a área de um círculo. Insira o raio como
    argumento.
 
-   **Dica:** faça a importação de ``math`` e use PI de lá.
+   **Dica:** faça a importação de ``math`` e use :math:`\pi` de lá.
+
+   .. math::
+
+            A = \pi R^2
 
 #. Crie uma função que receba um valor de temperatura em Fahrenheit e transforme
    em Celsius.
@@ -11,9 +18,6 @@
         .. math::
 
                 \frac{C}{5} = \frac{F - 32}{9}
-
-#. Faça uma função que determina se um número é par ou ímpar. Use o ``%`` para
-   determinar o resto de uma divisão. Por exemplo: ``3 % 2 = 1`` e ``4 % 2 = 0``
 
 #. Crie uma função que receba 3 valores e calcula as raízes da fórmula de
    Bháskara.
@@ -47,14 +51,18 @@
    retorne ``True`` se forem anagramas ou False caso contrário.
 
 #. Escreva uma função que dado um número, calcule o fatorial desse número.
-   Por exemplo, fatorial de 5: :math:`5! = 5*4*3*2*1 = 120`
+   Por exemplo, fatorial de 5:
+
+    .. math::
+
+        5! = 5 \cdot 4 \cdot 3 \cdot 2 \cdot 1 = 120
 
 #. Crie uma função que aproxima a função matemática seno, utilizando a seguinte
    equação:
 
    .. math::
 
-        \sum_{n=0}^{\infty} \frac{(-1)^n}{(2n+1)!} \cdot x^{2n+1}
+        \sin(x) = \sum_{n=0}^{\infty} \frac{(-1)^n}{(2n+1)!} \cdot x^{2n+1}
 
 #. Calcule :math:`\pi` usando um método de Monte Carlo.
 
