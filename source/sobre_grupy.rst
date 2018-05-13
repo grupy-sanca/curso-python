@@ -11,19 +11,19 @@ Cursos e workshops de programação
 
 .. figure:: images/sobre/curso01.jpg
    :align: center
-   :width: 80%
+   :width: 70%
 
 .. figure:: images/sobre/curso02.jpg
    :align: center
-   :width: 80%
+   :width: 70%
 
 .. figure:: images/sobre/curso03.jpg
    :align: center
-   :width: 80%
+   :width: 70%
 
 .. figure:: images/sobre/curso04.jpg
    :align: center
-   :width: 80%
+   :width: 70%
 
 
 Palestras
@@ -31,11 +31,11 @@ Palestras
 
 .. figure:: images/sobre/palestras01.jpg
    :align: center
-   :width: 80%
+   :width: 70%
 
 .. figure:: images/sobre/palestras02.jpg
    :align: center
-   :width: 80%
+   :width: 70%
 
 
 Coding Dojos
@@ -43,11 +43,11 @@ Coding Dojos
 
 .. figure:: images/sobre/dojo01.jpg
    :align: center
-   :width: 80%
+   :width: 70%
 
 .. figure:: images/sobre/dojo02.jpg
    :align: center
-   :width: 80%
+   :width: 70%
 
 
 Eventos
@@ -55,19 +55,19 @@ Eventos
 
 .. figure:: images/sobre/eventos01.jpg
    :align: center
-   :width: 80%
+   :width: 70%
 
 .. figure:: images/sobre/eventos02.jpg
    :align: center
-   :width: 80%
+   :width: 70%
 
 .. figure:: images/sobre/eventos03.jpg
    :align: center
-   :width: 80%
+   :width: 70%
 
 .. figure:: images/sobre/eventos04.jpg
    :align: center
-   :width: 80%
+   :width: 70%
 
 
 Sprints
@@ -75,11 +75,11 @@ Sprints
 
 .. figure:: images/sobre/sprint01.jpg
    :align: center
-   :width: 80%
+   :width: 70%
 
 .. figure:: images/sobre/sprint02.jpg
    :align: center
-   :width: 80%
+   :width: 70%
 
 
 Encontros casuais
@@ -87,11 +87,11 @@ Encontros casuais
 
 .. figure:: images/sobre/bar01.jpg
    :align: center
-   :width: 80%
+   :width: 70%
 
 .. figure:: images/sobre/bar02.jpg
    :align: center
-   :width: 80%
+   :width: 70%
 
 
 História
@@ -118,8 +118,24 @@ Para saber mais sobre os eventos organizados pelo grupy-sanca acesse:
 
   - `Site oficial <http://www.grupysanca.com.br>`_
 
+    .. only:: latex
+
+       www.grupysanca.com.br
+
   - `Facebook <https://www.facebook.com/grupysanca/>`_
+
+    .. only:: latex
+
+       facebook.com/grupysanca
 
   - `Meetup <https://www.meetup.com/grupy-sanca>`_
 
+    .. only:: latex
+
+       meetup.com/grupy-sanca
+
   - `Telegram <https://t.me/grupysanca>`_
+
+    .. only:: latex
+
+       t.me/grupysanca

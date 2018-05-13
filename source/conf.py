@@ -108,7 +108,7 @@ latex_elements = {
 
     # Additional stuff for the LaTeX preamble.
     #
-    # 'preamble': '',
+     'preamble': '\usepackage[section]{placeins}',
 
     # Latex figure (float) alignment
     #
