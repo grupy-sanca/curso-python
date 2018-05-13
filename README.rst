@@ -50,6 +50,15 @@ How to generate instructor's guide
     $ SPHINXOPTS="-t instructors" make html
 
 
+How to contribuite
+------------------
+
+Fork this repo, make your changes and open a Pull Request.
+
+Don't forget to add your name to `source/contribuidores.rst`. Please, keep the
+list in alphabetical order.
+
+
 LICENSE
 -------
 

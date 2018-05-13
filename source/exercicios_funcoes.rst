@@ -62,7 +62,79 @@
 
    .. math::
 
-        \sin(x) = \sum_{n=0}^{\infty} \frac{(-1)^n}{(2n+1)!} \cdot x^{2n+1}
+        \sin(x) = \sum_{n=0}^{\infty} \frac{(-1)^n}{(2n+1)!} x^{2n+1}
+
+   Essa e a expansão em Série de *Taylor* da função. Note que esta é uma série
+   infinita! A sua função deve truncar a série em algum momento, ou seja, sua
+   função vai calcular uma aproximação para o seno de um ângulo:
+
+   .. math::
+
+        \sin(x) \approx \sum_{n=0}^{N} \frac{(-1)^n}{(2n+1)!} x^{2n+1}
+
+   Note que, quanto maior o valor de N, melhor é a aproximação. Mas isso tem um
+   custo: maior vai ser o número de termos nessa série e consequentemente, maior
+   o tempo de execução desse código.
+
+   Uma possibilidade é estipular previamente uma *precisão* a ser atingida pelo
+   código. Ou seja, definimos o desvio máximo :math:`\epsilon` que nossa
+   aproximação tem com relação ao valor exato! Isso é feito comparando dois termos
+   consecutivos da série: se a diferença entre eles (em valor absoluto!) for menor
+   que :math:`\epsilon`, atingimos a precisão desejada.
+
+   Implemente, então, uma função que receba como argumentos:
+
+   * :math:`x`: o ângulo (em radianos!!).
+
+   * :math:`N_\mathrm{max}`: o número máximo de iterações.
+
+   * :math:`\epsilon`: a precisão da aproximação.
+
+   e calcule uma aproximação para :math:`\sin(x)` usando duas condições de parada:
+   número máximo de termos na série é :math:`N_\mathrm{max}` **e** precisäo
+   :math:`\epsilon`.
+
+   .. only:: instructors
+
+      Exemplo de solução:
+
+      .. code:: python
+
+         import math
+
+         def seno(x, Nmax = 137, eps = 1e-8):
+             n = 0
+             diff = 42 * eps
+             soma = 0
+
+             while(n <= Nmax and abs(diff) > eps):
+                 termo = (-1)**n * x**(2*n + 1) / fatorial(2*n + 1)
+                 soma += termo
+
+                 diff = termo
+                 n += 1
+
+             return soma
+
+
+         def fatorial(N):
+             fat = 1
+             while(N > 1):
+                 fat = fat * N
+                 N -= 1
+
+             return fat
+
+
+         for i in range(1, 200):
+             alpha = i * math.pi / 180 # converte o angulo pra radiano
+
+             approx = seno(alpha)
+             error = abs(approx - math.sin(alpha))
+
+             print(approx, error)
+
+
 
 #. Calcule :math:`\pi` usando um método de Monte Carlo.
 
@@ -112,16 +184,18 @@
 
    .. only:: instructors
 
+      Exemplo de solução:
+
       .. code:: python
 
          import random
 
-         def pi(N):
+         def pi(N, R = 1):
              M = 0
              for i in range(N):
-                 x, y = random.uniform(0, 1), random.uniform(0, 1) # cosideramos R = 1
+                 x, y = random.uniform(-R, R), random.uniform(-R, R)
 
-                 if (x**2 + y**2 < 1):
+                 if (x**2 + y**2 < R**2):
                      M += 1
 
              return 4 * M / N
