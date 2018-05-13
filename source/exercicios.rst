@@ -70,7 +70,7 @@ Estruturas de repetiçao
 .. include:: exercicios_repeticao.rst
 
 
-Funçoes
+Funções
 -------
 
 .. include:: exercicios_funcoes.rst

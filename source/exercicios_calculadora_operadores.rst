@@ -6,7 +6,7 @@
    menos 75% delas. Ele quer saber quantas aulas pode faltar, sabendo que tem
    duas aulas por semana, durante quatro meses. Ajude o Davinir!
 
-#. Calcule a área de um círculo de raio :math;`r = 2`.
+#. Calcule a área de um círculo de raio :math:`r = 2`.
 
    Lembrete: a área de um círculo de raio :math:`r` é:
 
