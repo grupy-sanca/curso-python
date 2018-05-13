@@ -1,4 +1,15 @@
-#. Quantos segundos há em 3 horas, 23 minutos e 17 segundos?
+#. Calcule o resto da divisão de 10 por 3.
 
-#. Se você correr 65 quilômetros em 3 horas, 23 minutos e 17 segundos, qual
-   é a sua velocidade média em m/s?
+#. Calcule a tabuada do 13.
+
+#. Davinir não gosta de ir às aulas. Mas ele é obrigado a comparecer a pelo
+   menos 75% delas. Ele quer saber quantas aulas pode faltar, sabendo que tem
+   duas aulas por semana, durante quatro meses. Ajude o Davinir!
+
+#. Calcule a área de um círculo de raio :math;`r = 2`.
+
+   Lembrete: a área de um círculo de raio :math:`r` é:
+
+   .. math::
+
+      A_\circ = \pi \, r^2

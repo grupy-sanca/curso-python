@@ -1,6 +1,4 @@
-#. Calcule o resto da divisão de 10 por 3.
-
-#. Resolva essa expressão numérica usando Python:
+#. Resolva essa expressão:
 
    .. math::
 
@@ -9,7 +7,7 @@
 #. Você e os outros integrantes da sua república (Joca, Moacir, Demival e
    Jackson) foram no supermercado e compraram alguns itens:
 
-   - 75 latas de cerveja: R\$ 2,20 cada (da ruim ainda, aka Itaipava, pra fazer o dinheiro render)
+   - 75 latas de cerveja: R\$ 2,20 cada (da ruim ainda, pra fazer o dinheiro render)
 
    - 2 pacotes de macarrão: R\$ 8,73 cada
 
@@ -22,3 +20,8 @@
    - 450g de pães franceses: R\$ 25/kg
 
    Calcule quanto ficou para cada um.
+
+#. Quantos segundos há em 3 horas, 23 minutos e 17 segundos?
+
+#. Se você correr 65 quilômetros em 3 horas, 23 minutos e 17 segundos, qual
+   é a sua velocidade média em m/s?
