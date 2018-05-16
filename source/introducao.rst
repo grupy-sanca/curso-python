@@ -65,55 +65,11 @@ Em programação, é muito comum utilizar a palavra `imprimir` (ou `print`, em
 inglês) como sinônimo de mostrar algo na tela.
 
 
-IDLE
-----
-
-Para usuários Windows é recomendado utilizar o `IDLE`. Ele é composto pelo interpretador do Python e um editor de texto para criar programas.
-Após seguir o :ref:`intro-instalacao`, o menu inicial deve estar da seguinte
-forma:
-
-.. figure:: images/idle1.png
-   :align: center
-   :scale: 80%
-
-Ao abrir o `IDLE (Python 3.X)`, aparecerá uma janela como na
-imagem abaixo:
-
-.. figure:: images/idle2.png
-   :align: center
-   :scale: 80%
-
-No `IDLE` é possível digitar comandos para o interpretador do Python e, também,
-é possível criar e digitar em um arquivo. Para fazer isso, no menu clique em
-`File` -> `New File` (Ou pressione as teclas `Ctrl` + `N` juntas)
-
-.. figure:: images/idle3.png
-   :align: center
-   :scale: 80%
-
-Para rodar um programa, clique em `Run` -> `Run Module` (Ou aperte a tecla `F5`)
-
-.. figure:: images/idle4.png
-   :align: center
-   :scale: 80%
-
-Caso o arquivo ainda não tenha sido salvo, é necessário salvá-lo antes de
-executá-lo. Não esqueça de prefixar o nome do arquivo com `.py`
-(extensão do Python):
-
-.. figure:: images/idle5.png
-   :align: center
-   :scale: 80%
-
-Após isso, o resultado da execução do código deve aparecer na janela anterior do `IDLE`:
-
-.. figure:: images/idle6.png
-   :align: center
-   :scale: 80%
-
-
 Função print
 ------------
+
+``print()`` é uma função nativa do Python. Basta colocar algo dentro dos
+parênteses que o Python se encarrega de fazer a magia de escrever na tela :)
 
 Erros comuns
 ~~~~~~~~~~~~

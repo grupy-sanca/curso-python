@@ -99,3 +99,59 @@ Parabéns, agora o Python está intalado em sua máquina!
 .. _Mac OS X do Python: https://www.python.org/downloads/mac-osx/
 .. _x86_64: https://www.python.org/ftp/python/3.6.5/python-3.6.5-amd64.exe
 .. _x86: https://www.python.org/ftp/python/3.6.5/python-3.6.5.exe
+
+
+Ambientes de Desenvolvimento
+============================
+
+Há diversos programas para desenvolvermos códigos, alguns são mais bonitinhos,
+outros são mais poderosos, alguns são mais simples e amigaveis. Dê uma olhada
+nesta seção e escolha o que você achar mais interessante. Somente você pode
+responder à pergunta "Qual o melhor ambiente de desenvolvimento para *mim*?"
+
+
+IDLE
+----
+
+Para usuários Windows é recomendado utilizar o `IDLE`. Ele é composto pelo interpretador do Python e um editor de texto para criar programas.
+Após seguir o :ref:`intro-instalacao`, o menu inicial deve estar da seguinte
+forma:
+
+.. figure:: images/idle1.png
+   :align: center
+   :scale: 80%
+
+Ao abrir o `IDLE (Python 3.X)`, aparecerá uma janela como na
+imagem abaixo:
+
+.. figure:: images/idle2.png
+   :align: center
+   :scale: 80%
+
+No `IDLE` é possível digitar comandos para o interpretador do Python e, também,
+é possível criar e digitar em um arquivo. Para fazer isso, no menu clique em
+`File` -> `New File` (Ou pressione as teclas `Ctrl` + `N` juntas)
+
+.. figure:: images/idle3.png
+   :align: center
+   :scale: 80%
+
+Para rodar um programa, clique em `Run` -> `Run Module` (Ou aperte a tecla `F5`)
+
+.. figure:: images/idle4.png
+   :align: center
+   :scale: 80%
+
+Caso o arquivo ainda não tenha sido salvo, é necessário salvá-lo antes de
+executá-lo. Não esqueça de prefixar o nome do arquivo com `.py`
+(extensão do Python):
+
+.. figure:: images/idle5.png
+   :align: center
+   :scale: 80%
+
+Após isso, o resultado da execução do código deve aparecer na janela anterior do `IDLE`:
+
+.. figure:: images/idle6.png
+   :align: center
+   :scale: 80%
