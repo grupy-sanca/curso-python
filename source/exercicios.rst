@@ -2,6 +2,8 @@
 Exercícios
 ==========
 
+Neste capítulo estão listados todos os exercícios apresentados no curso.
+
 Operadores Matemáticos
 ----------------------
 
