@@ -43,7 +43,7 @@ author = 'Grupy-Sanca'
 # built documents.
 #
 # The short X.Y version.
-version = '2.2.3'
+version = '2.2.4'
 # The full version, including alpha/beta/rc tags.
 release = version
 
