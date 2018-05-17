@@ -6,7 +6,7 @@
    do Arduino. Cada pino fornece :math:`5\, V`. Joilson sabe que tem que ligar
    um resistor em série com o LED para não queimar. Calcule o valor do
    resistor que deve ser ligado para cada um desses LEDs, sabendo que a corrente
-   de operação de cada um dos LEDs é de >matm:`20\, mA`:
+   de operação de cada um dos LEDs é de :math:`20\, mA`:
 
    - LED vermelho: opera em :math:`2.0\, V`
 

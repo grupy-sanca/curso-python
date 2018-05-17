@@ -1,17 +1,29 @@
 Sobre o grupy-sanca
 ===================
 
-O grupy-sanca (Grupo Usuários Python de São Carlos) reúne pessoas interessadas
-em desenvolvimento de software e na linguagem Python. Realizamos periodicamente
-diversos eventos, dentre eles:
+O grupy-sanca (Grupo de Usuários Python de São Carlos) é uma comunidade que
+reúne pessoas interessadas em desenvolvimento de software e na linguagem
+Python. Prezamos pela troca de conhecimento, respeito mútuo e diversidade
+(tanto de opinião quanto de tecnologias).
+
+Somos um grupo da cidade de São Carlos (SP) e região. Realizamos
+periodicamente diversos eventos, dentre eles:
 
 
-Cursos e workshops de programação
----------------------------------
+Cursos e oficinas de programação
+--------------------------------
+
+Oferecemos cursos básicos de Python e também sobre alguns assuntos específicos.
 
 .. figure:: images/sobre/curso01.jpg
    :align: center
    :width: 70%
+
+   Nosso primeiro curso de Python \\o/
+
+   Realizado em 25 de março de 2017, no ICMC - USP - São Carlos.
+   Tivemos ~200 inscritos! 81 participantes! 4 ministrantes! 8 monitores!!
+   2 *coffee-breaks*! 4 garrafas térmicas: café e chá!
 
 .. figure:: images/sobre/curso02.jpg
    :align: center
@@ -21,12 +33,18 @@ Cursos e workshops de programação
    :align: center
    :width: 70%
 
+   Curso de Python no IFSC!
+
+   Realizado em 01 de Julho de 2017, no IFSC - USP - São Carlos.
+   Tivemos ~100 inscritos! 38 participantes! 2 ministrantes! 3 monitores!!
+   2 *coffee-breaks*! 2 garrafas térmicas com apenas café :P
+
 .. figure:: images/sobre/curso04.jpg
    :align: center
    :width: 70%
 
 
-Palestras
+Pylestras
 ---------
 
 .. figure:: images/sobre/palestras01.jpg

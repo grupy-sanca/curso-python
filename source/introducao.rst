@@ -1,6 +1,12 @@
 Introdução
 ==========
 
+.. colocar aqui uma motivação sobre pq python é foda!
+
+   pq usar python?
+
+   Alguns exemplos de uso de python (web, desktop, etc), empresas que usam python
+   e como usam, alguns usos científicos de python.
 
 Hello World
 -----------

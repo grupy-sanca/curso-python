@@ -53,7 +53,7 @@
 
    Calcule quanto ficou para cada um.
 
-#. Denizete gosta de bolinhas de queijo. Ela quer saber quantas bolinhas de
+#. Krissia gosta de bolinhas de queijo. Ela quer saber quantas bolinhas de
    queijo dá para colocar dentro de um pote de sorvete de :math:`2\, L`. Ela
    pensou assim::
 
@@ -70,4 +70,4 @@
    ocupado pelas bolinhas de queijo. Ou seja, :math:`74 \%` do pote de sorvete
    vai ser ocupado pelas bolinhas de queijo.
 
-   Ajude a Denizete descobrir quantas bolinhas de queijo cabem no pote de sorvete!
+   Ajude a Krissia descobrir quantas bolinhas de queijo cabem no pote de sorvete!
