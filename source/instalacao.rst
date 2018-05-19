@@ -105,13 +105,25 @@ Ambientes de Desenvolvimento
 ============================
 
 Há diversos programas para desenvolvermos códigos, alguns são mais bonitinhos,
-outros são mais poderosos, alguns são mais simples e amigaveis. Dê uma olhada
-nesta seção e escolha o que você achar mais interessante. Somente você pode
-responder à pergunta "Qual o melhor ambiente de desenvolvimento para *mim*?"
+outros são mais poderosos, alguns são mais simples, outros são mais amigaveis.
+Dê uma olhada nesta seção e escolha o que você achar mais interessante. Somente
+você pode responder à pergunta "Qual o melhor ambiente de desenvolvimento para
+*mim*?"
 
+Linha de comando
+----------------
+
+.. explicar que tem que abrir um editor de texto e o shell para trabalhra com arquivos
+
+.. colocar aqui como abrir o shell do python no windows e no Linux
+
+.. colocar aqui o ipython
+
+IDE
+---
 
 IDLE
-----
+~~~~
 
 Para usuários Windows é recomendado utilizar o `IDLE`. Ele é composto pelo interpretador do Python e um editor de texto para criar programas.
 Após seguir o :ref:`intro-instalacao`, o menu inicial deve estar da seguinte
@@ -155,3 +167,5 @@ Após isso, o resultado da execução do código deve aparecer na janela anterio
 .. figure:: images/idle6.png
    :align: center
    :scale: 80%
+
+.. colocar aqui outras IDEs

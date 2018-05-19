@@ -130,7 +130,7 @@
              alpha = i * math.pi / 180 # converte o angulo pra radiano
 
              approx = seno(alpha)
-             error = abs(approx - math.sin(alpha))
+             error = abs(approx - math.sin(alpha)) # erro dessa aproximação
 
              print(approx, error)
 
@@ -201,65 +201,3 @@
              return 4 * M / N
 
          print(pi(10000000)) # demora um pouquinho :P
-
-#. D3yver50n resolveu minerar criptomoedas. Ele decidiu minerar *Ethereum* e viu
-   que :math:`1\, ETH = $687.86\, USD` e :math:`$1\, USD = R$3.59`. Ele comprou
-   o seguinte computador:
-
-   - 5 placas de vídeo: GTX1080 TI, cada uma por R$5270,90
-
-   - 1 placa mãe: ASRock H110 Pro, por R$920
-
-   - 1 fonte: 1000 W, por R$1149,90
-
-   - 1 HD: 1 TB, SATA3, 7200 RPM por R$208,90
-
-   - 2 pentes de memória: 4 GB, DDR4, 2400 MHZ, cada um por R$259,90
-
-   - 1 CPU: Intel Core i5-8500 por R$899,90
-
-   E resolveu montar usando uma estante de madeira e dois tijolos, para coolear
-   melhor:
-
-   .. figure:: images/cluster.jpg
-      :align: center
-      :width: 70%
-
-   Essas GPUs conseguem minerar Ethereum a uma taxa de :math:`\approx 27 Mh/s`
-   (mega hash / s). Cada bloco minerado dá uma recompensa de 3 ETH.
-   Considere a dificuldade da rede de :math:`3.29 \cdot 10^{15}`,
-   o *block time* médio de :math:`15.44\, s`.
-
-   Para calcular quantos dólares por segundo ele vai ganhar com esse computador,
-   D3yver50n fez as seguintes contas:
-
-   .. math::
-
-        ETH / s = \mathrm{cluster\_ratio} \frac{recompensa}{\mathrm{block\_time}}
-
-   O cluster_ratio é calculado como:
-
-   .. math::
-
-      \mathrm{cluster\_ratio} = n_\mathrm{GPU} \frac{\mathrm{GPU\_hashrate}}{\mathrm{network\_hashrate}}
-
-   onde :math:`n_\mathrm{GPU}` é o número de placas de vídeo que ele tem.
-   O network_hashrate é calculado como:
-
-   .. math::
-
-      \mathrm{network\_hashrate} = \frac{\mathrm{dificuldade}}{\mathrm{block\_time}}
-
-   a. Calcule quantos ETH por segundo D3yver50n vai ganhar com esse PC.
-
-   b. Calcule quantos dólares por segundo ele vai ganhar.
-
-   c. Calcule quanto ele vai pagar de energia elétrica por segundo para manter
-      esse computador ligado, sabendo que o custo de energia elétrica é de
-      :math:`0.008 \mathrm{centavos} / kW`.
-
-   d. Após um mês, quantos ETH ele vai ganhar? Isso equivale a quantos reais?
-      Quanto de energia elétrica ele vai gastar? Deu lucro ou prejuízo?
-
-   e. Se ele teve lucro, após quanto tempo ele ganha o dinheiro que investiu
-      no computador de volta?
