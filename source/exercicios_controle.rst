@@ -1,8 +1,14 @@
 #. Escreva um programa que, dados 2 números diferentes (a e b), encontre o menor
    deles.
 
-#. Para doar sangue é necessário ter entre 18 e 67 anos. Faça um programa que
-   pergunte a idade de uma pessoa e diga se ela pode doar sangue ou não.
+#. Para doar sangue é necessário [1]_:
+
+   - Ter entre 16 e 69 anos.
+   - Pesar mais de 50 kg.
+   - Estar descansado (ter dormido pelo menos 6 horas nas últimas 24 horas).
+
+   Faça um programa que pergunte a idade, o peso e quanto dormiu nas últimas
+   24 h para uma pessoa e diga se ela pode doar sangue ou não.
 
 #. Considere uma equação do segundo grau
    :math:`f(x) = a \cdot x^2 + b \cdot x + c`.
@@ -23,3 +29,6 @@
 #. Leia um número inteiro entre 1 e 12 e escrever o mês correspondente. Caso o
    usuário digite um número fora desse intervalo, deverá aparecer uma mensagem
    informando que não existe mês com este número.
+
+.. [1] Para mais informações sobre doação de sangue, acesse
+       http://www.prosangue.sp.gov.br/artigos/requisitos_basicos_para_doacao.html
