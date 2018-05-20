@@ -62,34 +62,34 @@ A seguir, o aquivo deve ser executado e a seguinte imagem aparecerá:
 
 .. figure:: images/install1.png
    :align: center
-   :scale: 80%
+   :width: 80%
 
 Deve ser selecionado a opção `Add Python 3.6 to PATH`, e deve ser clicado na
 opção 'Customize installation'
 
 .. figure:: images/install2.png
    :align: center
-   :scale: 80%
+   :width: 80%
 
 Clique em 'Next'
 
 .. figure:: images/install3.png
    :align: center
-   :scale: 80%
+   :width: 80%
 
 Selecionar a opção `Install for all users` e clicar em `Install`. Então, uma
 janela pedindo permissão de administrador deve aparecer, é necessário aceitar
 
 .. figure:: images/install4.png
    :align: center
-   :scale: 80%
+   :width: 80%
 
 Selecione `Disable path lenght limit` e, novamente, uma janela de permissão de
 administrador irá aparecer, é necessário aceitar
 
 .. figure:: images/install5.png
    :align: center
-   :scale: 80%
+   :width: 80%
 
 Clique em `Close`
 
@@ -131,14 +131,14 @@ forma:
 
 .. figure:: images/idle1.png
    :align: center
-   :scale: 80%
+   :width: 80%
 
 Ao abrir o `IDLE (Python 3.X)`, aparecerá uma janela como na
 imagem abaixo:
 
 .. figure:: images/idle2.png
    :align: center
-   :scale: 80%
+   :width: 80%
 
 No `IDLE` é possível digitar comandos para o interpretador do Python e, também,
 é possível criar e digitar em um arquivo. Para fazer isso, no menu clique em
@@ -146,13 +146,13 @@ No `IDLE` é possível digitar comandos para o interpretador do Python e, també
 
 .. figure:: images/idle3.png
    :align: center
-   :scale: 80%
+   :width: 80%
 
 Para rodar um programa, clique em `Run` -> `Run Module` (Ou aperte a tecla `F5`)
 
 .. figure:: images/idle4.png
    :align: center
-   :scale: 80%
+   :width: 80%
 
 Caso o arquivo ainda não tenha sido salvo, é necessário salvá-lo antes de
 executá-lo. Não esqueça de prefixar o nome do arquivo com `.py`
@@ -160,12 +160,12 @@ executá-lo. Não esqueça de prefixar o nome do arquivo com `.py`
 
 .. figure:: images/idle5.png
    :align: center
-   :scale: 80%
+   :width: 80%
 
 Após isso, o resultado da execução do código deve aparecer na janela anterior do `IDLE`:
 
 .. figure:: images/idle6.png
    :align: center
-   :scale: 80%
+   :width: 80%
 
 .. colocar aqui outras IDEs

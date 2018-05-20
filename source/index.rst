@@ -7,6 +7,9 @@ Curso Introdutório de Python
    pessoas sem experiência em desenvolvimento ou iniciantes que não conheçam a
    linguagem Python.
 
+   A duração estimada para este curso é de cerca de 8 horas, mas esse tempo
+   pode variar dependendo do tamanho da turma e da disponibilidade de café.
+
 .. toctree::
    :maxdepth: 2
    :caption: Conteúdo:
