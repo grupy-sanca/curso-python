@@ -38,18 +38,6 @@
          print(MA, MG, MH)
          5.0024999999999995 3.901309628628489 2.662425726074314
 
-#. Joilson está aprendendo Arduino. Ele quer ligar LEDs nas saídas digitais
-   do Arduino. Cada pino fornece :math:`5\, V`. Joilson sabe que tem que ligar
-   um resistor em série com o LED para não queimar. Calcule o valor do
-   resistor que deve ser ligado para cada um desses LEDs, sabendo que a corrente
-   de operação de cada um dos LEDs é de :math:`20\, mA`:
-
-   - LED vermelho: opera em :math:`2.0\, V`
-
-   - LED verde: opera em :math:`3.2\, V`
-
-   - LED roxo: opera em :math:`3.7\, V`
-
 #. Josefson deseja fazer compras na China. Ela quer comprar
    um celular de :math:`\mathrm{USD}\, 299{,}99`,
    uma chaleira de :math:`\mathrm{USD}\, 23{,}87`,
@@ -227,3 +215,15 @@
 
          Custo do hardware (R$):  30053.000000000004
          Tempo para recuperar investimento (em meses):  66.18018563591343
+
+#. Joilson está aprendendo Arduino. Ele quer ligar LEDs nas saídas digitais
+   do Arduino. Cada pino fornece :math:`5\, V`. Joilson sabe que tem que ligar
+   um resistor em série com o LED para não queimar. Calcule o valor do
+   resistor que deve ser ligado para cada um desses LEDs, sabendo que a corrente
+   de operação de cada um dos LEDs é de :math:`20\, mA`:
+
+   - LED vermelho: opera em :math:`2.0\, V`
+
+   - LED verde: opera em :math:`3.2\, V`
+
+   - LED roxo: opera em :math:`3.7\, V`
