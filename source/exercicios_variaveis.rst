@@ -2,6 +2,42 @@
    salve esse valor em uma variável e utilize-o para calcular quanto você
    teria ao cambiar :math:`\mathrm{R}\$\, 65{,}00` para dólares.
 
+#. Abelindo é um professor muito malvado. Ele quer decidir como reprovar
+   Rondineli, que tirou 8.66, 5.35, 5 e 1, respectivamente nas provas
+   P1, P2, P3 e P4. Para isso, ele pode calcular a nota final usando média
+   aritmética (M.A.), média geométrica (M.G.) ou média harmônica (M.H.).
+
+   .. math::
+
+      M.A. = \frac{P_1 + P_2 + P_3 + P_4}{4}
+
+   .. math::
+
+      M.G. = \sqrt[4]{|P_1 P_2 P_3 P_4|}
+
+   .. math::
+
+      M.H. = \frac{4}{\frac{1}{P_1} + \frac{1}{P_2} + \frac{1}{P_3} + \frac{1}{P_4}}
+
+   Qual dessas médias dá a maior nota pra Rondineli? E qual das médias dá
+   a pior nota?
+
+   .. only:: instructors
+
+      Exemplo de solução:
+
+      .. code:: python
+
+         p1 = 8.66
+         p2 = 5.35
+         p3 = 5
+         p4 = 1
+         MA = (p1 + p2 + p3 + p4) / 4
+         MG = (p1 * p2 * p3 * p4)**(1/4)
+         MH = 4 / (1/p1 + 1/p2 + 1/p3 + 1/p4)
+         print(MA, MG, MH)
+         5.0024999999999995 3.901309628628489 2.662425726074314
+
 #. Joilson está aprendendo Arduino. Ele quer ligar LEDs nas saídas digitais
    do Arduino. Cada pino fornece :math:`5\, V`. Joilson sabe que tem que ligar
    um resistor em série com o LED para não queimar. Calcule o valor do

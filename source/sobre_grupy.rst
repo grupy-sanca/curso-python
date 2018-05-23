@@ -83,17 +83,29 @@ Eventos
    :align: center
    :width: 70%
 
+   Arduino Day em 2017
+
 .. figure:: images/sobre/eventos04.jpg
    :align: center
    :width: 70%
+
+   Curso de Arduino no *Software Freedom Day* em 2017 no IFSC - USP
 
 
 Sprints
 -------
 
+Sprints são maratonas de programação. Um grupo de pessoas se juntam no
+mesmo lugar para desenvolverem algum projeto novo, ou resolver *bugs*
+de algum software, ou implementar alguma funcionalidade nova.
+
 .. figure:: images/sobre/sprint01.jpg
    :align: center
    :width: 70%
+
+   *Hacktoberfest* de 2017 :)
+
+   Fizemos cerca de 50 *commits* esse dia \o/
 
 .. figure:: images/sobre/sprint02.jpg
    :align: center
@@ -102,6 +114,10 @@ Sprints
 
 Encontros casuais
 -----------------
+
+Também conhecidos como PyBares :)
+
+E em algumas situações, combinamos de conversar apenas *in english*!
 
 .. figure:: images/sobre/bar01.jpg
    :align: center
