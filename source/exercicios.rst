@@ -1,8 +1,8 @@
-==========
-Exercícios
-==========
+Exercícios e Desafios!
+======================
 
-Neste capítulo estão listados todos os exercícios apresentados no curso.
+Neste capítulo estão listados todos os exercícios apresentados no curso e
+também alguns desafios a mais!
 
 Calculadora
 -----------
