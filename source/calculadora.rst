@@ -167,7 +167,7 @@ Não esqueça que é preciso ter rodado ``import math`` antes de usar as funçõ
 e constantes dessa biblioteca.
 
 Exercícios
-~~~~~~~~~~
+----------
 
 .. include:: exercicios_calculadora_operadores.rst
 
@@ -213,7 +213,7 @@ O acrônimo **PEMDAS** ajuda a lembrar essa ordem:
 #. **A** dição e **S** subtração (mesma precedência)
 
 Exercícios
-~~~~~~~~~~
+----------
 
 .. include:: exercicios_calculadora_expressoes.rst
 

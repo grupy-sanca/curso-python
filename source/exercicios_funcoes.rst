@@ -181,6 +181,10 @@
       >>> random.uniform(1, 2) # número aleatório entre 1 e 2
       1.8740445361226983
 
+   Perceba que ao executar a função ``pi()`` várias vezes seguidas, o
+   resultado é sempre diferente. Então faça um laço para calcular ``pi()``
+   :math:`K` vezes, salve os resultados em uma lista e calcule o valor médio
+   e o desvio padrão.
 
    .. only:: instructors
 
@@ -190,7 +194,7 @@
 
          import random
 
-         def pi(N, R = 1):
+         def pi_(N = 10000, R = 1):
              M = 0
              for i in range(N):
                  x, y = random.uniform(-R, R), random.uniform(-R, R)
@@ -200,4 +204,13 @@
 
              return 4 * M / N
 
-         print(pi(10000000)) # demora um pouquinho :P
+         def pi(N = 10000, R = 1, K = 100):
+             pis = []
+
+             for i in range(K):
+                 pis.append(pi_(N, R))
+
+             import statistics # since python 3.4 :)
+             return statistics.mean(pis), statistics.variance(pis)
+
+         print(pi())

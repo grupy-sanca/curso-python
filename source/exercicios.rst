@@ -4,14 +4,16 @@ Exercícios
 
 Neste capítulo estão listados todos os exercícios apresentados no curso.
 
+Calculadora
+-----------
+
 Operadores Matemáticos
-----------------------
+~~~~~~~~~~~~~~~~~~~~~~
 
 .. include:: exercicios_calculadora_operadores.rst
 
-
 Expressões Numéricas
---------------------
+~~~~~~~~~~~~~~~~~~~~
 
 .. include:: exercicios_calculadora_expressoes.rst
 
@@ -20,6 +22,11 @@ Variaveis
 ---------
 
 .. include:: exercicios_variaveis.rst
+
+Desafios
+~~~~~~~~
+
+.. include:: desafios_variaveis.rst
 
 
 Strings
@@ -36,12 +43,10 @@ Declaração
 
 .. include:: exercicios_listas_declaracao.rst
 
-
 Remoção
 ~~~~~~~
 
 .. include:: exercicios_listas_del.rst
-
 
 Métodos
 ~~~~~~~~

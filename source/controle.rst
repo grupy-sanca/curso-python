@@ -1,4 +1,3 @@
-======================
 Estruturas de controle
 ======================
 
@@ -42,14 +41,7 @@ Exemplo:
         o valor de entrada não era esperado em nenhum if
 
 
-----------
 Exercícios
 ----------
 
 .. include:: exercicios_controle.rst
-
-
-Desafios
-~~~~~~~~
-
-.. include:: desafios_controle.rst

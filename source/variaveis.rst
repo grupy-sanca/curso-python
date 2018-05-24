@@ -159,7 +159,7 @@ Também funciona com multiplicação:
    6
 
 Exercicios
-~~~~~~~~~~
+----------
 
 .. include:: exercicios_variaveis.rst
 
@@ -950,6 +950,6 @@ atribuição de variáveis, por exemplo:
    4 3 2 1
 
 Exercicios
-~~~~~~~~~~
+----------
 
 .. include:: exercicios_string.rst

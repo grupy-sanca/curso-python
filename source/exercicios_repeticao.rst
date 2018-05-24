@@ -1,3 +1,5 @@
+#. Calcule a tabuada do 13.
+
 #. Ler do teclado uma lista com 5 inteiros e imprimir o menor valor.
 
 #. Ler do teclado uma lista com 5 inteiros e imprimir ``True`` se a lista

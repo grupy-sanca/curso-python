@@ -1,10 +1,8 @@
-======
 Listas
 ======
 
 Listas são estruturas de dados capazes de armazenar múltiplos elementos.
 
-----------
 Declaração
 ----------
 
@@ -32,12 +30,11 @@ A lista pode conter elementos de tipos diferentes:
         []
 
 Exercícios
-==========
+----------
 
 .. include:: exercicios_listas_declaracao.rst
 
 
--------
 Índices
 -------
 
@@ -132,7 +129,6 @@ Podemos avaliar se os elementos estão na lista com a palavra `in`:
         >>> len(lista_estranha[3])
         2
 
-------------------------
 Removendo itens da lista
 ------------------------
 
@@ -152,12 +148,11 @@ Devido à lista ser uma estrutura mutável, é possível remover seus elementos 
         ['duas palavras', 42, ['batman', 'robin'], -0.84]
 
 Exercícios
-==========
+----------
 
 .. include:: exercicios_listas_del.rst
 
 
--------------------
 Operação com listas
 -------------------
 
@@ -182,7 +177,6 @@ O operador :math:`*` repete a lista dado um número de vezes:
         [1, 2, 3, 1, 2, 3]
 
 
------------------
 Métodos de listas
 -----------------
 
@@ -278,7 +272,7 @@ Tudo o que for feito com ``l2`` nesse exemplo também altera ``l1`` e vice-versa
 
 
 Exercícios
-==========
+----------
 
 .. include:: exercicios_listas_metodos.rst
 
