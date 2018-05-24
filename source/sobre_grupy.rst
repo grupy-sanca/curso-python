@@ -29,11 +29,13 @@ Oferecemos cursos básicos de Python e também sobre alguns assuntos específico
    :align: center
    :width: 70%
 
+   Oficina de interfaces gráficas em Python :)
+
 .. figure:: images/sobre/curso03.jpg
    :align: center
    :width: 70%
 
-   Curso de Python no IFSC!
+   Curso de Python básico no IFSC!
 
    Realizado em 01 de Julho de 2017, no IFSC - USP - São Carlos.
    Tivemos ~100 inscritos! 38 participantes! 2 ministrantes! 3 monitores!!
@@ -42,6 +44,8 @@ Oferecemos cursos básicos de Python e também sobre alguns assuntos específico
 .. figure:: images/sobre/curso04.jpg
    :align: center
    :width: 70%
+
+   Curso de Python básico na UNESP de Rio Claro!!
 
 
 Pylestras
@@ -117,11 +121,19 @@ Encontros casuais
 
 Também conhecidos como PyBares :)
 
-E em algumas situações, combinamos de conversar apenas *in english*!
+A idéia é bater um papo sobre a vida, o universo e tudo mais e tomar uma
+cerveja (ou não).
+
+A comunidade Python vai muito além de escrever código Python, participar de
+oficinas/minicursos ou realizar encontros técnicos. Os encontros no bar tem
+como objetivo conectar pessoas e prover uma conversa descontraída entre os
+participantes.
 
 .. figure:: images/sobre/bar01.jpg
    :align: center
    :width: 70%
+
+E em algumas situações, combinamos de conversar apenas *in english*!
 
 .. figure:: images/sobre/bar02.jpg
    :align: center
