@@ -16,7 +16,7 @@
    - :math:`C_2 = 22  \, \mu F`
    - :math:`C_3 =  6.8\, \mu F`
 
-   Se ele ligar os três em paralelo, a capacitância resultante é:
+   Se ele ligar os três em paralelo, a capacitância resultante é a soma:
 
    .. math::
 

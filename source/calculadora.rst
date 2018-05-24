@@ -212,6 +212,29 @@ O acrônimo **PEMDAS** ajuda a lembrar essa ordem:
 
 #. **A** dição e **S** subtração (mesma precedência)
 
+Notação Científica
+------------------
+
+Notação científica em Python usa a letra ``e`` como sendo a
+potência de 10:
+
+.. doctest::
+
+   >>> 10e6
+   10000000.0
+   >>> 1e6
+   1000000.0
+   >>> 1e-5
+   1e-05
+
+Também pode ser usada a letra ``E`` maiúscula:
+
+.. doctest::
+
+   >>> 1E6
+   1000000.0
+
+
 Exercícios
 ----------
 
