@@ -108,7 +108,23 @@ latex_elements = {
 
     # Additional stuff for the LaTeX preamble.
     #
-     'preamble': '\usepackage[section]{placeins}',
+     'preamble': r"""
+                 \usepackage[section]{placeins}
+                 \makeatletter
+                   \fancypagestyle{normal}{
+                     \fancyhf{}
+                     \fancyfoot[LE,RO]{{\py@HeaderFamily\thepage}}
+                     \fancyfoot[LO]{{\py@HeaderFamily\nouppercase{\rightmark}}}
+                     \fancyfoot[RE]{{\py@HeaderFamily\nouppercase{\leftmark}}}
+                     \fancyhead[LE,RO]{{\py@HeaderFamily \@title, \py@release, CC BY-NC-SA 4.0}}
+                     \renewcommand{\headrulewidth}{0.4pt}
+                     \renewcommand{\footrulewidth}{0.4pt}
+                     % define chaptermark with \@chappos when \@chappos is available for Japanese
+                     \spx@ifundefined{@chappos}{}
+                       {\def\chaptermark##1{\markboth{\@chapapp\space\thechapter\space\@chappos\space ##1}{}}}
+                   }
+                 \makeatother
+                 """,
 
     # Latex figure (float) alignment
     #
@@ -124,6 +140,11 @@ latex_documents = [
 ]
 
 latex_logo = 'images/logo_small.png'
+
+latex_show_pagerefs = True
+
+latex_show_urls = 'footnote'
+
 
 # -- Options for manual page output ---------------------------------------
 
