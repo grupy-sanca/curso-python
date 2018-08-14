@@ -35,7 +35,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'Curso Introdutório de Python'
-copyright = '2017-2018, Grupy-Sanca'
+copyright = '2017-2018, (CC BY-NC-SA 4.0) Grupy-Sanca'
 author = 'Grupy-Sanca'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -43,7 +43,7 @@ author = 'Grupy-Sanca'
 # built documents.
 #
 # The short X.Y version.
-version = '2.3.1'
+version = '2.3.2'
 # The full version, including alpha/beta/rc tags.
 release = version
 

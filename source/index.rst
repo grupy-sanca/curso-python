@@ -20,6 +20,8 @@ Curso Introdutório de Python
 
    - em três dias seguidos: por cerca de duas ou duas horas e meia em cada dia.
 
+   Esse material está distribuido com a licensa `CC BY-NC-SA 4.0 <https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pt_BR>`_.
+
 .. toctree::
    :maxdepth: 2
    :caption: Conteúdo:
