@@ -31,6 +31,10 @@ Oferecemos cursos básicos de Python e também sobre alguns assuntos específico
 
    Oficina de interfaces gráficas em Python :)
 
+   Utilizando a bibliteca
+   [PyQt](https://riverbankcomputing.com/software/pyqt/intro) para desenvolver
+   interfaces gráficas em [Qt](https://www.qt.io/).
+
 .. figure:: images/sobre/curso03.jpg
    :align: center
    :width: 70%
@@ -51,6 +55,11 @@ Oferecemos cursos básicos de Python e também sobre alguns assuntos específico
 Pylestras
 ---------
 
+Evento com o objetivo de reunir a comunidade, compartilhar conhecimento e
+divulgar novas tecnologias.
+
+Obrigatoriamente, uma das palestras são é sobre Python.
+
 .. figure:: images/sobre/palestras01.jpg
    :align: center
    :width: 70%
@@ -63,21 +72,53 @@ Pylestras
 Coding Dojos
 ------------
 
-.. figure:: images/sobre/dojo01.jpg
-   :align: center
-   :width: 70%
+É um espaço para que as pessoas possam aprender, treinar e aprimorar suas
+habilidades em programação. O `coding dojo` é um ótimo lugar para aprender
+coisas novas.
+
+Em um `coding dojo` são propostos vários desafios e os participantes
+selecionam quais querem resolver. Após escolherem o desafio, as pessoas leem
+o problema, entendem e discutem como resolvê-lo. Com esses pontos resolvidos,
+começa a programação da solução. O desenvolvimento é feito em apenas um
+computador por duas pessoas programando por vez (`pair programming`). Sendo que
+a cada intervalo de 5 minutos as pessoas à frente do computador dão lugar para
+outras.
 
 .. figure:: images/sobre/dojo02.jpg
    :align: center
    :width: 70%
 
+Para o dojo fluir bem, adota-se o TDD (`Test Driven Development`), pois assim
+as pessoas pensam melhor em como o código será utilizado antes de desenvolver.
+Também segue-se o desenvolvimento por `baby steps` em que tenta-se dividir o
+problema em partes menores para resolvê-lo.
 
-Eventos
--------
+Ao término do dojo acontece uma retrospectiva em que as pessoas respondem
+três perguntas básicas: *o que foi aprendido?*; *o que pode ser melhorado?*
+e *o que deve continuar a ser feito?*. Isso serve para os participantes
+melhorarem nos dojos futuros. Por experiência do grupy-sanca, fazer isso
+realmente vale a pena :)
 
-.. figure:: images/sobre/eventos01.jpg
+.. figure:: images/sobre/dojo01.jpg
    :align: center
    :width: 70%
+
+   Antes ou depois do coding dojo acontece um coffee break comunitário. Mas já
+   aconteceu de ser durante também...
+
+Eventos 
+-------
+
+O grupy-sanca também organiza eventos singulares, únicos no universo.
+
+.. figure:: images/sobre/caipyras.JPG
+   :align: center
+   :width: 70%
+
+   `Caipyra 2018 <2018.caipyra.python.org.br>`_ - O único evento de Python com
+   Quentão e Paçoquinha!
+
+   237 participantes, ~40 litros de quentão, 1625 paçocas, 4 dias de evento!
 
 .. figure:: images/sobre/eventos02.jpg
    :align: center
@@ -87,13 +128,13 @@ Eventos
    :align: center
    :width: 70%
 
-   Arduino Day em 2017
+   Arduino Day em 2017, no ICMC - USP - São Carlos.
 
 .. figure:: images/sobre/eventos04.jpg
    :align: center
    :width: 70%
 
-   Curso de Arduino no *Software Freedom Day* em 2017 no IFSC - USP
+   Curso de Arduino no *Software Freedom Day* em 2017 no IFSC - USP - São Carlos.
 
 
 Sprints
