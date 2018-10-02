@@ -58,10 +58,10 @@ Pylestras
 Evento com o objetivo de reunir a comunidade, compartilhar conhecimento e
 divulgar novas tecnologias.
 
-Obrigatoriamente, uma das palestras são é sobre Python.
+Obrigatoriamente, uma das palestras não é sobre Python.
 
 .. figure:: images/sobre/palestras01.jpg
-   :align: center
+   :align: centen
    :width: 70%
 
 .. figure:: images/sobre/palestras02.jpg
