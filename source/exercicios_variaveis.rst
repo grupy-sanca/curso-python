@@ -3,7 +3,7 @@
    teria ao cambiar :math:`\mathrm{R}\$\, 65{,}00` para dólares.
 
 #. Abelindo é um professor muito malvado. Ele quer decidir como reprovar
-   Rondineli, que tirou 8.66, 5.35, 5 e 1, respectivamente nas provas
+   Rondineli, que tirou 8.66, 5.35, 5 e 1, respectivamente, nas provas
    P1, P2, P3 e P4. Para isso, ele pode calcular a nota final usando média
    aritmética (M.A.), média geométrica (M.G.) ou média harmônica (M.H.).
 
@@ -28,14 +28,14 @@
 
       .. code:: python
 
-         p1 = 8.66
-         p2 = 5.35
-         p3 = 5
-         p4 = 1
-         MA = (p1 + p2 + p3 + p4) / 4
-         MG = (p1 * p2 * p3 * p4)**(1/4)
-         MH = 4 / (1/p1 + 1/p2 + 1/p3 + 1/p4)
-         print(MA, MG, MH)
+         >>> p1 = 8.66
+         >>> p2 = 5.35
+         >>> p3 = 5
+         >>> p4 = 1
+         >>> MA = (p1 + p2 + p3 + p4) / 4
+         >>> MG = (p1 * p2 * p3 * p4)**(1/4)
+         >>> MH = 4 / (1/p1 + 1/p2 + 1/p3 + 1/p4)
+         >>> print(MA, MG, MH)
          5.0024999999999995 3.901309628628489 2.662425726074314
 
 #. Josefson deseja fazer compras na China. Ela quer comprar

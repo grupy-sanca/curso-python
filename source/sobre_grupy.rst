@@ -61,7 +61,7 @@ divulgar novas tecnologias.
 Obrigatoriamente, uma das palestras não é sobre Python.
 
 .. figure:: images/sobre/palestras01.jpg
-   :align: centen
+   :align: center
    :width: 70%
 
 .. figure:: images/sobre/palestras02.jpg
