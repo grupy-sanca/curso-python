@@ -10,6 +10,29 @@
 
    - LED roxo: opera em :math:`3.7\, V`
 
+   Lembre-se que a voltagem é a corrente multiplicada pela resistência:
+
+   .. math::
+
+      V = R I
+
+   .. only:: instructors
+
+      Exemplo de solução:
+
+      .. code:: python
+
+         >>> V_vermelho = 2
+         >>> V_verde    = 3.2
+         >>> V_roxo     = 3.7
+         >>> V_arduino  = 5
+         >>> I = 20e-3
+         >>> R_vermelho = (V_arduino - V_vermelho) / I
+         >>> R_verde    = (V_arduino - V_verde)    / I
+         >>> R_roxo     = (V_arduino - V_roxo)     / I
+         >>> print(R_vermelho, R_verde, R_roxo)
+         150.0, 89.99999999999999, 64.99999999999999
+
 #. D3yver50n resolveu minerar criptomoedas. Ele decidiu minerar *Ethereum* e viu
    que :math:`1\, ETH = $687.86\, USD` e :math:`$1\, USD = R$3.59`. Ele comprou
    o seguinte computador:

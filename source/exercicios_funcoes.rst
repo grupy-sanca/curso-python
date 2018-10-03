@@ -64,13 +64,13 @@
 
         \sin(x) = \sum_{n=0}^{\infty} \frac{(-1)^n}{(2n+1)!} x^{2n+1}
 
-   Essa e a expansão em Série de *Taylor* da função. Note que esta é uma série
+   Essa é a expansão em *Série de Taylor* da função. Note que esta é uma série
    infinita! A sua função deve truncar a série em algum momento, ou seja, sua
    função vai calcular uma aproximação para o seno de um ângulo:
 
    .. math::
 
-        \sin(x) \approx \sum_{n=0}^{N} \frac{(-1)^n}{(2n+1)!} x^{2n+1}
+        \sin(x) \approx \sum_{n=0}^{N} \frac{(-1)^n}{(2n+1)!} x^{2n+1} = \sum_{n=0}^{N} a_n = S_N
 
    Note que, quanto maior o valor de N, melhor é a aproximação. Mas isso tem um
    custo: maior vai ser o número de termos nessa série e consequentemente, maior
@@ -79,8 +79,12 @@
    Uma possibilidade é estipular previamente uma *precisão* a ser atingida pelo
    código. Ou seja, definimos o desvio máximo :math:`\epsilon` que nossa
    aproximação tem com relação ao valor exato! Isso é feito comparando dois termos
-   consecutivos da série: se a diferença entre eles (em valor absoluto!) for menor
-   que :math:`\epsilon`, atingimos a precisão desejada.
+   consecutivos da série: se a diferença :math:`\delta` entre eles (em valor
+   absoluto!) for menor que :math:`\epsilon`, atingimos a precisão desejada:
+
+   .. math::
+
+      \delta = | S_N - S_{N-1} |
 
    Implemente, então, uma função que receba como argumentos:
 
@@ -92,7 +96,9 @@
 
    e calcule uma aproximação para :math:`\sin(x)` usando duas condições de parada:
    número máximo de termos na série é :math:`N_\mathrm{max}` **e** precisäo
-   :math:`\epsilon`.
+   :math:`\epsilon`. Ou seja, sua aproximação terá no máximo :math:`N_\mathrm{max}`
+   termos, mas pode ter menos termos caso a precisão desejada seja atingida (
+   :math:`\delta < \epsilon`).
 
    .. only:: instructors
 

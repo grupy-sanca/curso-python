@@ -20,5 +20,5 @@
 #. Agora que conhecemos atribuição múltipla e o método ``str.split()``
    refaça os dois exercícios anteriores usando essas técnicas.
 
-#. Use slicing (mais especificamente o passo do fatiamento) para inverter a
+#. Use *slicing* (mais especificamente o passo do fatiamento) para inverter a
    string "Python".
