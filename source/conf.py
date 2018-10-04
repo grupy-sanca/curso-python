@@ -118,7 +118,7 @@ latex_elements = {
                      \fancyfoot[LE,RO]{{\py@HeaderFamily\thepage}}
                      \fancyfoot[LO]{{\py@HeaderFamily\nouppercase{\rightmark}}}
                      \fancyfoot[RE]{{\py@HeaderFamily\nouppercase{\leftmark}}}
-                     \fancyhead[LE,RO]{{\py@HeaderFamily \@title, \py@release, CC BY-NC-SA 4.0}}
+                     \fancyhead[LE,RO]{{\py@HeaderFamily \@title, CC BY-NC-SA 4.0}}
                      \renewcommand{\headrulewidth}{0.4pt}
                      \renewcommand{\footrulewidth}{0.4pt}
                    }
