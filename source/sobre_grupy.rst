@@ -32,8 +32,8 @@ Oferecemos cursos básicos de Python e também sobre alguns assuntos específico
    Oficina de interfaces gráficas em Python :)
 
    Utilizando a bibliteca
-   [PyQt](https://riverbankcomputing.com/software/pyqt/intro) para desenvolver
-   interfaces gráficas em [Qt](https://www.qt.io/).
+   `PyQt <https://riverbankcomputing.com/software/pyqt/intro>`_ para
+   desenvolver interfaces gráficas em `Qt <https://www.qt.io/>`_.
 
 .. figure:: images/sobre/curso03.jpg
    :align: center
@@ -106,7 +106,7 @@ realmente vale a pena :)
    Antes ou depois do coding dojo acontece um coffee break comunitário. Mas já
    aconteceu de ser durante também...
 
-Eventos 
+Eventos
 -------
 
 O grupy-sanca também organiza eventos singulares, únicos no universo.
@@ -118,7 +118,8 @@ O grupy-sanca também organiza eventos singulares, únicos no universo.
    `Caipyra 2018 <2018.caipyra.python.org.br>`_ - O único evento de Python com
    Quentão e Paçoquinha!
 
-   237 participantes, ~40 litros de quentão, 1625 paçocas, 4 dias de evento!
+   237 participantes, ~40 litros de quentão, 1625 paçocas, 4 dias de
+   `evento <2018.caipyra.python.org.br>`_ !
 
 .. figure:: images/sobre/eventos02.jpg
    :align: center
