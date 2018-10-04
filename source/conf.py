@@ -138,7 +138,7 @@ latex_documents = [
      'Grupy-Sanca', 'manual'),
 ]
 
-latex_logo = 'images/logo_small.png'
+latex_logo = 'images/logo.png'
 
 latex_show_pagerefs = True
 
