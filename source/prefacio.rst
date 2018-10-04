@@ -3,7 +3,7 @@
    .. raw:: latex
 
       \chapter*{Prefácio}
-      \addcontentsline{toc}{chapter}{Prefácio}
+      \addcontentsline{toc}{chapter}{\protect\numberline{}Prefácio}
 
 O objetivo deste curso é introduzir os conceitos básicos de programação para
 pessoas sem experiência em desenvolvimento ou iniciantes que não conheçam a
