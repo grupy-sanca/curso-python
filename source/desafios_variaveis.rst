@@ -34,7 +34,7 @@
          150.0, 89.99999999999999, 64.99999999999999
 
 #. D3yver50n resolveu minerar criptomoedas. Ele decidiu minerar *Ethereum* e viu
-   que :math:`1\, ETH = $687.86\, USD` e :math:`$1\, USD = R$3.59`. Ele comprou
+   que :math:`1\, ETH = \$687.86` e :math:`\$1 = \mathbb{R}\$3.59`. Ele comprou
    o seguinte computador:
 
    - 5 placas de vídeo: GTX1080 TI, cada uma por R$5270,90
