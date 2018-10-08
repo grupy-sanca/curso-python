@@ -327,7 +327,8 @@ proximo índice do último elemento desejado, tudo entre chaves.
 Buscando ajuda rapidamente
 --------------------------
 
-Está com dúvida em alguma coisa? Use a função help()!
+Está com dúvida em alguma coisa? Use a função ``help()`` e depois digite o
+que você busca.
 
 .. code::
 
@@ -363,6 +364,8 @@ E para buscar ajuda em uma coisa específica?
    len(obj, /)
        Return the number of items in a container.
    <BLANKLINE>
+
+Para sair do ambiente de ajuda, pressione a tecla ``q``.
 
 .. only:: html
 
@@ -785,7 +788,7 @@ valores de quaisquer variáveis desejadas. Por exemplo:
    'Olá, Silvio Santos'
 
 
-Vale lembrar que as chaves ({}) só são trocadas pelo valor após a chamada do
+Vale lembrar que as chaves ``{}`` só são trocadas pelo valor após a chamada do
 método ``str.format()``:
 
 .. doctest::
