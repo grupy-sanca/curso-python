@@ -216,14 +216,22 @@ Para saber mais sobre os eventos organizados pelo grupy-sanca acesse:
 
        facebook.com/grupysanca
 
-  - `Meetup <https://www.meetup.com/grupy-sanca>`_
+  - `Instagram <https://www.instagram.com/grupysanca/>`_
 
     .. only:: latex
 
-       meetup.com/grupy-sanca
+       instagram.com/grupysanca/
 
   - `Telegram <https://t.me/grupysanca>`_
 
     .. only:: latex
 
        t.me/grupysanca
+
+  - `Meetup <https://www.meetup.com/grupy-sanca>`_
+
+    .. only:: latex
+
+       meetup.com/grupy-sanca
+
+  - `YouTube <https://www.youtube.com/channel/UC9AED1x6Nn10lu-3rNELQnw>`_

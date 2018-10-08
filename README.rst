@@ -10,8 +10,11 @@ All the material is in pt-br.
 
 Check the material `online here <http://curso.grupysanca.com.br/>`_.
 
-Find us in `Facebook <https://www.facebook.com/grupysanca/>`_ and
-`Telegram <https://t.me/grupysanca>`_
+Find us in `Facebook <https://www.facebook.com/grupysanca/>`_,
+`Telegram <https://t.me/grupysanca>`_,
+`Instagram <https://www.instagram.com/grupysanca/>`_,
+`Meetup <https://www.meetup.com/grupy-sanca>`_ and
+`YouTube <https://www.youtube.com/channel/UC9AED1x6Nn10lu-3rNELQnw>`_
 
 
 How to use locally
