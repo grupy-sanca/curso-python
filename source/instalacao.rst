@@ -110,6 +110,15 @@ Dê uma olhada nesta seção e escolha o que você achar mais interessante. Some
 você pode responder à pergunta "Qual o melhor ambiente de desenvolvimento para
 *mim*?"
 
+IDE (*Integrated Development Environment* - Ambiente de Desenvolvimento Integrado, em português)
+é um editor de texto que possui ferramentas e recursos que facilitam a vida do programador.
+Entre as ferramentas e recursos, podemos citar:
+
+- Identificar quais variavéis foram declaradas.
+- Identificar erros no código.
+- Personalizar o ambiente de trabalho.
+- Ocultar parte do código para melhor visualização.
+
 Linha de comando
 ----------------
 
@@ -119,8 +128,22 @@ Linha de comando
 
 .. colocar aqui o ipython
 
-IDE
----
+Ambientes gráficos
+------------------
+
+ATOM
+~~~~
+
+O programa ATOM é um IDE *open-source* que apresenta diversos pacotes para personalizar.
+
+.. figure:: images/ide_Atom.png
+   :align: center
+   :width: 80%
+
+No site oficial do `ATOM <https://atom.io>`_, você encontrará um link para a Documentação do programa. 
+Na documentação, é possível acessar o `manual <https://flight-manual.atom.io/getting-started/sections/installing-atom/#platform-windows>`_ que mostrará passo a passo como instalar o programa (tanto para Windows como para Linux).
+
+Caso você tenha alguma dúvida, é aconselhavel entrar na seção de `discursão <https://discuss.atom.io/>`_. Nessa página, você encontrará respostas para diversas dúvidas, e possívelmente, para a sua.
 
 IDLE
 ~~~~
@@ -128,6 +151,7 @@ IDLE
 Para usuários Windows é recomendado utilizar o `IDLE`. Ele é composto pelo interpretador do Python e um editor de texto para criar programas.
 Após seguir o :ref:`intro-instalacao`, o menu inicial deve estar da seguinte
 forma:
+
 
 .. figure:: images/idle1.png
    :align: center
