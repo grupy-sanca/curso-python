@@ -109,9 +109,8 @@ outros são mais poderosos, alguns são mais simples, outros são mais amigaveis
 Dê uma olhada nesta seção e escolha o que você achar mais interessante. Somente
 você pode responder à pergunta "Qual o melhor ambiente de desenvolvimento para
 *mim*?"
-
 IDE (*Integrated Development Environment* - Ambiente de Desenvolvimento Integrado, em português)
- é um editor de texto que possui ferramentas e recursos que facilitam a vida do programador.
+é um editor de texto que possui ferramentas e recursos que facilitam a vida do programador.
 Entre as ferramentas e recursos, podemos citar:
 
 - Identificar quais variavéis foram declaradas.
@@ -129,18 +128,18 @@ Linha de comando
 .. colocar aqui o ipython
 
 Ambientes gráficos
----
+------------------
 
-Atom 
----
+ATOM
+~~~~
 
-O programa *Atom* é um IDE *open-source* que apresenta diversos pacotes para personalizar.
+O programa ATOM é um IDE *open-source* que apresenta diversos pacotes para personalizar.
 
 .. figure:: images/ide_Atom.png
    :align: center
    :width: 80%
 
-No site oficial do `*Atom* <https://atom.io>`_, você encontrará um link para a Documentação do programa. 
+No site oficial do `ATOM <https://atom.io>`_, você encontrará um link para a Documentação do programa. 
 Na documentação, é possível acessar o `manual <https://flight-manual.atom.io/getting-started/sections/installing-atom/#platform-windows>`_ que mostrará passo a passo como instalar o programa (tanto para Windows como para Linux).
 
 Caso você tenha alguma dúvida, é aconselhavel entrar na seção de `discursão <https://discuss.atom.io/>`_. Nessa página, você encontrará respostas para diversas dúvidas, e possívelmente, para a sua.
