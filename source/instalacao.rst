@@ -109,6 +109,7 @@ outros são mais poderosos, alguns são mais simples, outros são mais amigaveis
 Dê uma olhada nesta seção e escolha o que você achar mais interessante. Somente
 você pode responder à pergunta "Qual o melhor ambiente de desenvolvimento para
 *mim*?"
+
 IDE (*Integrated Development Environment* - Ambiente de Desenvolvimento Integrado, em português)
 é um editor de texto que possui ferramentas e recursos que facilitam a vida do programador.
 Entre as ferramentas e recursos, podemos citar:
