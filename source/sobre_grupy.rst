@@ -13,7 +13,7 @@ periodicamente diversos eventos, dentre eles:
 Cursos e oficinas de programação
 --------------------------------
 
-Oferecemos cursos básicos de Python e também sobre alguns assuntos específicos.
+Oferecemos cursos básicos de Python e também sobre alguns assuntos específicos. Durante os cursos os membros do grupy se voluntariam para serem monitores e ajudam a solucionar eventuais dúvidas dos participantes.
 
 .. figure:: images/sobre/curso01.jpg
    :align: center
@@ -29,36 +29,40 @@ Oferecemos cursos básicos de Python e também sobre alguns assuntos específico
    :align: center
    :width: 70%
 
-   Oficina de interfaces gráficas em Python :)
-
-   Utilizando a bibliteca
-   `PyQt <https://riverbankcomputing.com/software/pyqt/intro>`_ para
-   desenvolver interfaces gráficas em `Qt <https://www.qt.io/>`_.
-
-.. figure:: images/sobre/curso03.jpg
-   :align: center
-   :width: 70%
-
    Curso de Python básico no IFSC!
 
    Realizado em 01 de Julho de 2017, no IFSC - USP - São Carlos.
    Tivemos ~100 inscritos! 38 participantes! 2 ministrantes! 3 monitores!!
    2 *coffee-breaks*! 2 garrafas térmicas com apenas café :P
 
-.. figure:: images/sobre/curso04.jpg
+
+Também aceitamos convites para ministrar nossos cursos em eventos, como semanas acadêmicas.
+
+
+.. figure:: images/sobre/curso03.jpg
    :align: center
    :width: 70%
 
    Curso de Python básico na UNESP de Rio Claro!!
+
+   Fez parte da programação da SECCOMP 2017, em 23 de Outubro de 2017.
+
+.. figure:: images/sobre/curso04.jpg
+   :align: center
+   :width: 70%
+
+   Curso de Python básico na USP de São Carlos!!
+
+   Fez parte da programação da SEnC 2018, em 24 de Outubro de 2018.
 
 
 Pylestras
 ---------
 
 Evento com o objetivo de reunir a comunidade, compartilhar conhecimento e
-divulgar novas tecnologias.
+divulgar novas tecnologias. É tradicionalmente composto por palestras rápidas (~17 minutos), onde obrigatoriamente uma delas não é sobre Python. 
 
-Obrigatoriamente, uma das palestras não é sobre Python.
+Qualquer pessoa interessada pode submeter uma palestra, independentemente do tema ser para iniciantes ou usuários avançados. Para deixar a escolha democrática, costumamos usar o `Speakerfight <https://speakerfight.com/>`_, onde a própria comunidade escolhe as palestras que acha mais interessantes.
 
 .. figure:: images/sobre/palestras01.jpg
    :align: center
@@ -109,41 +113,44 @@ realmente vale a pena :)
 Eventos
 -------
 
-O grupy-sanca também organiza eventos singulares, únicos no universo.
+O grupy-sanca também organiza eventos singulares, únicos no universo!
 
-.. figure:: images/sobre/caipyras.JPG
+Um dos maiores eventos realizados pela comunidade foi o `Caipyra 2018 <2018.caipyra.python.org.br>`_, o único evento de Python com quentão e paçoquinha, que tem por objetivo ser uma conferência de Python voltada ao público do interior do estado de São Paulo.
+
+Após duas edições sediadas em Ribeirão Preto, o grupy-sanca trouxe o evento para São Carlos em 2018 (e já está organizando a edição de 2019).
+
+.. figure:: images/sobre/caipyras01.jpg
    :align: center
    :width: 70%
 
-   `Caipyra 2018 <2018.caipyra.python.org.br>`_ - O único evento de Python com
-   Quentão e Paçoquinha!
+   Tivemos 237 participantes, 16 palestras e 3 tutoriais
 
-   237 participantes, ~40 litros de quentão, 1625 paçocas, 4 dias de
-   `evento <2018.caipyra.python.org.br>`_ !
-
-.. figure:: images/sobre/eventos02.jpg
+.. figure:: images/sobre/caipyras02.jpg
    :align: center
    :width: 70%
 
-.. figure:: images/sobre/eventos03.jpg
+   Foram consumidos ~40 litros de quentão e 1625 paçoquinhas
+
+.. figure:: images/sobre/caipyras03.jpg
    :align: center
    :width: 70%
 
-   Arduino Day em 2017, no ICMC - USP - São Carlos.
+   Oferecemos um espaço infantil para os papais e mamães poderem participar do evento
 
-.. figure:: images/sobre/eventos04.jpg
+.. figure:: images/sobre/caipyras04.jpg
    :align: center
    :width: 70%
 
-   Curso de Arduino no *Software Freedom Day* em 2017 no IFSC - USP - São Carlos.
-
+   Tudo isso feito com muito carinho pelos membros do grupy-sanca <3
 
 Sprints
 -------
 
-Sprints são maratonas de programação. Um grupo de pessoas se juntam no
-mesmo lugar para desenvolverem algum projeto novo, ou resolver *bugs*
+Sprints são maratonas de programação. Um grupo de pessoas se junta no
+mesmo lugar para desenvolver algum projeto novo, resolver *bugs*
 de algum software, ou implementar alguma funcionalidade nova.
+
+Durante os sprints, usuários iniciantes podem aprender como contruibuir com projetos open source, sendo um ambiente ideal para ter contato com pessoas mais experientes e aprender boas práticas.
 
 .. figure:: images/sobre/sprint01.jpg
    :align: center
@@ -187,19 +194,19 @@ História
 
 O grupo foi fundado em 28/06/2016 e desde então já tivemos:
 
-- 18+ Coding Dojos
+- 21+ Coding Dojos
 
-- 20+ PyBares
+- 25+ PyBares
 
-- 15+ Cursos e workshops
+- 16+ Cursos e workshops
 
--  6  PyLestras
+-  7  PyLestras
 
--  3  Eventos
+-  4  Eventos
 
--  2  Sprints
+-  3  Sprints
 
-Além disso, chegamos nos 942+ inscritos no Meetup!
+Além disso, chegamos nos 1082+ inscritos no Meetup!
 
 
 Para saber mais sobre os eventos organizados pelo grupy-sanca acesse:
