@@ -8,9 +8,10 @@ Curso Introdutório de Python
    :caption: Conteúdo:
    :name: Índice
 
+   introducao
    sobre_grupy
    instalacao
-   introducao
+   hello_world
    calculadora
    variaveis
    listas
