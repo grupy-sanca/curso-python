@@ -1,159 +1,112 @@
-Introdução
-==========
+O que é *Python*?
+=================
 
 .. colocar aqui uma motivação sobre pq python é foda!
 
+   Histórico resumido da linguagem
+
    pq usar python?
 
-   Alguns exemplos de uso de python (web, desktop, etc), empresas que usam python
-   e como usam, alguns usos científicos de python.
+*Python* é uma *linguagem de programação*. Isso significa basicamente duas coisas:
 
-Hello World
------------
+1. existem regras que determinam como as palavras são dispostas, já que é uma *linguagem*;
 
-É muito comum, ao apresentar uma nova linguagem, começar com um exemplo simples que mostra
-na tela as palavras `Hello World`. Para não perder o costume, antes de adentrar
-o mundo do Python, vamos ver como outras linguangens de programação implementam
-esse exemplo:
+2. o texto descreve *instruções* para o computador realizar tarefas.
 
-C
-~
+Ou seja, podemos escrever um documento - que chamamos de *código fonte* - em Python para o computador ler e realizar nossos desejos e tarefas. Python tem algumas características interessantes:
 
-.. code:: C
+* é *interpretada*, ou seja, o interpretador do Python executa o código fonte diretamente, traduzindo cada trecho para instruções de máquina;
 
-   #include <stdio.h>
+* é de *alto nível*, ou seja, o interpretador se vira com detalhes técnicos do computador. Assim, desenvolver um código é mais simples do que em linguagens de *baixo nível*, nas quais o programador deve se preocupar com detalhes da máquina;
 
-   int main(int argc, char *argv[]){
-       printf("Hello, World!\n");
-       return 0;
-   }
+* é de *propósito geral*, ou seja, podemos usar Python para desenvolver programas em diversas áreas. Ao contrário de linguagens de domínio específico, que são especializadas e atendem somente a uma aplicação específica;
+
+* tem *tipos dinâmicos*, ou seja, o interpretador faz a magia de descobrir o que é cada variável.
+
+Por essas e várias outras características, Python se torna uma linguagem simples, bela, legível e amigável. É uma linguagem utilizada por diversas empresas, como  Wikipedia, Google, Yahoo!, CERN, NASA, Facebook, Amazon, Instagram, Spotify... [1]_
 
 
-Java
-~~~~
+Exemplos
+--------
 
-.. code:: java
+Vamos ver alguns exemplos sobre o uso de Python no mundo real.
 
-   public class Hello {
-         public static void main(String[] args) {
-            System.out.println("Hello, World!");
-         }
-   }
+BitTorrent
+~~~~~~~~~~
 
-É obrigatório que o código acima esteja em um arquivo chamado `Hello.java`
+O protocolo *Torrent* é muito utilizado para transferir quantidades grandes de dados para diversos computadores. O primeiro programa a implementar esse protocolo foi desenvolvido inteiramente em Python, pela *BitTorrent, Inc.*! [2]_
 
 
-Pascal
+Django
 ~~~~~~
 
-.. code:: pascal
+*Django* é um conjunto de pacotes para desenvolvimento web. E é baseado em Python :)
 
-   program HelloWorld;
-
-   begin
-       writeln('Hello, World!');
-   end.
+um objetivo de Django é desenvolver facilmente websites complexos e que lidam com bancos de dados grandões. Alguns sites desenvolvidos em Django: Instagram,  The Washington Times, Disqus, Mozilla, National Geographic. [6]_
 
 
-Python
-~~~~~~
+Dropbox
+~~~~~~~
 
-Vamos ver como é o Hello World em Python. Para isso, abra o `shell` do
-Python e digite o texto abaixo (não esqueça de apertar `enter` no final):
-
-.. doctest::
-
-   >>> print("Hello, World!")
-   Hello, World!
+O popular serviço de armazenamento de dados em Nuvem *Dropbox* tem diversas partes da infraestrutura feita em Python. [5]_ O aplicativo para computadores é feito em Python e grande parte da infra estrutura dos servidores deles também é!
 
 
-Em programação, é muito comum utilizar a palavra `imprimir` (ou `print`, em
-inglês) como sinônimo de mostrar algo na tela.
+Estudo sobre erupções solares
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Não somente a indústria utiliza Python, muitos pesquisadores utilizam em diversas áreas científicas.
+
+É possível de modo bem simples estudar as erupções solares desde 1992 até hoje. O Observatório Real da Bélgica tem um banco de dados sobre o número de manchas solares, e disponibilizam online para estudos. [4]_ Veja como é o código para visualizar a atividade solar desde 01/01/1992 em cada parte (norte e sul) do Sol:
+
+.. code::
+
+   import pandas as pd     # isso aqui gerencia os dados
+   import matplotlib.pyplot as plt    # isso aqui permite fazer gráficos
+
+   # pega os dados solares de WDC-SILSO, Royal Observatory of Belgium, Brussels
+   sun = pd.read_table('http://sidc.oma.be/silso/INFO/sndhemcsv.php', sep=';', encoding = "ISO-8859-1", header=-1)
+
+   # faz o gráfico de cada hemisfério do sol
+   fig = plt.figure()
+   plt.scatter(sun[3], sun[5], label='Norte', alpha=0.5)
+   plt.scatter(sun[3], sun[6], label='Sul', alpha=0.5)
+
+   plt.title("Atividade solar diária\n")
+   plt.ylabel('Número de manchas solares')
+   plt.xlabel('Ano')
+   plt.legend(loc='upper right')
+
+   plt.show()
+
+E o resultado desse código é a seguinta imagem:
+
+.. figure:: images/exemplo_sol.png
+   :align: center
+   :width: 80%
+
+   Erupções solares desde 1992, separadas por hemisférios (norte e sul) do Sol.
 
 
-Função print
-------------
+The Sims 4
+~~~~~~~~~~
 
-``print()`` é uma função nativa do Python. Basta colocar algo dentro dos
-parênteses que o Python se encarrega de fazer a magia de escrever na tela :)
+O jogo *The Sims 4* tem partes feitas em Python [3]_. Isso permite o desenvolvimento de *mods* para o jogo em Python \\o/
 
-Erros comuns
-~~~~~~~~~~~~
+.. figure:: images/thesims4.jpg
+   :align: center
+   :width: 35%
 
-Usar a letra `P` maiúscula ao invés de minúscula: 
+   Capa do jogo The Sims 4, da Electronic Arts.
 
-.. doctest::
 
-  >>> Print("Hello, World!")
-  Traceback (most recent call last):
-      ...
-  NameError: name 'Print' is not defined
+.. [1] Lista compilada pela página da `Wikipedia sobre Python <https://en.wikipedia.org/wiki/Python_(programming_language)#Uses>`_, em inglês.
 
-Esquecer de abrir e fechar áspas no texto que é passado para a função
-``print()``:
+.. [2] https://en.wikipedia.org/wiki/BitTorrent_(software)#History
 
-.. code:: python
+.. [3] https://en.wikipedia.org/wiki/The_Sims_4#Development
 
-  >>> print(Hello, World!)
-  Traceback (most recent call last):
-      ...
-  SyntaxError: invalid syntax
+.. [4] http://sidc.oma.be/silso/home
 
-Esquecer de abrir ou fechar as aspas:
+.. [5] https://en.wikipedia.org/wiki/Dropbox_(service)#Technology
 
-.. doctest::
-
-  >>> print("Hello, World!)
-  Traceback (most recent call last):
-      ...
-  SyntaxError: EOL while scanning string literal
-
-Começar com aspas simples e terminar com aspas duplas ou vice-versa:
-
-.. doctest::
-
-  >>> print('Hello, World!")
-  Traceback (most recent call last):
-      ...
-  SyntaxError: EOL while scanning string literal
-
-Usar espaço ou tab antes do ``print()``:
-
-.. doctest::
-
-  >>>  print('Hello, World!')
-  Traceback (most recent call last):
-      ...
-  IndentationError: unexpected indent
-
-  >>>     print('Hello, World!')
-  Traceback (most recent call last):
-      ...
-  IndentationError: unexpected indent
-
-Mas, e se eu precisar usar aspas dentro do texto a ser mostrado na tela? Bem, Caso queira imprimir
-aspas duplas, envolva tudo com aspas simples e use aspas duplas na parte desejada:
-
-.. doctest::
-
-  >>> print('Python é legal! Mas não o "legal" como dizem pra outras coisas')
-  Python é legal! Mas não o "legal" como dizem pra outras coisas
-
-Caso deseje imprimir aspas simples, faça o contrário (envolva com aspas duplas e use aspas simples onde necessário):
-
-.. doctest::
-
-  >>> print("Python é legal! Mas não o 'legal' como dizem pra outras coisas")
-  Python é legal! Mas não o 'legal' como dizem pra outras coisas
-
-E como faz para imprimir um texto em várias linhas? Bom, para isso precisamos
-lembrar de um carácter especial, a *quebra de linha*: `\n`. Esse `\n` é um
-caracter especial que significa *aqui acaba a linha, o que vier depois deve
-ficar na linha de baixo*. Por exemplo:
-
-.. doctest::
-
-  >>> print('Olha esse textão sobre áspas simples e dúplas.\nIsso aqui é áspas duplas: "\nIsso aqui é áspas simples: \''
-  Olha esse textão sobre áspas simples e dúplas.
-  Isso aqui é áspas duplas: "
-  Isso aqui é áspas simples: '
+.. [6] https://www.djangoproject.com/start/overview/
