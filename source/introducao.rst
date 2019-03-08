@@ -42,7 +42,7 @@ Django
 
 *Django* é um conjunto de pacotes para desenvolvimento web. E é baseado em Python :)
 
-um objetivo de Django é desenvolver facilmente websites complexos e que lidam com bancos de dados grandões. Alguns sites desenvolvidos em Django: Instagram,  The Washington Times, Disqus, Mozilla, National Geographic. [6]_
+Um objetivo de Django é desenvolver facilmente websites complexos e que lidam com bancos de dados grandões. Alguns sites desenvolvidos em Django: Instagram,  The Washington Times, Disqus, Mozilla, National Geographic. [6]_
 
 
 Dropbox
