@@ -17,8 +17,8 @@ Em **python** existem duas formas de criar uma estrutura de repetição:
 
 .. note::
 
-        Na linguagem **python** a identação é obrigatória, assim como estruturs
-        de controle, para as estruturas de repetição.
+        Na linguagem **python** a identação é obrigatória. assim como nas estruturas
+        de controle, as estruturas de repetição também precisam.
 
         .. doctest::
 
@@ -40,8 +40,8 @@ Em **python** existem duas formas de criar uma estrutura de repetição:
                 1
                 2
 
-O *loop* for em **python** itera sobre os itens de um conjunto, sendo assim, o
-``range(0, 3)`` precisa ser um conjunto de elementos, e na verdade ele é:
+O *loop* `for` em *python* itera sobre os itens de um conjunto, sendo assim, o
+``range(0, 3)`` precisa ser um conjunto de elementos. E na verdade ele é:
 
 .. doctest::
 
@@ -82,6 +82,8 @@ Para auxiliar as estruturas de repetição, existem dois comandos:
           esteja abaixo (porém ainda dentro do *loop*) seja ignorado e avança
           para a próxima iteração.
 
+Veja a seguir um exemplo de um código que ilustra o uso desses comandos. Note que há uma *string* de documentação no começo que explica a funcionalidade.
+
 .. testsetup:: input_loop
 
         def gen():
@@ -96,7 +98,8 @@ Para auxiliar as estruturas de repetição, existem dois comandos:
             print(text + value)
             return value
 
-.. testcode::
+
+.. doctest:: input_loop
 
         """
         Esse código deve rodar até que a palavra "sair" seja digitada.
@@ -108,8 +111,6 @@ Para auxiliar as estruturas de repetição, existem dois comandos:
         * Por fim, caso a palavra seja "sair", uma mensagem deve ser exibida e o
           loop deve ser encerrado (break).
         """
-
-.. doctest:: input_loop
 
         >>> while True:
         ...     string_digitada = input("Digite uma palavra: ")
