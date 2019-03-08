@@ -12,6 +12,7 @@ addons:
       - texlive-latex-recommended
       - texlive-fonts-recommended
       - texlive-latex-extra
+      - texlive-lang-portuguese
       - latexmk
 
 install:
