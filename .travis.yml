@@ -6,6 +6,14 @@ python:
 sudo: false
 cache: pip
 
+addons:
+  apt:
+    packages:
+      - texlive-latex-recommended
+      - texlive-fonts-recommended
+      - texlive-latex-extra
+      - latexmk
+
 install:
   - pip install -r requirements.txt
 
