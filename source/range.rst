@@ -37,3 +37,19 @@ maneira:
 
 .. note::
 		O intervalo do ``range()`` é aberto, ou seja, quando passamos o valor 10, ele vai até o 9 (n - 1). Caso deseje criar a lista até o 10 de fato, deve-se passar o valor 11.
+
+Mas por que precisamos transformar o ``range`` em `lista`? O que acontece se não fizermos isso?
+
+.. doctest::
+
+      >>> print(range(200))
+      range(0, 200)
+
+Mas o que é que essa função retorna?
+
+.. doctest::
+
+      >>> type(range(200))
+      <class 'range'>"
+
+AHA! A função ``range()`` retorna algo do tipo ``range``, por isso precisamos transformar em uma lista para vermos todos os números no ``print``!
