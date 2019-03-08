@@ -52,4 +52,4 @@ Mas o que é que essa função retorna?
       >>> type(range(200))
       <class 'range'>"
 
-AHA! A função ``range()`` retorna algo do tipo ``range``, por isso precisamos transformar em uma lista!
+AHA! A função ``range()`` retorna algo do tipo ``range``, por isso precisamos transformar em uma lista para vermos todos os números no ``print``!
