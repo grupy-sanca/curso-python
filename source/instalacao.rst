@@ -171,7 +171,7 @@ Após isso, o resultado da execução do código deve aparecer na janela anterio
    :width: 80%
 
 Spyder
-~~~~
+~~~~~~
 
 O Spyder é uma IDE perfeita para quem utiliza o Python para data science, especialmente por que vem incluso no Anaconda, um pacote de várias bibliotecas e ferramentas voltadas para Data Science.
 
@@ -184,7 +184,7 @@ Ele possui uma interface simples, com uma tabela de variáveis para fácil inspe
 A melhor forma de instalá-lo é pela instalação do `Anaconda <https://www.anaconda.com/distribution/>`_. Novamente, recomenda-se utilizar essa forma de instalação apenas para quem deseja utilizar todos os pacotes inclusos no Anaconda, e não apenas o Spyder.
 
 Visual Studio Code
-~~~~
+~~~~~~~~~~~~~~~~~~
 
 O Visual Studio Code por si só é um editor de texto criado pela Microsoft que apresenta diversos pacotes para personalizá-lo da forma que você precisa.
 
