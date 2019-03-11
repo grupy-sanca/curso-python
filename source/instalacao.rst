@@ -121,12 +121,12 @@ O programa ATOM é um IDE *open-source* que apresenta diversos pacotes para pers
 No site oficial do `ATOM <https://atom.io>`_, você encontrará um link para a Documentação do programa. 
 Na documentação, é possível acessar o `manual <https://flight-manual.atom.io/getting-started/sections/installing-atom/#platform-windows>`_ que mostrará passo a passo como instalar o programa (tanto para Windows como para Linux).
 
-Caso você tenha alguma dúvida, é aconselhavel entrar na seção de `discursão <https://discuss.atom.io/>`_. Nessa página, você encontrará respostas para diversas dúvidas, e possívelmente, para a sua.
+Caso você tenha alguma dúvida, é aconselhavel entrar na seção de `discussão <https://discuss.atom.io/>`_. Nessa página, você encontrará respostas para diversas dúvidas, e possívelmente, para a sua.
 
 IDLE
 ~~~~
 
-Para usuários Windows é recomendado utilizar o `IDLE`. Ele é composto pelo interpretador do Python e um editor de texto para criar programas.
+Para usuários Windows é recomendado utilizar o `IDLE`. Ele é composto pelo interpretador do Python e um editor de texto para criar programas, e já vem junto com o python.
 Após seguir o :ref:`intro-instalacao`, o menu inicial deve estar da seguinte
 forma:
 
@@ -169,5 +169,33 @@ Após isso, o resultado da execução do código deve aparecer na janela anterio
 .. figure:: images/idle6.png
    :align: center
    :width: 80%
+
+Spyder
+~~~~~~
+
+O Spyder é uma IDE perfeita para quem utiliza o Python para data science, especialmente por que vem incluso no Anaconda, um pacote de várias bibliotecas e ferramentas voltadas para Data Science.
+
+.. figure:: images/ide_spyder.png
+   :align: center
+   :width: 80%
+
+Ele possui uma interface simples, com uma tabela de variáveis para fácil inspeção dos valores de cada variável no programa durante sua depuração.
+
+A melhor forma de instalá-lo é pela instalação do `Anaconda <https://www.anaconda.com/distribution/>`_. Novamente, recomenda-se utilizar essa forma de instalação apenas para quem deseja utilizar todos os pacotes inclusos no Anaconda, e não apenas o Spyder.
+
+Visual Studio Code
+~~~~~~~~~~~~~~~~~~
+
+O Visual Studio Code por si só é um editor de texto criado pela Microsoft que apresenta diversos pacotes para personalizá-lo da forma que você precisa.
+
+.. figure:: images/ide_vsc.png
+   :align: center
+   :width: 80%
+
+No site oficial do `Visual Studio Code <https://code.visualstudio.com/>`_, você encontrará um link para a Documentação do programa.
+
+Na documentação, é possível acessar o `manual de Python <https://code.visualstudio.com/docs/languages/python>`_ que mostra todos as funcionalidades que o programa possui relacionadas a Python.
+
+Para um passo-a-passo da instalação, você pode encontrar os detalhes de cada sistema operacional `nesta página do manual <https://code.visualstudio.com/docs/setup/setup-overview>`_.
 
 .. colocar aqui outras IDEs
