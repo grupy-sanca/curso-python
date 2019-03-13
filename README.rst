@@ -26,6 +26,10 @@ How to use locally
 
         $ pip install -Ur requirements.txt
 
+   You also need `enchant <https://github.com/AbiWord/enchant>`_,
+   `pyenchant <https://github.com/rfk/pyenchant/>`_ and a pt-br dictionary
+   (e.g. `hunspell-pt-br <https://hunspell.github.io/>`_) for spell checker.
+
 2. Run the following command to generate the material in HTML:
 
    .. code:: sh
@@ -37,8 +41,6 @@ How to use locally
    .. code:: sh
 
         $ make latexpdf
-
-   You might need to rerun this command.
 
 3. To see the material locally open the page ``build/html/index.html``
    in your favorite browser or the file ``build/latex/CursoIntrodutoriodePython.pdf``
