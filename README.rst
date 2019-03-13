@@ -46,6 +46,11 @@ How to use locally
    in your favorite browser or the file ``build/latex/CursoIntrodutoriodePython.pdf``
    in your favorite pdf viewer.
 
+4. To run the spell checker:
+
+   .. code:: sh
+
+      $ sphinx-build -b spelling -nW source/ build/
 
 How to generate instructor's guide
 ----------------------------------
