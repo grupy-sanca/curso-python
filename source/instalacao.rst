@@ -126,7 +126,7 @@ Caso você tenha alguma dúvida, é aconselhável entrar na seção de `discusã
 IDLE
 ~~~~
 
-Para usuários Windows é recomendado utilizar o `IDLE`. Ele é composto pelo interpretador do Python e um editor de texto para criar programas, e já vem junto com o python.
+Para usuários Windows é recomendado utilizar o `IDLE`. Ele é composto pelo interpretador do Python e um editor de texto para criar programas, e já vem junto com o Python.
 Após seguir o :ref:`intro-instalacao`, o menu inicial deve estar da seguinte
 forma:
 
@@ -173,7 +173,7 @@ Após isso, o resultado da execução do código deve aparecer na janela anterio
 Spyder
 ~~~~~~
 
-O Spyder é uma IDE perfeita para quem utiliza o Python para data science, especialmente por que vem incluso no Anaconda, um pacote de várias bibliotecas e ferramentas voltadas para Data Science.
+O Spyder é uma IDE perfeita para quem utiliza o Python para Ciência de Dados, especialmente porque vem incluso no *Anaconda*, um pacote de várias bibliotecas e ferramentas voltadas para essa área.
 
 .. figure:: images/ide_spyder.png
    :align: center
