@@ -29,7 +29,7 @@ Criando uma função simples::
         Coloque os dois pontos após definir a função!
 
 .. note::
-        Faça a identação nas linhas abaixo da definição da função!
+        Faça a indentação nas linhas abaixo da definição da função!
 
 .. doctest::
 

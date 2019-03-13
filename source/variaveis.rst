@@ -29,7 +29,7 @@ Alguns exemplos de atribuições:
    >>> pi
    3.141592
 
-No exemplo anterior realizamos três atribuições. No primeiro atribuimos um
+No exemplo anterior realizamos três atribuições. No primeiro atribuímos um
 número inteiro à variável de nome ``numero``; no segundo uma frase à
 variável ``frase``; no último um número de ponto flutuante à ``pi``.
 
@@ -82,7 +82,7 @@ Tentar dar um nome ilegal a uma variável ocasionará erro de sintaxe:
 
 
 ``123voa`` é ilegal pois começa com um número. ``ol@`` é ilegal pois
-contém um caracter inválido (@), mas o que há de errado com ``def``?
+contém um caractere inválido (@), mas o que há de errado com ``def``?
 
 A questão é que ``def`` é uma palavra-chave da linguagem. O Python possui
 diversas palavras que são utilizadas na estrutura dos programas, por isso
@@ -97,6 +97,10 @@ ainda não foram definidas:
    Traceback (most recent call last):
        ...
    NameError: name 'nao_definida' is not defined
+
+.. spelling::
+
+   definí
 
 Tentar acessar uma variável sem definí-la anteriormente ocasiona em um "erro
 de nome".
@@ -125,7 +129,7 @@ Também podemos atribuir expressões a uma variável:
 
 
 É importante lembrar que para mudar o valor de uma variável é preciso
-utilizar a atribuição. Nos dois exemplos anteriores não atribuimos as
+utilizar a atribuição. Nos dois exemplos anteriores não atribuímos as
 expressões à n, portanto seu valor continuou o mesmo.
 
 Vamos alterar o valor de ``n``:
@@ -158,7 +162,7 @@ Também funciona com multiplicação:
    >>> x
    6
 
-Exercicios
+Exercícios
 ----------
 
 .. include:: exercicios_variaveis.rst
@@ -245,7 +249,7 @@ Tamanho
 -------
 
 A função embutida ``len()`` nos permite, entre outras coisas, saber o
-tamanho de uma string:
+tamanho de uma *string*:
 
 .. doctest::
 
@@ -259,11 +263,11 @@ tamanho de uma string:
 Índices
 -------
 
-Como visto anteriormente, o método len() pode ser utilizado para obter o
+Como visto anteriormente, o método ``len()`` pode ser utilizado para obter o
 tamanho de estruturas, sejam elas strings, listas, etc. Esse tamanho
 representa a quantidade de elementos na estrutura.
 
-Para obter somente um caracter de dentro dessas estruturas, deve-se utilzar
+Para obter somente um caractere de dentro dessas estruturas, deve-se utilizar
 o acesso por índices, no qual o índice entre colchetes [] representa a
 posição do elemento que deseja-se acessar.
 
@@ -296,10 +300,10 @@ Fatias
 ------
 
 Se ao invés de obter apenas um elemento de uma estrutura (string, lista,
-...) deseja-se obter multiplos elementos, deve-se utilizar *slicing*
+...) deseja-se obter múltiplos elementos, deve-se utilizar *slicing*
 (fatiamento). No lugar de colocar o índice do elemento entre chaves,
 deve-se colocar o índice do primeiro elemento, dois pontos (:) e o
-proximo índice do último elemento desejado, tudo entre chaves.
+próximo índice do último elemento desejado, tudo entre chaves.
 
 .. doctest::
 
@@ -931,7 +935,7 @@ atribuição de variáveis, por exemplo:
    >>> print(a, b, c, d)
    4 3 2 1
 
-Exercicios
+Exercícios
 ----------
 
 .. include:: exercicios_string.rst

@@ -6,7 +6,9 @@
    menos 75% delas. Ele quer saber quantas aulas pode faltar, sabendo que tem
    duas aulas por semana, durante quatro meses. Ajude o Davinir!
 
-   obs: um mês tem quatro semanas.
+   .. note::
+
+      Um mês tem quatro semanas.
 
    .. only:: instructors
 

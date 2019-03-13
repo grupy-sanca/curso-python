@@ -18,7 +18,7 @@ Expressões Numéricas
 .. include:: exercicios_calculadora_expressoes.rst
 
 
-Variaveis
+Variáveis
 ---------
 
 .. include:: exercicios_variaveis.rst
@@ -71,7 +71,7 @@ Desafios
 .. include:: desafios_controle.rst
 
 
-Estruturas de repetiçao
+Estruturas de repetição
 -----------------------
 
 .. include:: exercicios_repeticao.rst

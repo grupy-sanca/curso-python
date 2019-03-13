@@ -150,7 +150,7 @@ Sprints são maratonas de programação. Um grupo de pessoas se junta no
 mesmo lugar para desenvolver algum projeto novo, resolver *bugs*
 de algum software, ou implementar alguma funcionalidade nova.
 
-Durante os sprints, usuários iniciantes podem aprender como contruibuir com projetos open source, sendo um ambiente ideal para ter contato com pessoas mais experientes e aprender boas práticas.
+Durante os sprints, usuários iniciantes podem aprender como contribuir com projetos open source, sendo um ambiente ideal para ter contato com pessoas mais experientes e aprender boas práticas.
 
 .. figure:: images/sobre/sprint01.jpg
    :align: center
@@ -170,7 +170,7 @@ Encontros casuais
 
 Também conhecidos como PyBares :)
 
-A idéia é bater um papo sobre a vida, o universo e tudo mais e tomar uma
+A ideia é bater um papo sobre a vida, o universo e tudo mais e tomar uma
 cerveja (ou não).
 
 A comunidade Python vai muito além de escrever código Python, participar de

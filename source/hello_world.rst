@@ -3,7 +3,7 @@ Hello World
 
 É muito comum, ao apresentar uma nova linguagem, começar com um exemplo simples que mostra
 na tela as palavras `Hello World`. Para não perder o costume, antes de adentrar
-o mundo do Python, vamos ver como outras linguangens de programação implementam
+o mundo do Python, vamos ver como outras linguagens de programação implementam
 esse exemplo:
 
 C
@@ -79,7 +79,7 @@ Usar a letra `P` maiúscula ao invés de minúscula:
       ...
   NameError: name 'Print' is not defined
 
-Esquecer de abrir e fechar áspas no texto que é passado para a função
+Esquecer de abrir e fechar aspas no texto que é passado para a função
 ``print()``:
 
 .. code:: python
@@ -107,7 +107,7 @@ Começar com aspas simples e terminar com aspas duplas ou vice-versa:
       ...
   SyntaxError: EOL while scanning string literal
 
-Usar espaço ou tab antes do ``print()``:
+Usar espaço ou tabulação (``tab``) antes do ``print()``:
 
 .. doctest::
 
@@ -137,13 +137,13 @@ Caso deseje imprimir aspas simples, faça o contrário (envolva com aspas duplas
   Python é legal! Mas não o 'legal' como dizem pra outras coisas
 
 E como faz para imprimir um texto em várias linhas? Bom, para isso precisamos
-lembrar de um carácter especial, a *quebra de linha*: `\n`. Esse `\n` é um
-caracter especial que significa *aqui acaba a linha, o que vier depois deve
+lembrar de um caractere especial, a *quebra de linha*: `\n`. Esse `\n` é um
+caractere especial que significa *aqui acaba a linha, o que vier depois deve
 ficar na linha de baixo*. Por exemplo:
 
 .. doctest::
 
-  >>> print('Olha esse textão sobre áspas simples e dúplas.\nIsso aqui é áspas duplas: "\nIsso aqui é áspas simples: \''
-  Olha esse textão sobre áspas simples e dúplas.
-  Isso aqui é áspas duplas: "
-  Isso aqui é áspas simples: '
+  >>> print('Olha esse textão sobre aspas simples e dúplas.\nIsso aqui é aspas duplas: "\nIsso aqui é aspas simples: \''
+  Olha esse textão sobre aspas simples e dúplas.
+  Isso aqui é aspas duplas: "
+  Isso aqui é aspas simples: '

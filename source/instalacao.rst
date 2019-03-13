@@ -46,8 +46,8 @@ No ArchLinux
 Mac OS X
 --------
 
-Obtenha o instalador da última versão na sessão de downloads para
-`Mac OS X do Python`_. Clique duas vezes no Python.mpkg para abrir o instalador.
+Obtenha o instalador na sessão de downloads para `Mac OS X do Python`_. Clique
+duas vezes no ``Python.mpkg`` para abrir o instalador.
 
 Para ter certeza que ele está instalado e descobrir qual versão, abra um
 terminal e execute o comando:
@@ -73,7 +73,7 @@ A seguir, execute o instalador e uma imagem similar a essa aparecerá:
    :align: center
    :width: 80%
 
-Deve ser selecionado a opção `Add Python 3.6 to PATH` e depois continuar a
+Deve ser selecionada a opção ``Add Python 3.6 to PATH`` e depois continuar a
 instalação até o fim.
 
 .. _site oficial do Python: https://www.python.org/downloads/
@@ -83,7 +83,7 @@ Ambientes de Desenvolvimento
 ============================
 
 Há diversos programas para desenvolvermos códigos, alguns são mais bonitinhos,
-outros são mais poderosos, alguns são mais simples, outros são mais amigaveis.
+outros são mais poderosos, alguns são mais simples, outros são mais amigáveis.
 Dê uma olhada nesta seção e escolha o que você achar mais interessante. Somente
 você pode responder à pergunta "Qual o melhor ambiente de desenvolvimento para
 *mim*?"
@@ -92,7 +92,7 @@ IDE (*Integrated Development Environment* - Ambiente de Desenvolvimento Integrad
 é um editor de texto que possui ferramentas e recursos que facilitam a vida do programador.
 Entre as ferramentas e recursos, podemos citar:
 
-- Identificar quais variavéis foram declaradas.
+- Identificar quais variáveis foram declaradas.
 - Identificar erros no código.
 - Personalizar o ambiente de trabalho.
 - Ocultar parte do código para melhor visualização.
@@ -121,7 +121,7 @@ O programa ATOM é um IDE *open-source* que apresenta diversos pacotes para pers
 No site oficial do `ATOM <https://atom.io>`_, você encontrará um link para a Documentação do programa. 
 Na documentação, é possível acessar o `manual <https://flight-manual.atom.io/getting-started/sections/installing-atom/#platform-windows>`_ que mostrará passo a passo como instalar o programa (tanto para Windows como para Linux).
 
-Caso você tenha alguma dúvida, é aconselhavel entrar na seção de `discussão <https://discuss.atom.io/>`_. Nessa página, você encontrará respostas para diversas dúvidas, e possívelmente, para a sua.
+Caso você tenha alguma dúvida, é aconselhável entrar na seção de `discusão <https://discuss.atom.io/>`_. Nessa página, você encontrará respostas para diversas dúvidas, e possivelmente, para a sua.
 
 IDLE
 ~~~~

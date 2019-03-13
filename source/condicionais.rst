@@ -2,11 +2,11 @@
 Condicionais
 ============
 
-O tipo de dado booleano (``bool``) refere-se a uma unidade lógica sobre a qual
+O tipo de dado boleano (``bool``) refere-se a uma unidade lógica sobre a qual
 podemos realizar operações, particularmente úteis para o controle de fluxo de um
 programa.
 
-A unidade booleana assume apenas 2 valores: Verdadeiro e Falso.
+A unidade boleana assume apenas 2 valores: Verdadeiro e Falso.
 
 .. note::
 
@@ -76,7 +76,7 @@ Para realizar operações com expressões lógicas, existem:
         >>> not not not 1 == 1
         False
 
-Assim como os operadores aritméticos, os operadores booleanos também
+Assim como os operadores aritméticos, os operadores boleanos também
 possuem uma ordem de prioridade:
 
         * ``not`` tem maior prioridade que ``and`` que tem maior prioridade
