@@ -235,6 +235,41 @@ Também pode ser usada a letra ``E`` maiúscula:
    1000000.0
 
 
+Obs: Pontos Flutuantes
+------------------
+
+Uma consideração importante sobre pontos flutuantes (números decimais). Por exemplo: 
+
+.. doctest::
+    >>> 0.1
+    0,1
+
+É importante perceber que este valor, em um sentido real na máquina, não é exatamente 1/10. Está arredondando a exibição do valor real da máquina. 
+
+.. doctest::
+
+    >>> format(0.1, '.50f')
+    '0.10000000000000000555111512312578270211815834045410'
+
+Veja que somente após a 18ª casa que há diferença. Isso é mais dígitos do que a maioria das pessoas acham úteis, então o Python mantém o número de dígitos gerenciáveis exibindo um valor arredondado
+
+Este fato se torna aparente assim que você tenta fazer aritmética com esses valores
+
+.. doctest::
+
+    >>> 0.1 + 0.2
+    0.30000000000000004
+    
+    >>> 0.7 - 0.2
+    0.49999999999999994
+
+Note que isto é da mesma natureza do ponto flutuante binário: isto não é um bug no Python, e também não é um bug no seu código. Você verá o mesmo tipo de coisa em todos os idiomas que suportam a aritmética de ponto flutuante de seu hardware (embora alguns idiomas possam não exibir a diferença por padrão ou em todos os modos de saída).
+
+Os erros de representação referem-se ao fato de que a maioria das frações decimais não podem ser representadas exatamente como frações binárias (base 2). Essa é a principal razão pela qual o Python (ou Perl, C, C++, Java, Fortran e muitos outros) geralmente não exibem o número decimal exato que é esperado.
+
+O valor de 1/10 não é exatamente representável como uma fração binária. Quase todas as máquinas atualmente (considerando após novembro de 2000) usam aritmética de ponto flutuante IEEE-754, e quase todas as plataformas mapeiam pontos flutuantes do Python para a `"dupla precisão"` IEEE-754. 754 duplas contêm 53 bits de precisão, portanto, na entrada, o computador se esforça para converter 0.1 na fração mais próxima possível da forma J/2 ** N, onde J é um inteiro contendo exatamente 53 bits. 
+
+
 Exercícios
 ----------
 
