@@ -236,7 +236,7 @@ Também pode ser usada a letra ``E`` maiúscula:
 
 
 Obs: Pontos Flutuantes
-------------------
+----------------------
 
 Uma consideração importante sobre pontos flutuantes (números decimais). Por exemplo: 
 
@@ -276,8 +276,8 @@ Exercícios
 .. include:: exercicios_calculadora_expressoes.rst
 
 
-Comentários
------------
+Sobre Comentários
+-----------------
 
 Caso precise explicar alguma coisa feita no código, é possível escrever um texto 
 (que não será executado), que ajuda a entender ou lembrar o que foi feito.
