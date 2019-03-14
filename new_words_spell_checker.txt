@@ -6,6 +6,7 @@ Bitcoin
 boleana
 boleano
 boleanos
+bug
 cluster
 Code
 Coding
@@ -42,6 +43,7 @@ Mozilla
 National
 network
 NãoComercial
+Perl
 Pylestras
 Python
 Rondinelly
