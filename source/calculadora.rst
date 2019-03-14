@@ -263,7 +263,7 @@ Este fato se torna aparente assim que você tenta fazer aritmética com esses va
     >>> 0.7 - 0.2
     0.49999999999999994
 
-Note que isto é da mesma natureza do ponto flutuante binário: isto não é um bug no Python, e também não é um bug no seu código. Você verá o mesmo tipo de coisa em todos os idiomas que suportam a aritmética de ponto flutuante de seu hardware (embora alguns idiomas possam não exibir a diferença por padrão ou em todos os modos de saída).
+Note que isso é da mesma natureza do ponto flutuante binário, não é um bug no Python e muito menos um bug no seu código. Você verá o mesmo tipo de coisa em todos os idiomas que suportam a aritmética de ponto flutuante de seu hardware (embora alguns idiomas possam não exibir a diferença por padrão ou em todos os modos de saída).
 
 Os erros de representação referem-se ao fato de que a maioria das frações decimais não podem ser representadas exatamente como frações binárias (base 2). Essa é a principal razão pela qual o Python (ou Perl, C, C++, Java, Fortran e muitos outros) geralmente não exibem o número decimal exato que é esperado.
 
