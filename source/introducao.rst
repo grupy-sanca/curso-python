@@ -1,11 +1,8 @@
+Introdução
+==========
+
 O que é *Python*?
-=================
-
-.. colocar aqui uma motivação sobre pq python é foda!
-
-   Histórico resumido da linguagem
-
-   pq usar python?
+-----------------
 
 *Python* é uma *linguagem de programação*. Isso significa basicamente duas coisas:
 
@@ -24,6 +21,16 @@ Ou seja, podemos escrever um documento - que chamamos de *código fonte* - em Py
 * tem *tipos dinâmicos*, ou seja, o interpretador faz a magia de descobrir o que é cada variável.
 
 Por essas e várias outras características, Python se torna uma linguagem simples, bela, legível e amigável. É uma linguagem utilizada por diversas empresas, como  Wikipedia, Google, Yahoo!, CERN, NASA, Facebook, Amazon, Instagram, Spotify... [1]_
+
+O desenvolvimento de Python começou no final da década de 1980, por Guido van Rossum. Ele decidiu usar esse nome porque estava lendo um roteiro de *Monty Python*, um grupo de comédia inglês da década de 1970. O documentação oficial do Python contém muitas referências aos filmes e personagens desse grupo.
+
+Um resumo das versões desta linguagem:
+
+- Versão 1.0 foi publicada em Janeiro de 1994.
+
+- Versão 2.0 foi publicada em Outubro de 2000.
+
+- Versão 3.0 foi publicada em Dezembro de 2008 e é a mais recente.
 
 
 Exemplos
