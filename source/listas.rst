@@ -278,7 +278,7 @@ Exercícios
 
 .. note::
 
-        É possível transformatar uma string em número, dado que seja um número:
+        É possível transformar uma string em número, dado que seja um número:
 
         .. doctest::
 

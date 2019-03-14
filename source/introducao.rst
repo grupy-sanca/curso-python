@@ -78,7 +78,7 @@ Não somente a indústria utiliza Python, muitos pesquisadores utilizam em diver
 
    plt.show()
 
-E o resultado desse código é a seguinta imagem:
+E o resultado desse código é a seguinte imagem:
 
 .. figure:: images/exemplo_sol.png
    :align: center

@@ -20,7 +20,7 @@
                 \frac{C}{5} = \frac{F - 32}{9}
 
 #. Crie uma função que receba 3 valores e calcula as raízes da fórmula de
-   Bháskara.
+   Bhāskara.
 
    .. math::
 
@@ -95,7 +95,7 @@
    * :math:`\epsilon`: a precisão da aproximação.
 
    e calcule uma aproximação para :math:`\sin(x)` usando duas condições de parada:
-   número máximo de termos na série é :math:`N_\mathrm{max}` **e** precisäo
+   número máximo de termos na série é :math:`N_\mathrm{max}` *e* precisão
    :math:`\epsilon`. Ou seja, sua aproximação terá no máximo :math:`N_\mathrm{max}`
    termos, mas pode ter menos termos caso a precisão desejada seja atingida (
    :math:`\delta < \epsilon`).

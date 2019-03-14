@@ -1,7 +1,7 @@
 Contribuidores
 ==============
 
-Lista de pessoas que contribuiram com a criação deste material:
+Lista de pessoas que contribuíram com a criação deste material:
 
 - Guilherme Martins
 - Heitor de Bittencourt

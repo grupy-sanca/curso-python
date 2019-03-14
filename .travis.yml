@@ -1,22 +1,29 @@
+dist: xenial
+
 language: python
 python:
   - "3.6"
-  - "3.7-dev"
+  - "3.7"
 
-sudo: false
 cache: pip
 
 addons:
   apt:
+    update: true
     packages:
       - texlive-latex-recommended
       - texlive-fonts-recommended
       - texlive-latex-extra
       - texlive-lang-portuguese
       - latexmk
+      - hunspell
+      - hunspell-pt-br
+      - enchant
+      - python3-enchant
 
 install:
   - pip install -r requirements.txt
 
 script:
   - SPHINXOPTS="-t instructors -nWT" make html latexpdf
+  - sphinx-build -b spelling -nW source/ build/

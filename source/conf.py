@@ -18,7 +18,8 @@ import os
 extensions = [
     'sphinx.ext.todo',
     'sphinx.ext.mathjax',
-    'sphinx.ext.doctest'
+    'sphinx.ext.doctest',
+    'sphinxcontrib.spelling'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -67,6 +68,10 @@ pygments_style = 'sphinx'
 # If true, `todo` and `todoList` produce output, else they produce nothing.
 todo_include_todos = True
 
+# spell checker stuff
+spelling_lang = language
+spelling_show_suggestions = True
+spelling_word_list_filename = '../new_words_spell_checker.txt'
 
 # -- Options for HTML output ----------------------------------------------
 

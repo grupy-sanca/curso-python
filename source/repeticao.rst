@@ -12,12 +12,12 @@ Em **python** existem duas formas de criar uma estrutura de repetição:
 
         O ``while`` é usando quado queremos que o bloco de código seja repetido
         até que uma condição seja satisfeita, ou seja, é necessário que uma
-        expressão booleana dada seja verdadeira e assim que ela se tornar falsa,
+        expressão boleana dada seja verdadeira e assim que ela se tornar falsa,
         o ``while`` para.
 
 .. note::
 
-        Na linguagem **python** a identação é obrigatória. assim como nas estruturas
+        Na linguagem **python** a indentação é obrigatória. assim como nas estruturas
         de controle, as estruturas de repetição também precisam.
 
         .. doctest::

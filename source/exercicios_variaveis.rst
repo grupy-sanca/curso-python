@@ -3,7 +3,7 @@
    teria ao cambiar :math:`\mathrm{R}\$\, 65{,}00` para dólares.
 
 #. Abelindo é um professor muito malvado. Ele quer decidir como reprovar
-   Rondineli, que tirou 8.66, 5.35, 5 e 1, respectivamente, nas provas
+   Rondinelly, que tirou 8.66, 5.35, 5 e 1, respectivamente, nas provas
    P1, P2, P3 e P4. Para isso, ele pode calcular a nota final usando média
    aritmética (M.A.), média geométrica (M.G.) ou média harmônica (M.H.).
 
@@ -19,7 +19,7 @@
 
       M.H. = \frac{4}{\frac{1}{P_1} + \frac{1}{P_2} + \frac{1}{P_3} + \frac{1}{P_4}}
 
-   Qual dessas médias dá a maior nota pra Rondineli? E qual das médias dá
+   Qual dessas médias dá a maior nota pra Rondinelly? E qual das médias dá
    a pior nota?
 
    .. only:: instructors

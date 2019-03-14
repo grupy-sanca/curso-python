@@ -33,6 +33,10 @@
          >>> print(R_vermelho, R_verde, R_roxo)
          150.0, 89.99999999999999, 64.99999999999999
 
+.. spelling::
+
+   yver
+
 #. D3yver50n resolveu minerar criptomoedas. Ele decidiu minerar *Ethereum* e viu
    que :math:`1\, ETH = \$687.86` e :math:`\$1 = \mathbb{R}\$3.59`. Ele comprou
    o seguinte computador:
@@ -49,7 +53,7 @@
 
    - 1 CPU: Intel Core i5-8500 por R$899,90
 
-   E resolveu montar usando uma estante de madeira e dois tijolos, para coolear
+   E resolveu montar usando uma estante de madeira e dois tijolos, para refrigerar
    melhor:
 
    .. figure:: images/cluster.jpg
