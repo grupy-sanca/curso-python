@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 #
 import os
+import datetime
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
@@ -36,7 +37,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'Curso Introdutório de Python'
-copyright = '2017-2018, (CC BY-NC-SA 4.0) Grupy-Sanca'
+copyright = '2017-{}, (CC BY-NC-SA 4.0) Grupy-Sanca'.format(datetime.datetime.now().year)
 author = 'Grupy-Sanca'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -44,7 +45,7 @@ author = 'Grupy-Sanca'
 # built documents.
 #
 # The short X.Y version.
-version = '2.3.4'
+version = '2.4.0'
 # The full version, including alpha/beta/rc tags.
 release = version
 
@@ -96,6 +97,8 @@ if not on_rtd:
 
 html_logo = 'images/logo_small.png'
 
+html_title = project + ' | ' + author
+
 # -- Options for HTMLHelp output ------------------------------------------
 
 # Output file base name for HTML help builder.
@@ -104,14 +107,23 @@ htmlhelp_basename = 'CursoIntrodutoriodePythonDoc'
 
 # -- Options for LaTeX output ---------------------------------------------
 
+# Overwrite release to not appear in the cover page
+release = ''
+
 latex_elements = {
     # The paper size ('letterpaper' or 'a4paper').
-    #
     # 'papersize': 'letterpaper',
 
     # The font size ('10pt', '11pt' or '12pt').
-    #
     # 'pointsize': '10pt',
+
+    # remove blank pages (between the title page and the TOC, etc.)
+    #'classoptions': ',openany,oneside',
+
+    # Babel translation to pb-BR
+    'babel': '\\usepackage[brazil]{babel}',
+
+    'releasename': '',
 
     # Additional stuff for the LaTeX preamble.
     #
@@ -123,7 +135,7 @@ latex_elements = {
                      \fancyfoot[LE,RO]{{\py@HeaderFamily\thepage}}
                      \fancyfoot[LO]{{\py@HeaderFamily\nouppercase{\rightmark}}}
                      \fancyfoot[RE]{{\py@HeaderFamily\nouppercase{\leftmark}}}
-                     \fancyhead[LE,RO]{{\py@HeaderFamily \@title, CC BY-NC-SA 4.0}}
+                     \fancyhead[LE,RO]{{\py@HeaderFamily \@title, grupy-sanca, CC BY-NC-SA 4.0}}
                      \renewcommand{\headrulewidth}{0.4pt}
                      \renewcommand{\footrulewidth}{0.4pt}
                    }
@@ -148,30 +160,6 @@ latex_logo = 'images/logo.png'
 latex_show_pagerefs = True
 
 latex_show_urls = 'footnote'
-
-
-# -- Options for manual page output ---------------------------------------
-
-# One entry per manual page. List of tuples
-# (source start file, name, description, authors, manual section).
-man_pages = [
-    (master_doc, 'cursointrodutoriodepython', 'Curso Introdutório de Python Documentation',
-     [author], 1)
-]
-
-
-# -- Options for Texinfo output -------------------------------------------
-
-# Grouping the document tree into Texinfo files. List of tuples
-# (source start file, target name, title, author,
-#  dir menu entry, description, category)
-texinfo_documents = [
-    (master_doc, 'CursoIntrodutoriodePython', 'Curso Introdutório de Python Documentation',
-     author, 'CursoIntrodutoriodePython', 'One line description of project.',
-     'Miscellaneous'),
-]
-
-
 
 # -- Options for Epub output ----------------------------------------------
 
