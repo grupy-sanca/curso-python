@@ -48,6 +48,7 @@ Pylestras
 Python
 Rondinelly
 SEnC
+Shell
 Sims
 source
 Spotify

@@ -97,15 +97,6 @@ Entre as ferramentas e recursos, podemos citar:
 - Personalizar o ambiente de trabalho.
 - Ocultar parte do código para melhor visualização.
 
-Linha de comando
-----------------
-
-.. explicar que tem que abrir um editor de texto e o shell para trabalhra com arquivos
-
-.. colocar aqui como abrir o shell do python no windows e no Linux
-
-.. colocar aqui o ipython
-
 Ambientes gráficos
 ------------------
 
@@ -118,7 +109,7 @@ O programa ATOM é um IDE *open-source* que apresenta diversos pacotes para pers
    :align: center
    :width: 80%
 
-No site oficial do `ATOM <https://atom.io>`_, você encontrará um link para a Documentação do programa. 
+No site oficial do `ATOM <https://atom.io>`_, você encontrará um link para a Documentação do programa.
 Na documentação, é possível acessar o `manual <https://flight-manual.atom.io/getting-started/sections/installing-atom/#platform-windows>`_ que mostrará passo a passo como instalar o programa (tanto para Windows como para Linux).
 
 Caso você tenha alguma dúvida, é aconselhável entrar na seção de `discusão <https://discuss.atom.io/>`_. Nessa página, você encontrará respostas para diversas dúvidas, e possivelmente, para a sua.
@@ -198,4 +189,32 @@ Na documentação, é possível acessar o `manual de Python <https://code.visual
 
 Para um passo-a-passo da instalação, você pode encontrar os detalhes de cada sistema operacional `nesta página do manual <https://code.visualstudio.com/docs/setup/setup-overview>`_.
 
-.. colocar aqui outras IDEs
+
+Linha de comando
+----------------
+
+Existe também a possibilidade de trabalhar sem um ambiente gráfico, utilizando apenas a *interface de linha de comando*.
+
+Python Shell
+~~~~~~~~~~~~
+
+Se você instalou corretamente o Python, você tem à sua disposição um interpretador interativo, popularmente conhecido como *o Shell do Python*.
+
+Se você utiliza Linux ou Mac, bata abrir um terminal e digitar ``python``. Caso utilize Windows, deverá existir uma pasta no menu *iniciar* chamada ``Python 3.7`` (ou ``Python 3.6``) que permite abrir o interpretador. Caso tenha sucesso, você deverá encontrar algo similar a esta imagem:
+
+.. figure:: images/python_shell.png
+   :align: center
+
+Para sair do Python, digite ``quit()``. Isso encerra a seção interativa e te retorna ao terminal (ou fecha a tela preta, no caso do Windows).
+
+Note que, ao entrar no interpretador, a primeira linha começa com ``Python 3.7.2``. Essa é a versão utilizada do Python. Neste curso utilizamos a versão ``3.6`` ou mais recente. Caso a versão que aparecer em seu interpretador seja ``2.7.6``, encerre a seção e tente o comando ``python3`` para utilizar a versão ``3`` do Python.
+
+IPython
+~~~~~~~
+
+`IPython`_ é um Shell alternativo para o Python, bem poderoso. E colorido também.
+
+.. figure:: images/ipython.png
+   :align: center
+
+.. _IPython: https://ipython.org
