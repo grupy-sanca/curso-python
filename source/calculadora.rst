@@ -201,7 +201,7 @@ problemas mais complexos:
 Quando mais de um operador aparece em uma expressão, a ordem de avaliação
 depende das regras de precedência.
 
-O Python segue as mesmas regras de precedência da matemática. 
+O Python segue as mesmas regras de precedência da matemática.
 O acrônimo **PEMDAS** ajuda a lembrar essa ordem:
 
 .. spelling::
@@ -247,13 +247,14 @@ Também pode ser usada a letra ``E`` maiúscula:
 Pontos Flutuantes
 -----------------
 
-Uma consideração importante sobre pontos flutuantes (números decimais). Por exemplo: 
+Uma consideração importante sobre pontos flutuantes (números decimais). Por exemplo:
 
 .. doctest::
-    >>> 0.1
-    0,1
 
-É importante perceber que este valor, em um sentido real na máquina, não é exatamente 1/10. Está arredondando a exibição do valor real da máquina. 
+    >>> 0.1
+    0.1
+
+É importante perceber que este valor, em um sentido real na máquina, não é exatamente 1/10. Está arredondando a exibição do valor real da máquina.
 
 .. doctest::
 
@@ -268,15 +269,15 @@ Este fato se torna aparente assim que você tenta fazer aritmética com esses va
 
     >>> 0.1 + 0.2
     0.30000000000000004
-    
+
     >>> 0.7 - 0.2
     0.49999999999999994
 
 Note que isso é da mesma natureza do ponto flutuante binário, não é um bug no Python e muito menos um bug no seu código. Você verá o mesmo tipo de coisa em todos os idiomas que suportam a aritmética de ponto flutuante de seu hardware (embora alguns idiomas possam não exibir a diferença por padrão ou em todos os modos de saída).
 
-Os erros de representação referem-se ao fato de que a maioria das frações decimais não podem ser representadas exatamente como frações binárias (base 2). Essa é a principal razão pela qual o Python (ou Perl, C, C++, Java, Fortran e muitos outros) geralmente não exibem o número decimal exato que é esperado.
+Os erros de representação referem-se ao fato de que a maioria das frações decimais não podem ser representadas exatamente como frações binárias (base 2). Essa é a principal razão pela qual o Python (ou Perl, C, C++, Java, Fortran e muitos outros) geralmente não exibe o número decimal exato que é esperado.
 
-O valor de 1/10 não é exatamente representável como uma fração binária. Quase todas as máquinas atualmente (considerando após novembro de 2000) usam aritmética de ponto flutuante `IEEE-754`_, e quase todas as plataformas mapeiam pontos flutuantes do Python para a `"dupla precisão"` IEEE-754, que contêm 53 bits de precisão. Portanto, na entrada, o computador se esforça para converter 0.1 na fração mais próxima possível da forma ``J/2 ** N``, onde ``J`` é um inteiro contendo exatamente 53 bits. 
+O valor de 1/10 não é exatamente representável como uma fração binária. Quase todas as máquinas atualmente (considerando após novembro de 2000) usam aritmética de ponto flutuante `IEEE-754`_, e quase todas as plataformas mapeiam pontos flutuantes do Python para a `"dupla precisão"` IEEE-754, que contêm 53 bits de precisão. Portanto, na entrada, o computador se esforça para converter 0.1 na fração mais próxima possível da forma ``J/2 ** N``, onde ``J`` é um inteiro contendo exatamente 53 bits.
 
 .. _IEEE-754: https://pt.wikipedia.org/wiki/IEEE_754
 
@@ -289,9 +290,9 @@ Exercícios
 Sobre Comentários
 -----------------
 
-Caso precise explicar alguma coisa feita no código, é possível escrever um texto 
+Caso precise explicar alguma coisa feita no código, é possível escrever um texto
 (que não será executado), que ajuda a entender ou lembrar o que foi feito.
-Esse texto é chamado de comentário, e para escrever um basta utilizar o 
+Esse texto é chamado de comentário, e para escrever um basta utilizar o
 caractere ``#``. Exemplo:
 
 .. doctest::
