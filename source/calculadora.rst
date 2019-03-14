@@ -235,8 +235,8 @@ Também pode ser usada a letra ``E`` maiúscula:
    1000000.0
 
 
-Obs: Pontos Flutuantes
-----------------------
+Pontos Flutuantes
+-----------------
 
 Uma consideração importante sobre pontos flutuantes (números decimais). Por exemplo: 
 
@@ -267,8 +267,9 @@ Note que isso é da mesma natureza do ponto flutuante binário, não é um bug n
 
 Os erros de representação referem-se ao fato de que a maioria das frações decimais não podem ser representadas exatamente como frações binárias (base 2). Essa é a principal razão pela qual o Python (ou Perl, C, C++, Java, Fortran e muitos outros) geralmente não exibem o número decimal exato que é esperado.
 
-O valor de 1/10 não é exatamente representável como uma fração binária. Quase todas as máquinas atualmente (considerando após novembro de 2000) usam aritmética de ponto flutuante IEEE-754, e quase todas as plataformas mapeiam pontos flutuantes do Python para a `"dupla precisão"` IEEE-754. 754 duplas contêm 53 bits de precisão, portanto, na entrada, o computador se esforça para converter 0.1 na fração mais próxima possível da forma ``J/2 ** N``, onde ``J`` é um inteiro contendo exatamente 53 bits. 
+O valor de 1/10 não é exatamente representável como uma fração binária. Quase todas as máquinas atualmente (considerando após novembro de 2000) usam aritmética de ponto flutuante `IEEE-754`_, e quase todas as plataformas mapeiam pontos flutuantes do Python para a `"dupla precisão"` IEEE-754, que contêm 53 bits de precisão. Portanto, na entrada, o computador se esforça para converter 0.1 na fração mais próxima possível da forma ``J/2 ** N``, onde ``J`` é um inteiro contendo exatamente 53 bits. 
 
+.. _IEEE-754: https://pt.wikipedia.org/wiki/IEEE_754
 
 Exercícios
 ----------
