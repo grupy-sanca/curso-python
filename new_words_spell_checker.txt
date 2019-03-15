@@ -15,6 +15,7 @@ CompartilhaIgual
 Creative
 criptomoedas
 Davinir
+Debian
 Demival
 Disqus
 Django
@@ -30,6 +31,7 @@ Hello
 History
 indentação
 Instagram
+IPython
 Joilson
 Josefson
 Karoline
@@ -48,6 +50,7 @@ Pylestras
 Python
 Rondinelly
 SEnC
+Shell
 Sims
 source
 Spotify
