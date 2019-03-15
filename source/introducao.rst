@@ -22,7 +22,7 @@ Ou seja, podemos escrever um documento - que chamamos de *código fonte* - em Py
 
 Por essas e várias outras características, Python se torna uma linguagem simples, bela, legível e amigável. É uma linguagem utilizada por diversas empresas, como  Wikipedia, Google, Yahoo!, CERN, NASA, Facebook, Amazon, Instagram, Spotify... [1]_
 
-O desenvolvimento de Python começou no final da década de 1980, por Guido van Rossum. Ele decidiu usar esse nome porque estava lendo um roteiro de *Monty Python*, um grupo de comédia inglês da década de 1970. O documentação oficial do Python contém muitas referências aos filmes e personagens desse grupo.
+O desenvolvimento de Python começou no final da década de 1980, por Guido van Rossum. Ele decidiu usar esse nome porque estava lendo um roteiro de *Monty Python*, um grupo de comédia inglês da década de 1970. A documentação oficial do Python contém muitas referências aos filmes e personagens desse grupo.
 
 Um resumo das versões desta linguagem:
 
