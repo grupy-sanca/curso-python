@@ -28,8 +28,8 @@ pode ter ambas versões `2` e `3` instaladas:
 Caso tenha aparecido a mensagem ``bash: python: command not found``, você pode
 instalá-lo da seguinte maneira:
 
-No Ubuntu
-~~~~~~~~~
+No Ubuntu e Debian
+~~~~~~~~~~~~~~~~~~
 
 .. code::
 
@@ -200,7 +200,7 @@ Python Shell
 
 Se você instalou corretamente o Python, você tem à sua disposição um interpretador interativo, popularmente conhecido como *o Shell do Python*.
 
-Se você utiliza Linux ou Mac, bata abrir um terminal e digitar ``python``. Caso utilize Windows, deverá existir uma pasta no menu *iniciar* chamada ``Python 3.7`` (ou ``Python 3.6``) que permite abrir o interpretador. Caso tenha sucesso, você deverá encontrar algo similar a esta imagem:
+Se você utiliza Linux ou Mac, basta abrir um terminal e digitar ``python``. Caso utilize Windows, deverá existir uma pasta no menu *iniciar* chamada ``Python 3.7`` (ou ``Python 3.6``) que permite abrir o interpretador. Caso tenha sucesso, você deverá encontrar algo similar a esta imagem:
 
 .. figure:: images/python_shell.png
    :align: center
@@ -212,7 +212,7 @@ Note que, ao entrar no interpretador, a primeira linha começa com ``Python 3.7.
 IPython
 ~~~~~~~
 
-`IPython`_ é um Shell alternativo para o Python, bem poderoso. E colorido também.
+`IPython`_ é um Shell alternativo para o Python, bem poderoso. E colorido também, ao contrário do `shell` nativo do Python.
 
 .. figure:: images/ipython.png
    :align: center
