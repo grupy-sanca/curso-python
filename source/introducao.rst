@@ -1,11 +1,8 @@
+Introdução
+==========
+
 O que é *Python*?
-=================
-
-.. colocar aqui uma motivação sobre pq python é foda!
-
-   Histórico resumido da linguagem
-
-   pq usar python?
+-----------------
 
 *Python* é uma *linguagem de programação*. Isso significa basicamente duas coisas:
 
@@ -24,6 +21,16 @@ Ou seja, podemos escrever um documento - que chamamos de *código fonte* - em Py
 * tem *tipos dinâmicos*, ou seja, o interpretador faz a magia de descobrir o que é cada variável.
 
 Por essas e várias outras características, Python se torna uma linguagem simples, bela, legível e amigável. É uma linguagem utilizada por diversas empresas, como  Wikipedia, Google, Yahoo!, CERN, NASA, Facebook, Amazon, Instagram, Spotify... [1]_
+
+O desenvolvimento de Python começou no final da década de 1980, por Guido van Rossum. Ele decidiu usar esse nome porque estava lendo um roteiro de *Monty Python*, um grupo de comédia inglês da década de 1970. A documentação oficial do Python contém muitas referências aos filmes e personagens desse grupo.
+
+Um resumo das versões desta linguagem:
+
+- Versão 1.0 foi publicada em Janeiro de 1994.
+
+- Versão 2.0 foi publicada em Outubro de 2000.
+
+- Versão 3.0 foi publicada em Dezembro de 2008. 3.7 é a versão mais recente.
 
 
 Exemplos
@@ -86,6 +93,20 @@ E o resultado desse código é a seguinte imagem:
 
    Erupções solares desde 1992, separadas por hemisférios (norte e sul) do Sol.
 
+Física de Partículas
+~~~~~~~~~~~~~~~~~~~~
+
+O premio Nobel de 2013 em Física foi para os cientistas que estudaram como as partículas elementares adquirem massa, conhecido como *Mecanismo de Higgs*. [7]_ Uma nova partícula foi descoberta em 2012: o *Bóson de Higgs*. Você pode ler todos os detalhes super técnicos neste artigo `aqui <https://inspirehep.net/record/1124338?ln=en>`_ que os cientistas do CERN publicaram.
+
+Caso você esteja interessado apenas na parte computacional, você pode refazer toda a análise dos dados experimentais utilizando Python! Existe uma `apostila online`_ que ensina passo a passo como obter os dados experimentais e simulações teóricas para reproduzir o gráfico a seguir.
+
+.. figure:: images/H4l_mass_v3.png
+   :align: center
+   :width: 80%
+
+   Reprodução dos resultados científicos publicados em 2012 sobre a descoberta do Bóson de Higgs. Gráfico obtido com o código publicado na `apostila online`_, que utiliza dados públicos do experimento CMS, no CERN.
+
+.. _apostila online: https://github.com/cms-opendata-education/cms-jupyter-materials-english/blob/master/Exercises-with-open-data/Advanced/Hunting-the-Higgs-4leptons.ipynb
 
 The Sims 4
 ~~~~~~~~~~
@@ -101,12 +122,14 @@ O jogo *The Sims 4* tem partes feitas em Python [3]_. Isso permite o desenvolvim
 
 .. [1] Lista compilada pela página da `Wikipedia sobre Python <https://en.wikipedia.org/wiki/Python_(programming_language)#Uses>`_, em inglês.
 
-.. [2] https://en.wikipedia.org/wiki/BitTorrent_(software)#History
+.. [2] `<https://en.wikipedia.org/wiki/BitTorrent_(software)#History>`_
 
-.. [3] https://en.wikipedia.org/wiki/The_Sims_4#Development
+.. [3] `<https://en.wikipedia.org/wiki/The_Sims_4#Development>`_
 
-.. [4] http://sidc.oma.be/silso/home
+.. [4] `<http://sidc.oma.be/silso/home>`_
 
-.. [5] https://en.wikipedia.org/wiki/Dropbox_(service)#Technology
+.. [5] `<https://en.wikipedia.org/wiki/Dropbox_(service)#Technology>`_
 
-.. [6] https://www.djangoproject.com/start/overview/
+.. [6] `<https://www.djangoproject.com/start/overview/>`_
+
+.. [7] `<https://www.nobelprize.org/prizes/physics/2013/summary/>`_

@@ -242,3 +242,10 @@ Para saber mais sobre os eventos organizados pelo grupy-sanca acesse:
        meetup.com/grupy-sanca
 
   - `YouTube <https://www.youtube.com/channel/UC9AED1x6Nn10lu-3rNELQnw>`_
+
+.. spelling::
+
+   grupysanca
+   br
+
+Ou entre em contato através do nosso email: contato `@` grupysanca `.` com `.` br
