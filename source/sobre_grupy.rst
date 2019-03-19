@@ -1,17 +1,20 @@
 Sobre o grupy-sanca
 ===================
 
-O grupy-sanca (Grupo de Usuários Python de São Carlos) é uma comunidade que
-reúne pessoas interessadas em desenvolvimento de software e na linguagem
+O *grupy-sanca* (Grupo de Usuários Python de São Carlos) é uma comunidade que
+reúne pessoas interessadas em desenvolvimento de *software* e na linguagem
 Python. Prezamos pela troca de conhecimento, respeito mútuo e diversidade
 (tanto de opinião quanto de tecnologias).
 
 Somos um grupo da cidade de São Carlos (SP) e região. Realizamos
-periodicamente diversos eventos, dentre eles:
+periodicamente diversos eventos.
 
+
+Atividades
+----------
 
 Cursos e oficinas de programação
---------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Oferecemos cursos básicos de Python e também sobre alguns assuntos específicos. Durante os cursos os membros do grupy se voluntariam para serem monitores e ajudam a solucionar eventuais dúvidas dos participantes.
 
@@ -57,12 +60,12 @@ Também aceitamos convites para ministrar nossos cursos em eventos, como semanas
 
 
 Pylestras
----------
+~~~~~~~~~
 
 Evento com o objetivo de reunir a comunidade, compartilhar conhecimento e
 divulgar novas tecnologias. É tradicionalmente composto por palestras rápidas (~17 minutos), onde obrigatoriamente uma delas não é sobre Python. 
 
-Qualquer pessoa interessada pode submeter uma palestra, independentemente do tema ser para iniciantes ou usuários avançados. Para deixar a escolha democrática, costumamos usar o `Speakerfight <https://speakerfight.com/>`_, onde a própria comunidade escolhe as palestras que acha mais interessantes.
+Qualquer pessoa interessada pode submeter uma palestra, independentemente do tema ser para iniciantes ou usuários avançados. Para deixar a escolha democrática, costumamos usar o `Speakerfight <https://speakerfight.com/profile/grupysanca/>`_, onde a própria comunidade escolhe as palestras que acha mais interessantes.
 
 .. figure:: images/sobre/palestras01.jpg
    :align: center
@@ -74,7 +77,7 @@ Qualquer pessoa interessada pode submeter uma palestra, independentemente do tem
 
 
 Coding Dojos
-------------
+~~~~~~~~~~~~
 
 É um espaço para que as pessoas possam aprender, treinar e aprimorar suas
 habilidades em programação. O `coding dojo` é um ótimo lugar para aprender
@@ -111,7 +114,7 @@ realmente vale a pena :)
    aconteceu de ser durante também...
 
 Eventos
--------
+~~~~~~~
 
 O grupy-sanca também organiza eventos singulares, únicos no universo!
 
@@ -144,7 +147,7 @@ Após duas edições sediadas em Ribeirão Preto, o grupy-sanca trouxe o evento 
    Tudo isso feito com muito carinho pelos membros do grupy-sanca <3
 
 Sprints
--------
+~~~~~~~
 
 Sprints são maratonas de programação. Um grupo de pessoas se junta no
 mesmo lugar para desenvolver algum projeto novo, resolver *bugs*
@@ -166,7 +169,7 @@ Durante os sprints, usuários iniciantes podem aprender como contribuir com proj
 
 
 Encontros casuais
------------------
+~~~~~~~~~~~~~~~~~
 
 Também conhecidos como PyBares :)
 
@@ -189,8 +192,8 @@ E em algumas situações, combinamos de conversar apenas *in english*!
    :width: 70%
 
 
-História
---------
+Histórico
+---------
 
 O grupo foi fundado em 28/06/2016 e desde então já tivemos:
 

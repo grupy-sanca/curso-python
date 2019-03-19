@@ -72,7 +72,7 @@ Conforme visto anteriormente, ao utilizar um índice negativo os elementos são 
         >>> lista[-5]  # primeiro
         100
 
-Ou pode-se acessar através de **slices**:
+Ou pode-se acessar através de *slices* (fatias):
 
 .. doctest::
 
@@ -143,7 +143,7 @@ Devido à lista ser uma estrutura mutável, é possível remover seus elementos 
         >>> lista_estranha
         ['duas palavras', 42, ['batman', 'robin'], -0.84, 'hipófise']
 
-        >>> del lista_estranha[-1]  # Remove o último elemento da list
+        >>> del lista_estranha[-1]  # Remove o último elemento da lista
         >>> lista_estranha
         ['duas palavras', 42, ['batman', 'robin'], -0.84]
 
@@ -180,7 +180,7 @@ O operador :math:`*` repete a lista dado um número de vezes:
 Métodos de listas
 -----------------
 
-Existem métodos que permitem alterar listas, como o ``append``, que adiciona um elemento ao final da lista:
+Existem métodos que permitem alterar listas, como o ``append()``, que adiciona um elemento ao final da lista:
 
 .. doctest::
 
@@ -297,3 +297,7 @@ Exercícios
                 '1900'
                 >>> type(numero_string)
                 <class 'str'>
+
+
+.. o range faz parte de listas neste contexto
+.. include:: range.rst
