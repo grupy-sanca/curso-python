@@ -202,13 +202,13 @@ O acrônimo **PEMDAS** ajuda a lembrar essa ordem:
    dição
    ubtração
 
-#. **P** arênteses
+#. **P**\ arênteses
 
-#. **E** xponenciação
+#. **E**\ xponenciação
 
-#. **M** ultiplicação e **D** ivisão (mesma precedência)
+#. **M**\ ultiplicação e **D**\ ivisão (mesma precedência)
 
-#. **A** dição e **S** ubtração (mesma precedência)
+#. **A**\ dição e **S**\ ubtração (mesma precedência)
 
 Notação Científica
 ------------------
