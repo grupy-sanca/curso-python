@@ -48,7 +48,7 @@ Pascal
 Python
 ~~~~~~
 
-Vamos ver como é o Hello World em Python. Para isso, abra o `shell` do
+Vamos ver como é o *Hello World* em Python. Para isso, abra o `shell` do
 Python e digite o texto abaixo (não esqueça de apertar `enter` no final):
 
 .. doctest::
@@ -56,19 +56,18 @@ Python e digite o texto abaixo (não esqueça de apertar `enter` no final):
    >>> print("Hello, World!")
    Hello, World!
 
-
 Em programação, é muito comum utilizar a palavra `imprimir` (ou `print`, em
 inglês) como sinônimo de mostrar algo na tela.
 
 
-Função print
-~~~~~~~~~~~~
+Função ``print()``
+~~~~~~~~~~~~~~~~~~
 
 ``print()`` é uma função nativa do Python. Basta colocar algo dentro dos
 parênteses que o Python se encarrega de fazer a magia de escrever na tela :)
 
 Erros comuns
-~~~~~~~~~~~~
+------------
 
 Usar a letra `P` maiúscula ao invés de minúscula: 
 

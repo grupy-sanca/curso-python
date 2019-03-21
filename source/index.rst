@@ -15,7 +15,6 @@ Curso Introdutório de Python
    calculadora
    variaveis
    listas
-   range
    input
    condicionais
    controle

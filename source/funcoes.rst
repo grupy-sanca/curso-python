@@ -6,10 +6,10 @@ Função é uma sequência de instruções que executa uma operação de computa
 definir uma função, você especifica o nome e a sequência de instruções. Depois,
 pode utilizar (“chamar”) a função pelo nome.
 
-A ideia é similar à função matemática! Mas funções em uma linguagem de
+A ideia é similar às funções matemáticas! Mas funções em uma linguagem de
 programação não realizam necessariamente apenas cálculos.
 
-Vimos o ``type``, um tipo de função:
+Vimos o ``type()``, um exemplo de função:
 
 .. doctest::
 
@@ -18,6 +18,12 @@ Vimos o ``type``, um tipo de função:
 
         >>> type('textinho')
         <class 'str'>
+
+Definindo funções
+-----------------
+
+Se quisermos uma função que ainda não existe em Python, temos que
+*definí-la*.
 
 Criando uma função simples::
 
@@ -45,7 +51,7 @@ Criando uma função simples::
         >>> soma()
         2
 
-Qual a diferença entre utilizar ``print`` e ``return`` aqui em cima?!?
+Qual a diferença entre utilizar ``print()`` e ``return()`` aqui em cima?!?
 
 .. doctest::
 
@@ -70,7 +76,7 @@ Qual a diferença entre utilizar ``print`` e ``return`` aqui em cima?!?
 Funções com argumentos
 ----------------------
 
-Queremos somar 3 com um número qualquer que insiro na função. Bora lá:
+Queremos somar ``3`` com um número qualquer que insiro na função. Bora lá:
 
 .. doctest::
 

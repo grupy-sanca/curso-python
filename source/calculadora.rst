@@ -8,101 +8,92 @@ A linguagem Python possui operadores que utilizam símbolos especiais para repre
 operações de cálculos, assim como na matemática:
 
 
-Soma (:math:`+`)
-~~~~~~~~~~~~~~~~
+- Soma (:math:`+`)
 
-.. doctest::
+   .. doctest::
 
-   >>> 2 + 3
-   5
+      >>> 2 + 3
+      5
 
-Para utilizar números decimais, use o **ponto** no lugar de vírgula:
+   Para utilizar números decimais, use o *ponto* no lugar de vírgula:
 
-.. doctest::
+   .. doctest::
 
-   >>> 3.2 + 2.7
-   5.9
+      >>> 3.2 + 2.7
+      5.9
 
+- Subtração (:math:`-`)
 
-Subtração (:math:`-`)
-~~~~~~~~~~~~~~~~~~~~~
+   .. doctest::
 
-.. doctest::
+      >>> 6 - 4
+      2
 
-   >>> 6 - 4
-   2
+   .. doctest::
 
-.. doctest::
+      >>> 7 - 8
+      -1
 
-   >>> 7 - 8
-   -1
+- Multiplicação (:math:`*`)
 
+   .. doctest::
 
-Multiplicação (:math:`*`)
-~~~~~~~~~~~~~~~~~~~~~~~~~
+      >>> 7 * 8
+      56
 
-.. doctest::
+   .. doctest::
 
-   >>> 7 * 8
-   56
+      >>> 2 * 2 * 2
+      8
 
-.. doctest::
+- Divisão (:math:`/`)
 
-   >>> 2 * 2 * 2
-   8
+   .. doctest::
 
+      >>> 100 / 20
+      5.0
 
-Divisão (:math:`/`)
-~~~~~~~~~~~~~~~~~~~
+   .. doctest::
 
-.. doctest::
+      >>> 10 / 3
+      3.3333333333333335
 
-   >>> 100 / 20
-   5.0
+   E se fizermos uma divisão por zero?
 
-.. doctest::
+   .. doctest::
 
-   >>> 10 / 3
-   3.3333333333333335
+      >>> 2 / 0
+      Traceback (most recent call last):
+        File "<stdin>", line 1, in <module>
+      ZeroDivisionError: division by zero
 
-E se fizermos uma divisão por zero?
-
-.. doctest::
-
-   >>> 2 / 0
-   Traceback (most recent call last):
-     File "<stdin>", line 1, in <module>
-   ZeroDivisionError: division by zero
-
-Como não existe um resultado para a divisão pelo número zero, o Python
-interrompe a execução do programa (no caso a divisão) e mostra o erro que
-aconteceu, ou seja, `"ZeroDivisionError: divison by zero"`.
+   Como não existe um resultado para a divisão pelo número zero, o Python
+   interrompe a execução do programa (no caso a divisão) e mostra o erro que
+   aconteceu, ou seja, `"ZeroDivisionError: divison by zero"`.
 
 
-Divisão inteira (:math:`//`)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+- Divisão inteira (:math:`//`)
 
-.. doctest::
+   .. doctest::
 
-   >>> 10 // 3
-   3
-   >>> 666 // 137
-   4
-   >>> 666 / 137
-   4.861313868613139
+      >>> 10 // 3
+      3
+      >>> 666 // 137
+      4
+      >>> 666 / 137
+      4.861313868613139
 
 
-Resto da divisão (:math:`\%`)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+- Resto da divisão (:math:`\%`)
 
-.. doctest::
+   .. doctest::
 
-   >>> 10 % 2
-   0
-   >>> 10 % 3
-   1
-   >>> 666 % 137
-   118
+      >>> 10 % 2
+      0
+      >>> 10 % 3
+      1
+      >>> 666 % 137
+      118
 
 
 Agora que aprendemos os operadores aritméticos básicos podemos seguir
@@ -114,7 +105,7 @@ multiplicar o número dois dez vezes:
    >>> 2 * 2 * 2 * 2 * 2 * 2 * 2 * 2 * 2 * 2
    1024
 
-Porém, isso não é muito prático, pois há um operador específico para isso, chamado de **potenciação/exponenciação**: :math:`**`
+Porém, isso não é muito prático, pois há um operador específico para isso, chamado de *potenciação/exponenciação*: :math:`**`
 
 .. doctest::
 
@@ -131,9 +122,7 @@ Porém, isso não é muito prático, pois há um operador específico para isso,
    >>> (10 ** 800 + 9 ** 1000) * 233
    407254001651377825050774086265365912933271559572398924650169906751889900030955189004916347478470698880616885512201849445183728845558993514870858509087817789576388584560964682795896403435448681980001360244790530805842737419978616650940647045809688543958807077794866143976192872389017280782837244051514550016751431331392474612723898201318251801288569103581859710953756463227568553903785400053293756105145991925711692828410365978814157929143646138367222515290495329841814490874087309733954914817582614165290441834984054374534909954119315442169415884429645515258867781282214407424938115130906555866837546110340314133204645184212592152733050063403478054121909337278892530383627259086060904403894148963384111173869448637825223750221720739904084905206403076141255284819817001128530851921214720479861908207168928806625713775441834487646542035428141369478170696522098960677314242891140325390964310295889079588950798788612324634050495786532200848059999839607732520233
 
-
-Raiz quadrada
-~~~~~~~~~~~~~
+E a *raiz quadrada*?
 
 Lembrando que :math:`\sqrt{x} = x^\frac{1}{2}`, então podemos calcular a raiz
 quadrada do seguinte modo:
@@ -143,7 +132,7 @@ quadrada do seguinte modo:
    >>> 4 ** 0.5
    2.0
 
-Mas, a maneira recomendada para fazer isso é usar a função ``sqrt`` da
+Mas a maneira recomendada para fazer isso é usar a função ``sqrt()`` da
 biblioteca ``math``:
 
 .. doctest::
@@ -163,7 +152,7 @@ E se precisarmos utilizar o número :math:`\pi`?
    >>> math.pi
    3.141592653589793
 
-Não esqueça que é preciso ter rodado ``import math`` antes de usar as funções
+Não esqueça que é preciso ter executado ``import math`` antes de usar as funções
 e constantes dessa biblioteca.
 
 Exercícios
@@ -213,13 +202,13 @@ O acrônimo **PEMDAS** ajuda a lembrar essa ordem:
    dição
    ubtração
 
-#. **P** arênteses
+#. **P**\ arênteses
 
-#. **E** xponenciação
+#. **E**\ xponenciação
 
-#. **M** ultiplicação e **D** ivisão (mesma precedência)
+#. **M**\ ultiplicação e **D**\ ivisão (mesma precedência)
 
-#. **A** dição e **S** ubtração (mesma precedência)
+#. **A**\ dição e **S**\ ubtração (mesma precedência)
 
 Notação Científica
 ------------------

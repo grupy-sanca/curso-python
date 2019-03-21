@@ -1,7 +1,7 @@
 Variáveis
 =========
 
-Variável é um **nome** que se refere a um valor.
+Variável é um *nome* que se refere a um valor.
 
 
 Atribuição
@@ -168,8 +168,8 @@ Exercícios
 .. include:: exercicios_variaveis.rst
 
 
-Strings (sequência de caracteres)
----------------------------------
+`Strings` (sequência de caracteres)
+-----------------------------------
 
 *Strings* são tipos de variáveis que armazenam uma sequência de caracteres:
 
@@ -229,7 +229,7 @@ Para strings em várias linhas, utilize 3 aspas:
 Tipos de objetos
 ----------------
 
-Para saber o tipo de um objeto, usamos a função ``type``:
+Para saber o tipo de um objeto ou variável, usamos a função ``type()``:
 
 .. doctest::
 
@@ -264,14 +264,14 @@ tamanho de uma *string*:
 -------
 
 Como visto anteriormente, o método ``len()`` pode ser utilizado para obter o
-tamanho de estruturas, sejam elas strings, listas, etc. Esse tamanho
+tamanho de estruturas, sejam elas *strings*, listas, etc. Esse tamanho
 representa a quantidade de elementos na estrutura.
 
 Para obter somente um caractere de dentro dessas estruturas, deve-se utilizar
-o acesso por índices, no qual o índice entre colchetes [] representa a
-posição do elemento que deseja-se acessar.
+o acesso por índices, no qual o índice entre colchetes ``[]`` representa a
+posição do elemento que se deseja acessar.
 
-Nota: Os índices começam em zero.
+.. note:: Os índices começam em zero.
 
 .. figure:: images/indices.png
    :align: center
@@ -299,11 +299,11 @@ Nota: Os índices começam em zero.
 Fatias
 ------
 
-Se ao invés de obter apenas um elemento de uma estrutura (string, lista,
+Se ao invés de obter apenas um elemento de uma estrutura (*string*, lista,
 ...) deseja-se obter múltiplos elementos, deve-se utilizar *slicing*
 (fatiamento). No lugar de colocar o índice do elemento entre chaves,
-deve-se colocar o índice do primeiro elemento, dois pontos (:) e o
-próximo índice do último elemento desejado, tudo entre chaves.
+deve-se colocar o índice do primeiro elemento, dois pontos (``:``) e o
+próximo índice do último elemento desejado, tudo entre colchetes.
 
 .. doctest::
 
@@ -828,8 +828,8 @@ feita nenhuma atribuição:
    'Python é 10. E as outras linguagens? False'
 
 
-Separar Strings
----------------
+Separação de *Strings*
+----------------------
 
 Se tivermos a frase ``Sílvio Santos vem aí, oleoleolá!`` e quisermos separar
 cada palavra, como fazer? Pode-se usar o fatiamento:

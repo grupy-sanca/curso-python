@@ -12,9 +12,9 @@ Exemplo:
 
 .. note::
 
-        Na linguagem **python** a indentação (espaço dado antes de uma linha) é
+        Na linguagem Python, a indentação (espaço dado antes de uma linha) é
         utilizada para demarcar os blocos de código, e são obrigatórios quando
-        se usa estruturas de controle
+        se usa estruturas de controle.
 
 .. doctest::
 

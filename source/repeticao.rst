@@ -5,19 +5,19 @@ Estruturas de repetição
 As estruturas de repetição são utilizadas quando queremos que um bloco de código
 seja executado várias vezes.
 
-Em **python** existem duas formas de criar uma estrutura de repetição:
+Em Python existem duas formas de criar uma estrutura de repetição:
 
-        O ``for`` é usado quando se quer iterar sobre um bloco de código um
-        número determinado de vezes.
+- O ``for`` é usado quando se quer iterar sobre um bloco de código um
+  número determinado de vezes.
 
-        O ``while`` é usando quado queremos que o bloco de código seja repetido
-        até que uma condição seja satisfeita, ou seja, é necessário que uma
-        expressão boleana dada seja verdadeira e assim que ela se tornar falsa,
-        o ``while`` para.
+- O ``while`` é usando quado queremos que o bloco de código seja repetido
+  até que uma condição seja satisfeita. Ou seja, é necessário que uma
+  expressão boleana dada seja verdadeira. Assim que ela se tornar falsa,
+  o ``while`` para.
 
 .. note::
 
-        Na linguagem **python** a indentação é obrigatória. assim como nas estruturas
+        Na linguagem Python a indentação é obrigatória. assim como nas estruturas
         de controle, as estruturas de repetição também precisam.
 
         .. doctest::
@@ -40,7 +40,7 @@ Em **python** existem duas formas de criar uma estrutura de repetição:
                 1
                 2
 
-O *loop* `for` em *python* itera sobre os itens de um conjunto, sendo assim, o
+O *loop* ``for`` em Python itera sobre os itens de um conjunto, sendo assim, o
 ``range(0, 3)`` precisa ser um conjunto de elementos. E na verdade ele é:
 
 .. doctest::

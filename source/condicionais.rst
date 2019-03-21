@@ -6,11 +6,11 @@ O tipo de dado boleano (``bool``) refere-se a uma unidade lógica sobre a qual
 podemos realizar operações, particularmente úteis para o controle de fluxo de um
 programa.
 
-A unidade boleana assume apenas 2 valores: Verdadeiro e Falso.
+A unidade boleana assume apenas 2 valores: Verdadeiro (``True``) e Falso (``False``).
 
 .. note::
 
-        Essa estrutura binária é a forma com a qual opera o computador (0 e 1).
+        Essa estrutura binária é a forma com a qual o computador opera (0 e 1).
 
 .. doctest::
 
@@ -19,7 +19,7 @@ A unidade boleana assume apenas 2 valores: Verdadeiro e Falso.
         >>> type(False)
         <class 'bool'>
 
-Qualquer expressão lógica retornará um valor em ``bool``:
+Qualquer expressão lógica retornará um valor boleano:
 
 .. doctest::
 
@@ -30,16 +30,16 @@ Qualquer expressão lógica retornará um valor em ``bool``:
 
 Os operadores lógicos utilizados em programação são:
 
-        * ``>``, maior a, por exemplo 5 > 3
-        * ``<``, menor a
-        * ``>=``, maior ou igual a
-        * ``<=``, menor ou igual a
-        * ``==``, igual a
-        * ``!=``, diferente de
+        * ``>``: maior a, por exemplo 5 > 3
+        * ``<``: menor a
+        * ``>=``: maior ou igual a
+        * ``<=``: menor ou igual a
+        * ``==``: igual a
+        * ``!=``: diferente de
 
 Para realizar operações com expressões lógicas, existem:
 
-        * ``and``, e, ele opera segundo a seguinte tabela:
+        * ``and`` (e): opera segundo a seguinte tabela:
                 ========== ========== ==========
                 Valor 1    Valor 2    Resultado
                 ========== ========== ==========
@@ -48,7 +48,7 @@ Para realizar operações com expressões lógicas, existem:
                 Falso      Verdadeiro Falso
                 Falso      Falso      Falso
                 ========== ========== ==========
-        * ``or``, ou:
+        * ``or`` (ou):
                 ========== ========== ==========
                 Valor 1    Valor 2    Resultado
                 ========== ========== ==========
@@ -57,7 +57,7 @@ Para realizar operações com expressões lógicas, existem:
                 Falso      Verdadeiro Verdadeiro
                 Falso      Falso      Falso
                 ========== ========== ==========
-        * ``not``, não:
+        * ``not`` (não):
                 ========== ==========
                 Valor      Resultado
                 ========== ==========

@@ -10,7 +10,7 @@
 
       \frac{100 - 413 \cdot (20 - 5 \times 4)}{5}
 
-#. Rondinelly quer ligar três capacitores, de valores:
+#. Enivaldo quer ligar três capacitores, de valores:
 
    - :math:`C_1 = 10  \, \mu F`
    - :math:`C_2 = 22  \, \mu F`

@@ -2,8 +2,8 @@
 Lendo valores do teclado
 ========================
 
-Em **python** também é possível ler do teclado as informações digitadas pelo
-usuário, e isso é feito por meio da função embutida ``input`` da seguinte forma:
+Em Python também é possível ler do teclado as informações digitadas pelo
+usuário, e isso é feito por meio da função embutida ``input()`` da seguinte forma:
 
 .. testsetup:: input_single
 
@@ -18,6 +18,8 @@ usuário, e isso é feito por meio da função embutida ``input`` da seguinte fo
 
         >>> type(valor_lido)  # deve-se notar que o valor lido é SEMPRE do tipo string
         <class 'str'>
+
+.. note:: O valor lido é sempre do tipo string.
 
 Mas, como realizar operações com os valores lidos?
 
