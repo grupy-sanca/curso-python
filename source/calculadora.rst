@@ -305,7 +305,7 @@ Operação  Significado
 <         menor que
 <=        menor igual que
 >         maior que
-<=        maior igual que
+>=        maior igual que
 ==        igual
 !=        diferente
 ========  ===============
