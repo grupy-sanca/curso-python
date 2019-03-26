@@ -1,3 +1,7 @@
+.. spelling::
+
+   yver
+
 #. Joilson está aprendendo Arduino. Ele quer ligar LEDs nas saídas digitais
    do Arduino. Cada pino fornece :math:`5\, V`. Joilson sabe que tem que ligar
    um resistor em série com o LED para não queimar. Calcule o valor do
@@ -32,10 +36,6 @@
          >>> R_roxo     = (V_arduino - V_roxo)     / I
          >>> print(R_vermelho, R_verde, R_roxo)
          150.0, 89.99999999999999, 64.99999999999999
-
-.. spelling::
-
-   yver
 
 #. D3yver50n resolveu minerar criptomoedas. Ele decidiu minerar *Ethereum* e viu
    que :math:`1\, ETH = \$687.86` e :math:`\$1 = \mathbb{R}\$3.59`. Ele comprou

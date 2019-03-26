@@ -1,3 +1,5 @@
+.. spelling:: IPv
+
 #. Faça uma função que determina se um número é par ou ímpar. Use o ``%`` para
    determinar o resto de uma divisão. Por exemplo: ``3 % 2 = 1`` e ``4 % 2 = 0``
 
@@ -18,8 +20,6 @@
         .. math::
 
                 \frac{C}{5} = \frac{F - 32}{9}
-
-.. spelling:: IPv
 
 #. Alanderson quer saber se um endereço IP é válido. Faça um programa para
    ajudar Alanderson a testar se um endereço é válido.
