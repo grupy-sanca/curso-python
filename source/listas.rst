@@ -180,20 +180,20 @@ O método ``append()`` adiciona um elemento ao final da lista:
 
 .. doctest::
 
-        >>> l = ['a', 'b', 'c']
-        >>> l
+        >>> lista = ['a', 'b', 'c']
+        >>> lista
         ['a', 'b', 'c']
 
-        >>> l.append('e')
-        >>> l
+        >>> lista.append('e')
+        >>> lista
         ['a', 'b', 'c', 'e']
 
 Temos também o ``insert()``, que insere um elemento na posição especificada:
 
 .. doctest::
 
-        >>> l.insert(3, 'd')
-        >>> l
+        >>> lista.insert(3, 'd')
+        >>> lista
         ['a', 'b', 'c', 'd', 'e']
 
 ``extend()`` recebe uma lista como argumento e adiciona todos seus elementos a
@@ -201,23 +201,23 @@ outra:
 
 .. doctest::
 
-        >>> l1 = ['a', 'b', 'c']
-        >>> l2 = ['d', 'e']
-        >>> l1
+        >>> lista1 = ['a', 'b', 'c']
+        >>> lista2 = ['d', 'e']
+        >>> lista1
         ['a', 'b', 'c']
 
-        >>> l2
+        >>> lista2
         ['d', 'e']
 
-        >>> l1.extend(l2)
-        >>> l1
+        >>> lista1.extend(lista2)
+        >>> lista1
         ['a', 'b', 'c', 'd', 'e']
 
-``l2`` não é modificado:
+``lista2`` não é modificado:
 
 .. doctest::
 
-        >>> l2
+        >>> lista2
         ['d', 'e']
 
 O método ``sort()`` ordena os elementos da lista em ordem ascendente:
@@ -236,41 +236,40 @@ Para fazer uma cópia de uma lista, devemos usar o método ``copy()``:
 
 .. doctest::
 
-        >>> l1 = ['a', 'b', 'c']
-        >>> l2 = l1.copy()
-        >>> l1
+        >>> lista1 = ['a', 'b', 'c']
+        >>> lista2 = lista1.copy()
+        >>> lista1
         ['a', 'b', 'c']
-        >>> l2
+        >>> lista2
         ['a', 'b', 'c']
-        >>> l2.append('d')
-        >>> l1
+        >>> lista2.append('d')
+        >>> lista1
         ['a', 'b', 'c']
-        >>> l2
+        >>> lista2
         ['a', 'b', 'c', 'd']
 
 Se não usarmos o ``copy()``, acontece algo bem estranho:
 
 .. doctest::
 
-        >>> l1 = ['a', 'b', 'c']
-        >>> l2 = l1
-        >>> l1
+        >>> lista1 = ['a', 'b', 'c']
+        >>> lista2 = lista1
+        >>> lista1
         ['a', 'b', 'c']
-        >>> l2
+        >>> lista2
         ['a', 'b', 'c']
-        >>> l2.append('d')
-        >>> l1
+        >>> lista2.append('d')
+        >>> lista1
         ['a', 'b', 'c', 'd']
-        >>> l2
+        >>> lista2
         ['a', 'b', 'c', 'd']
 
-Tudo o que for feito com ``l2`` nesse exemplo também altera ``l1`` e vice-versa.
+Tudo o que for feito com ``lista2`` nesse exemplo também altera ``lista1`` e vice-versa.
 
 
 Exercícios
 ----------
-
-.. include:: exercicios_listas_metodos.rst
+.. include:: exercicios_listas.rst
 
 .. note::
 
