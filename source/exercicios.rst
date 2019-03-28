@@ -38,20 +38,7 @@ Strings
 Listas
 ------
 
-Declaração
-~~~~~~~~~~
-
-.. include:: exercicios_listas_declaracao.rst
-
-Remoção
-~~~~~~~
-
-.. include:: exercicios_listas_del.rst
-
-Métodos
-~~~~~~~~
-
-.. include:: exercicios_listas_metodos.rst
+.. include:: exercicios_listas.rst
 
 
 Teclado

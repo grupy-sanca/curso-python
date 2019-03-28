@@ -29,12 +29,6 @@ A lista pode conter elementos de tipos diferentes:
         >>> vazia
         []
 
-Exercícios
-----------
-
-.. include:: exercicios_listas_declaracao.rst
-
-
 Índices
 -------
 
@@ -146,12 +140,6 @@ Devido à lista ser uma estrutura mutável, é possível remover seus elementos 
         >>> del lista_estranha[-1]  # Remove o último elemento da lista
         >>> lista_estranha
         ['duas palavras', 42, ['batman', 'robin'], -0.84]
-
-Exercícios
-----------
-
-.. include:: exercicios_listas_del.rst
-
 
 Trabalhando com listas
 ----------------------
