@@ -153,8 +153,8 @@ Exercícios
 .. include:: exercicios_listas_del.rst
 
 
-Operação com listas
--------------------
+Trabalhando com listas
+----------------------
 
 O operador :math:`+` concatena listas:
 
@@ -176,11 +176,7 @@ O operador :math:`*` repete a lista dado um número de vezes:
         >>> [1, 2, 3] * 2
         [1, 2, 3, 1, 2, 3]
 
-
-Métodos de listas
------------------
-
-Existem métodos que permitem alterar listas, como o ``append()``, que adiciona um elemento ao final da lista:
+O método ``append()`` adiciona um elemento ao final da lista:
 
 .. doctest::
 
@@ -192,7 +188,7 @@ Existem métodos que permitem alterar listas, como o ``append()``, que adiciona 
         >>> l
         ['a', 'b', 'c', 'e']
 
-Para inserir numa posição qualquer: ``list.insert(index, obj)``
+Temos também o ``insert()``, que insere um elemento na posição especificada:
 
 .. doctest::
 
@@ -200,7 +196,7 @@ Para inserir numa posição qualquer: ``list.insert(index, obj)``
         >>> l
         ['a', 'b', 'c', 'd', 'e']
 
-``extend`` recebe uma lista como argumento e adiciona todos seus elementos a
+``extend()`` recebe uma lista como argumento e adiciona todos seus elementos a
 outra:
 
 .. doctest::
@@ -224,7 +220,7 @@ outra:
         >>> l2
         ['d', 'e']
 
-O método ``sort`` ordena os elementos da lista em ordem ascendente:
+O método ``sort()`` ordena os elementos da lista em ordem ascendente:
 
 .. doctest::
 
@@ -236,7 +232,7 @@ O método ``sort`` ordena os elementos da lista em ordem ascendente:
         >>> lista_desordenada  # Agora está ordenada!
         ['a', 'b', 'h', 'k', 'z']
 
-Para fazer uma cópia de uma lista, devemos usar o método ``copy``:
+Para fazer uma cópia de uma lista, devemos usar o método ``copy()``:
 
 .. doctest::
 
@@ -252,7 +248,7 @@ Para fazer uma cópia de uma lista, devemos usar o método ``copy``:
         >>> l2
         ['a', 'b', 'c', 'd']
 
-Se não usarmos o ``copy``, acontece algo bem estranho:
+Se não usarmos o ``copy()``, acontece algo bem estranho:
 
 .. doctest::
 
