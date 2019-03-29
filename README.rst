@@ -30,6 +30,11 @@ How to use locally
    `pyenchant <https://github.com/rfk/pyenchant/>`_ and a pt-br dictionary
    (e.g. `hunspell-pt-br <https://hunspell.github.io/>`_) for spell checker.
 
+   .. note::
+
+        For compatibility with the spelling module, use sphinx version 1.8.5.
+
+
 2. Run the following command to generate the material in HTML:
 
    .. code:: sh
