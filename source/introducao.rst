@@ -65,7 +65,7 @@ Não somente a indústria utiliza Python, muitos pesquisadores utilizam em diver
 
 É possível de modo bem simples estudar as erupções solares desde 1992 até hoje. O Observatório Real da Bélgica tem um banco de dados sobre o número de manchas solares, e disponibilizam online para estudos. [4]_ Veja como é o código para visualizar a atividade solar desde 01/01/1992 em cada parte (norte e sul) do Sol:
 
-.. code::
+.. code-block:: python3
 
    import pandas as pd     # isso aqui gerencia os dados
    import matplotlib.pyplot as plt    # isso aqui permite fazer gráficos

@@ -14,7 +14,7 @@
 
       Exemplo de solução:
 
-      .. code:: python
+      .. code-block:: python3
 
          >>> 4 * 4 * 2 * 0.25 # 4 meses * 4 semanas/mês * 2 aulas/semana * 25%
          8.0
@@ -31,7 +31,7 @@
 
       Exemplo de solução:
 
-      .. code:: python
+      .. code-block:: python3
 
           >>> import math
           >>> math.pi * 2**2

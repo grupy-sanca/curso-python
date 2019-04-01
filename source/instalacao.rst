@@ -10,7 +10,7 @@ Provavelmente você já tem o Python instalado e configurado. Para ter certeza
 que ele está instalado e descobrir qual versão, abra um terminal e execute o
 comando:
 
-.. code::
+.. code-block:: bash
 
    $ python --version
 
@@ -21,7 +21,7 @@ Caso o resultado do comando anterior tenha sido `Python 2.7.13` (ou qualquer
 versão do `Python 2`) tente rodar o seguinte comando, pois seu computador
 pode ter ambas versões `2` e `3` instaladas:
 
-.. code::
+.. code-block:: bash
 
     $ python3 --version
 
@@ -31,14 +31,14 @@ instalá-lo da seguinte maneira:
 No Ubuntu e Debian
 ~~~~~~~~~~~~~~~~~~
 
-.. code::
+.. code-block:: bash
 
    $ sudo apt install python3
 
 No ArchLinux
 ~~~~~~~~~~~~
 
-.. code::
+.. code-block:: bash
 
    $ sudo pacman -Sy python
 
@@ -52,7 +52,7 @@ duas vezes no ``Python.mpkg`` para abrir o instalador.
 Para ter certeza que ele está instalado e descobrir qual versão, abra um
 terminal e execute o comando:
 
-.. code::
+.. code-block:: bash
 
    $ python --version
    Python 3.6.5

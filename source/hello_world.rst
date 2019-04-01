@@ -9,7 +9,7 @@ esse exemplo:
 C
 ~
 
-.. code:: C
+.. code-block:: C
 
    #include <stdio.h>
 
@@ -22,7 +22,7 @@ C
 Java
 ~~~~
 
-.. code:: java
+.. code-block:: java
 
    public class Hello {
          public static void main(String[] args) {
@@ -36,7 +36,7 @@ Java
 Pascal
 ~~~~~~
 
-.. code:: pascal
+.. code-block:: pascal
 
    program HelloWorld;
 
@@ -69,7 +69,7 @@ parênteses que o Python se encarrega de fazer a magia de escrever na tela :)
 Erros comuns
 ------------
 
-Usar a letra `P` maiúscula ao invés de minúscula: 
+Usar a letra `P` maiúscula ao invés de minúscula:
 
 .. doctest::
 
@@ -81,12 +81,12 @@ Usar a letra `P` maiúscula ao invés de minúscula:
 Esquecer de abrir e fechar aspas no texto que é passado para a função
 ``print()``:
 
-.. code:: python
+.. code-block:: bash
 
-  >>> print(Hello, World!)
-  Traceback (most recent call last):
-      ...
-  SyntaxError: invalid syntax
+   >>> print(Hello, World!)
+   Traceback (most recent call last):
+       ...
+   SyntaxError: invalid syntax
 
 Esquecer de abrir ou fechar as aspas:
 

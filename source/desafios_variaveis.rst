@@ -24,7 +24,7 @@
 
       Exemplo de solução:
 
-      .. code:: python
+      .. code-block:: python3
 
          >>> V_vermelho = 2
          >>> V_verde    = 3.2
@@ -104,7 +104,7 @@
 
       Exemplo de solução:
 
-      .. code:: python
+      .. code-block:: python3
 
          # item a - ETH / s
          GPU_hashrate = 27e6 # Hash/s
@@ -158,7 +158,7 @@
          tempo = custo_total / profit
          print("Tempo para recuperar investimento (em meses): ", tempo)
 
-      .. code:: bash
+      .. code-block:: bash
 
          $ python eth.py
          ETH / s:  1.231003039513678e-07

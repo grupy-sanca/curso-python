@@ -40,7 +40,7 @@
 
       Exemplo de solução:
 
-      .. code:: python
+      .. code-block:: python3
 
          >>> 10 + 22 + 0.8 # em paralelo, resposta em µF
          32.8
@@ -68,14 +68,14 @@
 
 #. Krissia gosta de bolinhas de queijo. Ela quer saber quantas bolinhas de
    queijo dá para colocar dentro de um pote de sorvete de :math:`2\, L`. Ela
-   pensou assim::
+   pensou assim:
 
-      Um pote de sorvete tem dimensões 15 cm x 10 cm x 13 cm.
+      *Um pote de sorvete tem dimensões 15 cm x 10 cm x 13 cm.
       Uma bolinha de queijo é uma esfera de raio r = 1.2 cm.
       O fator de empacotamento ideal é 0.74, mas o pote de sorvete tem
       tamanho comparável às bolinhas de queijo, aí tem efeitos de borda, então 
       o fator deve ser menor. Mas as bolinhas de queijo são razoavelmente
-      elásticas, então empacota mais. Esse valor parece razoável.
+      elásticas, então empacota mais. Esse valor parece razoável.*
 
    Sabendo que o volume de uma esfera de raio :math:`r` é
    :math:`V = \frac{4}{3} \pi r^3`, o volume do pote de sorvete é
@@ -89,7 +89,7 @@
 
       Exemplo de solução:
 
-      .. code:: python
+      .. code-block:: python3
 
          >>> from math import pi, floor
          >>> 15 * 10 * 13 * 0.74 / (4 / 3 * pi * 1.2**3)

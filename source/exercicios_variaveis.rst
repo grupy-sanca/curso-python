@@ -26,7 +26,7 @@
 
       Exemplo de solução:
 
-      .. code:: python
+      .. code-block:: python3
 
          >>> p1 = 8.66
          >>> p2 = 5.35
@@ -57,7 +57,7 @@
 
       Exemplo de solução:
 
-      .. code:: python
+      .. code-block:: python3
 
          >>> dolar     = 3.25
          >>> celular   = 299.99

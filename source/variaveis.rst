@@ -62,7 +62,7 @@ Tentar dar um nome ilegal a uma variável ocasionará erro de sintaxe:
                 ^
    SyntaxError: invalid syntax
 
-.. code:: python
+.. code-block:: python3
 
    >>> ol@ = "oi"
    Traceback (most recent call last):
@@ -71,7 +71,7 @@ Tentar dar um nome ilegal a uma variável ocasionará erro de sintaxe:
                ^
    SyntaxError: invalid syntax
 
-.. doctest::
+.. code-block:: bash
 
    >>> def = 2.7
    Traceback (most recent call last):
@@ -334,7 +334,7 @@ Buscando ajuda rapidamente
 Está com dúvida em alguma coisa? Use a função ``help()`` e depois digite o
 que você busca.
 
-.. code::
+.. code-block:: python3
 
    >>> help()
 
@@ -373,7 +373,7 @@ Para sair do ambiente de ajuda, pressione a tecla ``q``.
 
 .. only:: html
 
-   .. code::
+   .. code-block:: python3
 
       >>> help(str)
       Help on class str in module builtins:

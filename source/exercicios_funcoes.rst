@@ -35,7 +35,7 @@
 
       Exemplo de solução:
 
-      .. code:: python
+      .. code-block:: python3
 
          ip = input('Qual IP você quer testar, Alanderson?\t')
 
@@ -139,7 +139,7 @@
 
       Exemplo de solução:
 
-      .. code:: python
+      .. code-block:: python3
 
          import math
 
@@ -231,7 +231,7 @@
 
       Exemplo de solução:
 
-      .. code:: python
+      .. code-block:: python3
 
          import random
 
