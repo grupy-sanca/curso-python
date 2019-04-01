@@ -21,7 +21,7 @@ How to use locally
 ------------------
 
 1. Install requirements:
-   
+
    .. code:: sh
 
         $ pip install -Ur requirements.txt
@@ -29,10 +29,6 @@ How to use locally
    You also need `enchant <https://github.com/AbiWord/enchant>`_,
    `pyenchant <https://github.com/rfk/pyenchant/>`_ and a pt-br dictionary
    (e.g. `hunspell-pt-br <https://hunspell.github.io/>`_) for spell checker.
-
-   .. note::
-
-        For compatibility with the spelling module, use sphinx version 1.8.5.
 
 
 2. Run the following command to generate the material in HTML:
