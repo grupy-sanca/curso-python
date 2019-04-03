@@ -14,8 +14,8 @@ Curso Introdutório de Python
    hello_world
    calculadora
    variaveis
-   listas
    input
+   listas
    condicionais
    controle
    repeticao
