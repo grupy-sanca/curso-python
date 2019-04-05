@@ -35,16 +35,16 @@ Strings
 .. include:: exercicios_string.rst
 
 
-Listas
-------
-
-.. include:: exercicios_listas.rst
-
-
 Teclado
 -------
 
 .. include:: exercicios_input.rst
+
+
+Listas
+------
+
+.. include:: exercicios_listas.rst
 
 
 Estruturas de Controle
