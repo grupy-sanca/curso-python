@@ -14,6 +14,7 @@ Curso Introdutório de Python
    hello_world
    calculadora
    variaveis
+   strings
    input
    listas
    condicionais
