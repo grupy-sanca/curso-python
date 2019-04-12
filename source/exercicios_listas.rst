@@ -26,6 +26,6 @@
 
    Agora "vá ao mercado" e delete apenas os produtos de limpeza da lista.
 
-   Agora "vá à sorveteria" e se empanturre e sorvete e tire o sorvete da lista.
+   Agora "vá à sorveteria" e se empanturre de sorvete e tire o sorvete da lista.
 
 #. Dado uma lista de números, faça com que os números sejam ordenados e, em seguida, inverta a ordem da lista usando *slicing*.
