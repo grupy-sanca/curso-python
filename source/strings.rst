@@ -65,6 +65,34 @@ Para strings em várias linhas, utilize 3 aspas:
    e mais uma
    e acabou.
 
+Caso queira um texto que dentro tem aspas, como ``Me dá um copo d'água``, é
+necessário utilizar aspas duplas para formar a *string*:
+
+.. doctest::
+
+   >>> agua = "Me dá um copo d'água"
+   >>> agua
+   "Me dá um copo d'água"
+
+E também é possível utilizar aspas simples, duplas e triplas ao mesmo tempo!
+Olha só:
+
+.. doctest::
+
+   >>> todas_as_aspas = """Essa é uma string que tem:
+   ... - aspas 'simples'
+   ... - aspas "duplas"
+   ... - aspas '''triplas'''
+   ... Legal né?"""
+   >>> todas_as_aspas
+   'Essa é uma string que tem:\n- aspas \'simples\'\n- aspas "duplas"\n- aspas \'\'\'triplas\'\'\'\nLegal né?'
+   >>> print(todas_as_aspas)
+   Essa é uma string que tem:
+   - aspas 'simples'
+   - aspas "duplas"
+   - aspas '''triplas'''
+   Legal né?
+
 
 Tamanho
 -------
