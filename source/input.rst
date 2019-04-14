@@ -1,9 +1,9 @@
-========================
 Lendo valores do teclado
 ========================
 
 Em Python também é possível ler do teclado as informações digitadas pelo
-usuário, e isso é feito por meio da função embutida ``input()`` da seguinte forma:
+usuário. E isso é feito por meio da função embutida ``input()`` da seguinte
+forma:
 
 .. testsetup:: input_single
 
@@ -19,6 +19,8 @@ usuário, e isso é feito por meio da função embutida ``input()`` da seguinte 
         >>> type(valor_lido)  # deve-se notar que o valor lido é SEMPRE do tipo string
         <class 'str'>
 
+A função ``input()`` "termina" de ser executada quando pressionamos *enter*.
+
 .. note:: O valor lido é sempre do tipo string.
 
 Mas, como realizar operações com os valores lidos?
@@ -30,7 +32,8 @@ Mas, como realizar operações com os valores lidos?
             ...
         TypeError: must be str, not int
 
-Para poder fazer isso pode-se usar os operadores ``int()`` e ``float(),`` que converte o valor lido para o tipo de dado esperado:
+Para poder fazer isso pode-se usar os operadores ``int()`` e ``float(),`` que
+converte o valor lido para o tipo de dado esperado:
 
 .. testsetup:: input_convert
 
@@ -62,7 +65,25 @@ Para poder fazer isso pode-se usar os operadores ``int()`` e ``float(),`` que co
         >>> valor_lido - 1
         0.5
 
-----------
+Tudo o que for digitado no teclado, até pressionar a tecla *enter*, será
+capturado pela função ``input()``. Isso significa que podemos ler palavras
+separadas por um espaço, ou seja, uma frase inteira:
+
+.. testsetup:: input_frase
+
+   def input():
+      frase = 'Rosas são vermelhas, violetas são azuis, girassóis são legais.'
+      print(frase)
+      return frase
+
+.. doctest:: input_frase
+
+   >>> frase = input()
+   Rosas são vermelhas, violetas são azuis, girassóis são legais.
+   >>> frase
+   'Rosas são vermelhas, violetas são azuis, girassóis são legais.'
+
+
 Exercícios
 ----------
 
