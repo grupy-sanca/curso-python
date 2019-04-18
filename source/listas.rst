@@ -68,18 +68,21 @@ Conforme visto anteriormente, ao utilizar um índice negativo os elementos são 
         >>> lista[-5]  # primeiro
         100
 
-Ou pode-se acessar através de *slices* (fatias):
+Ou pode-se acessar através de *slices* (fatias), como nas :ref:`strings <section_fatias_strings>`:
 
 .. doctest::
 
-        >>> lista[2:4]
+        >>> lista[2:4]  # da posição 2 até a 4 (não inclusa)
         [300, 400]
 
-        >>> lista[:3]
+        >>> lista[:3]   # até a posição 3 (não incluso)
         [100, 200, 300]
 
-        >>> lista[2:]
+        >>> lista[2:]   # da posição 2 até o final
         [300, 400, 500]
+
+        >>> lista[:]    # do começo até o final
+        [100, 200, 300, 400, 500]
 
 Tentar acessar uma posição inválida de uma lista causa um erro:
 
@@ -95,7 +98,7 @@ Tentar acessar uma posição inválida de uma lista causa um erro:
             ,,,
         IndexError: list index out of range
 
-Podemos avaliar se os elementos estão na lista com a palavra `in`:
+Podemos avaliar se os elementos estão na lista com a palavra ``in``:
 
 .. doctest::
 
@@ -199,7 +202,7 @@ e move os demais elementos para direita:
       >>> lista
       ['a', 'b', 'c', 'd', 'ç', 'e']
 
-   Use ``append()`` caso queria algo adicionado ao final da lista.
+   Use ``append()`` caso queira algo adicionado ao final da lista.
 
 ``extend()`` recebe uma lista como argumento e adiciona todos seus elementos a
 outra:

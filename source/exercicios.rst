@@ -34,6 +34,11 @@ Strings
 
 .. include:: exercicios_string.rst
 
+Desafios
+~~~~~~~~
+
+.. include:: desafios_string.rst
+
 
 Teclado
 -------
