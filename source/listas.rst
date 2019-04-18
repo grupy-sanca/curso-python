@@ -146,7 +146,7 @@ Devido à lista ser uma estrutura mutável, é possível remover seus elementos 
 Trabalhando com listas
 ----------------------
 
-O operador :math:`+` concatena listas:
+O operador ``+`` concatena listas:
 
 .. doctest::
 
@@ -156,7 +156,7 @@ O operador :math:`+` concatena listas:
         >>> c
         [1, 2, 3, 4, 5, 6]
 
-O operador :math:`*` repete a lista dado um número de vezes:
+O operador ``*`` repete a lista dado um número de vezes:
 
 .. doctest::
 
@@ -259,30 +259,8 @@ Tudo o que for feito com ``lista2`` nesse exemplo também altera ``lista1`` e vi
 
 Exercícios
 ----------
+
 .. include:: exercicios_listas.rst
-
-.. note::
-
-        É possível transformar uma string em número, dado que seja um número:
-
-        .. doctest::
-
-                >>> numero = int("2")
-                >>> numero
-                2
-
-.. note::
-
-        A volta também é possível:
-
-        .. doctest::
-
-                >>> numero_string = str(1900)
-                >>> numero_string
-                '1900'
-                >>> type(numero_string)
-                <class 'str'>
-
 
 .. o range faz parte de listas neste contexto
 .. include:: range.rst

@@ -265,6 +265,28 @@ Mas também podemos usar a função ``split()``:
    >>> frase.split()
    ['Sílvio', 'Santos', 'vem', 'aí,', 'oleoleolá!']
 
+.. note::
+
+        É possível transformar uma string em número, dado que seja um número:
+
+        .. doctest::
+
+                >>> numero = int("2")
+                >>> numero
+                2
+
+.. note::
+
+        A volta também é possível:
+
+        .. doctest::
+
+                >>> numero_string = str(1900)
+                >>> numero_string
+                '1900'
+                >>> type(numero_string)
+                <class 'str'>
+
 
 Exercícios
 ----------
