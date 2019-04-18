@@ -46,6 +46,10 @@ Listas
 
 .. include:: exercicios_listas.rst
 
+Dicionários
+-----------
+
+.. include:: dicionarios.rst
 
 Estruturas de Controle
 ----------------------
