@@ -269,7 +269,7 @@ Python vem com alguns tipos básicos de objetos, dentre eles:
 * ``complex``: números complexos.
 * ``str``: *strings* (textos).
 * ``list``: :ref:`listas <section_listas>`. Estudaremos em breve o que são.
-* ``dict``: dicionários.
+* ``dict``: :ref:`dicionários <section_dicionarios>`. Estudaremos em breve o que são.
 
 
 Buscando ajuda rapidamente
