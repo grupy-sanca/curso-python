@@ -178,13 +178,28 @@ O método ``append()`` adiciona um elemento ao final da lista:
         >>> lista
         ['a', 'b', 'c', 'e']
 
-Temos também o ``insert()``, que insere um elemento na posição especificada:
+Temos também o ``insert()``, que insere um elemento na posição especificada
+e move os demais elementos para direita:
 
 .. doctest::
 
         >>> lista.insert(3, 'd')
         >>> lista
         ['a', 'b', 'c', 'd', 'e']
+
+.. warning::
+
+   Cuidado com ``lista.insert(-1, algo)``! Nesse caso, inserimos ``algo`` na
+   posição ``-1`` e o elemento que estava previamente na posição ``-1`` é
+   movido para a direita:
+
+   .. doctest::
+
+      >>> lista.insert(-1, 'ç')
+      >>> lista
+      ['a', 'b', 'c', 'd', 'ç', 'e']
+
+   Use ``append()`` caso queria algo adicionado ao final da lista.
 
 ``extend()`` recebe uma lista como argumento e adiciona todos seus elementos a
 outra:
