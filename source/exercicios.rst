@@ -49,7 +49,7 @@ Listas
 Dicionários
 -----------
 
-.. include:: exercicios_dicionarios.rst
+.. include:: exercicios_dicionario.rst
 
 Estruturas de Controle
 ----------------------
