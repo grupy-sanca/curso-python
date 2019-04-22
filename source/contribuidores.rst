@@ -8,5 +8,6 @@ Lista de pessoas que contribuíram com a criação deste material:
 - Juliana Karoline
 - Lucas Carvalho
 - Luiz Menezes
+- Luiz Fernando S. E. Santos
 - Marcelo Miky Mine
 - Tiago Martins

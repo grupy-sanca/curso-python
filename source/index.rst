@@ -17,6 +17,7 @@ Curso Introdutório de Python
    strings
    input
    listas
+   dicionarios
    condicionais
    controle
    repeticao

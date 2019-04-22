@@ -33,6 +33,7 @@ No exemplo anterior realizamos três atribuições. No primeiro atribuímos um
 número inteiro à variável de nome ``numero``; no segundo uma frase à
 variável ``frase``; no último um número de ponto flutuante à ``pi``.
 
+.. _section_nomes_variaveis:
 
 Nomes de Variáveis
 ------------------
@@ -269,7 +270,7 @@ Python vem com alguns tipos básicos de objetos, dentre eles:
 * ``complex``: números complexos.
 * ``str``: *strings* (textos).
 * ``list``: :ref:`listas <section_listas>`. Estudaremos em breve o que são.
-* ``dict``: dicionários.
+* ``dict``: :ref:`dicionários <section_dicionario>`. Estudaremos em breve o que são.
 
 
 Buscando ajuda rapidamente
