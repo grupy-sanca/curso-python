@@ -68,18 +68,21 @@ Conforme visto anteriormente, ao utilizar um índice negativo os elementos são 
         >>> lista[-5]  # primeiro
         100
 
-Ou pode-se acessar através de *slices* (fatias):
+Ou pode-se acessar através de *slices* (fatias), como nas :ref:`strings <section_fatias_strings>`:
 
 .. doctest::
 
-        >>> lista[2:4]
+        >>> lista[2:4]  # da posição 2 até a 4 (não inclusa)
         [300, 400]
 
-        >>> lista[:3]
+        >>> lista[:3]   # até a posição 3 (não incluso)
         [100, 200, 300]
 
-        >>> lista[2:]
+        >>> lista[2:]   # da posição 2 até o final
         [300, 400, 500]
+
+        >>> lista[:]    # do começo até o final
+        [100, 200, 300, 400, 500]
 
 Tentar acessar uma posição inválida de uma lista causa um erro:
 
@@ -95,7 +98,7 @@ Tentar acessar uma posição inválida de uma lista causa um erro:
             ,,,
         IndexError: list index out of range
 
-Podemos avaliar se os elementos estão na lista com a palavra `in`:
+Podemos avaliar se os elementos estão na lista com a palavra ``in``:
 
 .. doctest::
 
@@ -146,7 +149,7 @@ Devido à lista ser uma estrutura mutável, é possível remover seus elementos 
 Trabalhando com listas
 ----------------------
 
-O operador :math:`+` concatena listas:
+O operador ``+`` concatena listas:
 
 .. doctest::
 
@@ -156,7 +159,7 @@ O operador :math:`+` concatena listas:
         >>> c
         [1, 2, 3, 4, 5, 6]
 
-O operador :math:`*` repete a lista dado um número de vezes:
+O operador ``*`` repete a lista dado um número de vezes:
 
 .. doctest::
 
@@ -178,13 +181,28 @@ O método ``append()`` adiciona um elemento ao final da lista:
         >>> lista
         ['a', 'b', 'c', 'e']
 
-Temos também o ``insert()``, que insere um elemento na posição especificada:
+Temos também o ``insert()``, que insere um elemento na posição especificada
+e move os demais elementos para direita:
 
 .. doctest::
 
         >>> lista.insert(3, 'd')
         >>> lista
         ['a', 'b', 'c', 'd', 'e']
+
+.. warning::
+
+   Cuidado com ``lista.insert(-1, algo)``! Nesse caso, inserimos ``algo`` na
+   posição ``-1`` e o elemento que estava previamente na posição ``-1`` é
+   movido para a direita:
+
+   .. doctest::
+
+      >>> lista.insert(-1, 'ç')
+      >>> lista
+      ['a', 'b', 'c', 'd', 'ç', 'e']
+
+   Use ``append()`` caso queira algo adicionado ao final da lista.
 
 ``extend()`` recebe uma lista como argumento e adiciona todos seus elementos a
 outra:
@@ -259,30 +277,8 @@ Tudo o que for feito com ``lista2`` nesse exemplo também altera ``lista1`` e vi
 
 Exercícios
 ----------
+
 .. include:: exercicios_listas.rst
-
-.. note::
-
-        É possível transformar uma string em número, dado que seja um número:
-
-        .. doctest::
-
-                >>> numero = int("2")
-                >>> numero
-                2
-
-.. note::
-
-        A volta também é possível:
-
-        .. doctest::
-
-                >>> numero_string = str(1900)
-                >>> numero_string
-                '1900'
-                >>> type(numero_string)
-                <class 'str'>
-
 
 .. o range faz parte de listas neste contexto
 .. include:: range.rst

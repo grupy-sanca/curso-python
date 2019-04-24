@@ -146,20 +146,26 @@ posição do elemento que se deseja acessar.
    >>> palavra[-3] # terceira de tras pra frente
    'h'
 
+.. _section_fatias_strings:
 
 Fatias
 ------
 
-Se ao invés de obter apenas um elemento de uma estrutura (*string*, lista,
-...) deseja-se obter múltiplos elementos, deve-se utilizar *slicing*
+Se, ao invés de obter apenas um elemento de uma estrutura (*string*, lista,
+...), deseja-se obter múltiplos elementos, deve-se utilizar *slicing*
 (fatiamento). No lugar de colocar o índice do elemento entre chaves,
 deve-se colocar o índice do primeiro elemento, dois pontos (``:``) e o
-próximo índice do último elemento desejado, tudo entre colchetes.
+próximo índice do último elemento desejado, tudo entre colchetes. Por
+exemplo:
 
 .. doctest::
 
    >>> frase = "Aprender Python é muito divertido!"
-   >>> frase[0:5] # do zero até o 5
+   >>> frase[0]
+   'A'
+   >>> frase[5]
+   'd'
+   >>> frase[0:5] # do zero até o antes do 5
    'Apren'
    >>> frase[:] # tudo!
    'Aprender Python é muito divertido!'
@@ -173,10 +179,110 @@ próximo índice do último elemento desejado, tudo entre colchetes.
    'render Python é muito diverti'
    >>> frase[0:-5]
    'Aprender Python é muito diver'
+   >>> frase[0:-6]
+   'Aprender Python é muito dive'
+   >>> frase[0:-7]
+   'Aprender Python é muito div'
    >>> frase[2:-2]
    'render Python é muito divertid'
-   >>> frase[2:-2:2] # pode-se ecolher o passo com que o slice é feito
+
+É possível controlar o *passo* que a fatia usa. Para isso, coloca-se mais
+um dois pontos (``:``) depois do segundo índice e o *tamanho do passo*:
+
+.. doctest::
+
+   >>> frase[::1] # do começo, até o fim, de 1 em 1. Ou seja, tudo do jeito que ja era, não faz diferença nenhuma.
+   'Aprender Python é muito divertido!'
+   >>> frase[::2] # do começo, até o fim, de 2 em 2
+   'Arne yhnémiodvrio
+   >>> frase[2:-2:2] # Do terceiro, até o ante penúltimo, de 2 em dois
    'rne yhnémiodvri'
+
+Resumindo: para fazer uma fatia de nossa *string*, precisamos saber de onde
+começa, até onde vai e o tamanho do passo.
+
+.. code::
+
+   fatiável[começo : fim : passo]
+
+.. note::
+
+   As fatias incluem o índice do primeiro elemento e *não incluem* o elemento do índice final. Por isso que ``frase[0:-1]`` perde o último elemento.
+
+Caso o final da fatia seja antes do começo, obtemos um resultado vazio:
+
+.. doctest::
+
+   >>> frase[15:2]
+   ''
+
+E se quisermos uma fatia fora da string?
+
+.. doctest::
+
+   >>> frase[123:345]
+   ''
+
+Mas e se o final da fatia for mais para frente que o tamanho da *string*? Não
+tem problemas, o Python vai até o onde der:
+
+.. doctest::
+
+   >>> frase[8:123456789]
+   ' Python é muito divertido!'
+   >>> frase[8:]
+   ' Python é muito divertido!'
+   >>> frase[123456789]
+   Traceback (most recent call last):
+     File "<stdin>", line 1, in <module>
+   IndexError: string index out of range
+
+Tamanhos negativos de passo também funcionam. Passos positivos significam *para
+frente* e passos negativos significam *para trás*:
+
+.. doctest::
+
+   >>> "Python"[::-1]
+   'nohtyP'
+
+Quando usamos passos negativos, a fatia começa no fim e termina no começo e
+é percorrida ao contrário. Ou seja, invertemos a ordem. Mas tome cuidado:
+
+.. doctest::
+
+   >>> "Python"[2:6]
+   'thon'
+   >>> "Python"[2:6:-1]
+   ''
+   >>> "Python"[6:2]
+   ''
+   >>> "Python"[6:2:-1]
+   'noh'
+
+No caso de ``"Python"[6:2]``, o começo é depois do fim. Por isso a *string*
+fica vazia.
+
+No caso de ``"Python"[2:6:-1]``, o começo é o índice ``6``, o fim é o índice
+``2``, percorrida ao contrário. Ou seja, temos uma *string* vazia ao
+contrário, que continua vazia.
+
+Quando fazemos ``"Python"[6:2:-1]``, o começo é o índice ``2``, o fim é o índice
+``6``, percorrida ao contrário. Lembre que o índice final nunca é incluído.
+Ou seja, temos a *string* ``hon`` a ser invertida. O que resulta em ``noh``.
+
+.. dica::
+
+   Se você quiser fazer uma fatia invertida, ou seja, inverter um trecho de
+   uma *string*, é muito mais fácil fazer primeiro a fatia e depois a
+   inversão:
+
+   .. doctest::
+
+      >>> texto = "No alto da montanha havia uma rosa"
+      >>> texto[3:19]
+      'alto da montanha'
+      >>> texto[3:19][::-1]
+      'ahnatnom ad otla'
 
 
 Formatação de strings
@@ -264,6 +370,28 @@ Mas também podemos usar a função ``split()``:
 
    >>> frase.split()
    ['Sílvio', 'Santos', 'vem', 'aí,', 'oleoleolá!']
+
+.. note::
+
+        É possível transformar uma string em número, dado que seja um número:
+
+        .. doctest::
+
+                >>> numero = int("2")
+                >>> numero
+                2
+
+.. note::
+
+        A volta também é possível:
+
+        .. doctest::
+
+                >>> numero_string = str(1900)
+                >>> numero_string
+                '1900'
+                >>> type(numero_string)
+                <class 'str'>
 
 
 Exercícios
