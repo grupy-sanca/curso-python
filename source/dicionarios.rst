@@ -9,7 +9,7 @@ Dicionário é uma coleção de itens (chamados `chaves`) e seus respectivos sig
 
 Cada chave do dicionário deve ser única! Ao contrário de *listas*, *dicionários*, não podem ter chaves repetidas.
 
-.. note:: as chaves devem ser únicas.
+.. note:: As chaves devem ser únicas.
 
 Declaração
 ----------
