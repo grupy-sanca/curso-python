@@ -22,7 +22,7 @@ Declaramos um dicionário colocando entre colchetes ``{}`` cada chave e o seu re
    >>> telefones
    {'ana': 123456, 'yudi': 40028922, 'julia': 4124492}
 
-No caso acima, a chave ``"ana"``, por exemplo, está relacionada ao valor ``4124492``. Cada par chave-valor é separado por uma vírgula ``,`` .
+No caso acima, a chave ``"ana"``, por exemplo, está relacionada ao valor ``123456``. Cada par chave-valor é separado por uma vírgula ``,`` .
 
 Função ``dict()``
 -----------------
