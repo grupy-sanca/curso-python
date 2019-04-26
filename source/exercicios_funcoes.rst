@@ -85,6 +85,32 @@
    da outra. Escreva uma função chamada ``is_anagram`` que tome duas strings e
    retorne ``True`` se forem anagramas ou False caso contrário.
 
+#. Escreva uma função que retorne uma lista com todas as chaves de um dicionário
+   que contém um certo valor.
+
+   Por exemplo, se o dicionário for
+   ``{'a': 1, 'b': 2, 'c': 1, 'd': 4}``, a função deve retornar ``['a', 'c']``
+   caso procure pelo valor ``1``; ``[]`` caso procure pelo valor ``666``.
+
+   .. only:: instructors
+
+      Exemplo de solução:
+
+      .. doctest::
+
+         >>> numeritos = {"três": 3, "dois": 2, "um": 1, "um ao quadrado": 1, "zero mais um": 1}
+         >>> def acha_chaves(d, valor):
+         ...     chaves = []
+         ...     for k, v in d.items():
+         ...             if v == valor:
+         ...                     chaves.append(k)
+         ...     return chaves
+         ...
+         >>> acha_chaves(numeritos, 9)
+         []
+         >>> acha_chaves(numeritos, 1)
+         ['um', 'um ao quadrado', 'zero mais um']
+
 #. Escreva uma função que dado um número, calcule o fatorial desse número.
    Por exemplo, fatorial de 5:
 
@@ -196,7 +222,7 @@
    :math:`N \pi / 4` estarão dentro do círculo.
 
    Então, basta escolher pontos aleatórios dentro do quadrado e ver se estão
-   dentro do círculo 
+   dentro do círculo
 
    Um ponto :math:`(x, y)` está dentro do círculo se
    :math:`x^2 + y^2 \leq R^2`.
