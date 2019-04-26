@@ -48,6 +48,20 @@ O *loop* ``for`` em Python itera sobre os itens de um conjunto, sendo assim, o
         >>> list(range(0, 3))
         [0, 1, 2]
 
+Para iterar sobre uma lista:
+
+.. doctest::
+
+        >>> lista = [1, 2, 3, 4, 10]
+        >>> for numero in lista:
+        ...     print(numero**2)
+        ...
+        1
+        4
+        9
+        16
+        100
+
 Isso se aplica para *strings* também:
 
 .. doctest::
@@ -62,15 +76,18 @@ Isso se aplica para *strings* também:
         s
         a
 
-        >>> lista = [1, 2, 3, 4, 10]
-        >>> for numero in lista:
-        ...     print(numero**2)
-        ...
-        1
-        4
-        9
-        16
-        100
+Em dicionários podemos fazer assim:
+
+.. doctest::
+
+   >>> gatinhos = {"Português": "gato", "Inglês": "cat", "Francês": "chat", "Finlandês": "Kissa"}
+   >>> for (chave, valor) in gatinhos.items():
+   ...     print(chave, "->", valor)
+   ...
+   Português -> gato
+   Inglês -> cat
+   Francês -> chat
+   Finlandês -> Kissa
 
 Para auxiliar as estruturas de repetição, existem dois comandos:
 
