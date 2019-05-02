@@ -102,8 +102,8 @@
          >>> def acha_chaves(d, valor):
          ...     chaves = []
          ...     for k, v in d.items():
-         ...             if v == valor:
-         ...                     chaves.append(k)
+         ...         if v == valor:
+         ...             chaves.append(k)
          ...     return chaves
          ...
          >>> acha_chaves(numeritos, 9)

@@ -54,7 +54,7 @@ Para iterar sobre uma lista:
 
         >>> lista = [1, 2, 3, 4, 10]
         >>> for numero in lista:
-        ...     print(numero**2)
+        ...     print(numero ** 2)
         ...
         1
         4
@@ -81,7 +81,7 @@ Em dicionários podemos fazer assim:
 .. doctest::
 
    >>> gatinhos = {"Português": "gato", "Inglês": "cat", "Francês": "chat", "Finlandês": "Kissa"}
-   >>> for (chave, valor) in gatinhos.items():
+   >>> for chave, valor in gatinhos.items():
    ...     print(chave, "->", valor)
    ...
    Português -> gato
