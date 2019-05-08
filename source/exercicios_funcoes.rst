@@ -1,4 +1,4 @@
-.. spelling:: IPv
+.. spelling:: IPv Thr Asn His Arg
 
 #. Faça uma função que determina se um número é par ou ímpar. Use o ``%`` para
    determinar o resto de uma divisão. Por exemplo: ``3 % 2 = 1`` e ``4 % 2 = 0``
@@ -281,3 +281,120 @@
              return statistics.mean(pis), statistics.variance(pis)
 
          print(pi())
+
+#. O RNA é o responsável por levar as informações contidas no DNA para fora do núcleo da célula, para então ser feita a codificação para as bases púricas: *U*, *A*, *C* e *G*. Quando arranjadas em sequência de trincas (chamadas *códons*), formam um *polipeptídeo*, cadeia de aminoácido. O final de uma cadeia é determinado por um dos seguintes códons: ``UGA``, ``UAA`` ou ``UAG``.
+
+   A tabela a seguir mostra alguns códons e qual aminoácido codifica:
+
+   ============= ==========
+     Códon RNA   Aminoácido
+   ============= ==========
+   UAU           Ile
+   UGU           Thr
+   UUG           Asn
+   UCG           Ser
+   GUG           His
+   GCU           Arg
+   CAU           Val
+   ============= ==========
+
+   Por exemplo::
+
+                         TATTCGCATTGA
+               DNA   ->  ||||||||||||
+                         ATAAGCGTAACT
+
+               RNA   ->  UAUUCGCAUUGA
+
+        Códons RNA   ->  UAU UCG CAU UGA
+
+      Polipeptídeo   ->  Ile-Ser-Val
+
+   Faça uma função cuja entrada seja uma string com tamanho múltiplo de 3 que representa o RNA. A saída deverá ser uma string com o nome de cada aminoácido separado por hífen, que representa o polipeptídeo.
+
+   **Dica:** faça um dicionário para trocar os códons por aminoácidos.
+
+   **Dica2:** faça uma lista para facilitar a saída.
+
+   Exemplos de entradas e saídas:
+
+   .. code-block:: python3
+
+      >>> polipeptideo("UAUGCUCAUCAUUAUUCGUAG")
+      "Ile-Arg-Val-Val-Ile-Ser"
+
+      >>> polipeptideo("GCUUAUUCGCAUGCUUCGGCUGCUUAG")
+      "Arg-Ile-Ser-Val-Arg-Ser-Arg-Arg"
+
+      >>> polipeptideo("CAUUCGGUGGCUUCGGUGUGUCAUUCGCAUUAG")
+      "Val-Ser-His-Arg-Ser-His-Thr-Val-Ser-Val"
+
+      >>> polipeptideo("GCUCAUUGUUGUUUGCAUUGUGUGGCUGUGCAUUUGUAG")
+      "Arg-Val-Thr-Thr-Asn-Val-Thr-His-Arg-His-Val-Asn"
+
+   .. only:: instructors
+
+      Exemplo de solução:
+
+      .. code-block:: python3
+
+         # Função recebe uma string com o RNA codificado
+         def polipeptideo(rna):
+             # dicionario de tradução dos codons para aminoacidos
+             dictcodons = {'UAU': 'Ile', 'UGU': 'Thr', 'UUG': 'Asn', 'UCG': 'Ser', 'GUG': 'His',
+                           'GCU': 'Arg', 'CAU': 'Val', 'UGA': False, 'UAA': False, 'UAG': False}
+             # iterador
+             i = 0
+             # cria a lista que irá receber os aminoacidos
+             polipep = []
+             # seleciona a trinca ou codon
+             codon = rna[i:i+3]
+
+             # loop onde a condição de parada é o será false
+             while dictcodons[codon]:
+                 # adiciona o aminoacido a lista polipep
+                 polipep.append(dictcodons[codon])
+                 # soma 3 ao iterador
+                 i = i + 3
+                 # seleciona o proximo codon
+                 codon = rna[i:i+3]
+
+             # retorna uma string com a união da lista polipep com hifens entre os itens
+             return '-'.join(polipep)
+
+         rna = "UUGUGUUGUUAUUUGGCUUAUCAUUGA"
+         print('>>>', rna)
+         proteina = polipeptideo(rna)
+         print(proteina)
+
+   .. only:: instructors
+
+      Outro exemplo de solução:
+
+      .. code-block:: python3
+
+         # dict de códon -> aminoácido
+         aminoacidos = {'UAU': 'Ile',
+                        'UGU': 'Thr',
+                        'UUG': 'Asn',
+                        'UCG': 'Ser',
+                        'GUG': 'His',
+                        'GCU': 'Arg',
+                        'CAU': 'Val'}
+
+         terminators = ['UGA', 'UAA', 'UAG']
+
+         # retorna cadeia de aminoacidos para uma seq de RNA
+         def polipeptideo(RNA):
+             cadeia = []
+             for codon in [RNA[i:i+3] for i in range(0, len(RNA), 3)]:
+                 if codon in terminators:
+                     break
+                 cadeia.append(aminoacidos[codon])
+
+             return cadeia
+
+         print(*polipeptideo("UAUGCUCAUCAUUAUUCGUAG"), sep='-')
+         print(*polipeptideo("GCUUAUUCGCAUGCUUCGGCUGCUUAG"), sep='-')
+         print(*polipeptideo("CAUUCGGUGGCUUCGGUGUGUCAUUCGCAUUAG"), sep='-')
+         print(*polipeptideo("GCUCAUUGUUGUUUGCAUUGUGUGGCUGUGCAUUUGUAG"), sep='-')
