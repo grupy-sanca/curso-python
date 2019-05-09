@@ -72,7 +72,6 @@ Qual a diferença entre utilizar ``print()`` e ``return()`` aqui em cima?!?
         If you didn't care what happened to me. And I didn't care for you
         If you didn't care what happened to me. And I didn't care for you
 
-----------------------
 Funções com argumentos
 ----------------------
 
@@ -233,7 +232,6 @@ Mai tá legal isso! Quero a tabuada do 1 ao 10 agora! Bora!
         10 * 10 = 100
 
 
-----------
 Exercícios
 ----------
 
