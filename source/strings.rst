@@ -344,6 +344,35 @@ feita nenhuma atribuição:
    'Python é 10. E as outras linguagens? False'
 
 
+Além disso, também é possível usar nomes para identificar quais valores serão
+substituídos:
+
+.. doctest::
+   >>> '{a}, {a}, {a}. {b}, {b}, {b}'.format(a='oi', b='tchau')
+   'oi, oi, oi. tchau, tchau, tchau'
+
+
+Alternativa para formatação de strings
+______________________________________
+
+Uma maneira mais recente de formatar strings foi introduzida a partir da versão
+3.6 do Python: `PEP 498 -- Literal String Interpolation`, carinhosamente
+conhecida como `fstrings` e funciona da seguinte forma:
+
+.. doctest::
+   >>> nome = 'Silvio'
+   >>> f'Olá, {name}.'
+   'Olá, Silvio.'
+
+
+É também possível fazer operações:
+
+.. doctest::
+   >>> f'4654 * 321 é {4654 * 321}'
+   '4654 * 321 é 1493934'
+
+
+
 Separação de *Strings*
 ----------------------
 

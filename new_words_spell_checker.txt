@@ -33,6 +33,7 @@ Hello
 History
 indentação
 Instagram
+Interpolation
 IPython
 Joilson
 Josefson
@@ -61,6 +62,7 @@ Sprint
 Sprints
 sprints
 Spyder
+String
 Studio
 Technology
 The
