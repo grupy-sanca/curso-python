@@ -26,6 +26,12 @@ Exemplo:
         ...
         estou no if
 
+Também é possível checar mais de uma condição com o ``elif``. É a abreviatura
+para ``else if``. Ou seja, se o ``if`` for falso, testa outra condição antes do
+``else``:
+
+.. doctest::
+
         >>> valor_entrada = 10
         >>> if valor_entrada == 1:
         ...     print("a entrada era 1")
@@ -39,6 +45,21 @@ Exemplo:
         ...     print("o valor de entrada não era esperado em nenhum if")
         ...
         o valor de entrada não era esperado em nenhum if
+
+Note que quando uma condição for verdadeira, aquele bloco de código é executado
+e as demais condições (``elif`` e ``else``) são puladas:
+
+.. doctest::
+
+      >>> a = 1
+      >>> if a == 1:
+      ...     print("é 1")
+      ... elif a >= 1:
+      ...     print("é maior ou igual a 1")
+      ... else:
+      ...     print("é qualquer outra coisa")
+      ...
+      é 1
 
 
 Exercícios
