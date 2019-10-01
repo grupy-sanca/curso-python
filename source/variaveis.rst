@@ -744,8 +744,18 @@ A diferença entre ambas está no escopo em que atuam, mas veja que seus resulta
    >>> globals()
    {'__name__': '__main__', '__doc__': None, '__package__': None, '__loader__': <class '_frozen_importlib.BuiltinImporter'>, '__spec__': None, '__annotations__': {}, '__builtins__': <module 'builtins' (built-in)>, 'a': 1, 'b': 2}
 
-Caso você esteja usando o IPython, o comando ``%who`` é a melhor opção, pois ele retira do resultado as variáveis declaradas pelo próprio Python,
+Caso você esteja usando o IPython, os comandos ``%who`` e ``%whos`` são a melhor opção, pois retiram do resultado as variáveis declaradas pelo próprio Python,
 permitindo uma melhor visualização das variáveis que você mesmo declarou.
+
+.. doctest::
+
+   >>> a = 1
+   >>> %who
+   a
+   >>> %whos
+   Variable   Type    Data/Info
+   ----------------------------
+   a          int     1
 
 Exercícios
 ----------
