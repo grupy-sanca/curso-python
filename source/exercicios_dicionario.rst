@@ -2,7 +2,7 @@
 
 #. Crie um dicionário vazio ``semana = {}`` e o complete com uma chave para cada dia da semana, tendo como seu valor uma lista com as aulas que você tem nesse dia (sábado e domingo recebem listas vazias, ou você tem aula?).
 
-#. Crie um dicionário vazio ``filmes = {}``. Agora preencha-o com o nome de cinco filmes como chaves e *outros* dicionários contendo o respectivo ``vilão`` e o ``ano`` em que cada filme foi lançado como valor.
+#. Crie um dicionário vazio ``filmes = {}``. Utilize o nome de um filme como chave. E, como valor, *outro* dicionário contendo o ``vilão`` e o ``ano`` em que o filme foi lançado. Preencha 5 filmes.
 
    .. only:: instructors
 

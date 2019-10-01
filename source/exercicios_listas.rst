@@ -8,15 +8,16 @@
 
    Lembre-se de salvá-las em alguma variável!
 
-   a. Agora crie uma lista com essas três listas.
+   a. Agora crie uma lista que contém essas três listas.
 
    Nessa lista de listas (vou chamar de *listona*):
 
    b. você consegue acessar o elemento *brigadeiro*?
 
-   c. Adicione mais *brigadeiros* à segunda lista de listona.
+   c. Adicione mais *brigadeiros* à segunda lista de listona. O que aconteceu
+      com a lista de *docinhos de festa*?
 
-   d. Adicione bebidas ao final da listona, mas sem criar uma lista!
+   d. Adicione bebidas ao final da *listona*, mas sem criar uma lista!
 
 #. Utilizando o ``del``, remova todos os elementos da lista criada anteriormente
    até a lista ficar vazia.
