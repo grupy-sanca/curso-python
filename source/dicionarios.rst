@@ -287,6 +287,11 @@ Dicionários não tem sequência dos seus elementos. As listas têm. Dicionário
 
 Vemos que ``numerinhos`` e ``numeritos`` têm as mesmas chaves com os mesmos valores e por isso são iguais. Mas quando imprimimos cada um, a ordem que aparece é a que os itens foram inseridos.
 
+.. nota::
+
+      A partir da versão 3.7 do Python, a ordem das chaves no dicionário é
+      garantida como sendo a ordem de inserção.
+
 Está no dicionário?
 -------------------
 
