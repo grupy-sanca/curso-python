@@ -725,8 +725,7 @@ variáveis declaradas no código usando o comando ``dir()``. Veja um exemplo:
    >>> a = 1
    >>> b = 2
    >>> dir()
-   ['__annotations__', '__builtins__', '__doc__', '__loader__', '__name__', 
-   '__package__', '__spec__', 'a', 'b']
+   ['__annotations__', '__builtins__', '__doc__', '__loader__', '__name__', '__package__', '__spec__', 'a', 'b']
 
 Veja que nossas variáveis declaradas aparecem no final do resultado de ``dir()``.
 Não se assuste com os outros elementos que aparecem nesse resultado. Essas 
@@ -743,15 +742,9 @@ seus resultados são semelhantes:
    >>> a = 1
    >>> b = 2
    >>> locals()
-   {'__name__': '__main__', '__doc__': None, '__package__': None, 
-   '__loader__': <class '_frozen_importlib.BuiltinImporter'>, '__spec__': None, 
-   '__annotations__': {}, '__builtins__': <module 'builtins' (built-in)>, 
-   'a': 1, 'b': 2}
+   {'__name__': '__main__', '__doc__': None, '__package__': None, '__loader__': <class '_frozen_importlib.BuiltinImporter'>, '__spec__': None, '__annotations__': {}, '__builtins__': <module 'builtins' (built-in)>, 'a': 1, 'b': 2}
    >>> globals()
-   {'__name__': '__main__', '__doc__': None, '__package__': None, 
-   '__loader__': <class '_frozen_importlib.BuiltinImporter'>, '__spec__': None, 
-   '__annotations__': {}, '__builtins__': <module 'builtins' (built-in)>, 
-   'a': 1, 'b': 2}
+   {'__name__': '__main__', '__doc__': None, '__package__': None, '__loader__': <class '_frozen_importlib.BuiltinImporter'>, '__spec__': None, '__annotations__': {}, '__builtins__': <module 'builtins' (built-in)>, 'a': 1, 'b': 2}
 
 Caso você esteja usando o IPython, os comandos mágicos ``%who`` e ``%whos`` são
 ótimas alternativas ao que já vimos anteriormente, pois retiram do resultado as 
