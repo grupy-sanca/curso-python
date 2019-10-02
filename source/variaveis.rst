@@ -716,36 +716,48 @@ referência sobre a linguagem, detalhes sobre cada função e alguns exemplos (e
 Listando variáveis criadas
 --------------------------
 
-Em algum momento durante o seu código você pode querer saber quais variáveis você já declarou, ou até mesmo o valor atual delas. 
-Você pode listar todas as variáveis que você declarou no seu código usando o comando ``dir()``.
-Esse comando lista todas as variáveis declaradas no escopo em que foi chamada. Veja um exemplo:
+Em algum momento durante o seu código você pode querer saber quais variáveis já 
+foram declaradas, ou até mesmo o valor atual delas. Podemos listar todas as 
+variáveis declaradas no código usando o comando ``dir()``. Veja um exemplo:
 
 .. doctest::
 
    >>> a = 1
    >>> b = 2
    >>> dir()
-   ['__annotations__', '__builtins__', '__doc__', '__loader__', '__name__', '__package__', '__spec__', 'a', 'b']
+   ['__annotations__', '__builtins__', '__doc__', '__loader__', '__name__', 
+   '__package__', '__spec__', 'a', 'b']
 
 Veja que nossas variáveis declaradas aparecem no final do resultado de ``dir()``.
-Não se assuste com os outros elementos que aparecem nesse resultado. 
-Essas variáveis são criadas e usadas pelo próprio Python, e não são importantes nesse momento.
+Não se assuste com os outros elementos que aparecem nesse resultado. Essas 
+variáveis são criadas e usadas pelo próprio Python, e não são importantes 
+nesse momento.
 
-Outra opção para visualizar as variáveis declaradas são os comandos ``globals()`` e ``locals()``. Ambas mostram não
-só as variáveis declaradas, mas também seu valor atual.
-A diferença entre ambas está no escopo em que atuam, mas veja que seus resultados são semelhantes:
+Outra opção para visualizar as variáveis declaradas são os comandos ``globals()`` 
+e ``locals()``. Ambas mostram não só as variáveis declaradas, mas também seu 
+valor atual. A diferença entre ambas está no escopo em que atuam, mas veja que 
+seus resultados são semelhantes:
 
 .. doctest::
 
    >>> a = 1
    >>> b = 2
    >>> locals()
-   {'__name__': '__main__', '__doc__': None, '__package__': None, '__loader__': <class '_frozen_importlib.BuiltinImporter'>, '__spec__': None, '__annotations__': {}, '__builtins__': <module 'builtins' (built-in)>, 'a': 1, 'b': 2}
+   {'__name__': '__main__', '__doc__': None, '__package__': None, 
+   '__loader__': <class '_frozen_importlib.BuiltinImporter'>, '__spec__': None, 
+   '__annotations__': {}, '__builtins__': <module 'builtins' (built-in)>, 
+   'a': 1, 'b': 2}
    >>> globals()
-   {'__name__': '__main__', '__doc__': None, '__package__': None, '__loader__': <class '_frozen_importlib.BuiltinImporter'>, '__spec__': None, '__annotations__': {}, '__builtins__': <module 'builtins' (built-in)>, 'a': 1, 'b': 2}
+   {'__name__': '__main__', '__doc__': None, '__package__': None, 
+   '__loader__': <class '_frozen_importlib.BuiltinImporter'>, '__spec__': None, 
+   '__annotations__': {}, '__builtins__': <module 'builtins' (built-in)>, 
+   'a': 1, 'b': 2}
 
-Caso você esteja usando o IPython, os comandos ``%who`` e ``%whos`` são a melhor opção, pois retiram do resultado as variáveis declaradas pelo próprio Python,
-permitindo uma melhor visualização das variáveis que você mesmo declarou.
+Caso você esteja usando o IPython, os comandos mágicos ``%who`` e ``%whos`` são
+ótimas alternativas ao que já vimos anteriormente, pois retiram do resultado as 
+variáveis declaradas pelo próprio Python, permitindo uma melhor visualização das 
+que você mesmo declarou. Olhe como o IPython pode simplificar nossa vida nesse 
+caso:
 
 .. doctest::
 
