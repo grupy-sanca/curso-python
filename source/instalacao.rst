@@ -189,6 +189,11 @@ Na documentação, é possível acessar o `manual de Python <https://code.visual
 
 Para um passo-a-passo da instalação, você pode encontrar os detalhes de cada sistema operacional `nesta página do manual <https://code.visualstudio.com/docs/setup/setup-overview>`_.
 
+PyCharm
+~~~~~~~~~~~~~~~~~~
+Esta IDE é voltada especificamente para a linguagem Python. No site oficial é possível encontrar orientações para realizar o download e instalação <https://www.jetbrains.com/pycharm/> (Linux, Mac, Windows).
+
+É desenvolvido pela empresa tcheca JetBrains. Fornece análise de código, um depurador gráfico, teste de unidade integrado, integração com sistemas de controle de versão, ambiente virtual e suporta o desenvolvimento da Web com o Django, bem como Data Science com o Anaconda (Wikipedia <https://en.wikipedia.org/wiki/PyCharm>).
 
 Linha de comando
 ----------------
