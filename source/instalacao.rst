@@ -193,7 +193,7 @@ PyCharm
 ~~~~~~~~~~~~~~~~~~
 Esta IDE é voltada especificamente para a linguagem Python. No site oficial é possível encontrar orientações para realizar o download e instalação <https://www.jetbrains.com/pycharm/> (Linux, Mac, Windows).
 
-.. figure:: images/pycharm.png
+.. figure:: images/ide_pycharm.png
    :align: center
    :width: 80%
    
