@@ -21,6 +21,8 @@
 
                 \frac{C}{5} = \frac{F - 32}{9}
 
+#. Utilizando a função anterior, faça a impressão da temperatura, em graus Celsius, de 0 a 100, e todos os valores correspondentes em Fahrenheit.
+
 #. Alanderson quer saber se um endereço IP é válido. Faça um programa para
    ajudar Alanderson a testar se um endereço é válido.
 
