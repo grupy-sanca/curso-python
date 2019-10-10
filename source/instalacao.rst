@@ -195,6 +195,10 @@ Esta IDE é voltada especificamente para a linguagem Python. No site oficial é 
 
 É desenvolvido pela empresa tcheca JetBrains. Fornece análise de código, um depurador gráfico, teste de unidade integrado, integração com sistemas de controle de versão, ambiente virtual e suporta o desenvolvimento da Web com o Django, bem como Data Science com o Anaconda (Wikipedia <https://en.wikipedia.org/wiki/PyCharm>).
 
+.. figure:: images/pycharm.png
+   :align: center
+   :width: 80%
+   
 Linha de comando
 ----------------
 
