@@ -88,7 +88,7 @@ Esquecer de abrir e fechar aspas no texto que é passado para a função
        ...
    SyntaxError: invalid syntax
 
-Esquecer de abrir ou fechar as aspas:
+Abrir aspas e esquecer de fechá-las (e vice-versa):
 
 .. doctest::
 
