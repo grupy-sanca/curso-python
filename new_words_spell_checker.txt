@@ -53,6 +53,7 @@ Pylestras
 Python
 Rondinelly
 Rossum
+Science
 SEnC
 Shell
 Sims
