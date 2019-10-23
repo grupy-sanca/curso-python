@@ -53,6 +53,12 @@ How to use locally
 
       $ sphinx-build -b spelling -nW source/ build/
 
+5. To run doctest:
+
+   .. code:: sh
+
+      $ sphinx-build -b doctest -n source/ build/
+
 How to generate instructor's guide
 ----------------------------------
 
