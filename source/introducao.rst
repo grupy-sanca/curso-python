@@ -71,7 +71,7 @@ Não somente a indústria utiliza Python, muitos pesquisadores utilizam em diver
    import matplotlib.pyplot as plt    # isso aqui permite fazer gráficos
 
    # pega os dados solares de WDC-SILSO, Royal Observatory of Belgium, Brussels
-   sun = pd.read_table('http://sidc.oma.be/silso/INFO/sndhemcsv.php', sep=';', encoding = "ISO-8859-1", header=-1)
+   sun = pd.read_table('http://sidc.oma.be/silso/INFO/sndhemcsv.php', sep=';', encoding="ISO-8859-1", header=None)
 
    # faz o gráfico de cada hemisfério do sol
    fig = plt.figure()
