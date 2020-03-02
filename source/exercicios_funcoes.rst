@@ -284,6 +284,33 @@
 
          print(pi())
 
+
+#. Tanto cadeias DNA quanto RNA são sequências de *nucleotídeos*. O DNA é
+   formado por: adenina (*A*), citosina (*C*), guanina (*G*) e timina (*T*). E
+   o RNA é formado por: adenina (*A*), citosina (*C*), guanina (*G*) e uracila
+   (*U*).
+
+   Dada uma cadeia de DNA, o RNA transcrito é formado substituindo um
+   nucleotídeo pelo seu complemento:
+
+   - G -> C
+   - C -> G
+   - T -> A
+   - A -> U
+
+   Implemente uma função que receba uma cadeia de DNA como *string* e retorne
+   a o RNA complementar.
+
+
+#. Implemente uma função que conte quantas vezes um certo nucleotídeo aparece
+   em uma cadeia de DNA. Para isso, sua função deve receber uma *string*
+   representando o DNA e outra representando o nucleotídeo. Caso aquele
+   nucleotídeo ou o DNA não seja válido, retorne ``None``.
+
+   Nesse exercício, considere como inválido se um nucleotídeo não for ``A``,
+   ``C``, ``G`` ou ``T``.
+
+
 #. O RNA é o responsável por levar as informações contidas no DNA para fora do núcleo da célula, para então ser feita a codificação para as bases púricas: *U*, *A*, *C* e *G*. Quando arranjadas em sequência de trincas (chamadas *códons*), formam um *polipeptídeo*, cadeia de aminoácido. O final de uma cadeia é determinado por um dos seguintes códons: ``UGA``, ``UAA`` ou ``UAG``.
 
    A tabela a seguir mostra alguns códons e qual aminoácido codifica:
