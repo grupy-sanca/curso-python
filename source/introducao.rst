@@ -30,7 +30,7 @@ Um resumo das versões desta linguagem:
 
 - Versão 2.0 foi publicada em Outubro de 2000.
 
-- Versão 3.0 foi publicada em Dezembro de 2008. 3.7 é a versão mais recente.
+- Versão 3.0 foi publicada em Dezembro de 2008. 3.8 é a versão mais recente.
 
 
 Exemplos

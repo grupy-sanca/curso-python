@@ -63,7 +63,7 @@ Pylestras
 ~~~~~~~~~
 
 Evento com o objetivo de reunir a comunidade, compartilhar conhecimento e
-divulgar novas tecnologias. É tradicionalmente composto por palestras rápidas (~17 minutos), onde obrigatoriamente uma delas não é sobre Python. 
+divulgar novas tecnologias. É tradicionalmente composto por palestras rápidas (~17 minutos), onde obrigatoriamente uma delas não é sobre Python.
 
 Qualquer pessoa interessada pode submeter uma palestra, independentemente do tema ser para iniciantes ou usuários avançados. Para deixar a escolha democrática, costumamos usar o `Speakerfight <https://speakerfight.com/profile/grupysanca/>`_, onde a própria comunidade escolhe as palestras que acha mais interessantes.
 
@@ -245,6 +245,16 @@ Para saber mais sobre os eventos organizados pelo grupy-sanca acesse:
        meetup.com/grupy-sanca
 
   - `YouTube <https://www.youtube.com/channel/UC9AED1x6Nn10lu-3rNELQnw>`_
+
+    .. only:: latex
+
+       youtube.com/channel/UC9AED1x6Nn10lu-3rNELQnw
+
+  - `GitHub <https://github.com/grupy-sanca>`_
+
+    .. only:: latex
+
+       github.com/grupy-sanca
 
 .. spelling::
 
