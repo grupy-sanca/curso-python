@@ -14,7 +14,7 @@ Cada chave do dicionário deve ser única! Ao contrário de *listas*, *dicionár
 Declaração
 ----------
 
-Declaramos um dicionário colocando entre colchetes ``{}`` cada chave e o seu respectivo valor, da seguinte forma:
+Declaramos um dicionário colocando entre chaves ``{}`` cada chave e o seu respectivo valor, da seguinte forma:
 
 .. doctest::
 
