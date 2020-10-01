@@ -209,7 +209,7 @@ O grupo foi fundado em 28/06/2016 e desde então já tivemos:
 
 -  3  Sprints
 
-Além disso, chegamos nos 1082+ inscritos no Meetup!
+Além disso, chegamos nos 1198+ inscritos no Meetup!
 
 
 Para saber mais sobre os eventos organizados pelo grupy-sanca acesse:
@@ -244,11 +244,11 @@ Para saber mais sobre os eventos organizados pelo grupy-sanca acesse:
 
        meetup.com/grupy-sanca
 
-  - `YouTube <https://www.youtube.com/channel/UC9AED1x6Nn10lu-3rNELQnw>`_
+  - `YouTube <https://www.youtube.com/grupysanca>`_
 
     .. only:: latex
 
-       youtube.com/channel/UC9AED1x6Nn10lu-3rNELQnw
+       youtube.com/grupysanca
 
   - `GitHub <https://github.com/grupy-sanca>`_
 
