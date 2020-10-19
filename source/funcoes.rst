@@ -232,6 +232,46 @@ Mai tá legal isso! Quero a tabuada do 1 ao 10 agora! Bora!
         10 * 10 = 100
 
 
+Argumentos padrão
+~~~~~~~~~~~~~~~~~
+
+Em alguns casos é conveniente deixar um valor padrão para algum (ou alguns)
+argumento(s) de uma função. Por exemplo, imagina uma função que soma dois ou
+três números:
+
+.. doctest::
+
+        >>> def soma_numeros(x, y, z=0):
+        ...     return x + y + z
+        ...
+        >>> soma_numeros(1, 2, 3)
+        6
+        >>> soma_numeros(4, 5)
+        9
+
+Assim podemos usar a mesma função `soma_numeros` para somar dois ou três
+argumentos. Basta definir o valor do argumento na definição da função. Isso só
+é permitido para os últimos argumentos, ou seja, todos os argumentos à direita
+de um argumento padrão devem também ser um argumento padrão. Por exemplo:
+
+.. doctest::
+
+        # argumento 'normal' depois de um padrão
+        >>> def soma_numeros(x, y=0, z):
+        ...     return x + y + z
+        ...
+        Traceback (most recent call last):
+          File "<stdin>", line 1
+        SyntaxError: non-default argument follows default argument
+
+        >>> def soma_numeros(x, y=0, z=0):
+        ...     return x + y + z
+        ...
+        >>> soma_numeros(1, 2, 3)
+        6
+
+
+
 Exercícios
 ----------
 
