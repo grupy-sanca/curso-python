@@ -11,5 +11,6 @@ Lista de pessoas que contribuíram com a criação deste material:
 - Luiz Menezes
 - Luiz Fernando S. E. Santos
 - Marcelo Miky Mine
+- Marcy Borges
 - Tiago Martins
 - Víctor Cora Colombo
