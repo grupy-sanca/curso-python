@@ -53,6 +53,10 @@ Criando uma função simples::
 
 Qual a diferença entre utilizar ``print()`` e ``return()`` aqui em cima?!?
 
+.. note::
+        Note que a função ``print()`` é usada para imprimir o dado diretamente na tela, enquanto o ``return`` é usado para retorna
+        um valor da função. Em Python quando uma função não retorna nenhum valor, essa retorna None e chamamos de função sem retorno. 
+
 .. doctest::
 
         >>> def imprime_letra():
@@ -72,6 +76,19 @@ Qual a diferença entre utilizar ``print()`` e ``return()`` aqui em cima?!?
         If you didn't care what happened to me. And I didn't care for you
         If you didn't care what happened to me. And I didn't care for you
 
+Em Python uma função pode retorna qualquer tipo de dados e multiplos valores.
+
+.. doctest::
+
+        >>>def saida(a,b):
+        ...    soma = a+b
+        ...    sub = float(a-b) 
+        ...    return soma,sub
+        ...
+        >>>print(saida(10,5))
+        (15, 5.0)
+
+
 Funções com argumentos
 ----------------------
 
@@ -88,6 +105,8 @@ Queremos somar ``3`` com um número qualquer que insiro na função. Bora lá:
         >>> z = soma_valor(10)
         >>> z
         13
+.. note::
+        Repare que no primeiro caso o argumento, valor passado para função, é igual 5 e no segundo caso esse valor é 10.
 
 Que sem graça! Quero somar dois números quaisquer!
 
@@ -232,11 +251,11 @@ Mai tá legal isso! Quero a tabuada do 1 ao 10 agora! Bora!
         10 * 10 = 100
 
 
-Argumentos padrão
+Parâmetro padrão
 ~~~~~~~~~~~~~~~~~
 
 Em alguns casos é conveniente deixar um valor padrão para algum (ou alguns)
-argumento(s) de uma função. Por exemplo, imagina uma função que soma dois ou
+parâmetros(s) de uma função. Por exemplo, imagina uma função que soma dois ou
 três números:
 
 .. doctest::
@@ -250,13 +269,13 @@ três números:
         9
 
 Assim podemos usar a mesma função `soma_numeros` para somar dois ou três
-argumentos. Basta definir o valor do argumento na definição da função. Isso só
-é permitido para os últimos argumentos, ou seja, todos os argumentos à direita
-de um argumento padrão devem também ser um argumento padrão. Por exemplo:
+argumentos. Basta definir o valor dos parâmetros na definição da função. Isso só
+é permitido para os últimos parâmetros , ou seja, todos os parâmetros  à direita
+de um parâmetro padrão devem também ser um parâmetro padrão. Por exemplo:
 
 .. doctest::
 
-        # argumento 'normal' depois de um padrão
+        # parâmetro 'normal' depois de um padrão
         >>> def soma_numeros(x, y=0, z):
         ...     return x + y + z
         ...
@@ -271,6 +290,42 @@ de um argumento padrão devem também ser um argumento padrão. Por exemplo:
         6
 
 
+Parâmetros especiais (``*args`` e ``**kwargs``)
+~~~~~~~~~~~~~~~~~
+
+Os parâmetros ``*args`` e ``**kwargs`` como qualquer outro parâmetro pode ter qualquer nome,
+desde que seja iniciado por ``*`` (s). O parâmetro ``*args`` é usado para colocar os valores extras
+em tupla, recomendado para alocar espaço para parâmetros justapostos.  
+
+.. doctest::
+
+        >>>def dados(nome,*args):
+        ...    print(f'nome = {nome}, dados = {args}')
+        ...
+        >>>dados('João')
+        >>>dados('João','idade=25','sexo=masculino')
+        nome = João, dados = ()
+        nome = João, dados = ('idade=25', 'sexo=masculino')
+
+O parâmetro ``**kwargs`` assim como o ``*args`` aloca os valores extras, porém esse exige que utilizamos parâmetros nomeados,
+e transforma esses em um dicionário.
+
+.. doctest::
+
+        >>>def dados(**kwargs):
+        ...     print(kwargs)
+        ...
+        >>>dados(nome = 'João', idade=25)
+        {'nome': 'João', 'idade': 25}
+
+.. note::
+        Os parâmetros ``*args`` e ``**kwargs`` não são parâmetro obrigatótio.
+
+
+A ordem colocação dos parâmeros deve ser::
+
+        def NOME_DA_FUNCAO(PARAMETROS_NORMAIS, *args, PARAMETROS_PADRAO, **kwargs):
+                COMANDOS
 
 Exercícios
 ----------
