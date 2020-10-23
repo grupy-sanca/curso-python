@@ -161,6 +161,14 @@ Para apagar *todos* os elementos de um dicionário, usamos o método ``clear``:
    >>> lixo
    {}
 
+.. nota::
+
+      A partir da versão 3.9 do Python, é possível unificar dois dicionários
+      com o operador | (pipe).
+      ex:
+      >>> {"casa": 1, "quartos": 2, "banheiros": 2} | {"cozinha": 1, "quintal": 1}
+      {"casa": 1, "quartos": 2, "banheiros": 2, "cozinha": 1, "quintal": 1}
+
 Função ``list()``
 -----------------
 
