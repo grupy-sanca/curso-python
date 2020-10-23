@@ -161,11 +161,11 @@ Para apagar *todos* os elementos de um dicionário, usamos o método ``clear``:
    >>> lixo
    {}
 
-.. nota::
+.. note::
 
    A partir da versão 3.9 do Python, é possível unificar dois dicionários
    com o operador ``|`` (pipe).
-   
+
    .. doctest::
 
       >>> comodos1 = {"casa": 1, "quartos": 2, "banheiros": 2}
@@ -299,10 +299,10 @@ Dicionários não tem sequência dos seus elementos. As listas têm. Dicionário
 
 Vemos que ``numerinhos`` e ``numeritos`` têm as mesmas chaves com os mesmos valores e por isso são iguais. Mas quando imprimimos cada um, a ordem que aparece é a que os itens foram inseridos.
 
-.. nota::
+.. note::
 
-      A partir da versão 3.7 do Python, a ordem das chaves no dicionário é
-      garantida como sendo a ordem de inserção.
+   A partir da versão 3.7 do Python, a ordem das chaves no dicionário é
+   garantida como sendo a ordem de inserção.
 
 Está no dicionário?
 -------------------
