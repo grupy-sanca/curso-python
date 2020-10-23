@@ -10,6 +10,7 @@ Lista de pessoas que contribuíram com a criação deste material:
 - Lucas Carvalho
 - Luiz Menezes
 - Luiz Fernando S. E. Santos
+- Marcel T. Nakamine
 - Marcelo Miky Mine
 - Tiago Martins
 - Víctor Cora Colombo
