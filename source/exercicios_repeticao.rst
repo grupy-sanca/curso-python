@@ -18,3 +18,5 @@
         #) idade média do grupo
 
 #. Calcule o somatório dos números de 1 a 100 e imprima o resultado.
+
+#.	Receba dois números inteiros correspondentes à largura e altura. Devolva uma cadeia de caracteres "#" que representa um retângulo com as medidas fornecidas.
