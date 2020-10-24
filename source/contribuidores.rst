@@ -14,3 +14,4 @@ Lista de pessoas que contribuíram com a criação deste material:
 - Marcelo Miky Mine
 - Tiago Martins
 - Víctor Cora Colombo
+- Yara Torres de Souza
