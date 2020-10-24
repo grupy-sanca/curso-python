@@ -173,6 +173,15 @@ Para apagar *todos* os elementos de um dicionário, usamos o método ``clear``:
       >>> comodos1 | comodos2
       {"casa": 1, "quartos": 2, "banheiros": 2, "cozinha": 1, "quintal": 1}
 
+   Para versões anteriores a 3.9 do Python, usa-se a função update().
+
+   .. doctest::
+
+      >>> comodos1 = {"casa": 1, "quartos": 2, "banheiros": 2}
+      >>> comodos2 = {"cozinha": 1, "quintal": 1}
+      >>> comodos1.update(comodos2)
+      {"casa": 1, "quartos": 2, "banheiros": 2, "cozinha": 1, "quintal": 1}
+
 Função ``list()``
 -----------------
 
