@@ -24,6 +24,8 @@ How to use locally
 
    .. code:: sh
 
+        $ python -m venv env
+        $ source env/bin/activate
         $ pip install -Ur requirements.txt
 
    You also need `enchant <https://github.com/AbiWord/enchant>`_,
