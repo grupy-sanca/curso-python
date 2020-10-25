@@ -18,3 +18,34 @@
         #) idade média do grupo
 
 #. Calcule o somatório dos números de 1 a 100 e imprima o resultado.
+
+#. O grupy-sanca tem uma fixação com números primos, e é um costume marcar seus
+   eventos em horas e minutos que sejam números primos. Você ficou responsável
+   por marcar o próximo Pylestras, e está se perguntando quais horários satisfazem
+   esse costume excêntrico, pois obviamente quer manter a tradição e escolher o
+   horário entre estes.
+
+   OBS: zero não é um número primo e divisões por zero podem estragar suas contas!
+
+   .. only:: instructors
+
+      Exemplo de solução:
+
+      .. code-block:: python3
+
+           horas = 24
+           minutos = 60
+
+           for hora in range(horas):
+               hora_primo = 0
+               for divisor in range(1, hora):
+                   if hora % divisor == 0:
+                       hora_primo += 1
+               if hora_primo == 1:
+                   for minuto in range(minutos):
+                       minuto_primo = 0
+                       for divisor in range(1, minuto):
+                           if minuto % divisor == 0:
+                               minuto_primo += 1
+                       if minuto_primo == 1:
+                           print(f"{hora}:{minuto}")
