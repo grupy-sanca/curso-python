@@ -30,6 +30,11 @@
    usuário digite um número fora desse intervalo, deverá aparecer uma mensagem
    informando que não existe mês com este número.
 
+#. Um supermercado está tendo muitos problemas com a validade de seus produtos
+   e pediu sua ajuda com esse problema. Faça um programa que leia o dia, o mês e o
+   ano da data atual e de validade de um produto, e imprima se o produto já está vencido
+   ou não.  
+
 
 .. [1] Para mais informações sobre doação de sangue, acesse
        http://www.prosangue.sp.gov.br/artigos/requisitos_basicos_para_doacao.html

@@ -238,6 +238,12 @@ Para saber mais sobre os eventos organizados pelo grupy-sanca acesse:
 
        t.me/grupysanca
 
+  - `Discord <https://discord.gg/AgS2dBa>`_
+
+    .. only:: latex
+
+       discord.gg/AgS2dBa
+
   - `Meetup <https://www.meetup.com/grupy-sanca>`_
 
     .. only:: latex
