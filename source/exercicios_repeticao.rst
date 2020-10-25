@@ -19,11 +19,17 @@
 
 #. Calcule o somatório dos números de 1 a 100 e imprima o resultado.
 
-#. O grupy-sanca tem uma fixação com números primos, e é um costume marcar seus
-   eventos em horas e minutos que sejam números primos. Você ficou responsável
-   por marcar o próximo Pylestras, e está se perguntando quais horários satisfazem
-   esse costume excêntrico, pois obviamente quer manter a tradição e escolher o
-   horário entre estes.
+#. O grupy-sanca tem uma fixação com números primos, e é uma tradição marcar seus
+   eventos em horas e minutos que sejam números primos, como por exemplo 19:31.
+
+   Você ficou responsável por marcar o próximo Pylestras, e, seguindo a tradição,
+   gostaria de marcar o evento para um horário cuja hora e minuto sejam números primos.
+
+   Para escolher a melhor opção, você gostaria de saber todos os horários que
+   satisfazem esta condição!
+
+   Crie um programa que imprime no formato HH:MM todos os horários cuja hora e
+   minuto são números primos.
 
    OBS: zero não é um número primo e divisões por zero podem estragar suas contas!
 
