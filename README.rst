@@ -5,6 +5,9 @@ Python Course
     :target: https://readthedocs.org/projects/curso-python/builds/
     :alt: Documentation Status
 
+.. image:: https://travis-ci.org/grupy-sanca/curso-python.svg?branch=master
+    :target: https://travis-ci.org/grupy-sanca/curso-python
+
 This repo contains the material for the Introductory Python course created by grupy-sanca.
 
 All the material is in pt-br.
