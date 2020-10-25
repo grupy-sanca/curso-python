@@ -279,7 +279,7 @@ a mesma função. Assim:
         >>> soma_numeros(1, soma_numeros(3, 4))
         8
 
-O  retorno de `soma_numeros(3, 4)` é 7. Ao utilizar este valor como argumento da função `soma_numeros(1, 7), o retorno
+O  retorno de `soma_numeros(3, 4)` é 7. Ao utilizar este valor como argumento da função `soma_numeros(1, 7)`, o retorno
 é 8.
 
 Exercícios
