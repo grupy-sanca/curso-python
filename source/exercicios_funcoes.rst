@@ -1,8 +1,9 @@
+.. spelling:: IPv Thr Asn His Arg
+
 #. Faça uma função que determina se um número é par ou ímpar. Use o ``%`` para
    determinar o resto de uma divisão. Por exemplo: ``3 % 2 = 1`` e ``4 % 2 = 0``
 
-#. Faça uma função que calcule a área de um círculo. Insira o raio como
-   argumento.
+#. Faça uma função que calcule a área de um círculo. Insira o raio como argumento.
 
    **Dica:** faça a importação de ``math`` e use :math:`\pi` de lá.
 
@@ -81,9 +82,7 @@
    **Dica:** um número é primo se ele for divisível apenas por 1 e ele mesmo,
    use o operador ``%`` (resto da divisão) para isso.
 
-#. Duas palavras são anagramas se você puder soletrar uma rearranjando as letras
-   da outra. Escreva uma função chamada ``is_anagram`` que tome duas strings e
-   retorne ``True`` se forem anagramas ou False caso contrário.
+#. Duas palavras são anagramas se você puder soletrar uma rearranjando as letras da outra. Escreva uma função chamada ``is_anagram`` que tome duas strings e retorne ``True`` se forem anagramas ou False caso contrário.
 
 #. Escreva uma função que retorne uma lista com todas as chaves de um dicionário
    que contém um certo valor.
