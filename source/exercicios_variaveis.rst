@@ -91,7 +91,7 @@
    :math:`\mathrm{R}\$\, 0{,}79`.
 
    Quanto custará o coffee break do Caipyra considerando que teremos
-   um record de 300 participantes neste ano?
+   um recorde de 300 participantes neste ano?
 
 
     .. only:: instructors
