@@ -79,3 +79,29 @@
          1422.284643
          >>> imposto     # item c
          85.29964299999999
+
+
+#. O grupy-sanca organizará o sexto Caipyra em 2022, e você faz parte da
+   Comissão de Organização! Serão quatro dias de evento: um de tutoriais,
+   dois de palestras, e um de sprints. Você ficou responsável por uma tarefa
+   deliciosa: o coffee break!
+   Participantes consomem um copo de 200ml de quentão e 10 paçoquinhas **por dia**.
+   Cada paçoquinha custa :math:`\mathrm{R}\$\, 0{,}37` e cada copo de quentão custa
+   :math:`\mathrm{R}\$\, 0{,}79`.
+   Quanto custará o coffee break do Caipyra neste ano considerando que teremos
+   um record de 300 participantes neste ano?
+
+
+    .. only:: instructors
+
+       Exemplo de solução:
+
+       .. code-block:: python3
+
+           >>> quentao = 0.79
+           >>> pacoquinha = 0.37
+           >>> participantes = 300
+           >>> dias = 4
+           >>> total = (quentao + pacoquinha * 10) * participantes * dias
+           >>> total
+           5388.0
