@@ -35,12 +35,14 @@
    Quando finalmente foi decretado o final da pandemia de covid-19, pythonistas
    de São Carlos e região se reuniram para comemorar, e a comemoração foi tanta,
    que neste momento estão com dificuldades de listar quais atividades e
-   eventos são organizados pelo grupo, sem repetirem as já listadas. Como programar
-   já é a sua especialidade, você resolveu escrever um programa para sanar esse
+   eventos são organizados pelo grupo, sem repetirem as já listadas.
+
+   Como programar já é a sua especialidade, você resolveu escrever um programa para sanar este
    pequeno problema. Seu programa deve ler um número N que determina quantos eventos
-   e atividades foram elencados (que pode ter itens repetidos), e em seguida,
+   e atividades foram elencados (que pode ter itens repetidos), e, em seguida,
    N nomes de atividades e eventos organizados pelo grupy-sanca e imprimir uma
    lista ordenada alfabeticamente e sem itens repetidos.
+
    Dica: utilize o operador ``in`` para testar se uma entrada já está na lista,
    e o método ``sort`` para ordená-la. Também pode ser útil utilizar o método
    ``strip`` no seu ``input`` para evitar que espaços em branco interfiram nas suas
@@ -67,7 +69,7 @@
    resolver desafios de programação juntas, programando em pares, e utilizando
    a metodologia de desenvolvimento orientada a testes (TDD). A pessoa na posição
    do piloto programará por 5 minutos, orientada pela pessoa na posição de copiloto,
-   e ao final deste tempo, o piloto voltará para a platleia, o copiloto será promovido a piloto
+   e ao final deste tempo, o piloto voltará para a plateia, o copiloto será promovido a piloto
    e uma pessoa da plateia tomará a posição de copiloto.
 
              plateia -> copiloto -> piloto -> plateia
@@ -76,6 +78,7 @@
    que todas as pessoas participarão da atividade da forma mais justa possível,
    você resolveu criar um programa que imprimirá o nome de cada dupla que representará
    copiloto e piloto em cada rodada.
+
    Você pegou no meetup uma lista com N nomes de participantes, a duração do evento
    é de 2 horas, e cada rodada dura 5 minutos. Caso você chegue ao final da lista e
    o tempo ainda não tiverem passado as 2h do Coding Dojo, você começará de novo.
