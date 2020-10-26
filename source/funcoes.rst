@@ -282,7 +282,58 @@ a mesma função. Assim:
 O  retorno de `soma_numeros(3, 4)` é 7. Ao utilizar este valor como argumento da função `soma_numeros(1, 7)`, o retorno
 é 8.
 
+Recursão
+--------
+
+Este conceito é uma técnica de programação que envolve "chamar" a mesma função repetidas vezes até chegar na solução.
+
+   .. note::
+
+      Confira sua função recursiva para evitar de cair em um `loop` infinito!
+
+Para que a função seja aplicada diversas vezes, o retorno da função deve conter a própria função. Por exemplo:
+
+.. doctest::
+
+        >>> def fatorial(n):
+        ...     if n == 1:
+        ...         return 1
+        ...     else:
+        ...         return n * fatorial(n-1)
+        ...
+        >>> fatorial(3)
+        6
+
+Vamos entender o que está sendo feito aqui.
+
+O cálculo do fatorial de um número, por exemplo, o fatorial de 3 (ou 3!), é:
+
+3! = 3 * 2 * 1
+
+Por definição:
+
+- 1! = 1
+- 0! = 1
+
+Então, para obter 3! pela função que escvrevemos, o 3 entra como argumento e é analisado no ``if`` e "cai" no
+``else``, por não ser igual a 1.
+
+Aqui é que a magia acontece! O retorno desta função será 3 multiplicado pela função ``fatorial`` (sendo utilizada
+pela segunda vez) que irá fazer o cálculo com 2 agora como argumento. Da mesma forma, cai no `else` e
+multiplica o valor de 2 pelo ``fatorial(1)``. Agora esta função "cai" no ``if`` e retorna 1. Ao retornar o valor 1 na
+função anterior (``factorial(2)``), é feito o produto de 2 por 1 que resulta em 2. Este valor 2 é utilizado no retorno
+da função anterior à esta (``factorial(3)``), sendo o retorno de 3 por 2, que resulta em 6.
+
+Aqui uma ilustação para compreender estas etapas [1]_:
+
+   .. figure:: images/recursion.png
+      :align: center
+      :width: 70%
+
 Exercícios
 ----------
 
 .. include:: exercicios_funcoes.rst
+
+
+[1] `<https://www.programiz.com/python-programming/recursion>`_
