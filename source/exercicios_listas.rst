@@ -30,3 +30,5 @@
    Agora "vá à sorveteria" e se empanturre de sorvete e tire o sorvete da lista.
 
 #. Dado uma lista de números, faça com que os números sejam ordenados e, em seguida, inverta a ordem da lista usando *slicing*.
+
+#. Receba uma lista com números inteiros e devolva um número inteiro correspondente à soma dos números recebidos.
