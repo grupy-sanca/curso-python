@@ -34,5 +34,7 @@
 #. Receba uma lista com números inteiros e devolva um número inteiro correspondente à soma dos números recebidos.
 
 #. Receba uma lista com números inteiros. Verifique se a lista possui números repetidos, caso possua, exclua-os e devolva a lista alterada.
-   Dica 1: usar a função *range*.
+
+   Dica 1: usar a função ``range``.
+   
    Dica 2: ordene os elementos da lista em ordem ascendente.
