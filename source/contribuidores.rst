@@ -13,6 +13,6 @@ Lista de pessoas que contribuíram com a criação deste material:
 - Luiz Menezes
 - Luiz Fernando S. E. Santos
 - Marcel T. Nakamine
-- Marcelo Miky Mine (Telegram: @marcelomiky / E-mail: marcelo.mine@gmail.com)
+- Marcelo Miky Mine (Telegram: @marcelomiky / email: marcelo.mine@gmail.com)
 - Tiago Martins
 - Víctor Cora Colombo
