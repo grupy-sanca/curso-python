@@ -82,7 +82,7 @@
    **Dica:** um número é primo se ele for divisível apenas por 1 e ele mesmo,
    use o operador ``%`` (resto da divisão) para isso.
 
-#. Duas palavras são anagramas se você puder soletrar uma rearranjando as letras da outra. Escreva uma função chamada ``is_anagram`` que tome duas strings e retorne ``True`` se forem anagramas ou False caso contrário.
+#. Duas palavras são anagramas se você puder soletrar uma rearranjando as letras da outra. Escreva uma função chamada ``is_anagram`` que tome duas strings e retorne ``True`` se forem anagramas ou ``False`` caso contrário.
 
 #. Escreva uma função que retorne uma lista com todas as chaves de um dicionário
    que contém um certo valor.
