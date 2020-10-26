@@ -1,3 +1,5 @@
+.. spelling:: marcelomiky
+
 Contribuidores
 ==============
 
