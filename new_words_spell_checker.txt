@@ -7,10 +7,13 @@ Bitcoin
 boleana
 boleano
 boleanos
+break
 bug
+Caipyra
 cluster
 Code
 Coding
+Coffee
 Commons
 CompartilhaIgual
 Creative
@@ -28,6 +31,7 @@ Facebook
 Geographic
 Google
 grupy
+grupy-sanca
 hashrate
 Hello
 History
