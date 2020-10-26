@@ -25,6 +25,7 @@ Disqus
 Django
 Dojo
 Dropbox
+email
 Enivaldo
 Ethereum
 Facebook
@@ -70,6 +71,7 @@ Spyder
 String
 Studio
 Technology
+Telegram
 The
 websites
 Wikipedia
