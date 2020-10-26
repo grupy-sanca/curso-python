@@ -52,7 +52,6 @@ Mozilla
 National
 network
 NãoComercial
-OBS
 Perl
 Pylestras
 Python
