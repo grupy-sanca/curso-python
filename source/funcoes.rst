@@ -287,9 +287,9 @@ Recursão
 
 Este conceito é uma técnica de programação que envolve "chamar" a mesma função repetidas vezes até chegar na solução.
 
-   .. note::
+.. note::
 
-      Confira sua função recursiva para evitar de cair em um `loop` infinito!
+   Confira sua função recursiva para evitar de cair em um `loop` infinito!
 
 Para que a função seja aplicada diversas vezes, o retorno da função deve conter a própria função. Por exemplo:
 
@@ -315,7 +315,7 @@ Por definição:
 - 1! = 1
 - 0! = 1
 
-Então, para obter 3! pela função que escvrevemos, o 3 entra como argumento e é analisado no ``if`` e "cai" no
+Então, para obter 3! pela função que escrevemos, o 3 entra como argumento e é analisado no ``if`` e "cai" no
 ``else``, por não ser igual a 1.
 
 Aqui é que a magia acontece! O retorno desta função será 3 multiplicado pela função ``fatorial`` (sendo utilizada
@@ -324,7 +324,7 @@ multiplica o valor de 2 pelo ``fatorial(1)``. Agora esta função "cai" no ``if`
 função anterior (``factorial(2)``), é feito o produto de 2 por 1 que resulta em 2. Este valor 2 é utilizado no retorno
 da função anterior à esta (``factorial(3)``), sendo o retorno de 3 por 2, que resulta em 6.
 
-Aqui uma ilustação para compreender estas etapas [1]_:
+Aqui uma ilustração para compreender estas etapas [1]_:
 
    .. figure:: images/recursion.png
       :align: center
@@ -336,4 +336,4 @@ Exercícios
 .. include:: exercicios_funcoes.rst
 
 
-[1] `<https://www.programiz.com/python-programming/recursion>`_
+.. [1] `<https://www.programiz.com/python-programming/recursion>`_
