@@ -19,6 +19,8 @@
 
 #. Calcule o somatório dos números de 1 a 100 e imprima o resultado.
 
+#. Ler do teclado um número inteiro e imprimir se ele é primo ou não.
+
 #. Um restaurante que enfrenta problemas com sua capacidade de clientes pediu sua ajuda para fazer um programa
    para saber quando eles atingem sua capacidade máxima. Faça um programa que leia um número inteiro da capacidade
    máxima do restaurante, e depois pergunte e leia a quantidade de clientes que chegaram até ocupar toda a capacidade
