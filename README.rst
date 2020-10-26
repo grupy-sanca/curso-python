@@ -1,8 +1,12 @@
 Python Course
 =============
 
-.. image::  https://readthedocs.org/projects/curso-python/badge/?version=latest
-   :alt: Read the Docs
+.. image:: https://readthedocs.org/projects/curso-python/badge/?version=latest
+    :target: https://readthedocs.org/projects/curso-python/builds/
+    :alt: Documentation Status
+
+.. image:: https://travis-ci.org/grupy-sanca/curso-python.svg?branch=master
+    :target: https://travis-ci.org/grupy-sanca/curso-python
 
 This repo contains the material for the Introductory Python course created by grupy-sanca.
 
@@ -12,6 +16,7 @@ Check the material `online here <http://curso.grupysanca.com.br/>`_.
 
 Find us in `Facebook <https://www.facebook.com/grupysanca/>`_,
 `Telegram <https://t.me/grupysanca>`_,
+`Discord <https://discord.gg/AgS2dBa>`_,
 `Instagram <https://www.instagram.com/grupysanca/>`_,
 `Meetup <https://www.meetup.com/grupy-sanca>`_ and
 `YouTube <https://www.youtube.com/channel/UC9AED1x6Nn10lu-3rNELQnw>`_
@@ -24,6 +29,8 @@ How to use locally
 
    .. code:: sh
 
+        $ python -m venv env
+        $ source env/bin/activate
         $ pip install -Ur requirements.txt
 
    You also need `enchant <https://github.com/AbiWord/enchant>`_,

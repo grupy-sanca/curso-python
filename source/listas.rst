@@ -31,6 +31,14 @@ A lista pode conter elementos de tipos diferentes:
         >>> vazia
         []
 
+Outra possibilidade de criar uma lista vazia:
+
+.. doctest::
+
+        >>> outra_lista_vazia = list()
+        >>> outra_lista_vazia
+        []
+
 Índices
 -------
 

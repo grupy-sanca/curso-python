@@ -2,12 +2,9 @@
 Funções
 =======
 
-Função é uma sequência de instruções que executa uma operação de computação. Ao
-definir uma função, você especifica o nome e a sequência de instruções. Depois,
-pode utilizar (“chamar”) a função pelo nome.
+Função é uma sequência de instruções que executa uma operação de computação. Ao definir uma função, você especifica o nome e a sequência de instruções. Depois, pode utilizar (“chamar”) a função pelo nome.
 
-A ideia é similar às funções matemáticas! Mas funções em uma linguagem de
-programação não realizam necessariamente apenas cálculos.
+A ideia é similar às funções matemáticas! Mas funções em uma linguagem de programação não realizam necessariamente apenas cálculos.
 
 Vimos o ``type()``, um exemplo de função:
 
@@ -232,7 +229,7 @@ Mai tá legal isso! Quero a tabuada do 1 ao 10 agora! Bora!
         10 * 10 = 100
 
 
-Argumentos padrão
+Argumento padrão
 ~~~~~~~~~~~~~~~~~
 
 Em alguns casos é conveniente deixar um valor padrão para algum (ou alguns)
@@ -270,7 +267,20 @@ de um argumento padrão devem também ser um argumento padrão. Por exemplo:
         >>> soma_numeros(1, 2, 3)
         6
 
+É possível também utilizar o retorno de uma função diretamente como argumento de outra.
+Por exemplo, o resultado da função acima como argumento de uma outra função qualquer. No caso estamos utilizando
+a mesma função. Assim:
 
+.. doctest::
+
+        >>> def soma_numeros(x, y):
+        ...     return x + y
+        ...
+        >>> soma_numeros(1, soma_numeros(3, 4))
+        8
+
+O  retorno de `soma_numeros(3, 4)` é 7. Ao utilizar este valor como argumento da função `soma_numeros(1, 7)`, o retorno
+é 8.
 
 Exercícios
 ----------
