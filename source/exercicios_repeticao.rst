@@ -36,7 +36,7 @@
    Crie um programa que imprime no formato ``HH:MM`` todos os horários cuja hora e
    minuto são números primos.
 
-   .. note:: zero não é um número primo e divisões por zero podem estragar suas contas!
+   .. note:: Zero não é um número primo e divisões por zero podem estragar suas contas!
 
    .. only:: instructors
 
