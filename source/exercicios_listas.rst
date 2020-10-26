@@ -30,7 +30,9 @@
    Agora "vá à sorveteria" e se empanturre de sorvete e tire o sorvete da lista.
 
 #. Dado uma lista de números, faça com que os números sejam ordenados e, em seguida, inverta a ordem da lista usando *slicing*.
+
 #. Receba uma lista com números inteiros e devolva um número inteiro correspondente à soma dos números recebidos.
+
 #. As reuniões mais memoráveis do grupy-sanca são, sem dúvidas, os PyBares!
    Quando finalmente foi decretado o final da pandemia de covid-19, pythonistas
    de São Carlos e região se reuniram para comemorar, e a comemoração foi tanta,
@@ -63,7 +65,6 @@
         print("Atividades sem repetição e ordenadas:")
         print("\n".join(atividades))
 
-
 #. Uma das atividades preferidas do grupy-sanca é o Coding Dojo.
    Coding Dojo é uma atividade colaborativa onde pessoas se reúnem a fim de
    resolver desafios de programação juntas, programando em pares, e utilizando
@@ -79,11 +80,11 @@
    você resolveu criar um programa que imprimirá o nome de cada dupla que representará
    copiloto e piloto em cada rodada.
 
-   Você pegou no meetup uma lista com N nomes de participantes, a duração do evento
+   Você pegou no Meetup uma lista com N nomes de participantes, a duração do evento
    é de 2 horas, e cada rodada dura 5 minutos. Caso você chegue ao final da lista e
    o tempo ainda não tiverem passado as 2h do Coding Dojo, você começará de novo.
 
-   Dicas: utilize o operador de resto da divisão (``%``)  para iterar circularmente sobre a lista.
+   .. note:: Utilize o operador de resto da divisão (``%``)  para iterar circularmente sobre a lista.
 
    .. only:: instructors
 
