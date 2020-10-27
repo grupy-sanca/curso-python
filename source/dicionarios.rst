@@ -38,10 +38,10 @@ A função ``dict()`` constrói um dicionário. Existem algumas formas de usá-l
      >>> lista3 = ["ovo frito", "ovo, óleo, condimentos a gosto"]
      >>> lista_receitas = [lista1, lista2, lista3]
      >>> print(lista_receitas)
-     [['brigadeiro', 'leite condensado, achocolatado'], ['omelete', 'ovos', 'azeite', 'condimentos a gosto'], ['ovo frito', 'ovo', 'óleo', 'condimentos a gosto']]
+     [['brigadeiro', 'leite condensado, achocolatado'], ['omelete', 'ovos, azeite, condimentos a gosto'], ['ovo frito', 'ovo, óleo, condimentos a gosto']]
      >>> receitas = dict(lista_receitas)
      >>> print(receitas)
-     {'brigadeiro': 'leite condensado, achocolatado', 'omelete': 'ovos', 'azeite', 'condimentos a gosto', 'ovo frito': 'ovo', 'óleo', 'condimentos a gosto'}
+     {'brigadeiro': 'leite condensado, achocolatado', 'omelete': 'ovos, azeite, condimentos a gosto', 'ovo frito': 'ovo, óleo, condimentos a gosto'}
 
 
 - Atribuindo os valores diretamente:
