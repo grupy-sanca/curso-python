@@ -333,6 +333,47 @@ E checamos se uma chave *não está* no dicionário com o comando ``not in``:
    True
 
 
+Remove e Retorna pares chave/valor
+----------------------------------
+
+Com o método ``popitem()`` é possível remover, de forma arbitrária, itens de um dicionário e retorna-o na forma de um
+par chave/valor. Este método pode ser útil para algoritmos que utilizam dicionários como uma lista de atividades.
+Por exemplo, uma relação de clientes para realizar ligações:
+
+.. doctest::
+
+   >>> clientes_para_ligar = {
+        "Ateneu": 55449090,
+        "Bielzinho": 54549090,
+        "Charlinho": 44559090,
+        "Deividy": 45459090}
+
+   >>> clientes_para_ligar.popitem()
+   ('Deividy', 45459090)
+
+   >>> clientes_para_ligar
+   {'Ateneu': 55449090, 'Bielzinho': 54549090, 'Charlinho': 44559090}  # Repare que o Deividy saiu do dicionário
+
+   >>> clientes_para_ligar.popitem()
+   ('Bielzinho', 54549090)
+
+   >>> clientes_para_ligar.popitem()
+   ('Charlinho', 44559090)
+
+   >>> clientes_para_ligar.popitem()
+   ('Ateneu', 55449090)
+
+   >>> clientes_para_ligar.popitem()
+   Traceback (most recent call last):
+     File "<stdin>", line 1, in <module>
+   KeyError: 'popitem(): dictionary is empty'
+
+   >>> clientes_para_ligar
+   {}
+
+Esta última chamada do ``popitem()`` retorna um erro, pois o dicionário está vazio.
+
+
 Exercícios
 ----------
 
