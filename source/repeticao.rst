@@ -10,7 +10,7 @@ Em Python existem duas formas de criar uma estrutura de repetição:
 - O ``for`` é usado quando se quer iterar sobre um bloco de código um
   número determinado de vezes.
 
-- O ``while`` é usando quado queremos que o bloco de código seja repetido
+- O ``while`` é usado quando queremos que o bloco de código seja repetido
   até que uma condição seja satisfeita. Ou seja, é necessário que uma
   expressão boleana dada seja verdadeira. Assim que ela se tornar falsa,
   o ``while`` para.
