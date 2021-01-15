@@ -165,27 +165,33 @@ Para apagar *todos* os elementos de um dicionário, usamos o método ``clear``:
 Unindo Dicionários
 ------------------
 
-A partir da versão 3.9 do Python, é possível unificar dois dicionários com o operador ``|`` (pipe).
+Para versões anteriores a 3.9 do Python, use o método ``.update()`` para
+colocar o conteúdo de um segundo dicionário no original:
 
 .. doctest::
 
-  >>> comodos1 = {"casa": 1, "quartos": 2, "banheiros": 2}
-  >>> comodos2 = {"cozinha": 1, "quintal": 1}
-  >>> comodos1 | comodos2
-  {"casa": 1, "quartos": 2, "banheiros": 2, "cozinha": 1, "quintal": 1}
+   >>> comodos1 = {'casa': 1, 'quartos': 2, 'banheiros': 2}
+   >>> comodos2 = {'cozinha': 1, 'quintal': 1}
+   >>> comodos1.update(comodos2)
+   >>> print(comodos1)
+   {'casa': 1, 'quartos': 2, 'banheiros': 2, 'cozinha': 1, 'quintal': 1}
 
+A partir da versão 3.9 do Python, é possível unificar dois dicionários com o
+operador ``|`` (barra vertical ou *pipe* -- em inglês):
 
-   Para versões anteriores a 3.9 do Python, usa-se a função ``.update()``.
+.. doctest::
 
-   .. doctest::
+  >>> comodos1 = {'casa': 1, 'quartos': 2, 'banheiros': 2}
+  >>> comodos2 = {'cozinha': 1, 'quintal': 1}
+  >>> casa = comodos1 | comodos2
+  >>> print(casa)
+  {'casa': 1, 'quartos': 2, 'banheiros': 2, 'cozinha': 1, 'quintal': 1}
+  >>> print(comodos1)
+  {'casa': 1, 'quartos': 2, 'banheiros': 2}
 
-      >>> comodos1 = {"casa": 1, "quartos": 2, "banheiros": 2}
-      >>> comodos2 = {"cozinha": 1, "quintal": 1}
-      >>> comodos1.update(comodos2)
-      >>> print(comodos1)
-      {"casa": 1, "quartos": 2, "banheiros": 2, "cozinha": 1, "quintal": 1}
+Note que o ``.update`` altera o ``comodos1`` sem retornar nada enquanto o ``|``
+retorna e cria um novo array sem alterar o ``comodos1``.
 
-   Note que o ``.update`` altera o ``comodos1`` sem retornar nada enquanto o ``|`` retorna e cria um novo array sem alterar o ``comodos1``.
 
 Função ``list()``
 -----------------
