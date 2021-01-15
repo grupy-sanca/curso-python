@@ -33,15 +33,15 @@ A função ``dict()`` constrói um dicionário. Existem algumas formas de usá-l
 
   .. doctest::
 
-     >>> lista1 = ["brigadeiro", "leite condesado, achocolatado"]
+     >>> lista1 = ["brigadeiro", "leite condensado, achocolatado"]
      >>> lista2 = ["omelete", "ovos, azeite, condimentos a gosto"]
      >>> lista3 = ["ovo frito", "ovo, óleo, condimentos a gosto"]
      >>> lista_receitas = [lista1, lista2, lista3]
      >>> print(lista_receitas)
-     [['brigadeiro', 'leite condesado, achocolatado'], ['omelete', 'ovos, azeite, condimentos a gosto'], ['ovo frito', 'ovo, óleo, condimentos a gosto']]
+     [['brigadeiro', 'leite condensado, achocolatado'], ['omelete', 'ovos, azeite, condimentos a gosto'], ['ovo frito', 'ovo, óleo, condimentos a gosto']]
      >>> receitas = dict(lista_receitas)
      >>> print(receitas)
-     {'brigadeiro': 'leite condesado, achocolatado', 'omelete': 'ovos, azeite, condimentos a gosto', 'ovo frito': 'ovo, óleo, condimentos a gosto'}
+     {'brigadeiro': 'leite condensado, achocolatado', 'omelete': 'ovos, azeite, condimentos a gosto', 'ovo frito': 'ovo, óleo, condimentos a gosto'}
 
 
 - Atribuindo os valores diretamente:
@@ -161,17 +161,19 @@ Para apagar *todos* os elementos de um dicionário, usamos o método ``clear``:
    >>> lixo
    {}
 
-.. note::
 
-   A partir da versão 3.9 do Python, é possível unificar dois dicionários
-   com o operador ``|`` (pipe).
+Unindo Dicionários
+------------------
 
-   .. doctest::
+A partir da versão 3.9 do Python, é possível unificar dois dicionários com o operador ``|`` (pipe).
 
-      >>> comodos1 = {"casa": 1, "quartos": 2, "banheiros": 2}
-      >>> comodos2 = {"cozinha": 1, "quintal": 1}
-      >>> comodos1 | comodos2
-      {"casa": 1, "quartos": 2, "banheiros": 2, "cozinha": 1, "quintal": 1}
+.. doctest::
+
+  >>> comodos1 = {"casa": 1, "quartos": 2, "banheiros": 2}
+  >>> comodos2 = {"cozinha": 1, "quintal": 1}
+  >>> comodos1 | comodos2
+  {"casa": 1, "quartos": 2, "banheiros": 2, "cozinha": 1, "quintal": 1}
+
 
    Para versões anteriores a 3.9 do Python, usa-se a função ``.update()``.
 
@@ -341,6 +343,47 @@ E checamos se uma chave *não está* no dicionário com o comando ``not in``:
    False
    >>> "ESALQ" not in institutos_uspsc
    True
+
+
+Remove e Retorna pares chave/valor
+----------------------------------
+
+Com o método ``popitem()`` é possível remover, de forma arbitrária, itens de um dicionário e retorna-o na forma de um
+par chave/valor. Este método pode ser útil para algoritmos que utilizam dicionários como uma lista de atividades.
+Por exemplo, uma relação de clientes para realizar ligações:
+
+.. doctest::
+
+   >>> clientes_para_ligar = {
+        "Ateneu": 55449090,
+        "Bielzinho": 54549090,
+        "Charlinho": 44559090,
+        "Deividy": 45459090}
+
+   >>> clientes_para_ligar.popitem()
+   ('Deividy', 45459090)
+
+   >>> clientes_para_ligar
+   {'Ateneu': 55449090, 'Bielzinho': 54549090, 'Charlinho': 44559090}  # Repare que o Deividy saiu do dicionário
+
+   >>> clientes_para_ligar.popitem()
+   ('Bielzinho', 54549090)
+
+   >>> clientes_para_ligar.popitem()
+   ('Charlinho', 44559090)
+
+   >>> clientes_para_ligar.popitem()
+   ('Ateneu', 55449090)
+
+   >>> clientes_para_ligar.popitem()
+   Traceback (most recent call last):
+     File "<stdin>", line 1, in <module>
+   KeyError: 'popitem(): dictionary is empty'
+
+   >>> clientes_para_ligar
+   {}
+
+Esta última chamada do ``popitem()`` retorna um erro, pois o dicionário está vazio.
 
 
 Exercícios
