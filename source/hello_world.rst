@@ -136,7 +136,7 @@ Caso deseje imprimir aspas simples, faça o contrário (envolva com aspas duplas
   Python é legal! Mas não o 'legal' como dizem pra outras coisas
 
 E como faz para imprimir um texto em várias linhas? Bom, para isso precisamos
-lembrar de um caractere especial, a *quebra de linha*: `\n`. Esse `\n` é um
+lembrar de um caractere especial, a *quebra de linha*: `\\n`. Esse `\\n` é um
 caractere especial que significa *aqui acaba a linha, o que vier depois deve
 ficar na linha de baixo*. Por exemplo:
 
