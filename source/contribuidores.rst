@@ -9,6 +9,7 @@ Lista de pessoas que contribuíram com a criação deste material:
 - Guilherme Martins
 - Heitor de Bittencourt
 - Juliana Karoline
+- Lívia dos Santos Pereira
 - Lucas Carvalho
 - Luiz Menezes
 - Luiz Fernando S. E. Santos
