@@ -4,9 +4,8 @@ Amazon
 Arduino
 Bhāskara
 Bitcoin
-boleana
-boleano
-boleanos
+booliana
+booliano
 break
 bug
 Caipyra
