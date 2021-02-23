@@ -55,6 +55,7 @@
       Exemplo de solução:
 
       .. code-block:: python3
+      
         tentativas = int(input("Digite o número de atividades elencadas: "))
         atividades = []
         for i in range(tentativas):
