@@ -92,6 +92,7 @@
       Exemplo de solução:
 
       .. code-block:: python3
+      
           num_participantes = int(input("Digite o número de participantes: "))
           participantes = []
           for participante_atual in range(num_participantes):
