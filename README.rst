@@ -69,10 +69,33 @@ How to use locally
 How to generate instructor's guide
 ----------------------------------
 
+To generate the HTML:
+
 .. code:: sh
 
     $ SPHINXOPTS="-t instructors" make html
 
+To generate the PDF:
+
+.. code:: sh
+
+    $ SPHINXOPTS="-t instructors" make latexpdf
+
+Or both together:
+
+.. code:: sh
+
+    $ SPHINXOPTS="-t instructors" make latexpdf html
+
+LaTeX dependencies
+------------------
+
+To generate the PDF, you need a modern LaTeX installation like ``texlive``. To
+install the minimum packages on ArchLinux (btw):
+
+.. code:: sh
+
+   $ sudo pacman -Syu texlive-{bin,core,latexextra}
 
 How to contribute
 -----------------
