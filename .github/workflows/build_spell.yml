@@ -1,0 +1,33 @@
+name: Build and spell check
+
+on: [pull_request, push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.9
+      - name: Install dependencies
+        run: |
+          sudo apt update
+          sudo apt install -y texlive-latex-recommended \
+                              texlive-fonts-recommended \
+                              texlive-latex-extra \
+                              texlive-lang-portuguese \
+                              latexmk \
+                              hunspell \
+                              hunspell-pt-br \
+                              enchant \
+                              python3-enchant
+      - name: Install pydependencies
+        run: pip install -r requirements.txt
+      - name: Build HTML
+        run: SPHINXOPTS="-t instructors -nWT" make html
+      - name: Build PDF
+        run: SPHINXOPTS="-t instructors -nWT" make latexpdf
+      - name: Spell check
+        run: sphinx-build -b spelling -nW source/ build/
