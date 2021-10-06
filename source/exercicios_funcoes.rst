@@ -240,7 +240,7 @@
       \pi \approx \frac{4 M}{N}
 
    Para sortear um número aleatório entre :math:`a` e :math:`b` utilize a
-   função `uniform(a, b)` do módulo `random`. Exemplo:
+   função ``uniform(a, b)`` do módulo ``random``. Exemplo:
 
 
    .. doctest::

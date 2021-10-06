@@ -69,7 +69,7 @@ operações de cálculos, assim como na matemática:
 
    Como não existe um resultado para a divisão pelo número zero, o Python
    interrompe a execução do programa (no caso a divisão) e mostra o erro que
-   aconteceu, ou seja, `"ZeroDivisionError: divison by zero"`.
+   aconteceu, ou seja, ``"ZeroDivisionError: divison by zero"``.
 
 
 - Divisão inteira (:math:`//`)

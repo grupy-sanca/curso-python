@@ -14,12 +14,12 @@ comando:
 
    $ python --version
 
-Se o resultado do comando for `Python 3.6.5` (ou alguma versão igual ou
-superior a `3.5`) o Python já está instalado corretamente.
+Se o resultado do comando for ``Python 3.6.5`` (ou alguma versão igual ou
+superior a ``3.5``) o Python já está instalado corretamente.
 
-Caso o resultado do comando anterior tenha sido `Python 2.7.13` (ou qualquer
-versão do `Python 2`) tente rodar o seguinte comando, pois seu computador
-pode ter ambas versões `2` e `3` instaladas:
+Caso o resultado do comando anterior tenha sido ``Python 2.7.13`` (ou qualquer
+versão do ``Python 2``) tente rodar o seguinte comando, pois seu computador
+pode ter ambas versões ``2`` e ``3`` instaladas:
 
 .. code-block:: bash
 
@@ -64,7 +64,7 @@ Windows
 -------
 
 Obtenha o arquivo de instalação última versão compatível com a arquitetura do
-seu computador no `site oficial do Python`_. O arquivo `x86` provavelmente
+seu computador no `site oficial do Python`_. O arquivo ``x86`` provavelmente
 funcionará para todos computadores.
 
 A seguir, execute o instalador e uma imagem similar a essa aparecerá:
@@ -117,7 +117,7 @@ Caso você tenha alguma dúvida, é aconselhável entrar na seção de `discusã
 IDLE
 ~~~~
 
-Para usuários Windows é recomendado utilizar o `IDLE`. Ele é composto pelo interpretador do Python e um editor de texto para criar programas, e já vem junto com o Python.
+Para usuários Windows é recomendado utilizar o ``IDLE``. Ele é composto pelo interpretador do Python e um editor de texto para criar programas, e já vem junto com o Python.
 Após seguir o :ref:`intro-instalacao`, o menu inicial deve estar da seguinte
 forma:
 
@@ -133,29 +133,29 @@ imagem abaixo:
    :align: center
    :width: 80%
 
-No `IDLE` é possível digitar comandos para o interpretador do Python e, também,
+No ``IDLE`` é possível digitar comandos para o interpretador do Python e, também,
 é possível criar e digitar em um arquivo. Para fazer isso, no menu clique em
-`File` -> `New File` (Ou pressione as teclas `Ctrl` + `N` juntas)
+``File`` -> ``New File`` (Ou pressione as teclas ``Ctrl`` + ``N`` juntas)
 
 .. figure:: images/idle3.png
    :align: center
    :width: 80%
 
-Para rodar um programa, clique em `Run` -> `Run Module` (Ou aperte a tecla `F5`)
+Para rodar um programa, clique em ``Run`` -> ``Run Module`` (Ou aperte a tecla ``F5``)
 
 .. figure:: images/idle4.png
    :align: center
    :width: 80%
 
 Caso o arquivo ainda não tenha sido salvo, é necessário salvá-lo antes de
-executá-lo. Não esqueça de prefixar o nome do arquivo com `.py`
+executá-lo. Não esqueça de prefixar o nome do arquivo com ``.py``
 (extensão do Python):
 
 .. figure:: images/idle5.png
    :align: center
    :width: 80%
 
-Após isso, o resultado da execução do código deve aparecer na janela anterior do `IDLE`:
+Após isso, o resultado da execução do código deve aparecer na janela anterior do ``IDLE``:
 
 .. figure:: images/idle6.png
    :align: center
@@ -221,7 +221,7 @@ Note que, ao entrar no interpretador, a primeira linha começa com ``Python 3.7.
 IPython
 ~~~~~~~
 
-`IPython`_ é um Shell alternativo para o Python, bem poderoso. E colorido também, ao contrário do `shell` nativo do Python.
+`IPython`_ é um Shell alternativo para o Python, bem poderoso. E colorido também, ao contrário do ``shell`` nativo do Python.
 
 .. figure:: images/ipython.png
    :align: center

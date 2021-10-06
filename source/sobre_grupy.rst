@@ -80,14 +80,14 @@ Coding Dojos
 ~~~~~~~~~~~~
 
 É um espaço para que as pessoas possam aprender, treinar e aprimorar suas
-habilidades em programação. O `coding dojo` é um ótimo lugar para aprender
+habilidades em programação. O *coding dojo* é um ótimo lugar para aprender
 coisas novas.
 
-Em um `coding dojo` são propostos vários desafios e os participantes
+Em um *coding dojo* são propostos vários desafios e os participantes
 selecionam quais querem resolver. Após escolherem o desafio, as pessoas leem
 o problema, entendem e discutem como resolvê-lo. Com esses pontos resolvidos,
 começa a programação da solução. O desenvolvimento é feito em apenas um
-computador por duas pessoas programando por vez (`pair programming`). Sendo que
+computador por duas pessoas programando por vez (*pair programming*). Sendo que
 a cada intervalo de 5 minutos as pessoas à frente do computador dão lugar para
 outras.
 
@@ -95,9 +95,9 @@ outras.
    :align: center
    :width: 70%
 
-Para o dojo fluir bem, adota-se o TDD (`Test Driven Development`), pois assim
+Para o dojo fluir bem, adota-se o TDD (*Test Driven Development*), pois assim
 as pessoas pensam melhor em como o código será utilizado antes de desenvolver.
-Também segue-se o desenvolvimento por `baby steps` em que tenta-se dividir o
+Também segue-se o desenvolvimento por *baby steps* em que tenta-se dividir o
 problema em partes menores para resolvê-lo.
 
 Ao término do dojo acontece uma retrospectiva em que as pessoas respondem

@@ -3,7 +3,7 @@
 Dicionários
 ===========
 
-Dicionário é uma coleção de itens (chamados `chaves`) e seus respectivos significados (chamados de `valores`):
+Dicionário é uma coleção de itens (chamados ``chaves``) e seus respectivos significados (chamados de ``valores``):
 
    {chave: valor}
 
@@ -62,7 +62,7 @@ A função ``dict()`` constrói um dicionário. Existem algumas formas de usá-l
      >>> print(numerinhos)
      {'um': 1, 'dois': 2, 'três': 3}
 
-  E nesse caso se não houvesse a função `dict()`, o resultado seria exatamente o mesmo...
+  E nesse caso se não houvesse a função ``dict()``, o resultado seria exatamente o mesmo...
 
 Chaves
 ------
@@ -140,7 +140,7 @@ Para adicionar um elemento novo à um dicionário, podemos simplesmente fazer o 
 
 Aqui nos referimos a uma chave que *não* está no dicionário e associamos um valor a ela. Desta forma, *adicionando* esse conjunto chave-valor ao dicionário.
 
-Removemos um conjunto chave-elemento de um dicionário com o comando ```del```:
+Removemos um conjunto chave-elemento de um dicionário com o comando ``del``:
 
 .. doctest::
 
@@ -226,7 +226,7 @@ Você pode contar o número de elementos na lista gerada pela função ``list()`
 Método ``get()``
 ----------------
 
-O método `get(chave, valor)` pode ser usado para retornar o valor associado à respectiva chave! O segundo parâmetro `<valor>` é opcional e indica o que será retornado caso a chave desejada *não* esteja no dicionário:
+O método ``get(chave, valor)`` pode ser usado para retornar o valor associado à respectiva chave! O segundo parâmetro ``<valor>`` é opcional e indica o que será retornado caso a chave desejada *não* esteja no dicionário:
 
 .. doctest::
 
