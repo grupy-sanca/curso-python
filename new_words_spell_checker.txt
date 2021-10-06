@@ -12,7 +12,7 @@ Caipyra
 cluster
 Code
 Coding
-Coffee
+coffee
 Commons
 CompartilhaIgual
 Covid
@@ -50,6 +50,7 @@ Meetup
 Microsoft
 Miky
 Mozilla
+Nakamine
 National
 network
 NãoComercial
