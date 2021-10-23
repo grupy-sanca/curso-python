@@ -396,3 +396,30 @@ Exercícios
 ----------
 
 .. include:: exercicios_dicionario.rst
+
+
+Sumário
+--------
+
+.. csv-table::
+  :header: "Operação", "Descrição"
+  :widths: auto
+  :delim: ;
+
+  ``telefones = {"Ana": 123456, "yudi": 654321}``           ; Cria um dicionário com duas chaves, usando ``{}``
+  ``telefones = dict(Ana=123456, yudi=654321)``             ; Cria um dicionário com duas chaves, usando o método ``dict()``
+  ``telefones = dict((("Ana", 123456), ("yudi", 654321)))`` ; Cria um dicionário com duas chaves a partir de uma lista de tuplas
+  ``telefones["Ana"] # Retorna 123456``                     ; Acessa o valor do telefone da chave "Ana"
+  ``telefone["thiago"] = 9876543``                          ; Adiciona mais um telefone na lista
+  ``del telefone["thiago"]``                                ; Remove um telefone do dicionário
+  ``telefone.clear()``                                      ; Remove todos os elementos de um dicionário
+  ``dict1.update(dict2)``                                   ; Para versões anteriores a 3.9 do Python, use o método ``.update()`` para colocar o conteúdo de um segundo dicionário no original
+  ``dict1 | dict2``                                         ; A partir da versão 3.9 do Python, é possível unificar dois dicionários com o operador ``|`` (barra vertical ou pipe – em inglês)
+  ``list(telefones) # Retorna ["Ana", "yudi"]``             ; Obtém as chaves de um dicionário
+  ``telefones.keys() # Retorna ("Ana", "yudi")``            ; Obtém as chaves de um dicionário
+  ``len(telefones)``                                        ; Retorna a quantidade de chaves no dicionário
+  ``telefones.get("João", "N/A")``                          ; Retorna o valor associado à chave ``João`` ou ``N/A`` caso a chave não exista.
+  ``telefones.items()``                                     ; Retorna uma lista de tuplas contendo a chave e o valor de cada item do dicionário
+  ``telefones.values()``                                    ; Retorna uma lista com apenas os valores dos dicionários
+  ``"Ana" in telefones``                                    ; Verifica se a chave "Ana" existe no dicionário
+  ``telefones.popitem()``                                   ; Remove e retorna a última chave do dicionário

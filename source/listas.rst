@@ -290,3 +290,28 @@ Exercícios
 
 .. o range faz parte de listas neste contexto
 .. include:: range.rst
+
+
+Sumário
+--------
+
+.. csv-table::
+  :header: "Operação", "Descrição"
+  :widths: auto
+  :delim: ;
+
+  ``lista = ['maçã', 'banana', 'abacaxi']``   ; Cria uma nova lista com 3 itens
+  ``lista = []``                              ; Cria uma lista vazia
+  ``lista = list()``                          ; Outra opção para criar uma lista vazia
+  ``lista.append(item)``                      ; Adiciona um item no fim da lista
+  ``lista.insert(2, 'caju')``                 ; insere um elemento na posição especificada e move os demais elementos para direita
+  ``lista[0]``                                ; Acessa o primeiro item da lista (os índices começam em 0)
+  ``lista[-1]``                               ; Acessa o último item da lista
+  ``lista[-2]``                               ; Acessa o penúltimo item da lista
+  ``lista[2:4]``                              ; Retorna uma fatia da posição 2 até a 4 (não inclusa)
+  ``'maça' in lista``                         ; Verifica se o item ``maça`` existe na lista
+  ``del lista[0]``                            ; Remove o primeiro item da lista
+  ``lista1 + lista2``                         ; Concatena duas listas em um uma nova
+  ``lista1.extend(lista2)``                   ; Atualiza a lista1, adicionando todos os elementos da lista2
+  ``[0] * 3 => [0, 0, 0]``                    ; O operador ``*`` repete a lista dado um número de vezes
+  ``list(range(10))``                         ; Produz uma lista com um intervalo de números: ``[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]``
