@@ -37,6 +37,12 @@ How to use locally
    `pyenchant <https://github.com/rfk/pyenchant/>`_ and a pt-br dictionary
    (e.g. `hunspell-pt-br <https://hunspell.github.io/>`_) for spell checker.
 
+   .. code:: sh
+
+      # On macOS
+      $ brew update && brew install enchant
+      # On Debian based distros (linux Mint, Ubuntu...)
+      $ sudo apt update && sudo apt install enchant python3-enchant hunspell hunspell-pt-br
 
 2. Run the following command to generate the material in HTML:
 
