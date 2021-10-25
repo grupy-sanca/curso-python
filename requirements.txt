@@ -1,3 +1,5 @@
-sphinx
-sphinx_rtd_theme
+sphinx>=4.2.0
 sphinxcontrib-spelling>=4.2.1
+# Fixed version on sphinx-rtd-theme, since >=1.0.0 is fairly new and have some issues.
+# See: https://github.com/grupy-sanca/curso-python/pull/108#issuecomment-950395761 for details
+sphinx-rtd-theme==0.5.2
