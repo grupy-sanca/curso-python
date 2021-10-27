@@ -124,8 +124,8 @@
    Considerando a configuração dos leds dos números, faça um algoritmo que ajude João a descobrir a quantidade de leds necessário para montar o valor.
   
    .. figure:: images/leds.png
-   :align: center
-   :width: 35%
+      :align: center
+      :width: 35%
    
    Ex (input —> output):
    115380 —> 27
