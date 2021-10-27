@@ -176,9 +176,6 @@
 
          return sum_led
 
-
-
-
 #. Crie uma função que aproxima a função matemática seno, utilizando a seguinte
    equação:
 
