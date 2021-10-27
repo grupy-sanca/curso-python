@@ -283,6 +283,39 @@
 
          print(pi())
 
+#. Crie uma função que recebe uma palavra. Retorne as letras únicas para a construção desta palavra e a quantidade de cada letra utilizada.
+
+      Exemplo de entradas e saídas:
+      
+      .. code-block:: python3
+
+         >>> letras_e_quantidades("casa")
+         {'c': 1, 'a': 2, 's': 1}
+
+         >>> letras_e_quantidades("abracadabra")
+         {'r': 2, 'd': 1, 'a': 5, 'c': 1, 'b': 2}
+
+
+   .. only:: instructors
+
+      Exemplo de solução:
+      
+      .. code-block:: python3
+
+         def count_letters(string):
+    
+            unique_letters = set(string)
+            counter = 0
+            dict_letter = {}
+    
+            for i in unique_letters:
+               for j in string:
+                  if i == j:
+                     counter += 1
+               dict_letter[i] = counter
+               counter = 0
+        
+            return dict_letter
 
 #. Tanto cadeias DNA quanto RNA são sequências de *nucleotídeos*. O DNA é
    formado por: adenina (*A*), citosina (*C*), guanina (*G*) e timina (*T*). E
