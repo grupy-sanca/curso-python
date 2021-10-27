@@ -283,6 +283,17 @@
 
          print(pi())
 
+#. Dada uma palavra, apresente as letras únicas para a construção desta palavra e a quantidade de cada letra utilizada.
+
+   .. only:: instructors
+
+      Exemplo de resposta:
+
+      .. doctest::
+
+         >>> palavra = "abracadabra"
+         >>> letras_e_quantidades
+         {'r': 2, 'd': 1, 'a': 5, 'c': 1, 'b': 2}
 
 #. Tanto cadeias DNA quanto RNA são sequências de *nucleotídeos*. O DNA é
    formado por: adenina (*A*), citosina (*C*), guanina (*G*) e timina (*T*). E
