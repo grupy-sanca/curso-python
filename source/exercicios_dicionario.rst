@@ -16,15 +16,3 @@
          >>> filmes["E O Vento Levou"] = {"Vilão": "O vento", "Ano": 1939}
          >>> filmes
          {'Vingadores': {'Vilão': 'Thanos', 'Ano': 2019}, 'O Náufrago': {'Vilão': 'A Ilha (?)', 'Ano': 2000}, 'E O Vento Levou': {'Vilão': 'O vento', 'Ano': 1939}}
-         
-#. Dada uma palavra, apresente as letras únicas para a construção desta palavra e a quantidade de cada letra utilizada.
-
-   .. only:: instructors
-
-      Exemplo de resposta:
-
-      .. doctest::
-
-         >>> palavra = "abracadabra"
-         >>> letras_e_quantidades
-         {'r': 2, 'd': 1, 'a': 5, 'c': 1, 'b': 2}
