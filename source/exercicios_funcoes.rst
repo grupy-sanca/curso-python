@@ -123,7 +123,7 @@
    Ele não possui muitos leds, e não tem certeza se conseguirá montar o número desejado. 
    Considerando a configuração dos leds dos números, faça um algoritmo que ajude João a descobrir a quantidade de leds necessário para montar o valor.
   
-   .. figure:: images/leds.png
+   .. figure:: images/leds.jpg
       :align: center
       :width: 35%
    
