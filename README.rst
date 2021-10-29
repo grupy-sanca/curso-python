@@ -5,8 +5,9 @@ Python Course
     :target: https://readthedocs.org/projects/curso-python/builds/
     :alt: Documentation Status
 
-.. image:: https://travis-ci.org/grupy-sanca/curso-python.svg?branch=master
-    :target: https://travis-ci.org/grupy-sanca/curso-python
+.. image:: https://github.com/grupy-sanca/curso-python/actions/workflows/build_spell.yml/badge.svg
+    :target: https://github.com/grupy-sanca/curso-python/actions/workflows/build_spell.yml?query=branch%3Amaster
+    :alt: Documentation Status
 
 This repo contains the material for the Introductory Python course created by grupy-sanca.
 
