@@ -127,11 +127,12 @@
       :align: center
       :width: 35%
    
-   Ex (input —> output):
-   115380 —> 27
-   2819311 —> 29
-   23456 —> 25
-   000 —> 18
+   Exemplos de entrada e saída:
+
+   - ``115380`` —> 27
+   - ``2819311`` —> 29
+   - ``23456`` —> 25
+   - ``000`` —> 18
 
    .. only:: instructors
 
