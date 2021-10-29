@@ -119,9 +119,9 @@
 
         5! = 5 \cdot 4 \cdot 3 \cdot 2 \cdot 1 = 120
 
-#. João quer montar um painel de leds contendo diversos números.
-   Ele não possui muitos leds, e não tem certeza se conseguirá montar o número desejado. 
-   Considerando a configuração dos leds dos números, faça um algoritmo que ajude João a descobrir a quantidade de leds necessário para montar o valor.
+#. João quer montar um painel de LEDs contendo diversos números.
+   Ele não possui muitos LEDs, e não tem certeza se conseguirá montar o número desejado. 
+   Considerando a configuração dos LEDs dos números, faça um algoritmo que ajude João a descobrir a quantidade de LEDs necessário para montar o valor.
   
    .. figure:: images/leds.jpg
       :align: center
