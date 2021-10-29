@@ -119,6 +119,62 @@
 
         5! = 5 \cdot 4 \cdot 3 \cdot 2 \cdot 1 = 120
 
+#. João quer montar um painel de LEDs contendo diversos números.
+   Ele não possui muitos LEDs, e não tem certeza se conseguirá montar o número desejado. 
+   Considerando a configuração dos LEDs dos números, faça um algoritmo que ajude João a descobrir a quantidade de LEDs necessário para montar o valor.
+  
+   .. figure:: images/leds.jpg
+      :align: center
+      :width: 35%
+   
+   Exemplos de entrada e saída:
+
+   - ``115380`` —> 27
+   - ``2819311`` —> 29
+   - ``23456`` —> 25
+   - ``000`` —> 18
+
+   .. only:: instructors
+
+      Exemplo de solução:
+
+      .. code-block:: python3
+
+         """
+         >>> count_leds(1)
+         2
+         >>> count_leds(5)
+         5
+         >>> count_leds(115380)
+         27
+         >>> count_leds(2819311)
+         29
+         >>> count_leds(111)
+         6
+         >>> count_leds(0)
+         6
+         >>> count_leds('00')
+         12
+         >>> count_leds('001')
+         14
+         >>> count_leds('000')
+         18
+         >>> count_leds('0002')
+         23
+         >>> count_leds(777)
+         9
+         """
+         def count_leds(number):
+             number_leds = {1: 2, 2: 5, 3: 5, 4: 4, 5: 5, 6: 6, 7: 3, 8: 7, 9: 6, 0: 6}
+             number_str = str(number)
+
+             sum_led = 0
+
+             for i in number_str:
+                 sum_led += number_leds[int(i)]
+
+             return sum_led
+
 #. Crie uma função que aproxima a função matemática seno, utilizando a seguinte
    equação:
 
