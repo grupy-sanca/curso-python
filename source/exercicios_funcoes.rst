@@ -140,8 +140,6 @@
 
       .. code-block:: python3
 
-      def count_leds(number):
-
          """
          >>> count_leds(1)
          2
@@ -166,16 +164,16 @@
          >>> count_leds(777)
          9
          """
+         def count_leds(number):
+             number_leds = {1: 2, 2: 5, 3: 5, 4: 4, 5: 5, 6: 6, 7: 3, 8: 7, 9: 6, 0: 6}
+             number_str = str(number)
 
-         number_leds = {1: 2, 2: 5, 3: 5, 4: 4, 5: 5, 6: 6, 7: 3, 8: 7, 9: 6, 0: 6}
-         number_str = str(number)
+             sum_led = 0
 
-         sum_led = 0
+             for i in number_str:
+                 sum_led += number_leds[int(i)]
 
-         for i in number_str:
-            sum_led += number_leds[int(i)]
-
-         return sum_led
+             return sum_led
 
 #. Crie uma função que aproxima a função matemática seno, utilizando a seguinte
    equação:
