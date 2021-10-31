@@ -3,6 +3,18 @@
 #. Faça uma função que determina se um número é par ou ímpar. Use o ``%`` para
    determinar o resto de uma divisão. Por exemplo: ``3 % 2 = 1`` e ``4 % 2 = 0``
 
+   .. only:: instructors
+
+      Exemplo de solução:
+
+      .. code-block:: python3
+
+         def par_ou_impar(numero):
+            if numero % 2 == 0:
+               print("É par!")
+            else:
+               print("É ímpar!")            
+
 #. Faça uma função que calcule a área de um círculo. Insira o raio como argumento.
 
    **Dica:** faça a importação de ``math`` e use :math:`\pi` de lá.
