@@ -219,30 +219,12 @@ Para saber mais sobre os eventos organizados pelo grupy-sanca acesse:
     .. only:: latex
 
        www.grupysanca.com.br
-
-  - `Facebook <https://www.facebook.com/grupysanca/>`_
-
-    .. only:: latex
-
-       facebook.com/grupysanca
-
-  - `Instagram <https://www.instagram.com/grupysanca/>`_
+   
+  - `GitHub <https://github.com/grupy-sanca>`_
 
     .. only:: latex
 
-       instagram.com/grupysanca/
-
-  - `Telegram <https://t.me/grupysanca>`_
-
-    .. only:: latex
-
-       t.me/grupysanca
-
-  - `Discord <https://discord.gg/AgS2dBa>`_
-
-    .. only:: latex
-
-       discord.gg/AgS2dBa
+       github.com/grupy-sanca
 
   - `Meetup <https://www.meetup.com/grupy-sanca>`_
 
@@ -250,17 +232,35 @@ Para saber mais sobre os eventos organizados pelo grupy-sanca acesse:
 
        meetup.com/grupy-sanca
 
+  - `Discord <https://discord.gg/AgS2dBa>`_
+
+    .. only:: latex
+
+       discord.gg/AgS2dBa
+
   - `YouTube <https://www.youtube.com/grupysanca>`_
 
     .. only:: latex
 
        youtube.com/grupysanca
 
-  - `GitHub <https://github.com/grupy-sanca>`_
+  - `Instagram <https://www.instagram.com/grupysanca/>`_
 
     .. only:: latex
 
-       github.com/grupy-sanca
+       instagram.com/grupysanca/
+
+  - `Linkedin <https://www.linkedin.com/company/grupy-sanca>`_
+
+    .. only:: latex
+
+       instagram.com/grupysanca/
+
+  - `Facebook <https://www.facebook.com/grupysanca/>`_
+
+    .. only:: latex
+
+       facebook.com/grupysanca
 
 .. spelling::
 
