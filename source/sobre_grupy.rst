@@ -262,9 +262,9 @@ Para saber mais sobre os eventos organizados pelo grupy-sanca acesse:
 
        github.com/grupy-sanca
 
-.. spelling::
-
+.. spelling:word-list::
    grupysanca
    br
+   coding
 
 Ou entre em contato através do nosso email: contato `@` grupysanca `.` com `.` br

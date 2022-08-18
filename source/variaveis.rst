@@ -99,11 +99,7 @@ ainda não foram definidas:
        ...
    NameError: name 'nao_definida' is not defined
 
-.. spelling::
-
-   definí
-
-Tentar acessar uma variável sem definí-la anteriormente ocasiona em um "erro
+Tentar acessar uma variável sem defini-la anteriormente ocasiona em um "erro
 de nome".
 
 Também podemos atribuir expressões a uma variável:
