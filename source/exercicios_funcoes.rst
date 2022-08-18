@@ -34,6 +34,10 @@
 
 #. Utilizando a função anterior, faça a impressão da temperatura, em graus Celsius, de 0 °C  a 100 °C, e todos os valores correspondentes em Fahrenheit.
 
+#. Receba uma lista com números inteiros e devolva um número inteiro correspondente à soma dos números recebidos.
+
+#. Receba uma lista com números inteiros. Verifique se a lista possui números repetidos, caso possua, exclua-os e retorne a lista alterada.
+
 #. Alanderson quer saber se um endereço IP é válido. Faça um programa para
    ajudar Alanderson a testar se um endereço é válido.
 
