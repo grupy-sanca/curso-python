@@ -1,6 +1,4 @@
-.. spelling::
-
-   yver
+.. spelling:word-list:: yver
 
 #. Joilson está aprendendo Arduino. Ele quer ligar LEDs nas saídas digitais
    do Arduino. Cada pino fornece :math:`5\, V`. Joilson sabe que tem que ligar

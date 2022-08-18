@@ -1,3 +1,5 @@
+.. spelling:word-list:: Electronic Arts
+
 Introdução
 ==========
 

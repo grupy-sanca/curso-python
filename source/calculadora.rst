@@ -193,8 +193,7 @@ depende das regras de precedência.
 O Python segue as mesmas regras de precedência da matemática.
 O acrônimo **PEMDAS** ajuda a lembrar essa ordem:
 
-.. spelling::
-
+.. spelling:word-list::
    arênteses
    xponenciação
    ultiplicação

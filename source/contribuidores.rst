@@ -1,4 +1,4 @@
-.. spelling:: marcelomiky
+.. spelling:word-list:: marcelomiky
 
 Contribuidores
 ==============
