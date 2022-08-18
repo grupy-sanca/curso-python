@@ -19,6 +19,7 @@ Find us in `Facebook <https://www.facebook.com/grupysanca/>`_,
 `Telegram <https://t.me/grupysanca>`_,
 `Discord <https://discord.gg/AgS2dBa>`_,
 `Instagram <https://www.instagram.com/grupysanca/>`_,
+`Linkedin <https://www.linkedin.com/company/grupy-sanca/>`_,
 `Meetup <https://www.meetup.com/grupy-sanca>`_ and
 `YouTube <https://www.youtube.com/channel/UC9AED1x6Nn10lu-3rNELQnw>`_
 
