@@ -262,6 +262,12 @@ Para saber mais sobre os eventos organizados pelo grupy-sanca acesse:
 
        github.com/grupy-sanca
 
+  - `Linkedin <https://www.linkedin.com/company/grupy-sanca>`_
+
+    .. only:: latex
+
+       linkedin.com/company/grupy-sanca
+
 .. spelling:word-list::
    grupysanca
    br
