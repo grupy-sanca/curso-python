@@ -23,4 +23,5 @@ Curso Introdutório de Python
    repeticao
    funcoes
    exercicios
+   epilogo
    contribuidores
