@@ -1,4 +1,4 @@
-.. spelling:word-list:: IPv Thr Asn His Arg
+.. spelling:word-list:: IPv Thr Asn His Arg píxeis
 
 #. Faça uma função que determina se um número é par ou ímpar. Use o ``%`` para
    determinar o resto de uma divisão. Por exemplo: ``3 % 2 = 1`` e ``4 % 2 = 0``
@@ -13,7 +13,7 @@
             if numero % 2 == 0:
                print("É par!")
             else:
-               print("É ímpar!")            
+               print("É ímpar!")
 
 #. Faça uma função que calcule a área de um círculo. Insira o raio como argumento.
 
@@ -83,6 +83,34 @@
    Faça um teste com ``bhaskara(1, -4, -5)`` e o programa deve obter as raízes:
    (5.0, -1.0)
 
+#. Escreva uma função que receba um valor de comprimento em centímetros e o
+   transforme em polegadas.
+
+   **Dica:** :math:`1 pol = 2.54 cm`.
+
+#. Escreva uma função que receba as dimensões de uma fotografia em centímetros
+   (por exemplo 10 x 15 cm) e a densidade de píxeis da impressora (por exemplo
+   300 dpi), e retorne a resolução (por exemplo 2.1 mega píxeis) mínima
+   necessária para imprimir aquela foto.
+
+   A densidade de píxeis da impressora diz quantos píxeis são impressos a cada
+   *polegada*. Por exemplo: 300 dpi (*dots per inch*, ou *pontos por polegada*)
+   significa que em uma polegada em linha reta da imagem há 300 píxeis.
+
+   .. only:: instructors
+
+      Exemplo de solução:
+
+      .. code-block:: python3
+
+         def cm_para_polegadas(x):
+             return x/2.54
+
+         def megapixeis(x, y, dpi):
+             x = cm_para_polegadas(x)
+             y = cm_para_polegadas(y)
+             return (x * dpi) * (y * dpi) / 1e6
+
 #. Dada a função: :math:`y = 5x + 2`, determine os valores de :math:`y` para
    :math:`x` entre -10 a +10, onde :math:`x` é inteiro
 
@@ -136,13 +164,13 @@
         5! = 5 \cdot 4 \cdot 3 \cdot 2 \cdot 1 = 120
 
 #. João quer montar um painel de LEDs contendo diversos números.
-   Ele não possui muitos LEDs, e não tem certeza se conseguirá montar o número desejado. 
+   Ele não possui muitos LEDs, e não tem certeza se conseguirá montar o número desejado.
    Considerando a configuração dos LEDs dos números, faça um algoritmo que ajude João a descobrir a quantidade de LEDs necessário para montar o valor.
-  
+
    .. figure:: images/leds.jpg
       :align: center
       :width: 35%
-   
+
    Exemplos de entrada e saída:
 
    - ``115380`` —> 27
@@ -358,7 +386,7 @@
 #. Crie uma função que recebe uma palavra. Retorne as letras únicas para a construção desta palavra e a quantidade de cada letra utilizada.
 
       Exemplo de entradas e saídas:
-      
+
       .. code-block:: python3
 
          >>> letras_e_quantidades("casa")
@@ -371,22 +399,22 @@
    .. only:: instructors
 
       Exemplo de solução:
-      
+
       .. code-block:: python3
 
          def count_letters(string):
-    
+
             unique_letters = set(string)
             counter = 0
             dict_letter = {}
-    
+
             for i in unique_letters:
                for j in string:
                   if i == j:
                      counter += 1
                dict_letter[i] = counter
                counter = 0
-        
+
             return dict_letter
 
 #. Tanto cadeias DNA quanto RNA são sequências de *nucleotídeos*. O DNA é
