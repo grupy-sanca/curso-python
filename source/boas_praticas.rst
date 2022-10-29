@@ -37,7 +37,7 @@ A orientação é utilizar 4 espaços por nível de identação.
 Alguns códigos utilizam tab no lugar de espaços. O recomendável é evitar esta prática a menos que se esteja trabalhando em um código antigo em que a identação já foi feita por tab. A mistura de tabs e espaços **não** deve ser realizada.
 
 Tamanho da linha
-----------
+----------------
 O limite recomendável é 79 caracteres para o código e 72 para comentários e docstrings.
 Limitar o tamanho da linha permite que o código seja visualizado melhor na janela, sem quebras e necessidade de 'rolar' para enxergar o que está escrito. 
 
