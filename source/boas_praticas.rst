@@ -31,7 +31,7 @@ O uso misturado, ou seja, no qual uma palavra com letras minúsculas é seguido 
 
 
 Indentação
----------
+----------
 
 A orientação é utilizar 4 espaços por nível de identação.
 Alguns códigos utilizam tab no lugar de espaços. O recomendável é evitar esta prática a menos que se esteja trabalhando em um código antigo em que a identação já foi feita por tab. A mistura de tabs e espaços **não** deve ser realizada.
