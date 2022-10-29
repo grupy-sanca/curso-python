@@ -29,8 +29,8 @@ O uso misturado, ou seja, no qual uma palavra com letras minúsculas é seguido 
 Indentação
 ----------
 
-A orientação é utilizar 4 espaços por nível de identação.
-Alguns códigos utilizam tab no lugar de espaços. O recomendável é evitar esta prática a menos que se esteja trabalhando em um código antigo em que a identação já foi feita por tab. A mistura de tabs e espaços **não** deve ser realizada.
+A orientação é utilizar 4 espaços por nível de indentação.
+Alguns códigos utilizam tab no lugar de espaços. O recomendável é evitar esta prática a menos que se esteja trabalhando em um código antigo em que a indentação já foi feita por tab. A mistura de tabs e espaços **não** deve ser realizada.
 
 Tamanho da linha
 ----------------
@@ -40,7 +40,7 @@ Limitar o tamanho da linha permite que o código seja visualizado melhor na jane
 Quebra de linha em operações
 ----------------------------
 No Python é permitido quebrar linhas antes ou depois do operador matemático. O importante é manter a consistência. 
-Se começar com um padrão sigua até o final do código.
+Se começar com um padrão siga até o final do código.
 
 .. doctest::
 
