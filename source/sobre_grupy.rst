@@ -197,7 +197,7 @@ Histórico
 
 O grupo foi fundado em 28/06/2016 e desde então já tivemos:
 
-- 38+ Coding Dojos
+- 40+ Coding Dojos
 
 - 41+ PyBares
 
@@ -207,9 +207,9 @@ O grupo foi fundado em 28/06/2016 e desde então já tivemos:
 
 -  4  Eventos
 
--  3  Sprints
+-  5  Sprints
 
-Além disso, chegamos nos 1347+ inscritos no Meetup!
+Além disso, chegamos nos 1368+ inscritos no Meetup!
 
 
 Para saber mais sobre os eventos organizados pelo grupy-sanca acesse:
