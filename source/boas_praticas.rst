@@ -17,8 +17,6 @@ Nome de funções e variáveis
    >>> def soma(numero1, numero2)
    ...    return numero1 + numero2
 
-.. doctest::
-
 
 O uso misturado, ou seja, no qual uma palavra com letras minúsculas é seguido de uma com a primeira letra maiúscula, 
 é permitido para caso em que o código pré-existente já esteja escrito desta forma, mantendo-se a compatibilidade.  
