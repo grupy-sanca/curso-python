@@ -83,3 +83,6 @@ workshop
 workshops
 World
 Yahoo
+tab
+tabs
+docstrings
