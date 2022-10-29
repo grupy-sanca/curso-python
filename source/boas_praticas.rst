@@ -58,5 +58,3 @@ Se começar com um padrão sigua até o final do código.
                 laranja +
                 alface)
                  
-.. doctest::
-
