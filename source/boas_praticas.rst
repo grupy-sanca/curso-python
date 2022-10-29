@@ -7,7 +7,7 @@ As convenções de escrita de código para Python são regidas pela PEP8, dispon
 Aqui apresentamos algumas convenções básicas para você de início já sair programando como um profissional ;-)  
 
 Nome de funções e variáveis
------------
+---------------------------
 **Nome de variáveis** devem receber nomes em letra minúscula com palavras separadas por '_' (*underscore*) caso seja necessário facilitar a leitura.
 
 **Nomes de funções** seguem o mesma convenção que nomes de funções. 
