@@ -42,7 +42,7 @@ O limite recomendável é 79 caracteres para o código e 72 para comentários e 
 Limitar o tamanho da linha permite que o código seja visualizado melhor na janela, sem quebras e necessidade de 'rolar' para enxergar o que está escrito. 
 
 Quebra de linha em operações
------------
+----------------------------
 No Python é permitido quebrar linhas antes ou depois do operador matemático. O importante é manter a consistência. 
 Se começar com um padrão sigua até o final do código.
 
