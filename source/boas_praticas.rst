@@ -27,8 +27,6 @@ O uso misturado, ou seja, no qual uma palavra com letras minúsculas é seguido 
 
    >>> casoMisto = 20
 
-.. doctest::
-
 
 Indentação
 ----------
