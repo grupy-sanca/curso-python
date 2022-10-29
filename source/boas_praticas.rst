@@ -1,5 +1,5 @@
 Boas práticas de programação
-=========
+============================
 
 Uma situação comum para programadores é ler e contribuir com códigos feitos por outras pessoas, por isso a importância da padronização da escrita. 
 Convenções de escrita de código viabilizam que diversos contribuidores sigam um mesmo padrão, deixando o código mais legível.
