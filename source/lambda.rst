@@ -32,19 +32,17 @@ Passando-se o valor 3, é retornado uma função que realiza a multiplicação p
 f(x) = 3x.
 
 .. doctest::
->>> def multiplica(n):
-...   return lambda x: n*x
-...     
->>> multiplica(3)
-<function __main__.multiplica.<locals>.<lambda>(x)>      
-...
->>> triplica = multiplica(3)
->>> triplica(10)
-30
-...
->>> quadruplica = multiplica(4)
->>> quadruplica(10)
-40
+
+   >>> def multiplica(n):
+   ...   return lambda x: n*x
+   >>> multiplica(3)
+   <function __main__.multiplica.<locals>.<lambda>(x)>
+   >>> triplica = multiplica(3)
+   >>> triplica(10)
+   30
+   >>> quadruplica = multiplica(4)
+   >>> quadruplica(10)
+   40
 
 Lambda e strings
 --------------
