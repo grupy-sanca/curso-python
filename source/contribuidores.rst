@@ -11,6 +11,7 @@ conosco.
 Lista de pessoas que contribuíram com a criação deste material:
 
 - Alex Soares Prestes
+- Ana Carolina Rodrigues
 - Guilherme Martins
 - Heitor de Bittencourt
 - Juliana Karoline
