@@ -5,7 +5,7 @@ A função lambda tem origem no lambda cálculo, iniciamente desenvolvido pelo m
 
 No Python tem a forma: lambda <argumentos> : <expressão>
 
-Como exemplo, a soma de três variáveis x, y e z utilizando-se lambda fica da seguinte forma: 
+Como exemplo, a soma de três variáveis x, y e z utilizando-se o comando lambda fica da seguinte forma: 
 
 .. doctest::
 >>> lambda x,y,z: x+y+z
