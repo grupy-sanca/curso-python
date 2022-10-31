@@ -5,12 +5,12 @@ A função lambda tem origem no lambda cálculo, iniciamente desenvolvido pelo m
 
 No Python tem a forma: lambda <argumentos> : <expressão>
 
-Como exemplo, a soma de três variáveis x, y e z utilizando-se o comando lambda fica da seguinte forma: 
+Como exemplo, a soma de três variáveis x, y e z utilizando-se o comando *lambda* fica da seguinte forma: 
 
 .. doctest::
 >>> lambda x,y,z: x+y+z
 
-No exemplo abaixo mostramos como uma mesma função pode ser escrita de duas formas, utilizando-se def ou lambda. 
+No exemplo abaixo mostramos como uma mesma função pode ser escrita de duas formas, utilizando-se o comando *def* ou *lambda*. 
 
 .. doctest::
 >>> def duplica(x):
@@ -48,8 +48,8 @@ f(x) = 3x.
 Lambda e strings
 --------------
 
-Assim como em funções criadas pelo comando def, outros métodos do Python podem ser utilizados na expressão da função lambda.
-Abaixo mostramos alguns exemplos com manipulação de strings associado ao uso do lambda.
+Assim como ocorre em funções criadas pelo comando *def*, outros métodos do Python podem ser utilizados na expressão da função *lambda*.
+Abaixo mostramos alguns exemplos com manipulação de strings associado ao uso do *lambda*.
 
 .. doctest::
 >>> letra_maiuscula = lambda string: string[0].upper() + string[1:]
