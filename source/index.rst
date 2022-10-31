@@ -22,6 +22,7 @@ Curso Introdutório de Python
    controle
    repeticao
    funcoes
+   lambda
    exercicios
    epilogo
    contribuidores
