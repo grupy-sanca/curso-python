@@ -8,7 +8,8 @@ No Python tem a forma: lambda <argumentos> : <expressão>
 Como exemplo, a soma de três variáveis x, y e z utilizando-se o comando *lambda* fica da seguinte forma: 
 
 .. doctest::
->>> lambda x,y,z: x+y+z
+
+   >>> lambda x,y,z: x+y+z
 
 No exemplo abaixo mostramos como uma mesma função pode ser escrita de duas formas, utilizando-se o comando *def* ou *lambda*. 
 
