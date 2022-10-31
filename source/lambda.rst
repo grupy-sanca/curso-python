@@ -1,24 +1,47 @@
 Função Lambda
 =============
 
-A função lambda tem origem no lambda cálculo, iniciamente desenvolvido pelo matemático Alonzo Church. É também chamada de função anônima no Python e seu uso permite a criação rápida de funções sem que seja necessário nomeá-las.
+A função lambda tem origem no lambda cálculo, iniciamente desenvolvido pelo matemático Alonzo Church. No Python é também chamada de função anônima e seu uso permite a criação rápida de funções sem que seja necessário nomeá-las. Uma função lambda pode receber n números de argumentos, mas possuí uma única expressão.
 
-Np python tem a forma: 
-lambda <argumentos> : <expressão>
+No Python tem a forma: lambda <argumentos> : <expressão>
 
-No exemplo abaixo mostramos como uma mesma função pode ser escrita de duas formas, definindo-se função def ou usando lambda. 
+Como exemplo, a soma de três variáveis x, y e z utilizando-se lambda fica da seguinte forma: 
+
+.. doctest::
+>>> lambda x,y,z: x+y+z
+
+No exemplo abaixo mostramos como uma mesma função pode ser escrita de duas formas, utilizando-se def ou lambda. 
 
 .. doctest::
 >>> def duplica(x):
-      return 2 * x
+...   return 2*x
+>>> duplica(5)
+10
+...
+>>> duplica = lambda x: 2*x
 >>> duplica(5)
 10
 
->>> duplica = lambda x: 2 * x
->>> duplica(5)
-10
+Lambda e funções
+----------------
 
-Lamda e strings
+O uso do lambda pode ser realizado dentro de outras funções. 
+No caso abaixo a função *multiplica* retorna uma outra função definida pela expressão lambda. 
+Passando-se o valor 3, a função retornada realiza a multiplicaç f(x) = 3x. 
+
+.. doctest::
+>>> def multiplica(n):
+...   return lambda x: n*x
+...     
+>>> multiplica(3)
+<function __main__.multiplica.<locals>.<lambda>(x)>      
+...
+>>> triplica = multiplica(3)
+>>> triplica(10)
+30
+
+
+Lambda e strings
 --------------
 
 .. doctest::
