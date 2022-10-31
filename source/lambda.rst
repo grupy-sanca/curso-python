@@ -27,7 +27,8 @@ Lambda e funções
 
 O uso do lambda pode ser realizado dentro de outras funções. 
 No caso abaixo a função *multiplica* retorna uma outra função definida pela expressão lambda. 
-Passando-se o valor 3, a função retornada realiza a multiplicaç f(x) = 3x. 
+Passando-se o valor 3, é retornado uma função que realiza a multiplicação por 3: 
+f(x) = 3x.
 
 .. doctest::
 >>> def multiplica(n):
@@ -39,16 +40,22 @@ Passando-se o valor 3, a função retornada realiza a multiplicaç f(x) = 3x.
 >>> triplica = multiplica(3)
 >>> triplica(10)
 30
-
+...
+>>> quadruplica = multiplica(4)
+>>> quadruplica(10)
+40
 
 Lambda e strings
 --------------
+
+Assim como em funções criadas pelo comando def, outros métodos do Python podem ser utilizados na expressão da função lambda.
+Abaixo mostramos alguns exemplos com manipulação de strings associado ao uso do lambda.
 
 .. doctest::
 >>> letra_maiuscula = lambda string: string[0].upper() + string[1:]
 >>> letra_maiuscula('maria')
 'Maria'
-
+...
 >>> inverte = lambda string: string[::-1]
 >>> inverte('EDUARDO')
 'ODRAUDE'
