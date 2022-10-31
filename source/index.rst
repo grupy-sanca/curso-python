@@ -23,6 +23,7 @@ Curso Introdutório de Python
    repeticao
    funcoes
    lambda
+   boas_praticas
    exercicios
    epilogo
    contribuidores
