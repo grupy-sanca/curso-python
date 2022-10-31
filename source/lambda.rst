@@ -14,14 +14,14 @@ Como exemplo, a soma de três variáveis x, y e z utilizando-se o comando *lambd
 No exemplo abaixo mostramos como uma mesma função pode ser escrita de duas formas, utilizando-se o comando *def* ou *lambda*. 
 
 .. doctest::
->>> def duplica(x):
-...   return 2*x
->>> duplica(5)
-10
-...
->>> duplica = lambda x: 2*x
->>> duplica(5)
-10
+
+   >>> def duplica(x):
+   ...   return 2*x
+   >>> duplica(5)
+   10
+   >>> duplica = lambda x: 2*x
+   >>> duplica(5)
+   10
 
 Lambda e funções
 ----------------
