@@ -51,10 +51,10 @@ Assim como ocorre em funções criadas pelo comando *def*, outros métodos do Py
 Abaixo mostramos alguns exemplos com manipulação de strings associado ao uso do *lambda*.
 
 .. doctest::
->>> letra_maiuscula = lambda string: string[0].upper() + string[1:]
->>> letra_maiuscula('maria')
-'Maria'
-...
->>> inverte = lambda string: string[::-1]
->>> inverte('EDUARDO')
-'ODRAUDE'
+
+   >>> letra_maiuscula = lambda string: string[0].upper() + string[1:]
+   >>> letra_maiuscula('maria')
+   'Maria'
+   >>> inverte = lambda string: string[::-1]
+   >>> inverte('EDUARDO')
+   'ODRAUDE'
