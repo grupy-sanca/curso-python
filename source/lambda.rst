@@ -1,7 +1,7 @@
 Função Lambda
 =============
 
-A função lambda tem origem no lambda cálculo, iniciamente desenvolvido pelo matemático Alonzo Church. No Python é também chamada de função anônima e seu uso permite a criação rápida de funções sem que seja necessário nomeá-las. Uma função lambda pode receber n números de argumentos, mas possuí uma única expressão.
+A função lambda tem origem no lambda cálculo, iniciamente desenvolvido pelo matemático Alonzo Church. No Python é também chamada de função anônima e seu uso permite a criação rápida de funções sem que seja necessário nomeá-las. Uma função lambda pode receber n números de argumentos, mas possui uma única expressão.
 
 No Python tem a forma: lambda <argumentos> : <expressão>
 
