@@ -1,5 +1,6 @@
 Abelindo
 Alanderson
+Alonzo
 Amazon
 Arduino
 Bhāskara
@@ -9,6 +10,7 @@ booliano
 break
 bug
 Caipyra
+Church
 cluster
 Code
 Coding
