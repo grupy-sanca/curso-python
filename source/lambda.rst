@@ -45,7 +45,7 @@ f(x) = 3x.
    40
 
 Lambda e strings
---------------
+----------------
 
 Assim como ocorre em funções criadas pelo comando *def*, outros métodos do Python podem ser utilizados na expressão da função *lambda*.
 Abaixo mostramos alguns exemplos com manipulação de strings associado ao uso do *lambda*.
