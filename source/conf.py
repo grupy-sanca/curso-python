@@ -20,6 +20,7 @@ extensions = [
     'sphinx.ext.todo',
     'sphinx.ext.mathjax',
     'sphinx.ext.doctest',
+    'sphinxext.opengraph',
     'sphinxcontrib.spelling'
 ]
 
@@ -70,6 +71,11 @@ highlight_language = highlight
 
 # If true, `todo` and `todoList` produce output, else they produce nothing.
 todo_include_todos = True
+
+# OpenGraph metadata (see https://github.com/wpilibsuite/sphinxext-opengraph#options)
+ogp_site_name = project + ' | ' + author
+ogp_site_url = 'https://curso.grupysanca.com.br/pt/latest/'
+ogp_image = ogp_site_url + '_images/caipyras01.jpg'
 
 # spell checker stuff
 spelling_lang = language
