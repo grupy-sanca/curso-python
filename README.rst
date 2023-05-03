@@ -44,7 +44,7 @@ How to use locally
       # On macOS
       $ brew update && brew install enchant
       # On Debian based distros (linux Mint, Ubuntu...)
-      $ sudo apt update && sudo apt install enchant python3-enchant hunspell hunspell-pt-br
+      $ sudo apt update && sudo apt install enchant-2 python3-enchant hunspell hunspell-pt-br
 
 2. Run the following command to generate the material in HTML:
 

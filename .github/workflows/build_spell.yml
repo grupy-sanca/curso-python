@@ -21,7 +21,7 @@ jobs:
                               latexmk \
                               hunspell \
                               hunspell-pt-br \
-                              enchant \
+                              enchant-2 \
                               python3-enchant
       - name: Install pydependencies
         run: pip install -r requirements.txt
