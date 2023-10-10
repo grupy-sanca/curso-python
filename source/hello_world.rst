@@ -142,7 +142,7 @@ ficar na linha de baixo*. Por exemplo:
 
 .. doctest::
 
-  >>> print('Olha esse textão sobre aspas simples e duplas.\nIsso aqui é aspas duplas: "\nIsso aqui é aspas simples: \''
+  >>> print('Olha esse textão sobre aspas simples e duplas.\nIsso aqui é aspas duplas: "\nIsso aqui é aspas simples: \'')
   Olha esse textão sobre aspas simples e duplas.
   Isso aqui é aspas duplas: "
   Isso aqui é aspas simples: '
