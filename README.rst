@@ -43,6 +43,7 @@ How to use locally
 
       # On macOS
       $ brew update && brew install enchant
+      $ export PYENCHANT_LIBRARY_PATH=/opt/homebrew/lib/libenchant-2.dylib
       # On Debian based distros (linux Mint, Ubuntu...)
       $ sudo apt update && sudo apt install enchant-2 python3-enchant hunspell hunspell-pt-br
 
