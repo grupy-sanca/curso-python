@@ -14,6 +14,14 @@ help:
 
 .PHONY: help Makefile
 
+# Run doctests
+test:
+	@$(SPHINXBUILD) -b doctest -n "$(SOURCEDIR)" "$(BUILDDIR)"
+
+# Run spellcheck
+check:
+	@$(SPHINXBUILD) -b spelling -n "$(SOURCEDIR)" "$(BUILDDIR)"
+
 # Catch-all target: route all unknown targets to Sphinx using the new
 # "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
 %: Makefile
