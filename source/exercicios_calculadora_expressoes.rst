@@ -4,11 +4,31 @@
 #. Se você correr 65 quilômetros em 3 horas, 23 minutos e 17 segundos, qual
    é a sua velocidade média em m/s?
 
+   .. only:: instructors
+
+      Exemplo de solução:
+
+      .. code-block:: python3
+
+         >>> 3*60*60 + 23*60 + 17  # calculando o tempo total em segundos
+         12197
+         >>> 65*1000 / 12197 # calculando a velocidade em m/s
+         5.329179306386816
+
 #. Resolva essa expressão:
 
    .. math::
 
       \frac{100 - 413 \cdot (20 - 5 \times 4)}{5}
+
+   .. only:: instructors
+
+      Exemplo de solução:
+
+      .. code-block:: python3
+
+         >>> (100-413*(20-5*4))/5 
+         20
 
 #. Enivaldo quer ligar três capacitores, de valores:
 
@@ -65,6 +85,17 @@
    - 450g de pães franceses: R\$ 25/kg
 
    Calcule quanto ficou para cada um.
+
+   .. only:: instructors
+
+      Exemplo de solução:
+
+      .. code-block:: python3
+
+         >>> 75*2.2 + 2*8.73 + 3.45 + 0.42*5.4 + 0.25*30 + 0.45*25 # calculando o total da compra
+         206.928
+         >>> 206.928/4 # dividindo o total entre os integrantes da republica
+         51.732
 
 #. Krissia gosta de bolinhas de queijo. Ela quer saber quantas bolinhas de
    queijo dá para colocar dentro de um pote de sorvete de :math:`2\, L`. Ela
