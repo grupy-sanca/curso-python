@@ -32,9 +32,9 @@
       .. code-block:: python3
 
          >>> idade = int(input("Qual a sua idade? "))
-         >>> peso = int(input("Qual o seu peso? "))
+         >>> peso = float(input("Qual o seu peso? "))
          >>> horas_de_sono = int(input("Quantas horas dormiu nas ultimas 24h? "))
-         >>> if idade > 16 and idade < 69 and peso > 50 and horas_de_sono > 6:
+         >>> if idade >= 16 and idade <= 69 and peso > 50 and horas_de_sono >= 6:
          ...   print("você pode doar sangue")
          ... else:
          ...   print("você não pode doar sangue")
@@ -55,9 +55,9 @@
 
       .. code-block:: python3
 
-         >>> a = int(input("Qual o valor de a? "))
-         >>> b = int(input("Qual o valor de b? "))
-         >>> c = int(input("Qual o valor de c? "))
+         >>> a = float(input("Qual o valor de a? "))
+         >>> b = float(input("Qual o valor de b? "))
+         >>> c = float(input("Qual o valor de c? "))
          >>> delta = b**2 - 4*a*c
          >>> if delta > 0:
          ...   print("A equação possui duas raizes")
@@ -77,8 +77,8 @@
 
       .. code-block:: python3
 
-         >>> a = int(input("Qual o primeiro valor? "))
-         >>> b = int(input("Qual o segundo valor? "))
+         >>> a = float(input("Qual o primeiro valor? "))
+         >>> b = float(input("Qual o segundo valor? "))
          >>> if a+b > 20:
          ...   print(a+b+8)
          ... else:
@@ -87,6 +87,20 @@
 
 #. Leia um número e imprima a raiz quadrada do número caso ele seja positivo ou
    igual a zero e o quadrado do número caso ele seja negativo.
+
+   .. only:: instructors
+
+      Exemplo de solução:
+
+      .. code-block:: python3
+
+         >>> a = float(input("Digite um numero? "))
+         >>> if a >= 0:
+         ...   print(a**0.5)
+         ... else:
+         ...   print(a**2)
+         ...
+
 
 #. Leia um número inteiro entre 1 e 12 e escreva o mês correspondente. Caso o
    usuário digite um número fora desse intervalo, deverá aparecer uma mensagem
