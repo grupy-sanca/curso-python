@@ -92,7 +92,7 @@
 
       .. code-block:: python3
 
-         >>> 75*2.2 + 2*8.73 + 3.45 + 0.42*5.4 + 0.25*30 + 0.45* 25 #calculado o total da compra
+         >>> 75*2.2 + 2*8.73 + 3.45 + 0.42*5.4 + 0.25*30 + 0.45*25 # calculando o total da compra
          206.928
          >>> 206.928/4 # dividindo o total entre os integrantes da republica
          51.732
