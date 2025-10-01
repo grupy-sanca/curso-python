@@ -32,7 +32,7 @@ Um resumo das versões desta linguagem:
 
 - Versão 2.0 foi publicada em Outubro de 2000.
 
-- Versão 3.0 foi publicada em Dezembro de 2008. 3.9 é a versão mais recente.
+- Versão 3.0 foi publicada em Dezembro de 2008. 3.13 é a versão mais recente.
 
 
 Exemplos
@@ -51,7 +51,7 @@ Django
 
 *Django* é um conjunto de pacotes para desenvolvimento web. E é baseado em Python :)
 
-Um objetivo de Django é desenvolver facilmente websites complexos e que lidam com bancos de dados grandões. Alguns sites desenvolvidos em Django: Instagram,  The Washington Times, Disqus, Mozilla, National Geographic. [6]_
+Um objetivo de Django é desenvolver facilmente websites complexos e que lidam com bancos de dados grandões. Alguns sites desenvolvidos em Django: Instagram, The Washington Times, Disqus, Mozilla, National Geographic. [6]_
 
 
 Dropbox

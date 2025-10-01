@@ -323,7 +323,7 @@
    :math:`N \pi / 4` estarão dentro do círculo.
 
    Então, basta escolher pontos aleatórios dentro do quadrado e ver se estão
-   dentro do círculo
+   dentro do círculo.
 
    Um ponto :math:`(x, y)` está dentro do círculo se
    :math:`x^2 + y^2 \leq R^2`.
