@@ -197,19 +197,17 @@ Histórico
 
 O grupo foi fundado em 28/06/2016 e desde então já tivemos:
 
-- 40+ Coding Dojos
+- 67+ Coding Dojos
 
-- 41+ PyBares
+- 42+ PyBares
 
 - 16+ Cursos e workshops
 
--  7  PyLestras
+- 15  PyLestras
 
 -  4  Eventos
 
 -  5  Sprints
-
-Além disso, chegamos nos 1368+ inscritos no Meetup!
 
 
 Para saber mais sobre os eventos organizados pelo grupy-sanca acesse:
@@ -219,6 +217,12 @@ Para saber mais sobre os eventos organizados pelo grupy-sanca acesse:
     .. only:: latex
 
        www.grupysanca.com.br
+
+  - `Plataforma de eventos <https://eventos.grupysanca.com.br>`_
+
+    .. only:: latex
+
+       eventos.grupysanca.com.br
 
   - `Facebook <https://www.facebook.com/grupysanca/>`_
 
@@ -243,12 +247,6 @@ Para saber mais sobre os eventos organizados pelo grupy-sanca acesse:
     .. only:: latex
 
        discord.gg/AgS2dBa
-
-  - `Meetup <https://www.meetup.com/grupy-sanca>`_
-
-    .. only:: latex
-
-       meetup.com/grupy-sanca
 
   - `YouTube <https://www.youtube.com/grupysanca>`_
 
