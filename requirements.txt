@@ -4,3 +4,4 @@ sphinxcontrib-spelling>=4.2.1
 # See: https://github.com/grupy-sanca/curso-python/pull/108#issuecomment-950395761 for details
 sphinx-rtd-theme==0.5.2
 sphinxext-opengraph==0.8.2
+standard-imghdr==3.13.0

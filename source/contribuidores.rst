@@ -1,4 +1,6 @@
-.. spelling:word-list:: marcelomiky
+.. spelling:word-list::
+   marcelomiky
+   Pizutti
 
 Contribuidores
 ==============
