@@ -270,7 +270,7 @@ Quando fazemos ``"Python"[6:2:-1]``, o começo é o índice ``2``, o fim é o í
 ``6``, percorrida ao contrário. Lembre que o índice final nunca é incluído.
 Ou seja, temos a *string* ``hon`` a ser invertida. O que resulta em ``noh``.
 
-.. dica::
+.. tip::
 
    Se você quiser fazer uma fatia invertida, ou seja, inverter um trecho de
    uma *string*, é muito mais fácil fazer primeiro a fatia e depois a
