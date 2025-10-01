@@ -25,7 +25,7 @@ pode ter ambas versões ``2`` e ``3`` instaladas:
 
     $ python3 --version
 
-Caso tenha aparecido a mensagem ``bash: python: command not found``, você pode
+Caso tenha aparecido a mensagem ``bash: python3: command not found``, você pode
 instalá-lo da seguinte maneira:
 
 No Ubuntu e Debian
