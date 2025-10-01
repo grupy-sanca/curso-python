@@ -197,7 +197,7 @@ Histórico
 
 O grupo foi fundado em 28/06/2016 e desde então já tivemos:
 
-- 67+ Coding Dojos
+- 70+ Coding Dojos
 
 - 42+ PyBares
 
