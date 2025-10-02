@@ -61,6 +61,18 @@ e as demais condições (``elif`` e ``else``) são puladas:
       ...
       é 1
 
+Sumário 
+--------
+
+.. csv-table::
+        
+  :header: "Operação", "Descrição"
+  :widths: auto
+  :delim: ;
+
+  ``if():``           ; Avalia se a condição é verdadeira 
+  ``else: ``             ; Só é executado se a condição do ``if`` não foi atendida
+  ``elif ():`` ;  Possibilidade de uma segunda condição, caso a primeira não seja atendida
 
 Exercícios
 ----------
