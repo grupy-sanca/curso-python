@@ -227,3 +227,18 @@ IPython
    :align: center
 
 .. _IPython: https://ipython.org
+
+Sumário 
+--------
+
+.. csv-table::
+        
+  :header: "Comando", "Descrição"
+  :widths: auto
+  :delim: ;
+
+  ``python --version``         ; Verificar qual a versão do Python instalada
+  ``python3 --version``        ; Verificar se o Python 3 está instalado
+  ``sudo apt install python3`` ; Instalar Python 3 no Ubuntu e no Debian
+  ``sudo pacman -Sy python``   ; Instalar Python no ArchLinux
+
