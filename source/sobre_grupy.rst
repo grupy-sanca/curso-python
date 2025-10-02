@@ -191,6 +191,15 @@ E em algumas situações, combinamos de conversar apenas *in english*!
    :align: center
    :width: 70%
 
+PyCafé
+~~~~~~
+
+O PyCafé é um encontro mensal que os membros do grupy-sanca realizam em uma cafeteria. 
+É um momento no qual se aproveita para tomar um cafezinho enquanto estuda ou trabalha.
+
+.. figure:: images/sobre/PyCafe.jpg
+   :align: center
+   :width: 70%
 
 Histórico
 ---------
@@ -208,6 +217,8 @@ O grupo foi fundado em 28/06/2016 e desde então já tivemos:
 -  4  Eventos
 
 -  5  Sprints
+
+-  4+ PyCafés
 
 
 Para saber mais sobre os eventos organizados pelo grupy-sanca acesse:
