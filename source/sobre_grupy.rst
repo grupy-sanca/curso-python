@@ -220,7 +220,6 @@ O grupo foi fundado em 28/06/2016 e desde então já tivemos:
 
 -  4+ PyCafés
 
-
 Para saber mais sobre os eventos organizados pelo grupy-sanca acesse:
 
   - `Site oficial <http://www.grupysanca.com.br>`_
