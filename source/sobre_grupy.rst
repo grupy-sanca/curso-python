@@ -201,6 +201,11 @@ O PyCafé é um encontro mensal que os membros do grupy-sanca realizam em uma ca
    :align: center
    :width: 70%
 
+Clube do Livro
+~~~~~~~~~~~~~~
+O Clube do Livro é um encontro entre o pessoal do grupy-sanca para conversar sobre um livro específico, os livros são votados no grupo e os encontros acontecem quinzenalmente no Discord.
+
+
 Histórico
 ---------
 
@@ -217,6 +222,8 @@ O grupo foi fundado em 28/06/2016 e desde então já tivemos:
 -  4  Eventos
 
 -  5  Sprints
+
+-  1+ Clube do Livro
 
 -  4+ PyCafés
 
