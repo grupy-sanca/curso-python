@@ -192,6 +192,12 @@ E em algumas situações, combinamos de conversar apenas *in english*!
    :width: 70%
 
 
+Clube do Livro
+~~~~~~~~~~~~~~
+O Clube do Livro é um encontro entre o pessoal do grupy-sanca para conversar sobre um livro específico, os livros são votados 
+no grupo e os encontros acontecem quizenalmente no Discord.
+
+
 Histórico
 ---------
 
@@ -208,6 +214,8 @@ O grupo foi fundado em 28/06/2016 e desde então já tivemos:
 -  4  Eventos
 
 -  5  Sprints
+
+-  1+ Clube do Livro
 
 
 Para saber mais sobre os eventos organizados pelo grupy-sanca acesse:

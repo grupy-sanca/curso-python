@@ -88,3 +88,4 @@ Yahoo
 tab
 tabs
 docstrings
+Discord
