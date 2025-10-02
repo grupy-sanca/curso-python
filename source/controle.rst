@@ -70,9 +70,9 @@ Sumário
   :widths: auto
   :delim: ;
 
-  ``if():``           ; Avalia se a condição é verdadeira 
-  ``else: ``             ; Só é executado se a condição do ``if`` não foi atendida
-  ``elif ():`` ;  Possibilidade de uma segunda condição, caso a primeira não seja atendida
+  ``if <condição>:``   ; Avalia se a condição é verdadeira 
+  ``elif <condição>:`` ; Possibilidade de uma segunda condição, caso a primeira não seja atendida
+  ``else:``            ; Só é executado se a condição do ``if`` não foi atendida
 
 Exercícios
 ----------
