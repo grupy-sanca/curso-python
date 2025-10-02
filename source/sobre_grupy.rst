@@ -194,8 +194,7 @@ E em algumas situações, combinamos de conversar apenas *in english*!
 
 Clube do Livro
 ~~~~~~~~~~~~~~
-O Clube do Livro é um encontro entre o pessoal do grupy-sanca para conversar sobre um livro específico, os livros são votados 
-no grupo e os encontros acontecem quizenalmente no Discord.
+O Clube do Livro é um encontro entre o pessoal do grupy-sanca para conversar sobre um livro específico, os livros são votados no grupo e os encontros acontecem quinzenalmente no Discord.
 
 
 Histórico
