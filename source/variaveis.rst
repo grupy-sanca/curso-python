@@ -99,7 +99,7 @@ ainda não foram definidas:
        ...
    NameError: name 'nao_definida' is not defined
 
-Tentar acessar uma variável sem defini-la anteriormente ocasiona em um "erro
+Tentar acessar uma variável sem defini-la anteriormente ocasiona um "erro
 de nome".
 
 Também podemos atribuir expressões a uma variável:
@@ -171,7 +171,7 @@ múltipla. Isso é muito útil para trocar o valor de duas variáveis:
    >>> b = 200
 
 Para fazer essa troca em outras linguagens é necessário utilizar uma
-variável auxiliar para não perdemos um dos valores que queremos trocar.
+variável auxiliar para não perdermos um dos valores que queremos trocar.
 Vamos começar da maneira mais simples:
 
 .. doctest::
