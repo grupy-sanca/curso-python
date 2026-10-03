@@ -1,5 +1,7 @@
 .. _section_dicionario:
 
+.. _dicionarios:
+
 Dicionários
 ===========
 
