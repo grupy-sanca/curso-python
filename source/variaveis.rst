@@ -167,6 +167,83 @@ isso impede de utilizá-la em sua forma original (mostrar a saída na tela).
       ~~~~~^^^
    TypeError: 'int' object is not callable
 
+.. csv-table::
+  :header: "Built-in", "Descrição"
+  :widths: auto
+  :delim: ;
+
+  ``abs()``; Retorna o valor absoluto de um número
+  ``aiter()``; Retorna o iterador assíncrono de um objeto assíncrono iterável
+  ``all()``; Retorna True se todos os elementos de um iterável forem verdadeiros
+  ``anext()``; Retorna um objeto aguardável que produz o próximo item de um iterador assíncrono
+  ``any()``; Retorna True se algum elemento de um iterável for verdadeiro
+  ``ascii()``; Retorna uma representação legível de um objeto, escapando caracteres não ASCII
+  ``bin()``; Converte um número inteiro para uma string binária
+  ``bool()``; Converte um valor para booleano de acordo com seu valor lógico
+  ``breakpoint()``; Entra no depurador no ponto em que é chamado
+  ``bytearray()``; Cria uma sequência mutável de bytes
+  ``bytes()``; Cria uma sequência imutável de bytes
+  ``callable()``; Retorna True se o objeto aparentar aceitar uma chamada
+  ``chr()``; Converte um inteiro para um caractere Unicode
+  ``classmethod()``; Cria um método de classe que recebe a classe como primeiro argumento
+  ``compile()``; Compila uma fonte em um objeto de código que pode ser executado pelo Python
+  ``complex()``; Cria um número complexo a partir de dois números reais
+  ``delattr()``; Remove um atributo de um objeto
+  ``dict()``; Cria um dicionário
+  ``dir()``; Retorna uma lista de nomes dos atributos de um objeto
+  ``divmod()``; Retorna uma tupla contendo o quociente e o resto da divisão de dois números
+  ``enumerate()``; Retorna um iterador de pares com índices e elementos de um iterável
+  ``eval()``; Executa uma expressão Python escrita como string e retorna seu resultado
+  ``exec()``; Executa código Python e retorna None
+  ``filter()``; Retorna um iterador com os elementos para os quais uma função retorna True
+  ``format()``; Formata um valor como string, usando uma especificação de formato
+  ``float()``; Converte um valor para ponto flutuante
+  ``frozenset()``; Cria um conjunto imutável
+  ``getattr()``; Retorna o valor de um atributo de um objeto
+  ``globals()``; Retorna o dicionário que representa o espaço de nomes global
+  ``hasattr()``; Verifica se um objeto possui determinado atributo
+  ``hash()``; Retorna o valor hash de um objeto
+  ``help()``; Exibe a ajuda sobre um objeto
+  ``hex()``; Converte um número inteiro para uma string hexadecimal
+  ``id()``; Retorna a identidade de um objeto
+  ``input()``; Lê uma linha de texto digitada pelo usuário
+  ``int()``; Converte um valor para inteiro
+  ``isinstance()``; Verifica se um objeto é uma instância de uma classe
+  ``issubclass()``; Verifica se uma classe é subclasse de outra
+  ``iter()``; Retorna um iterador a partir de um iterável
+  ``len()``; Retorna o tamanho de um iterável
+  ``list()``; Cria uma lista
+  ``locals()``; Retorna um mapeamento que representa o espaço de nomes local
+  ``map()``; Aplica uma função a cada elemento de um ou mais iteráveis
+  ``max()``; Retorna o maior item de um iterável ou o maior entre os argumentos
+  ``memoryview()``; Cria uma visualização de memória sobre uma sequência de bytes, sem copiá-la
+  ``min()``; Retorna o menor item de um iterável ou o menor entre os argumentos
+  ``next()``; Retorna o próximo item de um iterador
+  ``object()``; Cria um objeto básico e serve como classe-base de todas as classes
+  ``oct()``; Converte um número inteiro para uma string octal
+  ``open()``; Abre um arquivo e retorna um objeto de arquivo
+  ``ord()``; Retorna o código Unicode de um caractere
+  ``pow()``; Retorna um número elevado a uma potência
+  ``print()``; Escreve objetos em um fluxo de texto, como a saída do terminal
+  ``property()``; Cria uma propriedade para uma classe
+  ``range()``; Cria uma sequência imutável de números inteiros
+  ``repr()``; Retorna uma representação textual do objeto, útil para depuração
+  ``reversed()``; Retorna um iterador que percorre os elementos na ordem inversa
+  ``round()``; Arredonda um número
+  ``set()``; Cria um conjunto
+  ``setattr()``; Define o valor de um atributo de um objeto
+  ``slice()``; Cria um objeto que representa uma fatia
+  ``sorted()``; Retorna uma nova lista com os elementos de um iterável em ordem
+  ``staticmethod()``; Cria um método estático, que não recebe automaticamente a instância ou a classe
+  ``str()``; Converte um valor para string
+  ``sum()``; Retorna a soma dos elementos de um iterável
+  ``super()``; Retorna um objeto que delega a busca de métodos à próxima classe na ordem de resolução
+  ``tuple()``; Cria uma tupla
+  ``type()``; Retorna o tipo de um objeto ou cria uma classe
+  ``vars()``; Retorna o espaço de nomes local ou o dicionário de atributos de um objeto
+  ``zip()``; Combina elementos de iteráveis em um iterador de tuplas, parando no iterável mais curto
+  ``__import__()``; Implementa parte do mecanismo de importação de módulos do Python
+
 Outro ponto importante: não é possível acessar variáveis que
 ainda não foram definidas:
 
