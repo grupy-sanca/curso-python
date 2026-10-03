@@ -39,7 +39,15 @@ Nomes de Variáveis
 ------------------
 
 Bons programadores escolhem nomes significativos para as suas variáveis
-- eles documentam o propósito da variável.
+- eles documentam o propósito da variável. Por exemplo, uma variável que 
+armazena a idade de uma pessoa pode ser chamada de ``idade`` ao invés de
+algo genérico como ``i``, ``x`` etc. Outro exemplo seria uma variável que
+representa uma grandeza física, como a aceleração da gravidade. Seria 
+natural chamá-la ``g`` de *gravidade*, ``ac`` de *aceleração da gravidade*
+ou similares. Porém, é importante que o nome seja claro e de fácil identificação. 
+Dessa forma, seria recomendado nomeá-la como ``aceleracao_gravidade``,
+de preferência explicitando a unidade de medida no sistema utilizado, como
+``aceleracao_gravidade_m_s2`` para identificar que a unidade é [m/s²].
 
 Nomes de variáveis podem ter o tamanho que você achar necessário e podem
 conter tanto letras como números, porém não podem começar com números. É
@@ -85,9 +93,79 @@ Tentar dar um nome ilegal a uma variável ocasionará erro de sintaxe:
 ``123voa`` é ilegal pois começa com um número. ``ol@`` é ilegal pois
 contém um caractere inválido (@), mas o que há de errado com ``def``?
 
-A questão é que ``def`` é uma palavra-chave da linguagem. O Python possui
-diversas palavras que são utilizadas na estrutura dos programas, por isso
-não podem ser utilizadas como nomes de variáveis.
+A questão é que ``def`` é uma palavra-chave (*key-word*) da linguagem. O Python possui
+diversas *key-words* que são utilizadas na estrutura dos programas, por isso
+não podem ser usadas como nomes de variáveis. A tabela a seguir mostra todas as 
+*key-words* do Python e as respectivas descrições resumidas.
+
+.. csv-table::
+  :header: "Key-word", "Descrição"
+  :widths: auto
+  :delim: ;
+
+  ``and``               ; Operador lógico "e"
+  ``as``                ; Cria um alias ou renomeia um módulo durante a importação
+  ``assert``            ; Usado para depuração
+  ``async``             ; Define uma função assíncrona
+  ``await``             ; Espera a conclusão de uma função assíncrona
+  ``break``             ; Interrompe um loop
+  ``case``              ; Define um caso em uma estrutura de correspondência (match)
+  ``class``             ; Define uma classe
+  ``continue``          ; Continua para a próxima iteração do loop
+  ``def``               ; Define uma função
+  ``del``               ; Deleta um objeto
+  ``elif``              ; Condicional "else if"
+  ``else``              ; Condicional "else"
+  ``except``            ; Captura exceções
+  ``False``             ; Valor booleano "falso"
+  ``finally``           ; Bloco final de tratamento de exceções
+  ``for``               ; Loop "for"
+  ``from``              ; Importa de um módulo
+  ``global``            ; Declara variáveis globais
+  ``if``                ; Condicional "if"
+  ``import``            ; Importa um módulo
+  ``in``                ; Verifica se um elemento está em uma coleção
+  ``is``                ; Verifica identidade de objetos
+  ``lambda``            ; Define uma função anônima
+  ``match``             ; Inicia uma estrutura de correspondência
+  ``None``              ; Representa a ausência de valor ou nulo
+  ``nonlocal``          ; Declara variáveis não locais
+  ``not``               ; Operador lógico "não"
+  ``or``                ; Operador lógico "ou"
+  ``pass``              ; Bloco vazio
+  ``raise``             ; Lança uma exceção
+  ``return``            ; Retorna de uma função
+  ``True``              ; Valor booleano "verdadeiro"
+  ``try``               ; Bloco de tentativa de exceção
+  ``type``              ; Retorna o tipo de um objeto
+  ``underscore(_)``     ; Representa o caractere sublinhado (_)
+  ``while``             ; Loop "while"
+  ``with``              ; Gerencia contexto
+  ``yield``             ; Retorna um gerador
+
+Além das *key-words*, o Python possui funções internas (*built-in functions*) 
+em que não se recomenda sobrescrever seus nomes. Por exemplo, imagine que você 
+sobrescreva a função interna ``print``:
+
+.. code-block:: python3
+
+   >>> print = 5
+   >>> print
+   5
+
+É possível visualizar a sobrescrição da função interna, pois agora ``print`` 
+não se refere mais à função original, mas ao valor atribuído a ela. Porém, 
+isso impede de utilizá-la em sua forma original (mostrar a saída na tela).
+
+.. code-block:: bash
+
+   >>> x = 5 # definindo a variável x
+   >>> print(x) # mostrar a variável x na tela
+   Traceback (most recent call last):
+   File "<python-input-3>", line 1, in <module>
+      print(x)
+      ~~~~~^^^
+   TypeError: 'int' object is not callable
 
 Outro ponto importante: não é possível acessar variáveis que
 ainda não foram definidas:
