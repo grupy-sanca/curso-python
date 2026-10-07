@@ -10,16 +10,16 @@ Nome de funções e variáveis
 ---------------------------
 **Nome de variáveis** devem receber nomes em letra minúscula com palavras separadas por '_' (*underscore*) caso seja necessário facilitar a leitura.
 
-**Nomes de funções** seguem o mesma convenção que nomes de funções. 
+**Nomes de funções** seguem a mesma convenção que nomes de variáveis. 
 
 .. doctest::
 
-   >>> def soma(numero1, numero2)
+   >>> def soma(numero1, numero2):
    ...    return numero1 + numero2
 
 
-O uso misturado, ou seja, no qual uma palavra com letras minúsculas é seguido de uma com a primeira letra maiúscula, 
-é permitido para caso em que o código pré-existente já esteja escrito desta forma, mantendo-se a compatibilidade.  
+O uso misturado, ou seja, no qual uma palavra com letras minúsculas é seguida de uma com a primeira letra maiúscula, 
+é permitido para casos em que o código pré-existente já esteja escrito desta forma, mantendo-se a compatibilidade.  
 
 .. doctest::
 
@@ -40,7 +40,7 @@ Limitar o tamanho da linha permite que o código seja visualizado melhor na jane
 Quebra de linha em operações
 ----------------------------
 No Python é permitido quebrar linhas antes ou depois do operador matemático. O importante é manter a consistência. 
-Se começar com um padrão siga até o final do código.
+Se começar com um padrão siga com o mesmo padrão até o final do código.
 
 .. doctest::
 

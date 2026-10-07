@@ -33,7 +33,7 @@ Mas, como realizar operações com os valores lidos?
         TypeError: must be str, not int
 
 Para poder fazer isso pode-se usar os operadores ``int()`` e ``float(),`` que
-converte o valor lido para o tipo de dado esperado:
+convertem o valor lido para o tipo de dado esperado:
 
 .. testsetup:: input_convert
 
