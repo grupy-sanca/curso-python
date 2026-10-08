@@ -225,8 +225,6 @@
                      return False
 
              return True
-
-
          # Solução alternativa
          def par_inverso(palavra1, palavra2):
             return palavra1 == palavra2[::-1]
