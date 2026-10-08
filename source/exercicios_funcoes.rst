@@ -23,8 +23,20 @@
 
             A = \pi R^2
 
-#. Crie uma função que receba um valor de temperatura em Fahrenheit e transforme
-   em Celsius.
+
+   .. only:: instructors
+
+      Exemplo de solução:
+
+      .. code-block:: python3
+
+         from math import pi
+
+         def area_do_circulo(raio):
+            return pi * raio**2
+
+#. Crie uma função que receba um valor de temperatura em Celsius e transforme
+   em Fahrenheit.
 
    Relembrar é viver:
 
@@ -32,9 +44,45 @@
 
                 \frac{C}{5} = \frac{F - 32}{9}
 
+   .. only:: instructors
+
+      Exemplo de solução:
+
+      .. code-block:: python3
+
+         def celsius_para_fahrenheit(celsius):
+             return celsius * (9/5) + 32
+
 #. Utilizando a função anterior, faça a impressão da temperatura, em graus Celsius, de 0 °C  a 100 °C, e todos os valores correspondentes em Fahrenheit.
 
+   .. only:: instructors
+
+      Exemplo de solução:
+
+      .. code-block:: python3
+
+         for i in range(0, 100+1):
+            print(f'{i} °C = {celsius_para_fahrenheit(i)} °F')
+
 #. Receba uma lista com números inteiros e devolva um número inteiro correspondente à soma dos números recebidos.
+
+   .. only:: instructors
+
+      Exemplo de solução:
+
+      .. code-block:: python3
+
+         def soma(lista_de_inteiros):
+            acumulado = 0
+
+            for numero in lista_de_inteiros:
+               acumulado += numero
+
+            return acumulado
+
+         # Solução alternativa
+         def soma(lista_de_inteiros):
+            return sum(lista_de_inteiros)
 
 #. Receba uma lista com números inteiros. Verifique se a lista possui números repetidos, caso possua, exclua-os e retorne a lista alterada.
 
@@ -83,10 +131,38 @@
    Faça um teste com ``bhaskara(1, -4, -5)`` e o programa deve obter as raízes:
    (5.0, -1.0)
 
+   
+   .. only:: instructors
+
+      Exemplo de solução:
+
+      .. code-block:: python3
+
+         import math
+
+         def bhaskara(a, b, c):
+             delta = b**2 - 4*a*c
+
+             x1 = (-b + math.sqrt(delta)) / 2*a
+             x2 = (-b - math.sqrt(delta)) / 2*a
+
+             return (x1, x2)
+
+         print(bhaskara(1, -4, -5))
+
 #. Escreva uma função que receba um valor de comprimento em centímetros e o
    transforme em polegadas.
 
    **Dica:** :math:`1 pol = 2.54 cm`.
+
+   .. only:: instructors
+
+      Exemplo de solução:
+
+      .. code-block:: python3
+
+         def cm_para_polegadas(x):
+             return x/2.54
 
 #. Escreva uma função que receba as dimensões de uma fotografia em centímetros
    (por exemplo 10 x 15 cm) e a densidade de píxeis da impressora (por exemplo
@@ -114,12 +190,44 @@
 #. Dada a função: :math:`y = 5x + 2`, determine os valores de :math:`y` para
    :math:`x` entre -10 a +10, onde :math:`x` é inteiro
 
+   .. only:: instructors
+
+      Exemplo de solução:
+
+      .. code-block:: python3
+
+         def y(x):
+             return 5*x + 2
+
+         for x in range(-10, 10+1):
+             print(f'x = {x}, y = {y(x)}')
+
 #. Escreva uma função chamada ``has_duplicates`` que tome uma lista e retorne
    ``True`` se houver algum elemento que apareça mais de uma vez. Ela não deve
    modificar a lista original.
 
 #. Duas palavras são um “par inverso” se uma for o contrário da outra. Escreva
    uma função que dado duas palavras, retorne ``True`` caso sejam.
+
+   .. only:: instructors
+
+      Exemplo de solução:
+
+      .. code-block:: python3
+
+         def par_inverso(palavra1, palavra2):
+             if len(palavra1) != len(palavra2):
+                 return False
+
+             tamanho = len(palavra1)
+             for i in range(tamanho):
+                 if palavra1[i] != palavra2[tamanho-1-i]:
+                     return False
+
+             return True
+         # Solução alternativa
+         def par_inverso(palavra1, palavra2):
+            return palavra1 == palavra2[::-1]
 
 #. Escreva uma função que imprime todos os números primos entre 1 e 50
 
@@ -162,6 +270,25 @@
     .. math::
 
         5! = 5 \cdot 4 \cdot 3 \cdot 2 \cdot 1 = 120
+
+   .. only:: instructors
+
+      Exemplo de solução:
+
+      .. code-block:: python3
+
+         def fatorial(n):
+             acumulado = 1
+
+             for i in range(1, n+1):
+                 acumulado *= i
+
+             return acumulado
+
+         # Solução recursiva
+         def fatorial(n):
+             if (n <= 1): return 1
+             return n * fatorial(n-1)
 
 #. João quer montar um painel de LEDs contendo diversos números.
    Ele não possui muitos LEDs, e não tem certeza se conseguirá montar o número desejado.
@@ -433,6 +560,28 @@
    Implemente uma função que receba uma cadeia de DNA como *string* e retorne
    a o RNA complementar.
 
+   .. only:: instructors
+
+      Exemplo de solução:
+
+      .. code-block:: python3
+
+         correspondencias = {
+             'G': 'C',
+             'C': 'G',
+             'T': 'A',
+             'A': 'U',
+         }
+
+         def rna_complementar(cadeia_dna):
+             cadeia_complementar = []
+
+             for nucleotideo in cadeia_dna:
+                 complementar = correspondencias[nucleotideo]
+                 cadeia_complementar.append(complementar)
+
+             return ''.join(cadeia_complementar)
+
 
 #. Implemente uma função que conte quantas vezes um certo nucleotídeo aparece
    em uma cadeia de DNA. Para isso, sua função deve receber uma *string*
@@ -442,6 +591,28 @@
    Nesse exercício, considere como inválido se um nucleotídeo não for ``A``,
    ``C``, ``G`` ou ``T``.
 
+   .. only:: instructors
+
+      Exemplo de solução:
+
+      .. code-block:: python3
+
+         nucleotideos_validos = ['A', 'C', 'G', 'T']
+
+         def contar_nucleotideo(dna, nucleotideo_alvo):
+             if nucleotideo_alvo not in nucleotideos_validos:
+                 return None
+
+             contador = 0
+
+             for n in dna:
+                 if n not in nucleotideos_validos:
+                     return None
+
+                 if n == nucleotideo_alvo:
+                     contador += 1
+
+             return contador
 
 #. O RNA é o responsável por levar as informações contidas no DNA para fora do núcleo da célula, para então ser feita a codificação para as bases púricas: *U*, *A*, *C* e *G*. Quando arranjadas em sequência de trincas (chamadas *códons*), formam um *polipeptídeo*, cadeia de aminoácido. O final de uma cadeia é determinado por um dos seguintes códons: ``UGA``, ``UAA`` ou ``UAG``.
 
