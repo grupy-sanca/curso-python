@@ -17,6 +17,7 @@ Curso Introdutório de Python
    strings
    input
    listas
+   tuplas
    dicionarios
    condicionais
    controle

@@ -39,6 +39,8 @@ Outra possibilidade de criar uma lista vazia:
         >>> outra_lista_vazia
         []
 
+.. _indices:
+
 Índices
 -------
 
@@ -282,6 +284,32 @@ Se não usarmos o ``copy()``, acontece algo bem estranho:
 
 Tudo o que for feito com ``lista2`` nesse exemplo também altera ``lista1`` e vice-versa.
 
+
+Listas de listas
+-----------------
+
+As listas podem conter listas, por exemplo, para criar uma matriz. É possível acessar a cada lista usando :ref:`índices <indices>`.
+
+.. doctest::
+
+        >>> matriz = [[1, 2, 3], [4, 5, 6], [2, 4, -1]]
+        >>> matriz[0]
+        [1, 2, 3]
+        >>> matriz[2]
+        [2, 4, -1]
+        >>> matriz[0:2]
+        [[1, 2, 3], [4, 5, 6]]
+
+Os elementos de cada lista podem ser acessados por meio de índices múltiplos; onde, no exemplo abaixo, o primeiro índice determina qual lista usar e o segundo índice, o valor dentro da lista.
+
+.. doctest::
+
+        >>> matriz[1][2]
+        6
+        >>> matriz[2][-2]
+        4
+
+Também é possível criar listas de :ref:`dicionários <dicionarios>`.
 
 Exercícios
 ----------
